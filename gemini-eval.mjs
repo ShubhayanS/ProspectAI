@@ -3,7 +3,7 @@
  * gemini-eval.mjs — Gemini-powered Job Offer Evaluator for career-ops
  *
  * A free-tier alternative to the Claude-based pipeline.
- * Reads evaluation logic from modes/oferta.md + modes/_shared.md,
+ * Reads evaluation logic from modes/evaluate.md + modes/_shared.md,
  * reads the user's resume from cv.md, and evaluates a Job Description
  * passed as a command-line argument.
  *
@@ -164,7 +164,7 @@ if (!readdirSync) {
 console.log('\n📂  Loading context files...');
 
 const sharedContext  = readFile(PATHS.shared,   'modes/_shared.md');
-const ofertaLogic    = readFile(PATHS.oferta,   'modes/oferta.md');
+const ofertaLogic    = readFile(PATHS.evaluate,   'modes/evaluate.md');
 const cvContent      = readFile(PATHS.cv,       'cv.md');
 
 // ---------------------------------------------------------------------------

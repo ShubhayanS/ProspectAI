@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Career-Ops</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://unpkg.com/feather-icons@4.29.0/dist/feather.min.js"></script>
+</head>
+<body>
+  <div id="app">
+
+    <!-- Sidebar -->
+    <aside id="sidebar">
+      <div class="sidebar-brand">
+        <div class="brand-mark">⚡</div>
+        <span class="brand-name">career-ops</span>
+      </div>
+
+      <nav class="sidebar-nav">
+        <a class="nav-item active" data-page="dashboard">
+          <i data-feather="home"></i><span>Dashboard</span>
+        </a>
+        <a class="nav-item" data-page="jobs">
+          <i data-feather="briefcase"></i><span>Jobs</span>
+        </a>
+        <a class="nav-item" data-page="applications">
+          <i data-feather="check-square"></i><span>Applications</span>
+        </a>
+        <a class="nav-item" data-page="reports">
+          <i data-feather="file-text"></i><span>Reports</span>
+        </a>
+
+        <div class="nav-section-label">Tools</div>
+
+        <a class="nav-item" data-page="scanner">
+          <i data-feather="radio"></i><span>Scanner</span>
+        </a>
+        <a class="nav-item" data-page="cv">
+          <i data-feather="user"></i><span>My CV</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <button id="theme-toggle" class="icon-btn" title="Toggle theme">
+          <i data-feather="moon"></i>
+        </button>
+        <span class="version-tag">v1.0</span>
+      </div>
+    </aside>
+
+    <!-- Main -->
+    <main id="main">
+      <div id="page-dashboard" class="page active"></div>
+      <div id="page-jobs"         class="page"></div>
+      <div id="page-applications" class="page"></div>
+      <div id="page-reports"     class="page"></div>
+      <div id="page-scanner"     class="page"></div>
+      <div id="page-cv"          class="page"></div>
+    </main>
+
+  </div>
+
+  <!-- Modal -->
+  <div id="modal-backdrop" class="modal-backdrop">
+    <div id="modal" class="modal" role="dialog">
+      <div class="modal-head">
+        <h2 id="modal-title"></h2>
+        <div class="modal-head-actions">
+          <a id="modal-open-link" href="#" target="_blank" class="icon-btn" title="Open URL" style="display:none">
+            <i data-feather="external-link"></i>
+          </a>
+          <button id="modal-close" class="icon-btn"><i data-feather="x"></i></button>
+        </div>
+      </div>
+      <div id="modal-body" class="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div id="toast" class="toast"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

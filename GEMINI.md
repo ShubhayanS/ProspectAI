@@ -15,7 +15,7 @@ AI-powered job search automation: pipeline tracking, offer evaluation, CV genera
 - `data/*`, `reports/*`, `output/*`, `interview-prep/*`
 
 **System Layer (auto-updatable — do NOT put user data here):**
-- `modes/_shared.md`, `modes/oferta.md`, all other modes
+- `modes/_shared.md`, `modes/evaluate.md`, all other modes
 - `GEMINI.md`, `CLAUDE.md`, `*.mjs` scripts, `templates/*`, `batch/*`
 
 **THE RULE:** When the user asks to customize anything (archetypes, narrative, negotiation scripts, proof points, location policy, comp targets), ALWAYS write to `modes/_profile.md` or `config/profile.yml`. NEVER edit `modes/_shared.md` for user-specific content.
@@ -41,9 +41,9 @@ When using [Gemini CLI](https://github.com/google-gemini/gemini-cli), the follow
 |---------|------------------------|-------------|
 | `/career-ops` | `/career-ops` | Show menu or evaluate JD |
 | `/career-ops-pipeline` | `/career-ops pipeline` | Process pending URLs from inbox |
-| `/career-ops-evaluate` | `/career-ops oferta` | Evaluate job offer (A-G scoring) |
-| `/career-ops-compare` | `/career-ops ofertas` | Compare and rank multiple offers |
-| `/career-ops-contact` | `/career-ops contacto` | LinkedIn outreach |
+| `/career-ops-evaluate` | `/career-ops evaluate` | Evaluate job offer (A-G scoring) |
+| `/career-ops-compare` | `/career-ops evaluates` | Compare and rank multiple offers |
+| `/career-ops-contact` | `/career-ops outreach` | LinkedIn outreach |
 | `/career-ops-deep` | `/career-ops deep` | Deep company research |
 | `/career-ops-pdf` | `/career-ops pdf` | Generate ATS-optimized CV |
 | `/career-ops-training` | `/career-ops training` | Evaluate course/cert |
@@ -75,9 +75,9 @@ If `modes/_profile.md` is missing, copy from `modes/_profile.template.md` silent
 | If the user... | Mode to load |
 |----------------|-------------|
 | Pastes JD or URL | auto-pipeline → read `modes/_shared.md` + `modes/auto-pipeline.md` |
-| Asks to evaluate offer | read `modes/_shared.md` + `modes/oferta.md` |
-| Asks to compare offers | read `modes/_shared.md` + `modes/ofertas.md` |
-| Wants LinkedIn outreach | read `modes/_shared.md` + `modes/contacto.md` |
+| Asks to evaluate offer | read `modes/_shared.md` + `modes/evaluate.md` |
+| Asks to compare offers | read `modes/_shared.md` + `modes/compare.md` |
+| Wants LinkedIn outreach | read `modes/_shared.md` + `modes/outreach.md` |
 | Asks for company research | read `modes/deep.md` |
 | Preps for interview | read `modes/interview-prep.md` |
 | Wants to generate CV/PDF | read `modes/_shared.md` + `modes/pdf.md` |

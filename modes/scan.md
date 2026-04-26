@@ -3,6 +3,14 @@
 Escanea portales de empleo configurados, filtra por relevancia de título, y añade nuevas ofertas al pipeline para evaluación posterior.
 
 > **Nota (v1.5+):** El escáner por defecto (`scan.mjs` / `npm run scan`) es **zero-token** y sólo consulta directamente las APIs públicas de Greenhouse, Ashby y Lever. Los niveles con Playwright/WebSearch descritos abajo son el flujo **agente** (ejecutado por Claude/Codex), no lo que hace `scan.mjs`. Si una empresa no tiene API Greenhouse/Ashby/Lever, `scan.mjs` la ignorará; para esos casos, el agente debe completar manualmente el Nivel 1 (Playwright) o Nivel 3 (WebSearch).
+>
+> **Flags disponibles en `scan.mjs`:**
+> - `--since 24h` → solo ofertas publicadas en las últimas 24 horas
+> - `--since 7d` → solo ofertas publicadas en los últimos 7 días
+> - `--since YYYY-MM-DD` → solo ofertas publicadas desde esa fecha
+> - `--verbose` → desglose por empresa (cuántas encontradas, cuántas nuevas, portal)
+> - `--dry-run` → preview sin escribir archivos
+> - `--company Cohere` → escanear solo una empresa
 
 ## Ejecución recomendada
 

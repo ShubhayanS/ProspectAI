@@ -31,6 +31,9 @@ modes/_profile.md
 node_modules/
 bun.lock
 
+# Personal files
+mystuff/
+
 # OS
 .DS_Store
 *.mov

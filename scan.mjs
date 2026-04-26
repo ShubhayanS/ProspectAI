@@ -10,9 +10,13 @@
  * Zero Claude API tokens — pure HTTP + JSON.
  *
  * Usage:
- *   node scan.mjs                  # scan all enabled companies
- *   node scan.mjs --dry-run        # preview without writing files
- *   node scan.mjs --company Cohere # scan a single company
+ *   node scan.mjs                        # scan all enabled companies
+ *   node scan.mjs --dry-run              # preview without writing files
+ *   node scan.mjs --company Cohere       # scan a single company
+ *   node scan.mjs --since 24h            # only jobs posted in last 24 hours
+ *   node scan.mjs --since 7d             # only jobs posted in last 7 days
+ *   node scan.mjs --since 2026-04-20     # only jobs posted since specific date
+ *   node scan.mjs --verbose              # show per-company breakdown
  */
 
 import { readFileSync, writeFileSync, appendFileSync, existsSync, mkdirSync } from 'fs';
@@ -81,6 +85,7 @@ function parseGreenhouse(json, companyName) {
     url: j.absolute_url || '',
     company: companyName,
     location: j.location?.name || '',
+    postedAt: j.updated_at || null,
   }));
 }
 
@@ -91,6 +96,7 @@ function parseAshby(json, companyName) {
     url: j.jobUrl || '',
     company: companyName,
     location: j.location || '',
+    postedAt: j.publishedAt || null,
   }));
 }
 
@@ -101,10 +107,133 @@ function parseLever(json, companyName) {
     url: j.hostedUrl || '',
     company: companyName,
     location: j.categories?.location || '',
+    postedAt: j.createdAt ? new Date(j.createdAt).toISOString() : null,
   }));
 }
 
 const PARSERS = { greenhouse: parseGreenhouse, ashby: parseAshby, lever: parseLever };
+
+// ── Since parser ────────────────────────────────────────────────────
+
+function parseSince(arg) {
+  if (!arg) return null;
+  const now = new Date();
+  const hoursMatch = arg.match(/^(\d+)h$/);
+  if (hoursMatch) return new Date(now - parseInt(hoursMatch[1]) * 3_600_000);
+  const daysMatch = arg.match(/^(\d+)d$/);
+  if (daysMatch) return new Date(now - parseInt(daysMatch[1]) * 86_400_000);
+  if (/^\d{4}-\d{2}-\d{2}$/.test(arg)) return new Date(arg + 'T00:00:00Z');
+  throw new Error(`Invalid --since format. Use: 24h, 7d, 30d, or YYYY-MM-DD`);
+}
+
+// ── LinkedIn scraper ────────────────────────────────────────────────
+
+// Maps --since duration to LinkedIn's f_TPR (seconds) parameter
+function sinceToLinkedInTPR(sinceDate) {
+  if (!sinceDate) return null;
+  const seconds = Math.floor((Date.now() - sinceDate.getTime()) / 1000);
+  return `r${seconds}`;
+}
+
+async function fetchLinkedIn(query, location, sinceDate) {
+  const tpr = sinceToLinkedInTPR(sinceDate);
+  const allJobs = [];
+  const seenUrls = new Set();
+  const PAGE_SIZE = 10; // LinkedIn guest API returns ~10 per page
+  const MAX_PAGES = 10; // up to ~100 results per query
+
+  for (let page = 0; page < MAX_PAGES; page++) {
+    const params = new URLSearchParams({
+      keywords: query,
+      location: location || 'United States',
+      f_JT: 'F',
+      count: String(PAGE_SIZE),
+      start: String(page * PAGE_SIZE),
+    });
+    if (tpr) params.set('f_TPR', tpr);
+
+    const url = `https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?${params}`;
+
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+
+    let pageJobs;
+    try {
+      const res = await fetch(url, {
+        signal: controller.signal,
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+          'Accept': 'text/html,application/xhtml+xml',
+          'Accept-Language': 'en-US,en;q=0.9',
+          'Referer': 'https://www.linkedin.com/jobs/search/',
+        },
+      });
+      clearTimeout(timer);
+
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const html = await res.text();
+      pageJobs = parseLinkedInHtml(html, query);
+    } catch (err) {
+      clearTimeout(timer);
+      throw err;
+    }
+
+    if (pageJobs.length === 0) break; // no more results
+
+    let newOnPage = 0;
+    for (const job of pageJobs) {
+      if (!seenUrls.has(job.url)) {
+        seenUrls.add(job.url);
+        allJobs.push(job);
+        newOnPage++;
+      }
+    }
+
+    if (newOnPage === 0) break; // all dupes — end of results
+
+    if (page < MAX_PAGES - 1) {
+      await new Promise(r => setTimeout(r, 1000)); // polite delay between pages
+    }
+  }
+
+  return allJobs;
+}
+
+function parseLinkedInHtml(html, queryLabel) {
+  const jobs = [];
+
+  // Each job card is a <li> block — split on li boundaries
+  const liBlocks = html.split(/<li[^>]*>/);
+
+  for (const block of liBlocks) {
+    // Job URL: href to /jobs/view/ or /jobs/collections/
+    const urlMatch = block.match(/href="(https:\/\/www\.linkedin\.com\/jobs\/view\/[^"?]+)/);
+    if (!urlMatch) continue;
+
+    const url = urlMatch[1].split('?')[0]; // strip tracking params
+
+    // Title: <h3 ...>TEXT</h3>
+    const titleMatch = block.match(/<h3[^>]*>\s*([^<]{3,120}?)\s*<\/h3>/);
+    const title = titleMatch ? titleMatch[1].replace(/&amp;/g, '&').replace(/&#039;/g, "'").trim() : '';
+    if (!title) continue;
+
+    // Company: <h4 ...>...<a ...>TEXT</a>...
+    const companyMatch = block.match(/<h4[^>]*>[\s\S]*?<a[^>]*>\s*([^<]{2,80}?)\s*<\/a>/);
+    const company = companyMatch ? companyMatch[1].trim() : 'LinkedIn';
+
+    // Location: <span class="job-search-card__location">TEXT</span>
+    const locationMatch = block.match(/job-search-card__location[^>]*>\s*([^<]{2,80}?)\s*</);
+    const location = locationMatch ? locationMatch[1].trim() : '';
+
+    // Posted date: <time datetime="YYYY-MM-DDT...">
+    const timeMatch = block.match(/datetime="([^"]+)"/);
+    const postedAt = timeMatch ? timeMatch[1] : null;
+
+    jobs.push({ title, url, company, location, postedAt, source: 'linkedin' });
+  }
+
+  return jobs;
+}
 
 // ── Fetch with timeout ──────────────────────────────────────────────
 
@@ -131,6 +260,32 @@ function buildTitleFilter(titleFilter) {
     const hasPositive = positive.length === 0 || positive.some(k => lower.includes(k));
     const hasNegative = negative.some(k => lower.includes(k));
     return hasPositive && !hasNegative;
+  };
+}
+
+// ── Location filter ─────────────────────────────────────────────────
+
+function buildLocationFilter(locationFilter) {
+  if (!locationFilter?.enabled) return () => true;
+
+  const include = (locationFilter.include || []).map(k => k.toLowerCase());
+  const exclude = (locationFilter.exclude || []).map(k => k.toLowerCase());
+  const mode = locationFilter.mode || 'include';
+
+  return (location) => {
+    if (!location || location.trim() === '') return true; // empty = unknown, pass through
+
+    const lower = location.toLowerCase();
+
+    // Exclude overrides everything
+    if (exclude.some(k => lower.includes(k))) return false;
+
+    // In include mode: must match at least one include keyword
+    if (mode === 'include') {
+      return include.length === 0 || include.some(k => lower.includes(k));
+    }
+
+    return true;
   };
 }
 
@@ -252,8 +407,11 @@ async function parallelFetch(tasks, limit) {
 async function main() {
   const args = process.argv.slice(2);
   const dryRun = args.includes('--dry-run');
+  const verbose = args.includes('--verbose');
   const companyFlag = args.indexOf('--company');
   const filterCompany = companyFlag !== -1 ? args[companyFlag + 1]?.toLowerCase() : null;
+  const sinceFlag = args.indexOf('--since');
+  const sinceDate = sinceFlag !== -1 ? parseSince(args[sinceFlag + 1]) : null;
 
   // 1. Read portals.yml
   if (!existsSync(PORTALS_PATH)) {
@@ -264,6 +422,7 @@ async function main() {
   const config = parseYaml(readFileSync(PORTALS_PATH, 'utf-8'));
   const companies = config.tracked_companies || [];
   const titleFilter = buildTitleFilter(config.title_filter);
+  const locationFilter = buildLocationFilter(config.location_filter);
 
   // 2. Filter to enabled companies with detectable APIs
   const targets = companies
@@ -275,6 +434,7 @@ async function main() {
   const skippedCount = companies.filter(c => c.enabled !== false).length - targets.length;
 
   console.log(`Scanning ${targets.length} companies via API (${skippedCount} skipped — no API detected)`);
+  if (sinceDate) console.log(`Time filter: jobs posted since ${sinceDate.toISOString().slice(0, 16)} UTC`);
   if (dryRun) console.log('(dry run — no files will be written)\n');
 
   // 3. Load dedup sets
@@ -285,9 +445,12 @@ async function main() {
   const date = new Date().toISOString().slice(0, 10);
   let totalFound = 0;
   let totalFiltered = 0;
+  let totalLocationFiltered = 0;
+  let totalTooOld = 0;
   let totalDupes = 0;
   const newOffers = [];
   const errors = [];
+  const companyResults = [];
 
   const tasks = targets.map(company => async () => {
     const { type, url } = company._api;
@@ -295,11 +458,22 @@ async function main() {
       const json = await fetchJson(url);
       const jobs = PARSERS[type](json, company.name);
       totalFound += jobs.length;
+      let companyNew = 0;
 
       for (const job of jobs) {
         if (!titleFilter(job.title)) {
           totalFiltered++;
           continue;
+        }
+        if (!locationFilter(job.location)) {
+          totalLocationFiltered++;
+          continue;
+        }
+        if (sinceDate && job.postedAt) {
+          if (new Date(job.postedAt) < sinceDate) {
+            totalTooOld++;
+            continue;
+          }
         }
         if (seenUrls.has(job.url)) {
           totalDupes++;
@@ -314,13 +488,59 @@ async function main() {
         seenUrls.add(job.url);
         seenCompanyRoles.add(key);
         newOffers.push({ ...job, source: `${type}-api` });
+        companyNew++;
+      }
+      if (verbose) {
+        companyResults.push({ name: company.name, total: jobs.length, added: companyNew, portal: type });
       }
     } catch (err) {
       errors.push({ company: company.name, error: err.message });
+      if (verbose) companyResults.push({ name: company.name, total: 0, added: 0, portal: type, error: err.message });
     }
   });
 
   await parallelFetch(tasks, CONCURRENCY);
+
+  // 4b. LinkedIn queries (sequential — rate-limit friendly)
+  const linkedInQueries = (config.linkedin_queries || []).filter(q => q.enabled !== false);
+  let linkedInFound = 0;
+
+  if (linkedInQueries.length > 0 && !filterCompany) {
+    console.log(`\nScanning LinkedIn (${linkedInQueries.length} queries)...`);
+
+    for (const query of linkedInQueries) {
+      try {
+        const jobs = await fetchLinkedIn(query.keywords, query.location || 'United States', sinceDate);
+        linkedInFound += jobs.length;
+        let queryNew = 0;
+
+        for (const job of jobs) {
+          if (!titleFilter(job.title)) { totalFiltered++; continue; }
+          if (!locationFilter(job.location)) { totalLocationFiltered++; continue; }
+          if (seenUrls.has(job.url)) { totalDupes++; continue; }
+          const key = `${job.company.toLowerCase()}::${job.title.toLowerCase()}`;
+          if (seenCompanyRoles.has(key)) { totalDupes++; continue; }
+          seenUrls.add(job.url);
+          seenCompanyRoles.add(key);
+          newOffers.push({ ...job, source: 'linkedin' });
+          queryNew++;
+        }
+
+        if (verbose) {
+          const flag = queryNew > 0 ? '+' : '·';
+          console.log(`  ${flag} ${query.name || query.keywords} (${jobs.length} found, ${queryNew} new) [linkedin]`);
+        }
+
+        // Polite delay between LinkedIn requests
+        await new Promise(r => setTimeout(r, 1500));
+      } catch (err) {
+        errors.push({ company: `LinkedIn: ${query.name || query.keywords}`, error: err.message });
+        if (verbose) console.log(`  ✗ ${query.name || query.keywords}: ${err.message}`);
+      }
+    }
+
+    totalFound += linkedInFound;
+  }
 
   // 5. Write results
   if (!dryRun && newOffers.length > 0) {
@@ -332,11 +552,26 @@ async function main() {
   console.log(`\n${'━'.repeat(45)}`);
   console.log(`Portal Scan — ${date}`);
   console.log(`${'━'.repeat(45)}`);
-  console.log(`Companies scanned:     ${targets.length}`);
+  console.log(`Companies scanned:     ${targets.length} (ATS) + ${linkedInQueries.length} LinkedIn queries`);
   console.log(`Total jobs found:      ${totalFound}`);
   console.log(`Filtered by title:     ${totalFiltered} removed`);
+  if (config.location_filter?.enabled) {
+    console.log(`Filtered by location:  ${totalLocationFiltered} removed (USA only)`);
+  }
+  if (sinceDate) {
+    console.log(`Too old (--since):     ${totalTooOld} removed`);
+  }
   console.log(`Duplicates:            ${totalDupes} skipped`);
   console.log(`New offers added:      ${newOffers.length}`);
+
+  if (verbose && companyResults.length > 0) {
+    console.log('\nPer-company breakdown:');
+    for (const r of companyResults) {
+      const flag = r.error ? '✗' : r.added > 0 ? '+' : '·';
+      const detail = r.error ? ` ERROR: ${r.error}` : ` (${r.total} found, ${r.added} new) [${r.portal}]`;
+      console.log(`  ${flag} ${r.name}${detail}`);
+    }
+  }
 
   if (errors.length > 0) {
     console.log(`\nErrors (${errors.length}):`);

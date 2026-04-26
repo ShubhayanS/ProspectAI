@@ -3,7 +3,7 @@
 [English](README.md) | [Español](README.es.md) | [Português (Brasil)](README.pt-BR.md) | [한국어](README.ko-KR.md) | [日本語](README.ja.md) | [Русский](README.ru.md) | [简体中文](README.cn.md) | [繁體中文](README.zh-TW.md)
 
 <p align="center">
-  <a href="https://x.com/santifer"><img src="docs/hero-banner.jpg" alt="Career-Ops — Multi-Agent Job Search System" width="800"></a>
+  <img src="docs/hero-banner.jpg" alt="Career-Ops — Multi-Agent Job Search System" width="800">
 </p>
 
 <p align="center">
@@ -11,6 +11,9 @@
   Companies use AI to filter candidates. <strong>I just gave candidates AI to <em>choose</em> companies.</strong><br>
   <em>Now it's open source.</em>
 </p>
+
+> **This is an enhanced fork of [career-ops](https://github.com/santifer/career-ops) by [Santiago Fernández](https://santifer.io).**
+> New in this version: English mode translations, `--since` / `--verbose` scan flags, and a web dashboard. Original system, design, and architecture by Santiago.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Claude_Code-000?style=flat&logo=anthropic&logoColor=white" alt="Claude Code">
@@ -60,7 +63,7 @@ Career-ops is agentic: Claude Code navigates career pages with Playwright, evalu
 
 > **Heads up: the first evaluations won't be great.** The system doesn't know you yet. Feed it context -- your CV, your career story, your proof points, your preferences, what you're good at, what you want to avoid. The more you nurture it, the better it gets. Think of it as onboarding a new recruiter: the first week they need to learn about you, then they become invaluable.
 
-Built by someone who used it to evaluate 740+ job offers, generate 100+ tailored CVs, and land a Head of Applied AI role. [Read the full case study](https://santifer.io/career-ops-system).
+Originally built by [Santiago Fernández](https://santifer.io) to evaluate 740+ job offers and land a Head of Applied AI role. This fork adds English modes, time-filtered scanning, and a web dashboard. [Read the original case study](https://santifer.io/career-ops-system).
 
 ## Features
 
@@ -72,6 +75,10 @@ Built by someone who used it to evaluate 740+ job offers, generate 100+ tailored
 | **Negotiation Scripts** | Salary negotiation frameworks, geographic discount pushback, competing offer leverage |
 | **ATS PDF Generation** | Keyword-injected CVs with Space Grotesk + DM Sans design |
 | **Portal Scanner** | 45+ companies pre-configured (Anthropic, OpenAI, ElevenLabs, Retool, n8n...) + custom queries across Ashby, Greenhouse, Lever, Wellfound |
+| **LinkedIn Scraper** | Scrapes LinkedIn job search via guest API — no login, no API key. Configurable queries in `portals.yml` under `linkedin_queries` |
+| **Time-filtered Scanning** | `--since 24h`, `--since 7d`, or `--since YYYY-MM-DD` — only surface jobs posted within your window (maps to LinkedIn's native time filter) |
+| **Location Filtering** | Configurable geo-filter in `portals.yml` — USA-only by default, drops non-US listings automatically |
+| **Verbose Scan Mode** | `--verbose` shows per-company breakdown: jobs found, new added, portal type, errors |
 | **Batch Processing** | Parallel evaluation with `claude -p` workers |
 | **Dashboard TUI** | Terminal UI to browse, filter, and sort your pipeline |
 | **Human-in-the-Loop** | AI evaluates and recommends, you decide and act. The system never submits an application -- you always have the final call |
@@ -79,84 +86,85 @@ Built by someone who used it to evaluate 740+ job offers, generate 100+ tailored
 
 ## Quick Start
 
+> **Prerequisite:** You need [Claude Code](https://claude.ai/code) (or Gemini CLI / OpenCode — see below). Claude Code is free to install; you pay per token like any other Claude API usage.
+
+### Step 1 — Install
+
 ```bash
-# 1. Clone and install
-git clone https://github.com/santifer/career-ops.git
-cd career-ops && npm install
-npx playwright install chromium   # Required for PDF generation
-
-# 2. Check setup
-npm run doctor                     # Validates all prerequisites
-
-# 3. Configure
-cp config/profile.example.yml config/profile.yml  # Edit with your details
-cp templates/portals.example.yml portals.yml       # Customize companies
-
-# 4. Add your CV
-# Create cv.md in the project root with your CV in markdown
-
-# 5. Personalize with Claude
-claude   # Open Claude Code in this directory
-
-# Then ask Claude to adapt the system to you:
-# "Change the archetypes to backend engineering roles"
-# "Translate the modes to English"
-# "Add these 5 companies to portals.yml"
-# "Update my profile with this CV I'm pasting"
-
-# 6. Start using
-# Paste a job URL or run /career-ops
+git clone https://github.com/ShubhayanS/career-ops.git
+cd career-ops
+npm install
+npx playwright install chromium   # Needed for PDF generation and web scraping
 ```
 
-> **The system is designed to be customized by Claude itself.** Modes, archetypes, scoring weights, negotiation scripts -- just ask Claude to change them. It reads the same files it uses, so it knows exactly what to edit.
-
-See [docs/SETUP.md](docs/SETUP.md) for the full setup guide.
-
-## Gemini CLI Integration
-
-Career-ops supports [Gemini CLI](https://github.com/google-gemini/gemini-cli) natively — the same way it supports Claude Code and OpenCode. All 15 slash commands are available, using the same `modes/*.md` evaluation logic.
-
-### Option A — Native Gemini CLI (Recommended)
+### Step 2 — Open with Claude Code
 
 ```bash
-# 1. Install Gemini CLI
-npm install -g @google/gemini-cli
-# or: npx @google/gemini-cli --version
+claude   # Opens Claude Code in the career-ops directory
+```
 
-# 2. Authenticate (free — uses your Google account)
+That's it. Claude will detect you're running for the first time and walk you through onboarding automatically.
+
+### Step 3 — Onboarding (Claude guides you)
+
+When you open Claude Code, it will ask you for:
+
+1. **Your CV** — paste it, give your LinkedIn URL, or describe your experience. Claude converts it to markdown.
+2. **Your target roles** — e.g. "Senior Data Scientist", "ML Engineer", "AI Product Manager"
+3. **Your location and salary range**
+
+Claude creates all the config files for you. No manual YAML editing required.
+
+### Step 4 — Start evaluating
+
+Once onboarding is done, just paste any job URL or description:
+
+```
+/career-ops https://jobs.ashbyhq.com/anthropic/some-role
+```
+
+Or scan for new jobs matching your profile:
+
+```
+/career-ops scan
+```
+
+> **The system adapts to you, not the other way around.** If archetypes don't match your career, scoring feels off, or you want to add companies — just tell Claude. It reads and edits its own files. Say "add these 10 companies to my portals" and it's done.
+
+See [docs/SETUP.md](docs/SETUP.md) for the full setup guide and advanced config.
+
+## Which AI CLI Should I Use?
+
+Career-ops works with three AI coding CLIs. Pick one:
+
+| CLI | Cost | Best for |
+|-----|------|----------|
+| **[Claude Code](https://claude.ai/code)** | Pay per token (Anthropic) | Best evaluation quality, recommended |
+| **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** | Free tier available | Budget-conscious users |
+| **[OpenCode](https://opencode.ai)** | Pay per token (Anthropic or OpenAI) | Alternative UI |
+
+### Using Gemini CLI
+
+```bash
+# Install
+npm install -g @google/gemini-cli
+
+# Authenticate (free — uses your Google account)
 gemini auth
 
-# 3. Run in the career-ops directory
-cd career-ops
-gemini
+# Run in the career-ops directory
+cd career-ops && gemini
 
-# 4. Use slash commands just like Claude Code
-/career-ops "Senior AI Engineer at Anthropic..."
-/career-ops-evaluate --file ./jds/openai.txt
+# Then use the same commands:
+/career-ops-evaluate "Senior AI Engineer at Anthropic..."
 /career-ops-scan
 /career-ops-pdf
 /career-ops-tracker
 ```
 
-The `GEMINI.md` file is auto-loaded as context. All 15 commands are defined in `.gemini/commands/*.toml`.
+All 15 commands work identically in all three CLIs. The `GEMINI.md` file is auto-loaded; commands are in `.gemini/commands/`.
 
-### Option B — Standalone API Script (No CLI install needed)
-
-```bash
-# 1. Get a free API key at https://aistudio.google.com/apikey
-cp .env.example .env
-# Edit .env → set GEMINI_API_KEY=your_key_here
-
-# 2. Install dependencies
-npm install
-
-# 3. Evaluate a job description
-node gemini-eval.mjs "We are looking for a Senior AI Engineer..."
-node gemini-eval.mjs --file ./jds/my-job.txt
-npm run gemini:eval -- "JD text here"
-```
-
-> **Free tier:** Both options work without billing. Native CLI uses Google OAuth; the API script uses `gemini-2.0-flash` (15 RPM, 1M tokens/day free).
+> **Free tier:** Gemini CLI uses `gemini-2.0-flash` (15 RPM, 1M tokens/day free). No billing required.
 
 ## Usage
 
@@ -171,7 +179,7 @@ Career-ops is a single slash command with multiple modes:
 /career-ops tracker        → View application status
 /career-ops apply          → Fill application forms with AI
 /career-ops pipeline       → Process pending URLs
-/career-ops contacto       → LinkedIn outreach message
+/career-ops outreach       → LinkedIn outreach message
 /career-ops deep           → Deep company research
 /career-ops training       → Evaluate a course/cert
 /career-ops project        → Evaluate a portfolio project
@@ -216,9 +224,44 @@ The scanner comes with **45+ companies** ready to scan and **19 search queries**
 
 **Job boards searched:** Ashby, Greenhouse, Lever, Wellfound, Workable, RemoteFront
 
+### Scanner flags
+
+```bash
+node scan.mjs                        # scan all enabled companies
+node scan.mjs --since 24h            # only jobs posted in the last 24 hours
+node scan.mjs --since 7d             # only jobs posted in the last 7 days
+node scan.mjs --since 2026-04-20     # only jobs posted since a specific date
+node scan.mjs --verbose              # show per-company breakdown
+node scan.mjs --dry-run              # preview without writing files
+node scan.mjs --company Anthropic    # scan a single company
+```
+
+The scanner hits Greenhouse, Ashby, and Lever APIs directly — **zero Claude API tokens**. LinkedIn is scraped via the public guest API (no login needed). Location filtering (USA by default) and title filtering happen client-side. Timestamps come from each portal's native field (`updated_at` for Greenhouse, `publishedAt` for Ashby, `createdAt` for Lever, `datetime` attribute for LinkedIn). The `--since` flag maps automatically to LinkedIn's `f_TPR` parameter.
+
+## Web Dashboard
+
+Browser UI with Apple-inspired design — light/dark mode, live scanner, report reader, CV editor:
+
+```bash
+npm run web
+# → http://localhost:3737
+```
+
+| Tab | What you get |
+|-----|-------------|
+| **Dashboard** | Stats cards, score distribution, recent evaluations, pipeline preview |
+| **Jobs** | All scanned jobs with search + status filters |
+| **Pipeline** | Pending URLs with one-click copy of Claude eval commands |
+| **Applications** | Full tracker, status filter, click any row to read the report |
+| **Reports** | Card grid — click to read rendered markdown |
+| **Scanner** | Configure and run `scan.mjs` with live terminal output |
+| **My CV** | Side-by-side markdown editor + live preview + PDF generation |
+
+Zero extra dependencies — pure Node.js built-in `http`.
+
 ## Dashboard TUI
 
-The built-in terminal dashboard lets you browse your pipeline visually:
+Terminal alternative (Go + Bubble Tea) for no-browser use:
 
 ```bash
 cd dashboard
@@ -239,7 +282,7 @@ career-ops/
 │   └── profile.example.yml      # Template for your profile
 ├── modes/                       # 14 skill modes
 │   ├── _shared.md               # Shared context (customize this)
-│   ├── oferta.md                # Single evaluation
+│   ├── evaluate.md              # Single job evaluation (A-G scoring)
 │   ├── pdf.md                   # PDF generation
 │   ├── scan.md                  # Portal scanner
 │   ├── batch.md                 # Batch processing
@@ -278,19 +321,19 @@ career-ops/
 
 - **[cv-santiago](https://github.com/santifer/cv-santiago)** -- The portfolio website (santifer.io) with AI chatbot, LLMOps dashboard, and case studies. If you need a portfolio to showcase alongside your job search, fork it and make it yours.
 
-## About the Author
+## About
 
-I'm Santiago -- Head of Applied AI, former founder (built and sold a business that still runs with my name on it). I built career-ops to manage my own job search. It worked: I used it to land my current role.
+This fork is maintained by **[Shubhayan Saha](https://www.linkedin.com/in/shubhayans/)** — Data Scientist / Data Engineer, M.S. Data Science from George Washington University. I forked career-ops to add English-first modes, time-filtered scanning, and a web dashboard while using it in my own job search.
 
-My portfolio and other open source projects → [santifer.io](https://santifer.io)
+Original system by [Santiago Fernández](https://santifer.io) → [santifer/career-ops](https://github.com/santifer/career-ops)
 
 ## Star History
 
-<a href="https://www.star-history.com/?repos=santifer%2Fcareer-ops&type=timeline&legend=top-left">
+<a href="https://www.star-history.com/?repos=ShubhayanS%2Fcareer-ops&type=timeline&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=santifer/career-ops&type=timeline&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=santifer/career-ops&type=timeline&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=santifer/career-ops&type=timeline&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ShubhayanS/career-ops&type=timeline&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ShubhayanS/career-ops&type=timeline&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ShubhayanS/career-ops&type=timeline&legend=top-left" />
  </picture>
 </a>
 
@@ -307,11 +350,11 @@ See [LEGAL_DISCLAIMER.md](LEGAL_DISCLAIMER.md) for full details. This software i
 
 ## Contributors
 
-<a href="https://github.com/santifer/career-ops/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=santifer/career-ops" />
+<a href="https://github.com/ShubhayanS/career-ops/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ShubhayanS/career-ops" />
 </a>
 
-Got hired using career-ops? [Share your story!](https://github.com/santifer/career-ops/issues/new?template=i-got-hired.yml)
+Got hired using career-ops? [Share your story!](https://github.com/ShubhayanS/career-ops/issues/new?template=i-got-hired.yml)
 
 ## License
 
@@ -319,8 +362,7 @@ MIT
 
 ## Let's Connect
 
-[![Website](https://img.shields.io/badge/santifer.io-000?style=for-the-badge&logo=safari&logoColor=white)](https://santifer.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/santifer)
-[![X](https://img.shields.io/badge/X-000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/santifer)
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/8pRpHETxa4)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hi@santifer.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shubhayans/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ShubhayanS)
+[![X](https://img.shields.io/badge/X-000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/Shubhayan9)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sahainus@gmail.com)
