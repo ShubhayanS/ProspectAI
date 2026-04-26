@@ -1,30 +1,22 @@
-# Career-Ops
-
-[English](README.md) | [Español](README.es.md) | [Português (Brasil)](README.pt-BR.md) | [한국어](README.ko-KR.md) | [日本語](README.ja.md) | [Русский](README.ru.md) | [简体中文](README.cn.md) | [繁體中文](README.zh-TW.md)
+# ProspectAI
 
 <p align="center">
-  <img src="docs/hero-banner.jpg" alt="Career-Ops — Multi-Agent Job Search System" width="800">
+  <img src="docs/hero-banner.jpg" alt="ProspectAI — AI-Powered Job Search Pipeline" width="800">
 </p>
 
 <p align="center">
-  <em>I spent months applying to jobs the hard way. So I engineered the system I wish I had.</em><br>
-  Companies use AI to filter candidates. <strong>I just gave candidates AI to <em>choose</em> companies.</strong><br>
-  <em>Now it's open source.</em>
+  <em>Stop applying to jobs. Start choosing them.</em><br>
+  Companies use AI to filter candidates. <strong>ProspectAI gives candidates AI to <em>outpick, outprepare, and outmaneuver</em> the process.</strong><br>
+  <em>Built by a Data Engineer. Open source. Free forever.</em>
 </p>
-
-> **This is an enhanced fork of [career-ops](https://github.com/santifer/career-ops) by [Santiago Fernández](https://santifer.io).**
-> New in this version: English mode translations, `--since` / `--verbose` scan flags, and a web dashboard. Original system, design, and architecture by Santiago.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Claude_Code-000?style=flat&logo=anthropic&logoColor=white" alt="Claude Code">
   <img src="https://img.shields.io/badge/OpenCode-111827?style=flat&logo=terminal&logoColor=white" alt="OpenCode">
   <img src="https://img.shields.io/badge/Gemini_CLI-4285F4?style=flat&logo=google&logoColor=white" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/Codex_(soon)-6B7280?style=flat&logo=openai&logoColor=white" alt="Codex">
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white" alt="Go">
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white" alt="Playwright">
   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT">
-  <a href="https://discord.gg/8pRpHETxa4"><img src="https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord"></a>
   <br>
   <img src="https://img.shields.io/badge/EN-blue?style=flat" alt="EN">
   <img src="https://img.shields.io/badge/ES-red?style=flat" alt="ES">
@@ -33,37 +25,37 @@
   <img src="https://img.shields.io/badge/PT--BR-green?style=flat" alt="PT-BR">
   <img src="https://img.shields.io/badge/KO-white?style=flat" alt="KO">
   <img src="https://img.shields.io/badge/JA-red?style=flat" alt="JA">
-  <img src="https://img.shields.io/badge/ZH--CN-red?style=flat" alt="ZH-CN">
-  <img src="https://img.shields.io/badge/ZH--TW-blue?style=flat" alt="ZH-TW">
 </p>
 
 ---
 
+> Built on the shoulders of [career-ops](https://github.com/santifer/career-ops) by [Santiago Fernández](https://santifer.io) — enhanced with English-first modes, time-filtered scanning, verbose diagnostics, and a web dashboard.
+
 <p align="center">
-  <img src="docs/demo.gif" alt="Career-Ops Demo" width="800">
+  <img src="docs/demo.gif" alt="ProspectAI Demo" width="800">
 </p>
 
-<p align="center"><strong>740+ job listings evaluated · 100+ personalized CVs · 1 dream role landed</strong></p>
+<p align="center"><strong>Smarter targeting · Tailored CVs · One command away from your next role</strong></p>
 
-<p align="center"><a href="https://discord.gg/8pRpHETxa4"><img src="https://img.shields.io/badge/Join_the_community-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a></p>
+## What Is ProspectAI
 
-## What Is This
+ProspectAI is an AI-powered job search pipeline that runs inside your terminal. Forget spreadsheets and manual tracking — it evaluates offers, tailors your CV per listing, scans 45+ company portals automatically, and keeps your pipeline clean.
 
-Career-Ops turns any AI coding CLI into a full job search command center. Instead of manually tracking applications in a spreadsheet, you get an AI-powered pipeline that:
+- **Evaluates offers** with a structured A-G scoring system (10 weighted dimensions)
+- **Generates tailored PDFs** — ATS-optimized CVs adapted per job description
+- **Scans portals automatically** — Greenhouse, Ashby, Lever, LinkedIn, and more
+- **Filters by recency** — `--since 24h` / `--since 7d` so you only see fresh listings
+- **Processes in batch** — evaluate 10+ offers in parallel with sub-agents
+- **Web dashboard** — browse and filter your pipeline in the browser
+- **Tracks everything** — single source of truth with integrity checks
 
-- **Evaluates offers** with a structured A-F scoring system (10 weighted dimensions)
-- **Generates tailored PDFs** -- ATS-optimized CVs customized per job description
-- **Scans portals** automatically (Greenhouse, Ashby, Lever, company pages)
-- **Processes in batch** -- evaluate 10+ offers in parallel with sub-agents
-- **Tracks everything** in a single source of truth with integrity checks
+> **Not a spray-and-pray tool.** ProspectAI is a precision filter. It helps you find the few roles worth your time out of hundreds. Anything below 4.0/5 gets flagged — apply less, land better.
 
-> **Important: This is NOT a spray-and-pray tool.** Career-ops is a filter -- it helps you find the few offers worth your time out of hundreds. The system strongly recommends against applying to anything scoring below 4.0/5. Your time is valuable, and so is the recruiter's. Always review before submitting.
+ProspectAI is agentic: it navigates career pages with Playwright, evaluates fit by reasoning about your CV vs the job description (not keyword matching), and adapts your resume per listing.
 
-Career-ops is agentic: Claude Code navigates career pages with Playwright, evaluates fit by reasoning about your CV vs the job description (not keyword matching), and adapts your resume per listing.
+> **It learns you over time.** Feed it your CV, career story, proof points, and preferences. The more context it has, the sharper its targeting. Think of it as onboarding a personal recruiter — the first session it learns you, then it becomes invaluable.
 
-> **Heads up: the first evaluations won't be great.** The system doesn't know you yet. Feed it context -- your CV, your career story, your proof points, your preferences, what you're good at, what you want to avoid. The more you nurture it, the better it gets. Think of it as onboarding a new recruiter: the first week they need to learn about you, then they become invaluable.
-
-Originally built by [Santiago Fernández](https://santifer.io) to evaluate 740+ job offers and land a Head of Applied AI role. This fork adds English modes, time-filtered scanning, and a web dashboard. [Read the original case study](https://santifer.io/career-ops-system).
+[Read the original case study](https://santifer.io/career-ops-system) that inspired this project.
 
 ## Features
 
@@ -323,9 +315,9 @@ career-ops/
 
 ## About
 
-This fork is maintained by **[Shubhayan Saha](https://www.linkedin.com/in/shubhayans/)** — Data Scientist / Data Engineer, M.S. Data Science from George Washington University. I forked career-ops to add English-first modes, time-filtered scanning, and a web dashboard while using it in my own job search.
+**ProspectAI** is built and maintained by **[Shubhayan Saha](https://www.linkedin.com/in/shubhayans/)** — Data Scientist / Data Engineer, M.S. Data Science from George Washington University. Built this while running my own job search to get smarter targeting, English-first modes, time-filtered scanning, and a web dashboard.
 
-Original system by [Santiago Fernández](https://santifer.io) → [santifer/career-ops](https://github.com/santifer/career-ops)
+ProspectAI is an enhanced evolution of [career-ops](https://github.com/santifer/career-ops) by [Santiago Fernández](https://santifer.io). Original architecture, scoring system, and pipeline design by Santiago.
 
 ## Star History
 
