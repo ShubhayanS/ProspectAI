@@ -44,9 +44,20 @@ const STATUS_CLS = {
   skipped_expired: 'skipped_expired', pending: 'pending',
 };
 
+const STATUS_LABEL = {
+  added: 'Added',
+  skipped_title: 'Title filter',
+  skipped_location: 'Location',
+  skipped_dup: 'Duplicate',
+  skipped_expired: 'Expired',
+  Applied: 'Applied', SKIP: 'Skip', Evaluated: 'Evaluated',
+  Interview: 'Interview', Offer: 'Offer', Rejected: 'Rejected',
+  Responded: 'Responded', Discarded: 'Discarded', pending: 'Pending',
+};
+
 function pill(status) {
   const cls = STATUS_CLS[status] || 'skip';
-  const lbl = status.replace('skipped_', '');
+  const lbl = STATUS_LABEL[status] || status;
   return `<span class="pill pill-${cls}">${escHtml(lbl)}</span>`;
 }
 
@@ -144,7 +155,8 @@ async function renderPage(page) {
     case 'applications': await pageApplications(el); break;
     case 'reports':      await pageReports(el); break;
     case 'scanner':      pageScanner(el); break;
-    case 'cv':           await pageCV(el); break;
+    case 'evaluator':    pageEvaluator(el); break;
+    case 'profile':      await pageProfile(el); break;
   }
   feather.replace();
 }
@@ -165,9 +177,14 @@ async function pageDashboard(el) {
         <h1>Dashboard</h1>
         <p>${new Date().toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'})}</p>
       </div>
-      <button class="btn btn-primary" onclick="navigate('scanner')">
-        <i data-feather="radio"></i> Run Scanner
-      </button>
+      <div class="flex gap-2">
+        <button class="btn btn-secondary" onclick="openMatcherModal()">
+          <i data-feather="cpu"></i> Run Matcher
+        </button>
+        <button class="btn btn-primary" onclick="navigate('scanner')">
+          <i data-feather="radio"></i> Run Scanner
+        </button>
+      </div>
     </div>
 
     <div class="stats-grid">
@@ -294,16 +311,15 @@ async function pageJobs(el) {
         <p>All jobs captured from portal scans</p>
       </div>
     </div>
-    <div class="toolbar">
+    <div class="toolbar mb-4">
       <div class="search-box">
         <i data-feather="search"></i>
         <input class="search-input" id="job-search" placeholder="Search title or company…" value="${escHtml(_jobSearch)}">
       </div>
-    </div>
-    <div class="chips mb-4" id="job-chips">
-      ${['all','added','skipped_title','skipped_location','skipped_dup','skipped_expired'].map(s =>
-        `<button class="chip${_jobFilter===s?' on':''}" data-f="${s}">${s==='all'?'All':s.replace('skipped_','')}</button>`
-      ).join('')}
+      <select class="toolbar-filter" id="job-status-filter">
+        <option value="all">All Statuses</option>
+        ${APP_STATUSES.map(s => `<option value="${s}"${_jobFilter===s?' selected':''}>${s}</option>`).join('')}
+      </select>
     </div>
     <div class="card" id="job-card">
       <div class="loader"><div class="spin"></div></div>
@@ -316,13 +332,9 @@ async function pageJobs(el) {
     loadJobs();
   });
 
-  qsa('#job-chips .chip').forEach(c => {
-    c.addEventListener('click', () => {
-      _jobFilter = c.getAttribute('data-f');
-      qsa('#job-chips .chip').forEach(x => x.classList.remove('on'));
-      c.classList.add('on');
-      loadJobs();
-    });
+  qs('#job-status-filter').addEventListener('change', e => {
+    _jobFilter = e.target.value;
+    loadJobs();
   });
 
   loadJobs();
@@ -350,19 +362,29 @@ async function loadJobs() {
         <thead>
           <tr>
             <th>Company</th><th>Title</th><th>Portal</th>
-            <th>Date</th><th>Status</th><th></th>
+            <th>Date</th><th>Score</th><th>Status</th><th></th>
           </tr>
         </thead>
         <tbody>
           ${jobs.map(j => `
             <tr>
               <td class="fw-600">${escHtml(j.company||'—')}</td>
-              <td class="truncate" style="max-width:280px" title="${escHtml(j.title||'')}">${escHtml(truncate(j.title||'—',50))}</td>
+              <td class="truncate" style="max-width:240px" title="${escHtml(j.title||'')}">${escHtml(truncate(j.title||'—',45))}</td>
               <td class="dim text-sm">${escHtml(j.portal||'—')}</td>
               <td class="dim text-sm">${escHtml(j.first_seen||'—')}</td>
-              <td>${pill(j.status)}</td>
+              <td>${j.score ? scoreBadge(j.score + '/5') : '<span class="badge badge-gray">—</span>'}</td>
               <td>
-                ${j.url?.startsWith('http') ? `<a href="${escHtml(j.url)}" target="_blank" class="btn btn-sm btn-secondary"><i data-feather="external-link"></i></a>` : ''}
+                <select class="status-select" data-url="${escHtml(j.url)}"
+                  data-company="${escHtml(j.company||'')}" data-title="${escHtml(j.title||'')}"
+                  onchange="updateJobStatus(this)">
+                  <option value="">— Status —</option>
+                  ${APP_STATUSES.map(s =>
+                    `<option value="${s}"${s===j.status?' selected':''}>${s}</option>`
+                  ).join('')}
+                </select>
+              </td>
+              <td>
+                ${j.url?.startsWith('http') ? `<a href="${escHtml(j.url)}" target="_blank" class="btn btn-apply"><i data-feather="external-link"></i> Apply</a>` : ''}
               </td>
             </tr>`).join('')}
         </tbody>
@@ -443,8 +465,7 @@ function renderAppsTable(apps, filter) {
                 onclick="${reportFile ? `openReport('${reportFile}')` : ''}">${escHtml(truncate(a['Role']||'—',38))}</td>
               <td>${scoreBadge(a['Score'])}</td>
               <td>
-                <select class="status-select" data-row="${rowNum}" onchange="updateStatus(this)"
-                  style="--pill-color:${statusColor(a['Status'])}">
+                <select class="status-select" data-row="${rowNum}" onchange="updateStatus(this)">
                   ${APP_STATUSES.map(s =>
                     `<option value="${s}"${s===a['Status']?' selected':''}>${s}</option>`
                   ).join('')}
@@ -474,10 +495,48 @@ function statusColor(s) {
   return map[s] || 'var(--text-2)';
 }
 
-async function updateStatus(sel) {
-  const rowNum   = sel.getAttribute('data-row');
+function jobStatusColor(s) {
+  const map = {
+    added:            'var(--green)',
+    skipped_title:    'var(--text-3)',
+    skipped_location: 'var(--orange)',
+    skipped_dup:      'var(--text-2)',
+    skipped_expired:  'var(--red)',
+  };
+  return map[s] || 'var(--text-2)';
+}
+
+async function updateJobStatus(sel) {
+  const url       = sel.getAttribute('data-url');
+  const company   = sel.getAttribute('data-company');
+  const title     = sel.getAttribute('data-title');
   const newStatus = sel.value;
-  sel.style.setProperty('--pill-color', statusColor(newStatus));
+
+  try {
+    const r = await fetch('/api/jobs/status', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ url, status: newStatus }),
+    });
+    const data = await r.json();
+    if (!data.ok) { toast('Update failed: ' + (data.error || 'unknown')); return; }
+
+    // Mirror to Applications tab
+    const upsert = await fetch('/api/applications/upsert', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ url, company, title, status: newStatus }),
+    }).then(r => r.json()).catch(() => null);
+
+    if (upsert?.action === 'added') toast(`Status → ${newStatus} · added to Applications`);
+    else if (upsert?.action === 'updated') toast(`Status → ${newStatus} · Applications updated`);
+    else toast(`Status → ${STATUS_LABEL[newStatus] || newStatus}`);
+  } catch { toast('Update failed'); }
+}
+
+async function updateStatus(sel) {
+  const rowNum    = sel.getAttribute('data-row');
+  const newStatus = sel.value;
 
   try {
     const r = await fetch('/api/applications/status', {
@@ -617,7 +676,7 @@ function pageScanner(el) {
 
     <div class="card">
       <div class="card-hd">
-        <h2>Output</h2>
+        <h2>Scan Output</h2>
         <button class="btn btn-sm btn-secondary" onclick="clearTerm()">
           <i data-feather="trash-2"></i> Clear
         </button>
@@ -712,54 +771,444 @@ function clearTerm() {
 }
 
 /* ═══════════════════════════════════════════════════════════════════════════
-   CV BUILDER
+   MATCHER MODAL
 ═══════════════════════════════════════════════════════════════════════════ */
-let _cvDirty = false;
+let _matchStream = null;
 
-async function pageCV(el) {
-  const content = await fetch('/api/cv').then(r => r.text());
+function openMatcherModal() {
+  openModal('Run Matcher', `
+    <div style="margin-bottom:12px;color:var(--text-2);font-size:13px">
+      Scores all unscored <strong>added</strong> jobs in scan-history using Claude.
+      Results saved to Jobs table immediately as each job scores.
+    </div>
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px">
+      <button class="btn btn-primary" id="m-run" onclick="startMatcher()">
+        <i data-feather="cpu"></i> Start Scoring
+      </button>
+      <button class="btn btn-secondary" id="m-stop" onclick="stopMatcher()" style="display:none">
+        <i data-feather="square"></i> Stop
+      </button>
+    </div>
+    <div class="terminal" id="m-term" style="min-height:200px">Ready — press Start Scoring.\n</div>
+  `);
+}
+
+function startMatcher() {
+  if (_matchStream) return;
+  const term = qs('#m-term');
+  term.innerHTML = '';
+  qs('#m-run').style.display  = 'none';
+  qs('#m-stop').style.display = 'flex';
+
+  _matchStream = new EventSource(`/api/match/stream`);
+
+  _matchStream.addEventListener('line', e => {
+    const { text } = JSON.parse(e.data);
+    const div = document.createElement('div');
+    div.textContent = text;
+    // Colorize score lines
+    if (/✅/.test(text)) div.className = 't-ok';
+    else if (/⚠|failed|timeout/.test(text)) div.className = 't-warn';
+    else if (/━/.test(text)) div.className = 't-dim';
+    term.appendChild(div);
+    term.scrollTop = term.scrollHeight;
+  });
+
+  _matchStream.addEventListener('err', e => {
+    const { text } = JSON.parse(e.data);
+    const div = document.createElement('div');
+    div.className = 't-err';
+    div.textContent = text;
+    term.appendChild(div);
+  });
+
+  _matchStream.addEventListener('done', e => {
+    const { code } = JSON.parse(e.data);
+    _matchStream.close(); _matchStream = null;
+    qs('#m-run').style.display = 'flex';
+    qs('#m-stop').style.display = 'none';
+    const div = document.createElement('div');
+    div.className = code === 0 ? 't-ok' : 't-err';
+    div.textContent = code === 0 ? '\n✓ Done. Refresh Jobs to see all scores.' : `\n✗ Failed (exit ${code})`;
+    term.appendChild(div);
+    term.scrollTop = term.scrollHeight;
+    feather.replace();
+  });
+}
+
+function stopMatcher() {
+  if (_matchStream) { _matchStream.close(); _matchStream = null; }
+  const term = qs('#m-term');
+  if (term) {
+    const div = document.createElement('div');
+    div.className = 't-warn';
+    div.textContent = '\n⚠ Stopped. Scores saved so far are in Jobs table.';
+    term.appendChild(div);
+  }
+  if (qs('#m-run')) qs('#m-run').style.display = 'flex';
+  if (qs('#m-stop')) qs('#m-stop').style.display = 'none';
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   EVALUATOR
+═══════════════════════════════════════════════════════════════════════════ */
+function pageEvaluator(el) {
+  el.innerHTML = `
+    <div class="page-hd">
+      <div class="page-hd-text">
+        <h1>Job Evaluator</h1>
+        <p>Paste a JD → Claude scores it using your profile + evaluate.md</p>
+      </div>
+    </div>
+
+    <div class="card mb-5">
+      <div class="card-hd"><h2>Job Description</h2></div>
+      <div class="card-body">
+        <textarea id="eval-jd" style="width:100%;min-height:200px;padding:10px 12px;border-radius:var(--r-md);border:1px solid var(--border-med);background:var(--surface-2);color:var(--text-1);font-size:13px;font-family:inherit;resize:vertical;outline:none" placeholder="Paste the full job description here — title, responsibilities, requirements, company info…"></textarea>
+        <div class="scan-bar" style="margin-top:12px">
+          <button class="btn btn-primary" id="e-run" onclick="startEval()">
+            <i data-feather="zap"></i> Evaluate with Claude
+          </button>
+          <button class="btn btn-secondary" id="e-stop" onclick="stopEval()" style="display:none">
+            <i data-feather="square"></i> Stop
+          </button>
+          <span class="scan-status" id="e-status"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="eval-output" style="display:none">
+      <div class="card-hd">
+        <h2>Evaluation</h2>
+        <button class="btn btn-sm btn-secondary" onclick="clearEvalTerm()">
+          <i data-feather="trash-2"></i> Clear
+        </button>
+      </div>
+      <div style="padding:0">
+        <div class="terminal" id="e-term"></div>
+      </div>
+    </div>
+  `;
+  feather.replace();
+}
+
+let _evalReader = null;
+
+async function startEval() {
+  const jd = qs('#eval-jd')?.value?.trim();
+  if (!jd) { toast('Paste a JD first'); return; }
+
+  const term = qs('#e-term');
+  const output = qs('#eval-output');
+  output.style.display = 'block';
+  term.innerHTML = '';
+
+  qs('#e-run').style.display  = 'none';
+  qs('#e-stop').style.display = 'flex';
+  qs('#e-status').textContent = 'Evaluating…';
+
+  try {
+    const response = await fetch('/api/eval/stream', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ jd }),
+    });
+
+    const reader = response.body.getReader();
+    _evalReader = reader;
+    const dec = new TextDecoder();
+    let buf = '';
+
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      buf += dec.decode(value, { stream: true });
+      const parts = buf.split('\n\n');
+      buf = parts.pop();
+      for (const part of parts) {
+        const eventLine = part.match(/^event: (.+)/m)?.[1];
+        const dataLine  = part.match(/^data: (.+)/ms)?.[1];
+        if (!dataLine) continue;
+        let payload;
+        try { payload = JSON.parse(dataLine); } catch { continue; }
+        if (eventLine === 'line') {
+          const div = document.createElement('div');
+          div.textContent = payload.text;
+          term.appendChild(div);
+          term.scrollTop = term.scrollHeight;
+        } else if (eventLine === 'err') {
+          const div = document.createElement('div');
+          div.className = 't-err';
+          div.textContent = payload.text;
+          term.appendChild(div);
+          term.scrollTop = term.scrollHeight;
+        } else if (eventLine === 'done') {
+          const div = document.createElement('div');
+          div.className = payload.code === 0 ? 't-ok' : 't-err';
+          div.textContent = payload.code === 0 ? '\n✓ Evaluation complete.' : `\n✗ Failed (exit ${payload.code})`;
+          term.appendChild(div);
+          term.scrollTop = term.scrollHeight;
+        }
+      }
+    }
+  } catch(e) {
+    const div = document.createElement('div');
+    div.className = 't-err';
+    div.textContent = 'Error: ' + e.message;
+    qs('#e-term')?.appendChild(div);
+  }
+
+  _evalReader = null;
+  qs('#e-run').style.display  = 'flex';
+  qs('#e-stop').style.display = 'none';
+  qs('#e-status').textContent = 'Done';
+  feather.replace();
+}
+
+function stopEval() {
+  if (_evalReader) { _evalReader.cancel(); _evalReader = null; }
+  qs('#e-run').style.display  = 'flex';
+  qs('#e-stop').style.display = 'none';
+  qs('#e-status').textContent = 'Stopped';
+  const div = document.createElement('div');
+  div.className = 't-warn';
+  div.textContent = '\n⚠ Stopped by user.';
+  qs('#e-term')?.appendChild(div);
+}
+
+function clearEvalTerm() {
+  const term = qs('#e-term');
+  if (term) term.innerHTML = '';
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   PROFILE PAGE
+═══════════════════════════════════════════════════════════════════════════ */
+let _profileTab = 'info';
+
+async function pageProfile(el) {
+  const [profileYaml, cvContent, templateHtml] = await Promise.all([
+    fetch('/api/profile').then(r => r.text()),
+    fetch('/api/cv').then(r => r.text()),
+    fetch('/api/template').then(r => r.text()),
+  ]);
 
   el.innerHTML = `
     <div class="page-hd">
       <div class="page-hd-text">
-        <h1>My CV</h1>
-        <p>Edit source · preview live · generate PDF</p>
-      </div>
-      <div class="flex gap-2">
-        <span id="cv-dirty" style="font-size:13px;color:var(--orange);align-self:center;display:none">
-          Unsaved changes
-        </span>
-        <button class="btn btn-secondary" id="cv-save" onclick="saveCV()" disabled>
-          <i data-feather="save"></i> Save
-        </button>
-        <button class="btn btn-primary" onclick="genPDF()">
-          <i data-feather="download"></i> Generate PDF
-        </button>
+        <h1>Profile</h1>
+        <p>Personal info · resume · CV template</p>
       </div>
     </div>
 
-    <div class="cv-split">
-      <div class="cv-col">
-        <div class="cv-col-label">Markdown Source</div>
-        <textarea class="cv-editor" id="cv-ed" spellcheck="false">${escHtml(content)}</textarea>
+    <div class="profile-tabs mb-5">
+      <button class="profile-tab${_profileTab==='info'?' active':''}" onclick="switchProfileTab('info')">
+        <i data-feather="user"></i> Personal Info
+      </button>
+      <button class="profile-tab${_profileTab==='resume'?' active':''}" onclick="switchProfileTab('resume')">
+        <i data-feather="file-text"></i> Resume
+      </button>
+      <button class="profile-tab${_profileTab==='template'?' active':''}" onclick="switchProfileTab('template')">
+        <i data-feather="layout"></i> CV Template
+      </button>
+    </div>
+
+    <!-- PERSONAL INFO TAB -->
+    <div id="tab-info" class="profile-tab-body${_profileTab==='info'?'':' hidden'}">
+      ${renderInfoForm(profileYaml)}
+    </div>
+
+    <!-- RESUME TAB -->
+    <div id="tab-resume" class="profile-tab-body${_profileTab==='resume'?'':' hidden'}">
+      <div class="card mb-4">
+        <div class="card-hd">
+          <h2>Upload Resume</h2>
+        </div>
+        <div class="card-body">
+          <div class="upload-zone" id="upload-zone" onclick="qs('#resume-file').click()" ondragover="event.preventDefault()" ondrop="handleResumeDrop(event)">
+            <i data-feather="upload"></i>
+            <p>Drop a <strong>.md</strong> or <strong>.txt</strong> file here, or click to browse</p>
+            <input type="file" id="resume-file" accept=".md,.txt" style="display:none" onchange="handleResumeFile(event)">
+          </div>
+        </div>
       </div>
-      <div class="cv-col">
-        <div class="cv-col-label">Preview</div>
-        <div class="cv-preview md" id="cv-prev">${marked.parse(content)}</div>
+      <div class="card">
+        <div class="card-hd">
+          <h2>Resume Source (cv.md)</h2>
+          <div class="flex gap-2">
+            <span id="cv-dirty" style="font-size:13px;color:var(--orange);align-self:center;display:none">Unsaved</span>
+            <button class="btn btn-secondary" id="cv-save" onclick="saveCV()" disabled>
+              <i data-feather="save"></i> Save
+            </button>
+            <button class="btn btn-primary" onclick="genPDF()">
+              <i data-feather="download"></i> Generate PDF
+            </button>
+          </div>
+        </div>
+        <div class="cv-split" style="border-radius:0 0 var(--r-lg) var(--r-lg);overflow:hidden">
+          <div class="cv-col">
+            <div class="cv-col-label">Markdown</div>
+            <textarea class="cv-editor" id="cv-ed" spellcheck="false">${escHtml(cvContent)}</textarea>
+          </div>
+          <div class="cv-col">
+            <div class="cv-col-label">Preview</div>
+            <div class="cv-preview md" id="cv-prev">${marked.parse(cvContent)}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TEMPLATE TAB -->
+    <div id="tab-template" class="profile-tab-body${_profileTab==='template'?'':' hidden'}">
+      <div class="card">
+        <div class="card-hd">
+          <h2>CV Template (cv-template.html)</h2>
+          <div class="flex gap-2">
+            <span id="tpl-dirty" style="font-size:13px;color:var(--orange);align-self:center;display:none">Unsaved</span>
+            <button class="btn btn-secondary" id="tpl-save" onclick="saveTemplate()" disabled>
+              <i data-feather="save"></i> Save
+            </button>
+            <button class="btn btn-primary" onclick="genPDF()">
+              <i data-feather="download"></i> Generate PDF
+            </button>
+          </div>
+        </div>
+        <div class="card-body" style="padding:0">
+          <textarea class="cv-editor" id="tpl-ed" spellcheck="false" style="height:600px;border-radius:0 0 var(--r-lg) var(--r-lg)">${escHtml(templateHtml)}</textarea>
+        </div>
       </div>
     </div>
   `;
   feather.replace();
 
-  const ed   = qs('#cv-ed');
-  const prev = qs('#cv-prev');
+  // Resume editor live preview
+  const cvEd = qs('#cv-ed');
+  if (cvEd) {
+    cvEd.addEventListener('input', () => {
+      qs('#cv-prev').innerHTML = marked.parse(cvEd.value);
+      qs('#cv-save').disabled = false;
+      qs('#cv-dirty').style.display = 'inline';
+    });
+  }
 
-  ed.addEventListener('input', () => {
-    prev.innerHTML = marked.parse(ed.value);
-    _cvDirty = true;
-    qs('#cv-save').disabled = false;
-    qs('#cv-dirty').style.display = 'inline';
+  // Template editor dirty flag
+  const tplEd = qs('#tpl-ed');
+  if (tplEd) {
+    tplEd.addEventListener('input', () => {
+      qs('#tpl-save').disabled = false;
+      qs('#tpl-dirty').style.display = 'inline';
+    });
+  }
+}
+
+// ── Info form builder ─────────────────────────────────────────────────────
+function renderInfoForm(yaml) {
+  function extract(key) {
+    const m = yaml.match(new RegExp(`^\\s+${key}:\\s*"?([^"\\n]*)"?`, 'm'));
+    return m ? m[1].trim() : '';
+  }
+  const fields = [
+    { key: 'full_name',    label: 'Full Name',      icon: 'user' },
+    { key: 'email',        label: 'Email',           icon: 'mail' },
+    { key: 'phone',        label: 'Phone',           icon: 'phone' },
+    { key: 'location',     label: 'Location',        icon: 'map-pin' },
+    { key: 'linkedin',     label: 'LinkedIn',        icon: 'linkedin' },
+    { key: 'github',       label: 'GitHub',          icon: 'github' },
+    { key: 'portfolio_url',label: 'Portfolio URL',   icon: 'globe' },
+  ];
+  const compFields = [
+    { key: 'target_range',        label: 'Target Range',       icon: 'dollar-sign' },
+    { key: 'location_flexibility', label: 'Location Flexibility', icon: 'navigation' },
+    { key: 'visa_status',          label: 'Visa Status',         icon: 'shield' },
+  ];
+  const narrativeHeadline = extract('headline');
+
+  return `
+    <div class="card mb-4">
+      <div class="card-hd"><h2>Identity</h2></div>
+      <div class="card-body">
+        <div class="info-grid">
+          ${fields.map(f => `
+            <div class="info-field">
+              <label class="info-label"><i data-feather="${f.icon}"></i> ${f.label}</label>
+              <input class="info-input" data-yaml-key="${f.key}" value="${escHtml(extract(f.key))}" placeholder="${f.label}">
+            </div>`).join('')}
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-4">
+      <div class="card-hd"><h2>Narrative</h2></div>
+      <div class="card-body">
+        <div class="info-field" style="grid-column:1/-1">
+          <label class="info-label"><i data-feather="align-left"></i> Headline</label>
+          <input class="info-input" data-yaml-key="headline" value="${escHtml(narrativeHeadline)}" placeholder="Your professional headline">
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-4">
+      <div class="card-hd"><h2>Compensation &amp; Location</h2></div>
+      <div class="card-body">
+        <div class="info-grid">
+          ${compFields.map(f => `
+            <div class="info-field">
+              <label class="info-label"><i data-feather="${f.icon}"></i> ${f.label}</label>
+              <input class="info-input" data-yaml-key="${f.key}" value="${escHtml(extract(f.key))}" placeholder="${f.label}">
+            </div>`).join('')}
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-4">
+      <div class="card-hd"><h2>Full profile.yml</h2><span style="font-size:12px;color:var(--text-2)">Advanced — edit YAML directly</span></div>
+      <div class="card-body" style="padding:0">
+        <textarea class="cv-editor" id="profile-raw" spellcheck="false" style="height:360px;border-radius:0 0 var(--r-lg) var(--r-lg)">${escHtml(yaml)}</textarea>
+      </div>
+    </div>
+
+    <div class="flex gap-2">
+      <button class="btn btn-primary" onclick="saveProfileInfo()">
+        <i data-feather="save"></i> Save Profile
+      </button>
+    </div>
+  `;
+}
+
+function switchProfileTab(tab) {
+  _profileTab = tab;
+  qsa('.profile-tab').forEach(b => b.classList.toggle('active', b.getAttribute('onclick').includes(`'${tab}'`)));
+  qsa('.profile-tab-body').forEach(d => d.classList.add('hidden'));
+  const pane = qs(`#tab-${tab}`);
+  if (pane) { pane.classList.remove('hidden'); feather.replace(); }
+}
+
+async function saveProfileInfo() {
+  // Collect field overrides and patch the raw YAML
+  let yaml = qs('#profile-raw')?.value || '';
+
+  qsa('.info-input[data-yaml-key]').forEach(inp => {
+    const key = inp.getAttribute('data-yaml-key');
+    const val = inp.value.replace(/"/g, '\\"');
+    // Replace quoted value: key: "old" → key: "new"
+    yaml = yaml.replace(
+      new RegExp(`(^\\s+${key}:\\s*)"[^"]*"`, 'm'),
+      `$1"${val}"`
+    );
+    // Replace unquoted value
+    yaml = yaml.replace(
+      new RegExp(`(^\\s+${key}:\\s*)(?!")([^\\n]*)`, 'm'),
+      `$1"${val}"`
+    );
   });
+
+  const r = await fetch('/api/profile', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ content: yaml }),
+  });
+  if (r.ok) { toast('Profile saved'); if (qs('#profile-raw')) qs('#profile-raw').value = yaml; }
+  else toast('Save failed');
 }
 
 async function saveCV() {
@@ -771,13 +1220,25 @@ async function saveCV() {
     body: JSON.stringify({ content }),
   });
   if (r.ok) {
-    _cvDirty = false;
     qs('#cv-save').disabled = true;
     qs('#cv-dirty').style.display = 'none';
-    toast('CV saved');
-  } else {
-    toast('Save failed');
-  }
+    toast('Resume saved');
+  } else toast('Save failed');
+}
+
+async function saveTemplate() {
+  const content = qs('#tpl-ed')?.value;
+  if (!content) return;
+  const r = await fetch('/api/template', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ content }),
+  });
+  if (r.ok) {
+    qs('#tpl-save').disabled = true;
+    qs('#tpl-dirty').style.display = 'none';
+    toast('Template saved');
+  } else toast('Save failed');
 }
 
 async function genPDF() {
@@ -791,6 +1252,31 @@ async function genPDF() {
   toast(data.ok ? 'PDF saved to output/' : 'PDF failed — is Playwright installed?');
 }
 
+function handleResumeFile(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    const content = e.target.result;
+    const ed = qs('#cv-ed');
+    if (ed) {
+      ed.value = content;
+      qs('#cv-prev').innerHTML = marked.parse(content);
+      qs('#cv-save').disabled = false;
+      qs('#cv-dirty').style.display = 'inline';
+      toast(`Loaded ${file.name} — click Save to apply`);
+    }
+  };
+  reader.readAsText(file);
+}
+
+function handleResumeDrop(event) {
+  event.preventDefault();
+  const file = event.dataTransfer.files[0];
+  if (!file) return;
+  handleResumeFile({ target: { files: [file] } });
+}
+
 /* ═══════════════════════════════════════════════════════════════════════════
    GLOBAL EXPORTS & INIT
 ═══════════════════════════════════════════════════════════════════════════ */
@@ -800,9 +1286,21 @@ window.openReport    = openReport;
 window.startScan     = startScan;
 window.stopScan      = stopScan;
 window.clearTerm     = clearTerm;
-window.saveCV        = saveCV;
-window.genPDF        = genPDF;
-window.updateStatus  = updateStatus;
+window.saveCV           = saveCV;
+window.saveTemplate     = saveTemplate;
+window.saveProfileInfo  = saveProfileInfo;
+window.switchProfileTab = switchProfileTab;
+window.handleResumeFile = handleResumeFile;
+window.handleResumeDrop = handleResumeDrop;
+window.genPDF           = genPDF;
+window.updateStatus    = updateStatus;
+window.updateJobStatus = updateJobStatus;
+window.startEval       = startEval;
+window.openMatcherModal = openMatcherModal;
+window.startMatcher    = startMatcher;
+window.stopMatcher     = stopMatcher;
+window.stopEval        = stopEval;
+window.clearEvalTerm   = clearEvalTerm;
 
 // Kick off
 applyTheme(getTheme());

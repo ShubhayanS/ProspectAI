@@ -10,7 +10,9 @@ const ROOT = path.resolve(__dirname, '..');
 const PUBLIC_DIR = path.join(__dirname, 'public');
 const DATA_DIR = path.join(ROOT, 'data');
 const REPORTS_DIR = path.join(ROOT, 'reports');
-const CV_PATH = path.join(ROOT, 'cv.md');
+const CV_PATH       = path.join(ROOT, 'cv.md');
+const PROFILE_PATH  = path.join(ROOT, 'config', 'profile.yml');
+const TEMPLATE_PATH = path.join(ROOT, 'templates', 'cv-template.html');
 const PORT = process.env.PORT || 3737;
 
 const MIME = {
@@ -209,6 +211,76 @@ function handleAPI(req, res, url) {
     return;
   }
 
+  if (route === 'profile' && req.method === 'GET') {
+    res.writeHead(200, { 'Content-Type': 'text/plain; charset=utf-8' });
+    res.end(readSafe(PROFILE_PATH));
+    return;
+  }
+
+  if (route === 'profile' && req.method === 'POST') {
+    let body = '';
+    req.on('data', c => body += c);
+    req.on('end', () => {
+      try {
+        const { content } = JSON.parse(body);
+        fs.writeFileSync(PROFILE_PATH, content, 'utf-8');
+        json(res, { ok: true });
+      } catch (e) { json(res, { error: e.message }, 500); }
+    });
+    return;
+  }
+
+  if (route === 'template' && req.method === 'GET') {
+    res.writeHead(200, { 'Content-Type': 'text/plain; charset=utf-8' });
+    res.end(readSafe(TEMPLATE_PATH));
+    return;
+  }
+
+  if (route === 'template' && req.method === 'POST') {
+    let body = '';
+    req.on('data', c => body += c);
+    req.on('end', () => {
+      try {
+        const { content } = JSON.parse(body);
+        fs.writeFileSync(TEMPLATE_PATH, content, 'utf-8');
+        json(res, { ok: true });
+      } catch (e) { json(res, { error: e.message }, 500); }
+    });
+    return;
+  }
+
+  if (route === 'jobs/status' && req.method === 'POST') {
+    let body = '';
+    req.on('data', c => body += c);
+    req.on('end', () => {
+      try {
+        const { url, status } = JSON.parse(body);
+        const filepath = path.join(DATA_DIR, 'scan-history.tsv');
+        const content = readSafe(filepath);
+        const lines = content.split('\n');
+        const headers = lines[0].split('\t');
+        const urlIdx    = headers.findIndex(h => h.trim() === 'url');
+        const statusIdx = headers.findIndex(h => h.trim() === 'status');
+        if (urlIdx === -1 || statusIdx === -1) { json(res, { error: 'Bad TSV format' }, 500); return; }
+        let updated = false;
+        const newLines = lines.map((line, i) => {
+          if (i === 0) return line;
+          const cells = line.split('\t');
+          if (cells[urlIdx]?.trim() === url) {
+            cells[statusIdx] = status;
+            updated = true;
+            return cells.join('\t');
+          }
+          return line;
+        });
+        if (!updated) { json(res, { error: 'URL not found' }, 404); return; }
+        fs.writeFileSync(filepath, newLines.join('\n'), 'utf-8');
+        json(res, { ok: true });
+      } catch(e) { json(res, { error: e.message }, 500); }
+    });
+    return;
+  }
+
   if (route === 'applications/status' && req.method === 'POST') {
     let body = '';
     req.on('data', c => body += c);
@@ -237,6 +309,112 @@ function handleAPI(req, res, url) {
         json(res, { ok: true });
       } catch(e) { json(res, { error: e.message }, 500); }
     });
+    return;
+  }
+
+  if (route === 'applications/upsert' && req.method === 'POST') {
+    let body = '';
+    req.on('data', c => body += c);
+    req.on('end', () => {
+      try {
+        const { company, title, status, url: jobUrl } = JSON.parse(body);
+        const filepath = path.join(DATA_DIR, 'applications.md');
+        let content = readSafe(filepath);
+        const lines = content.split('\n');
+
+        // Try to find existing row by company+title match
+        let updated = false;
+        const dataLines = lines.map(line => {
+          if (!line.startsWith('|') || line.match(/^\|[-\s|]+\|$/)) return line;
+          const cells = line.split('|');
+          const rowCompany = (cells[3] || '').trim().toLowerCase();
+          const rowRole    = (cells[4] || '').trim().toLowerCase();
+          if (rowCompany === (company||'').toLowerCase() && rowRole === (title||'').toLowerCase()) {
+            cells[6] = ` ${status} `;
+            updated = true;
+            return cells.join('|');
+          }
+          return line;
+        });
+
+        if (updated) {
+          fs.writeFileSync(filepath, dataLines.join('\n'), 'utf-8');
+          json(res, { ok: true, action: 'updated' });
+          return;
+        }
+
+        // Not found — append new row
+        const nums = lines
+          .filter(l => l.startsWith('|') && !l.match(/^\|[-\s|]+\|$/) && !/^\|\s*#/.test(l))
+          .map(l => parseInt(l.split('|')[1]?.trim()) || 0);
+        const nextNum = (Math.max(0, ...nums) + 1).toString().padStart(3, '0');
+        const today = new Date().toISOString().slice(0, 10);
+        const note = jobUrl ? `via Jobs tab` : 'via Jobs tab';
+        const newRow = `| ${nextNum} | ${today} | ${company||'—'} | ${title||'—'} | — | ${status} | ❌ | — | ${note} |`;
+
+        // Insert before trailing blank lines
+        const trimmed = content.trimEnd();
+        fs.writeFileSync(filepath, trimmed + '\n' + newRow + '\n', 'utf-8');
+        json(res, { ok: true, action: 'added', num: nextNum });
+      } catch(e) { json(res, { error: e.message }, 500); }
+    });
+    return;
+  }
+
+  if (route === 'eval/stream' && req.method === 'POST') {
+    let body = '';
+    req.on('data', c => body += c);
+    req.on('end', () => {
+      res.writeHead(200, {
+        'Content-Type': 'text/event-stream',
+        'Cache-Control': 'no-cache',
+        'Connection': 'keep-alive',
+      });
+
+      const send = (type, data) => res.write(`event: ${type}\ndata: ${JSON.stringify(data)}\n\n`);
+
+      let jdText = '';
+      try { jdText = JSON.parse(body).jd || ''; } catch {}
+
+      if (!jdText.trim()) { send('err', { text: 'No JD text provided' }); send('done', { code: 1 }); res.end(); return; }
+
+      const tmpFile = path.join(ROOT, `_eval-tmp-${Date.now()}.txt`);
+      fs.writeFileSync(tmpFile, jdText, 'utf-8');
+
+      const proc = spawn('node', ['web-eval.mjs', tmpFile], { cwd: ROOT });
+
+      proc.stdout.on('data', chunk => {
+        for (const line of chunk.toString().split('\n')) {
+          if (line.trim()) send('line', { text: line });
+        }
+      });
+      proc.stderr.on('data', chunk => send('err', { text: chunk.toString() }));
+      proc.on('close', code => {
+        try { fs.unlinkSync(tmpFile); } catch {}
+        send('done', { code });
+        res.end();
+      });
+      req.on('close', () => { try { proc.kill(); fs.unlinkSync(tmpFile); } catch {} });
+    });
+    return;
+  }
+
+  if (route === 'match/stream' && req.method === 'GET') {
+    res.writeHead(200, {
+      'Content-Type': 'text/event-stream',
+      'Cache-Control': 'no-cache',
+      'Connection': 'keep-alive',
+    });
+    const proc = spawn('node', ['web-match.mjs'], { cwd: ROOT });
+    const send = (type, data) => res.write(`event: ${type}\ndata: ${JSON.stringify(data)}\n\n`);
+    proc.stdout.on('data', chunk => {
+      for (const line of chunk.toString().split('\n')) {
+        if (line.trim()) send('line', { text: line });
+      }
+    });
+    proc.stderr.on('data', chunk => send('err', { text: chunk.toString() }));
+    proc.on('close', code => { send('done', { code }); res.end(); });
+    req.on('close', () => { try { proc.kill(); } catch {} });
     return;
   }
 
