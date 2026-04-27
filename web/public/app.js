@@ -14,6 +14,77 @@ function escHtml(s) {
     .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
+function sanitizeHtml(html) {
+  const doc = new DOMParser().parseFromString(html, 'text/html');
+  const blocked = new Set(['script', 'iframe', 'object', 'embed', 'link', 'meta']);
+  const walker = doc.createTreeWalker(doc.body, NodeFilter.SHOW_ELEMENT);
+  const toRemove = [];
+
+  while (walker.nextNode()) {
+    const el = walker.currentNode;
+    const tag = el.tagName.toLowerCase();
+    if (blocked.has(tag)) {
+      toRemove.push(el);
+      continue;
+    }
+
+    for (const attr of [...el.attributes]) {
+      const name = attr.name.toLowerCase();
+      const value = attr.value.trim().toLowerCase();
+      if (name.startsWith('on')) {
+        el.removeAttribute(attr.name);
+        continue;
+      }
+      if ((name === 'href' || name === 'src') && value.startsWith('javascript:')) {
+        el.removeAttribute(attr.name);
+      }
+    }
+  }
+
+  toRemove.forEach(node => node.remove());
+  return doc.body.innerHTML;
+}
+
+function renderMarkdown(md) {
+  return sanitizeHtml(marked.parse(md ?? ''));
+}
+
+function replaceIcons() {
+  if (!window.feather?.replace) return;
+  try {
+    feather.replace();
+  } catch (error) {
+    qsa('[data-feather]').forEach(el => {
+      const name = el.getAttribute('data-feather');
+      if (name && !feather.icons?.[name]) {
+        el.removeAttribute('data-feather');
+        el.textContent = '';
+      }
+    });
+    try { feather.replace(); } catch {}
+  }
+}
+
+function parseDateValue(value) {
+  if (!value) return 0;
+  const t = Date.parse(value);
+  return Number.isNaN(t) ? 0 : t;
+}
+
+function parseScoreValue(value) {
+  const n = parseFloat(value);
+  return Number.isFinite(n) ? n : null;
+}
+
+function filterByDateWindow(dateValue, windowKey) {
+  if (!windowKey || windowKey === 'all') return true;
+  const ts = parseDateValue(dateValue);
+  if (!ts) return false;
+  const now = Date.now();
+  const windows = { '1d': 1, '7d': 7, '30d': 30, '90d': 90 };
+  return ts >= now - (windows[windowKey] || 0) * 86400000;
+}
+
 function truncate(s, n = 50) {
   s = String(s ?? '');
   return s.length > n ? s.slice(0, n) + '…' : s;
@@ -90,7 +161,7 @@ function openModal(title, bodyHtml, url) {
   if (url) { linkEl.href = url; linkEl.style.display = 'flex'; }
   else      { linkEl.style.display = 'none'; }
   qs('#modal-backdrop').classList.add('open');
-  feather.replace();
+  replaceIcons();
 }
 
 function closeModal() {
@@ -116,7 +187,7 @@ function applyTheme(t) {
   btn.innerHTML = t === 'dark'
     ? '<i data-feather="sun"></i>'
     : '<i data-feather="moon"></i>';
-  feather.replace();
+  replaceIcons();
 }
 
 qs('#theme-toggle').addEventListener('click', () => {
@@ -158,7 +229,7 @@ async function renderPage(page) {
     case 'evaluator':    pageEvaluator(el); break;
     case 'profile':      await pageProfile(el); break;
   }
-  feather.replace();
+  replaceIcons();
 }
 
 /* ═══════════════════════════════════════════════════════════════════════════
@@ -302,12 +373,16 @@ async function pageDashboard(el) {
 ═══════════════════════════════════════════════════════════════════════════ */
 let _jobFilter = 'all';
 let _jobSearch = '';
+let _jobScoreFilter = 'all';
+let _jobScannedFilter = 'all';
+let _jobSortField = 'recommended';
+let _jobSortDir = 'desc';
 
 async function pageJobs(el) {
   el.innerHTML = `
     <div class="page-hd">
       <div class="page-hd-text">
-        <h1>Jobs</h1>
+        <h1>All Jobs</h1>
         <p>All jobs captured from portal scans</p>
       </div>
     </div>
@@ -320,12 +395,35 @@ async function pageJobs(el) {
         <option value="all">All Statuses</option>
         ${APP_STATUSES.map(s => `<option value="${s}"${_jobFilter===s?' selected':''}>${s}</option>`).join('')}
       </select>
+      <select class="toolbar-filter" id="job-score-filter">
+        <option value="all">All Scores</option>
+        <option value="scored"${_jobScoreFilter==='scored'?' selected':''}>Scored only</option>
+        <option value="4plus"${_jobScoreFilter==='4plus'?' selected':''}>Score 4.0+</option>
+        <option value="3plus"${_jobScoreFilter==='3plus'?' selected':''}>Score 3.0+</option>
+        <option value="unscored"${_jobScoreFilter==='unscored'?' selected':''}>Unscored</option>
+      </select>
+      <select class="toolbar-filter" id="job-scanned-filter">
+        <option value="all">All Scanned Dates</option>
+        <option value="1d"${_jobScannedFilter==='1d'?' selected':''}>Scanned 24h</option>
+        <option value="7d"${_jobScannedFilter==='7d'?' selected':''}>Scanned 7d</option>
+        <option value="30d"${_jobScannedFilter==='30d'?' selected':''}>Scanned 30d</option>
+        <option value="90d"${_jobScannedFilter==='90d'?' selected':''}>Scanned 90d</option>
+      </select>
+      <select class="toolbar-filter" id="job-sort-field">
+        <option value="recommended"${_jobSortField==='recommended'?' selected':''}>Recommended</option>
+        <option value="posted_at"${_jobSortField==='posted_at'?' selected':''}>Posted Date</option>
+        <option value="score"${_jobSortField==='score'?' selected':''}>Score</option>
+        <option value="first_seen"${_jobSortField==='first_seen'?' selected':''}>Scanned On</option>
+      </select>
+      <button class="icon-btn" id="job-sort-dir" title="Toggle sort direction">
+        <i data-feather="${_jobSortDir === 'desc' ? 'arrow-down' : 'arrow-up'}"></i>
+      </button>
     </div>
     <div class="card" id="job-card">
       <div class="loader"><div class="spin"></div></div>
     </div>
   `;
-  feather.replace();
+  replaceIcons();
 
   qs('#job-search').addEventListener('input', e => {
     _jobSearch = e.target.value;
@@ -336,7 +434,33 @@ async function pageJobs(el) {
     _jobFilter = e.target.value;
     loadJobs();
   });
+  qs('#job-score-filter').addEventListener('change', e => {
+    _jobScoreFilter = e.target.value;
+    loadJobs();
+  });
+  qs('#job-scanned-filter').addEventListener('change', e => {
+    _jobScannedFilter = e.target.value;
+    loadJobs();
+  });
+  qs('#job-sort-field').addEventListener('change', e => {
+    _jobSortField = e.target.value;
+    loadJobs();
+  });
+  qs('#job-sort-dir').addEventListener('click', () => {
+    _jobSortDir = _jobSortDir === 'desc' ? 'asc' : 'desc';
+    loadJobs();
+  });
 
+  loadJobs();
+}
+
+function toggleScoreSort() {
+  if (_jobSortField === 'score') {
+    _jobSortDir = _jobSortDir === 'desc' ? 'asc' : 'desc';
+  } else {
+    _jobSortField = 'score';
+    _jobSortDir = 'desc';
+  }
   loadJobs();
 }
 
@@ -347,11 +471,42 @@ async function loadJobs() {
 
   const p = new URLSearchParams({ status: _jobFilter });
   if (_jobSearch) p.set('search', _jobSearch);
-  const { jobs, total } = await fetch(`/api/jobs?${p}`).then(r => r.json());
+  let { jobs } = await fetch(`/api/jobs?${p}`).then(r => r.json());
+
+  jobs = (jobs || []).filter(j => {
+    const score = parseScoreValue(j.score);
+    if (_jobScoreFilter === 'scored' && score == null) return false;
+    if (_jobScoreFilter === 'unscored' && score != null) return false;
+    if (_jobScoreFilter === '4plus' && !(score >= 4)) return false;
+    if (_jobScoreFilter === '3plus' && !(score >= 3)) return false;
+    return filterByDateWindow(j.first_seen, _jobScannedFilter);
+  });
+
+  const compare = (a, b, field) => {
+    if (field === 'score') {
+      return (parseScoreValue(a.score) ?? -1) - (parseScoreValue(b.score) ?? -1);
+    }
+    return parseDateValue(a[field]) - parseDateValue(b[field]);
+  };
+
+  jobs.sort((a, b) => {
+    let result = 0;
+    if (_jobSortField === 'recommended') {
+      result =
+        compare(a, b, 'posted_at') ||
+        compare(a, b, 'score') ||
+        compare(a, b, 'first_seen');
+    } else {
+      result = compare(a, b, _jobSortField);
+    }
+    return _jobSortDir === 'asc' ? result : -result;
+  });
+
+  const total = jobs.length;
 
   if (!jobs?.length) {
     card.innerHTML = `<div class="empty"><i data-feather="inbox"></i><p>No jobs match this filter</p></div>`;
-    feather.replace();
+    replaceIcons();
     return;
   }
 
@@ -362,7 +517,11 @@ async function loadJobs() {
         <thead>
           <tr>
             <th>Company</th><th>Title</th><th>Portal</th>
-            <th>Date</th><th>Score</th><th>Status</th><th></th>
+            <th>Posted</th><th>Scanned On</th>
+            <th class="th-sortable" onclick="toggleScoreSort()" title="Sort by score">
+              Score ${_jobSortField === 'score' ? (_jobSortDir === 'desc' ? '↓' : '↑') : '<span style="opacity:.35">↕</span>'}
+            </th>
+            <th>Status</th><th></th>
           </tr>
         </thead>
         <tbody>
@@ -371,6 +530,7 @@ async function loadJobs() {
               <td class="fw-600">${escHtml(j.company||'—')}</td>
               <td class="truncate" style="max-width:240px" title="${escHtml(j.title||'')}">${escHtml(truncate(j.title||'—',45))}</td>
               <td class="dim text-sm">${escHtml(j.portal||'—')}</td>
+              <td class="dim text-sm">${escHtml(j.posted_at ? fmtDate(j.posted_at) : '—')}</td>
               <td class="dim text-sm">${escHtml(j.first_seen||'—')}</td>
               <td>${j.score ? scoreBadge(j.score + '/5') : '<span class="badge badge-gray">—</span>'}</td>
               <td>
@@ -391,7 +551,7 @@ async function loadJobs() {
       </table>
     </div>
   `;
-  feather.replace();
+  replaceIcons();
 }
 
 
@@ -402,6 +562,8 @@ const APP_STATUSES = ['Evaluated','Applied','Responded','Interview','Offer','Rej
 
 let _appsFilter = 'all';
 let _appsData   = [];
+let _appsSortField = 'recommended';
+let _appsSortDir = 'desc';
 
 async function pageApplications(el) {
   _appsData = await api('applications');
@@ -410,9 +572,21 @@ async function pageApplications(el) {
   el.innerHTML = `
     <div class="page-hd">
       <div class="page-hd-text">
-        <h1>Applications</h1>
-        <p>${_appsData.length} total · click a row to read the report · change status inline</p>
+        <h1>My Applications</h1>
+        <p>${_appsData.length} total · scores, reports, and resumes come from the unified jobs view</p>
       </div>
+    </div>
+    <div class="toolbar mb-4">
+      <select class="toolbar-filter" id="apps-sort-field">
+        <option value="recommended"${_appsSortField==='recommended'?' selected':''}>Recommended</option>
+        <option value="posted"${_appsSortField==='posted'?' selected':''}>Posted Date</option>
+        <option value="score"${_appsSortField==='score'?' selected':''}>Score</option>
+        <option value="scanned"${_appsSortField==='scanned'?' selected':''}>Scanned On</option>
+        <option value="date"${_appsSortField==='date'?' selected':''}>Application Date</option>
+      </select>
+      <button class="icon-btn" id="apps-sort-dir" title="Toggle sort direction">
+        <i data-feather="${_appsSortDir === 'desc' ? 'arrow-down' : 'arrow-up'}"></i>
+      </button>
     </div>
     <div class="chips mb-4" id="apps-chips">
       ${statuses.map(s =>
@@ -423,7 +597,7 @@ async function pageApplications(el) {
       ${renderAppsTable(_appsData, _appsFilter)}
     </div>
   `;
-  feather.replace();
+  replaceIcons();
 
   qsa('#apps-chips .chip').forEach(c => {
     c.addEventListener('click', () => {
@@ -431,13 +605,38 @@ async function pageApplications(el) {
       qsa('#apps-chips .chip').forEach(x => x.classList.remove('on'));
       c.classList.add('on');
       qs('#apps-card').innerHTML = renderAppsTable(_appsData, _appsFilter);
-      feather.replace();
+      replaceIcons();
     });
+  });
+  qs('#apps-sort-field').addEventListener('change', e => {
+    _appsSortField = e.target.value;
+    qs('#apps-card').innerHTML = renderAppsTable(_appsData, _appsFilter);
+    replaceIcons();
+  });
+  qs('#apps-sort-dir').addEventListener('click', () => {
+    _appsSortDir = _appsSortDir === 'desc' ? 'asc' : 'desc';
+    qs('#apps-card').innerHTML = renderAppsTable(_appsData, _appsFilter);
+    replaceIcons();
   });
 }
 
 function renderAppsTable(apps, filter) {
-  const rows = filter === 'all' ? apps : apps.filter(a => a['Status'] === filter);
+  const rows = (filter === 'all' ? apps : apps.filter(a => (a.status || a['Status']) === filter)).slice();
+  rows.sort((a, b) => {
+    const posted = () => parseDateValue(a.posted_at) - parseDateValue(b.posted_at);
+    const score = () => (parseScoreValue(a.score_display || a['Score']) ?? -1) - (parseScoreValue(b.score_display || b['Score']) ?? -1);
+    const scanned = () => parseDateValue(a.first_seen || a['Date']) - parseDateValue(b.first_seen || b['Date']);
+    const applied = () => parseDateValue(a.application_date || a['Date']) - parseDateValue(b.application_date || b['Date']);
+    let result = 0;
+    switch (_appsSortField) {
+      case 'posted': result = posted(); break;
+      case 'score': result = score(); break;
+      case 'scanned': result = scanned(); break;
+      case 'date': result = applied(); break;
+      default: result = posted() || score() || scanned();
+    }
+    return _appsSortDir === 'asc' ? result : -result;
+  });
   if (!rows.length)
     return `<div class="empty"><i data-feather="inbox"></i><p>Nothing here</p></div>`;
 
@@ -448,36 +647,49 @@ function renderAppsTable(apps, filter) {
         <thead>
           <tr>
             <th>#</th><th>Date</th><th>Company</th><th>Role</th>
-            <th>Score</th><th>Status</th><th>PDF</th><th>Report</th><th>Notes</th>
+            <th>Score</th><th>Status</th><th>Resume</th><th>Report</th><th>Notes</th>
           </tr>
         </thead>
         <tbody>
           ${rows.map(a => {
-            const reportFile = (a['Report']||'').match(/\(reports\/([^)]+)\)/)?.[1] || '';
-            const reportNum  = (a['Report']||'').match(/\[(\d+)\]/)?.[1] || '';
-            const rowNum     = escHtml(a['#']);
+            const reportFile = a.report_file || (a['Report']||'').match(/\(reports\/([^)]+)\)/)?.[1] || '';
+            const reportNum  = a.report_num || (a['Report']||'').match(/\[(\d+)\]/)?.[1] || '';
+            const rowNum     = escHtml(a.application_num || a['#'] || '—');
+            const date       = a.application_date || a.first_seen || a['Date'] || '—';
+            const company    = a.company || a['Company'] || '';
+            const title      = a.title || a['Role'] || '';
+            const status     = a.status || a['Status'] || 'added';
+            const score      = a.score_display || a['Score'] || '';
             return `
             <tr>
               <td class="dim mono">${rowNum}</td>
-              <td class="dim text-sm">${escHtml(a['Date']||'—')}</td>
-              <td class="fw-600">${escHtml(a['Company']||'—')}</td>
-              <td class="truncate" style="max-width:200px;cursor:pointer" title="${escHtml(a['Role']||'')}"
-                onclick="${reportFile ? `openReport('${reportFile}')` : ''}">${escHtml(truncate(a['Role']||'—',38))}</td>
-              <td>${scoreBadge(a['Score'])}</td>
+              <td class="dim text-sm">${escHtml(date)}</td>
+              <td class="fw-600">${escHtml(company||'—')}</td>
+              <td class="truncate" style="max-width:220px;${reportFile ? 'cursor:pointer' : ''}" title="${escHtml(title)}"
+                ${reportFile ? `data-report-file="${escHtml(reportFile)}"` : ''}>${escHtml(truncate(title||'—',42))}</td>
+              <td>${scoreBadge(score)}</td>
               <td>
-                <select class="status-select" data-row="${rowNum}" onchange="updateStatus(this)">
+                <select class="status-select" data-row="${escHtml(a.application_num || a['#'] || '')}" data-url="${escHtml(a.url || '')}" onchange="updateStatus(this)">
                   ${APP_STATUSES.map(s =>
-                    `<option value="${s}"${s===a['Status']?' selected':''}>${s}</option>`
+                    `<option value="${s}"${s===status?' selected':''}>${s}</option>`
                   ).join('')}
                 </select>
               </td>
-              <td>${escHtml(a['PDF']||'—')}</td>
+              <td>
+                <button class="btn btn-sm btn-secondary" data-resume-url="${escHtml(a.url || '')}" data-resume-company="${escHtml(company)}" data-resume-title="${escHtml(title)}">
+                  <i data-feather="download"></i> Generate
+                </button>
+              </td>
               <td>${reportFile
-                ? `<button class="btn btn-sm btn-secondary" onclick="openReport('${reportFile}')">
+                ? `<button class="btn btn-sm btn-secondary" data-report-file="${escHtml(reportFile)}">
                      <i data-feather="file-text"></i> ${reportNum}
                    </button>`
-                : '—'}</td>
-              <td class="dim text-sm" style="max-width:160px" title="${escHtml(a['Notes']||'')}">${escHtml(truncate(a['Notes']||'',36))}</td>
+                : score && score !== 'N/A'
+                  ? `<button class="btn btn-sm btn-secondary" data-score-url="${escHtml(a.url || '')}" data-score-company="${escHtml(company)}" data-score-title="${escHtml(title)}">
+                       <i data-feather="file-text"></i> Score
+                     </button>`
+                  : '—'}</td>
+              <td class="dim text-sm" style="max-width:160px" title="${escHtml(a.notes || a['Notes'] || '')}">${escHtml(truncate(a.notes || a['Notes'] || '',36))}</td>
             </tr>`;
           }).join('')}
         </tbody>
@@ -536,20 +748,23 @@ async function updateJobStatus(sel) {
 
 async function updateStatus(sel) {
   const rowNum    = sel.getAttribute('data-row');
+  const url       = sel.getAttribute('data-url');
   const newStatus = sel.value;
 
   try {
-    const r = await fetch('/api/applications/status', {
+    const endpoint = rowNum ? '/api/applications/status' : '/api/jobs/status';
+    const body = rowNum ? { num: rowNum, status: newStatus } : { url, status: newStatus };
+    const r = await fetch(endpoint, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ num: rowNum, status: newStatus }),
+      body: JSON.stringify(body),
     });
     const data = await r.json();
     if (data.ok) {
       toast(`Status → ${newStatus}`);
       // update local cache so filter re-render is consistent
-      const entry = _appsData.find(a => a['#'] === rowNum);
-      if (entry) entry['Status'] = newStatus;
+      const entry = _appsData.find(a => a.application_num === rowNum || a['#'] === rowNum || a.url === url);
+      if (entry) { entry.Status = newStatus; entry.status = newStatus; }
     } else {
       toast('Update failed: ' + (data.error || 'unknown'));
     }
@@ -559,43 +774,52 @@ async function updateStatus(sel) {
 }
 
 /* ═══════════════════════════════════════════════════════════════════════════
-   REPORTS
+   TOP MATCHES
 ═══════════════════════════════════════════════════════════════════════════ */
+let _reportsData = [];
+
 async function pageReports(el) {
-  const reports = await api('reports');
+  const matches = await api('top-matches');
+  _reportsData = matches || [];
 
   el.innerHTML = `
     <div class="page-hd">
       <div class="page-hd-text">
-        <h1>Reports</h1>
-        <p>${reports.length} evaluation report${reports.length!==1?'s':''} — click any card to read</p>
+        <h1>Top Matches</h1>
+        <p>${matches.length} evaluated or new job${matches.length!==1?'s':''} at 4.0+ · newest postings first, score breaks ties</p>
       </div>
     </div>
-    ${reports.length === 0
-      ? `<div class="card"><div class="empty"><i data-feather="file-text"></i><p>No reports yet. Evaluate a job first.</p></div></div>`
+    ${matches.length === 0
+      ? `<div class="card"><div class="empty"><i data-feather="star"></i><p>No evaluated or new 4.0+ matches right now</p></div></div>`
       : `<div class="reports-grid">
-          ${reports.map(r => {
-            const { company, role } = splitTitle(r.title);
+          ${matches.map(r => {
+            const company = r.company || splitTitle(r.title || '').company || r.slug;
+            const role = r.title || splitTitle(r.title || '').role;
+            const reportFile = r.report_file || r.filename || '';
+            const sortDate = r.posted_at || r.first_seen || r.report_date || r.date;
             return `
-            <div class="report-card" onclick="openReport('${escHtml(r.filename)}')">
+            <div class="report-card" ${reportFile ? `data-report-file="${escHtml(reportFile)}"` : `data-score-url="${escHtml(r.url || '')}"`}>
               <div class="report-card-hd">
-                <div class="report-co">${escHtml(company || r.slug)}</div>
-                ${scoreBadge(r.score)}
+                <div class="report-co">${escHtml(company || '—')}</div>
+                ${scoreBadge(r.score_display || r.score)}
               </div>
-              <div class="report-role">${escHtml(truncate(role || r.title, 55))}</div>
+              <div class="report-role">${escHtml(truncate(role || '—', 55))}</div>
               <div class="report-foot">
-                <span class="report-date">${fmtDate(r.date)}</span>
+                <span class="report-date">${reportFile ? 'Report' : 'Score only'} · ${fmtDate(sortDate)}</span>
                 ${r.url ? `<a href="${escHtml(r.url)}" target="_blank"
                     onclick="event.stopPropagation()"
                     class="btn btn-sm btn-secondary" style="padding:2px 8px;font-size:11px">
                     <i data-feather="external-link"></i>
                   </a>` : ''}
+                <button class="btn btn-sm btn-secondary" onclick="event.stopPropagation()" data-resume-url="${escHtml(r.url || '')}" data-resume-company="${escHtml(company || '')}" data-resume-title="${escHtml(role || '')}" style="padding:2px 8px;font-size:11px">
+                  <i data-feather="download"></i>
+                </button>
               </div>
             </div>`;
           }).join('')}
         </div>`}
   `;
-  feather.replace();
+  replaceIcons();
 }
 
 async function openReport(filename) {
@@ -606,9 +830,64 @@ async function openReport(filename) {
     const urlM   = md.match(/\*\*URL:\*\*\s*(https?:\/\/\S+)/);
     const title  = titleM ? titleM[1].trim() : filename;
     const url    = urlM ? urlM[1].replace(/\)$/, '') : null;
-    openModal(title, `<div class="md">${marked.parse(md)}</div>`, url);
+    openModal(title, `<div class="md">${renderMarkdown(md)}</div>`, url);
   } catch(e) {
     qs('#modal-body').innerHTML = `<p style="color:var(--red)">Failed to load: ${e.message}</p>`;
+  }
+}
+
+function findJobRecord({ url, company, title } = {}) {
+  const all = [...(_appsData || []), ...(_reportsData || [])];
+  return all.find(j =>
+    (url && j.url === url) ||
+    ((j.company || j.Company || '').toLowerCase() === (company || '').toLowerCase() &&
+      (j.title || j.Role || '').toLowerCase() === (title || '').toLowerCase())
+  );
+}
+
+function openScoredJob(url, companyHint = '', titleHint = '') {
+  const job = findJobRecord({ url, company: companyHint, title: titleHint });
+  if (!job) return;
+  const company = job.company || job.Company || '—';
+  const title = job.title || job.Role || '—';
+  const score = job.score_display || job.Score || '—';
+  openModal(`${company} | ${title}`, `
+    <div class="md">
+      <p><strong>Score:</strong> ${escHtml(score)}</p>
+      <p><strong>Status:</strong> ${escHtml(job.status || job.Status || 'added')}</p>
+      <p><strong>Scanned:</strong> ${escHtml(job.first_seen || job.Date || '—')}</p>
+      ${job.notes || job.Notes ? `<p><strong>Notes:</strong> ${escHtml(job.notes || job.Notes)}</p>` : ''}
+      <p>No exact full markdown report is linked to this job row yet.</p>
+      <p>
+        <button class="btn btn-primary" data-resume-url="${escHtml(job.url || '')}" data-resume-company="${escHtml(company)}" data-resume-title="${escHtml(title)}">
+          <i data-feather="download"></i> Generate Resume
+        </button>
+      </p>
+    </div>
+  `, job.url || null);
+  replaceIcons();
+}
+
+async function generateResume({ url, company, title }) {
+  openModal('Generating resume…', `<div class="loader"><div class="spin"></div></div>`, null);
+  try {
+    const r = await fetch('/api/jobs/resume', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ url, company, title }),
+    });
+    const data = await r.json();
+    if (!r.ok || !data.ok) throw new Error(data.output || data.error || 'Resume generation failed');
+    openModal('Resume generated', `
+      <div class="md">
+        <p><strong>${escHtml(data.job?.company || company || 'Job')}</strong> — ${escHtml(data.job?.title || title || '')}</p>
+        <p><a class="btn btn-primary" href="${escHtml(data.url)}" target="_blank"><i data-feather="external-link"></i> Open Resume PDF</a></p>
+        <iframe src="${escHtml(data.url)}" title="Generated resume" style="width:100%;height:70vh;border:1px solid var(--border);border-radius:8px;background:#fff"></iframe>
+      </div>
+    `, data.url);
+    replaceIcons();
+  } catch (error) {
+    openModal('Resume failed', `<p style="color:var(--red)">${escHtml(error.message)}</p>`, null);
   }
 }
 
@@ -686,7 +965,7 @@ function pageScanner(el) {
       </div>
     </div>
   `;
-  feather.replace();
+  replaceIcons();
 }
 
 function startScan() {
@@ -746,7 +1025,7 @@ function startScan() {
     div.textContent = code === 0 ? '\n✓ Scan complete.' : `\n✗ Failed (exit ${code})`;
     term.appendChild(div);
     term.scrollTop = term.scrollHeight;
-    feather.replace();
+    replaceIcons();
   });
 }
 
@@ -762,7 +1041,7 @@ function stopScan() {
   qs('#s-run').style.display  = 'flex';
   qs('#s-stop').style.display = 'none';
   qs('#s-status').textContent = 'Stopped';
-  feather.replace();
+  replaceIcons();
 }
 
 function clearTerm() {
@@ -778,8 +1057,12 @@ let _matchStream = null;
 function openMatcherModal() {
   openModal('Run Matcher', `
     <div style="margin-bottom:12px;color:var(--text-2);font-size:13px">
-      Scores all unscored <strong>added</strong> jobs in scan-history using Claude.
-      Results saved to Jobs table immediately as each job scores.
+      Uses Claude to score today's jobs and backfill missing reports.
+      Results save immediately as each job finishes; Stop ends the active Claude call.
+    </div>
+    <div class="opt-group" style="max-width:220px;margin-bottom:14px">
+      <label class="opt-label">Optional max Claude calls</label>
+      <input class="opt-input" id="m-limit" type="number" min="1" max="500" placeholder="All today's jobs">
     </div>
     <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px">
       <button class="btn btn-primary" id="m-run" onclick="startMatcher()">
@@ -796,11 +1079,15 @@ function openMatcherModal() {
 function startMatcher() {
   if (_matchStream) return;
   const term = qs('#m-term');
+  const rawLimit = parseInt(qs('#m-limit')?.value || '', 10);
+  const limitParam = Number.isFinite(rawLimit) && rawLimit > 0
+    ? `?limit=${encodeURIComponent(Math.min(500, rawLimit))}`
+    : '';
   term.innerHTML = '';
   qs('#m-run').style.display  = 'none';
   qs('#m-stop').style.display = 'flex';
 
-  _matchStream = new EventSource(`/api/match/stream`);
+  _matchStream = new EventSource(`/api/match/stream${limitParam}`);
 
   _matchStream.addEventListener('line', e => {
     const { text } = JSON.parse(e.data);
@@ -832,12 +1119,13 @@ function startMatcher() {
     div.textContent = code === 0 ? '\n✓ Done. Refresh Jobs to see all scores.' : `\n✗ Failed (exit ${code})`;
     term.appendChild(div);
     term.scrollTop = term.scrollHeight;
-    feather.replace();
+    replaceIcons();
   });
 }
 
 function stopMatcher() {
   if (_matchStream) { _matchStream.close(); _matchStream = null; }
+  fetch('/api/match/stop', { method: 'POST' }).catch(() => {});
   const term = qs('#m-term');
   if (term) {
     const div = document.createElement('div');
@@ -889,7 +1177,7 @@ function pageEvaluator(el) {
       </div>
     </div>
   `;
-  feather.replace();
+  replaceIcons();
 }
 
 let _evalReader = null;
@@ -962,7 +1250,7 @@ async function startEval() {
   qs('#e-run').style.display  = 'flex';
   qs('#e-stop').style.display = 'none';
   qs('#e-status').textContent = 'Done';
-  feather.replace();
+  replaceIcons();
 }
 
 function stopEval() {
@@ -984,60 +1272,95 @@ function clearEvalTerm() {
 /* ═══════════════════════════════════════════════════════════════════════════
    PROFILE PAGE
 ═══════════════════════════════════════════════════════════════════════════ */
-let _profileTab = 'info';
+let _profileTab = 'resume';
+let _templateOptions = [];
+let _selectedTemplateId = null;
+let _templateDirtyMode = null;
+let _profileData = {};
+
+// ── CV parser ─────────────────────────────────────────────────────────────
+function parseCvMd(md) {
+  const lines = (md || '').split('\n');
+  let name = '', preamble = [], sections = [], cur = null;
+  for (const line of lines) {
+    if (line.startsWith('# ') && !name) { name = line.slice(2).trim(); continue; }
+    if (line.startsWith('## ')) {
+      if (cur) sections.push(cur);
+      cur = { title: line.slice(3).trim(), lines: [] };
+    } else if (cur) {
+      cur.lines.push(line);
+    } else if (name) {
+      preamble.push(line);
+    }
+  }
+  if (cur) sections.push(cur);
+  // trim trailing blank lines from each section
+  sections = sections.map(s => ({ ...s, content: s.lines.join('\n').replace(/^\n+|\n+$/g, '') }));
+  return { name, preamble: preamble.join('\n').replace(/^\n+|\n+$/g, ''), sections };
+}
+
+function buildCvMd(name, preamble, sections) {
+  const parts = [`# ${name}`];
+  if (preamble.trim()) parts.push('', preamble.trim());
+  for (const s of sections) {
+    parts.push('', `## ${s.title}`, s.content);
+  }
+  return parts.join('\n') + '\n';
+}
 
 async function pageProfile(el) {
-  const [profileYaml, cvContent, templateHtml] = await Promise.all([
+  const [profileYaml, profileData, cvContent, templateHtml, templateData] = await Promise.all([
     fetch('/api/profile').then(r => r.text()),
+    fetch('/api/profile/data').then(r => r.json()).catch(() => ({})),
     fetch('/api/cv').then(r => r.text()),
     fetch('/api/template').then(r => r.text()),
+    fetch('/api/template/options').then(r => r.json()).catch(() => ({ options: [], active: null })),
   ]);
+  _profileData = profileData || {};
+  _templateOptions = templateData.options || [];
+  _selectedTemplateId = templateData.active || _templateOptions[0]?.id || null;
+
+  const cv = parseCvMd(cvContent);
 
   el.innerHTML = `
     <div class="page-hd">
       <div class="page-hd-text">
         <h1>Profile</h1>
-        <p>Personal info · resume · CV template</p>
+        <p>Resume · preferences · CV template</p>
       </div>
     </div>
 
     <div class="profile-tabs mb-5">
-      <button class="profile-tab${_profileTab==='info'?' active':''}" onclick="switchProfileTab('info')">
-        <i data-feather="user"></i> Personal Info
-      </button>
       <button class="profile-tab${_profileTab==='resume'?' active':''}" onclick="switchProfileTab('resume')">
-        <i data-feather="file-text"></i> Resume
+        <i data-feather="file-text"></i> Personal Info
+      </button>
+      <button class="profile-tab${_profileTab==='prefs'?' active':''}" onclick="switchProfileTab('prefs')">
+        <i data-feather="sliders"></i> My Preferences
       </button>
       <button class="profile-tab${_profileTab==='template'?' active':''}" onclick="switchProfileTab('template')">
         <i data-feather="layout"></i> CV Template
       </button>
     </div>
 
-    <!-- PERSONAL INFO TAB -->
-    <div id="tab-info" class="profile-tab-body${_profileTab==='info'?'':' hidden'}">
-      ${renderInfoForm(profileYaml)}
-    </div>
-
-    <!-- RESUME TAB -->
+    <!-- PERSONAL INFO TAB (parses cv.md) -->
     <div id="tab-resume" class="profile-tab-body${_profileTab==='resume'?'':' hidden'}">
       <div class="card mb-4">
-        <div class="card-hd">
-          <h2>Upload Resume</h2>
-        </div>
+        <div class="card-hd"><h2>Import Resume</h2></div>
         <div class="card-body">
-          <div class="upload-zone" id="upload-zone" onclick="qs('#resume-file').click()" ondragover="event.preventDefault()" ondrop="handleResumeDrop(event)">
+          <div class="upload-zone" onclick="qs('#resume-file').click()" ondragover="event.preventDefault()" ondrop="handleResumeDrop(event)">
             <i data-feather="upload"></i>
-            <p>Drop a <strong>.md</strong> or <strong>.txt</strong> file here, or click to browse</p>
-            <input type="file" id="resume-file" accept=".md,.txt" style="display:none" onchange="handleResumeFile(event)">
+            <p>Drop a <strong>PDF</strong>, <strong>.docx</strong>, <strong>.md</strong>, or <strong>.txt</strong> — parsed and loaded below</p>
+            <input type="file" id="resume-file" accept=".pdf,.doc,.docx,.md,.txt,application/pdf" style="display:none" onchange="handleResumeFile(event)">
           </div>
         </div>
       </div>
-      <div class="card">
+
+      <div class="card mb-4">
         <div class="card-hd">
-          <h2>Resume Source (cv.md)</h2>
+          <h2>Name &amp; Contact</h2>
           <div class="flex gap-2">
             <span id="cv-dirty" style="font-size:13px;color:var(--orange);align-self:center;display:none">Unsaved</span>
-            <button class="btn btn-secondary" id="cv-save" onclick="saveCV()" disabled>
+            <button class="btn btn-secondary" id="cv-save" onclick="saveCvFields()" disabled>
               <i data-feather="save"></i> Save
             </button>
             <button class="btn btn-primary" onclick="genPDF()">
@@ -1045,27 +1368,44 @@ async function pageProfile(el) {
             </button>
           </div>
         </div>
-        <div class="cv-split" style="border-radius:0 0 var(--r-lg) var(--r-lg);overflow:hidden">
-          <div class="cv-col">
-            <div class="cv-col-label">Markdown</div>
-            <textarea class="cv-editor" id="cv-ed" spellcheck="false">${escHtml(cvContent)}</textarea>
-          </div>
-          <div class="cv-col">
-            <div class="cv-col-label">Preview</div>
-            <div class="cv-preview md" id="cv-prev">${marked.parse(cvContent)}</div>
+        <div class="card-body">
+          <div class="info-grid">
+            <div class="info-field" style="grid-column:1/-1">
+              <label class="info-label"><i data-feather="user"></i> Full Name</label>
+              <input class="info-input cv-field" id="cv-name" value="${escHtml(cv.name)}" placeholder="Your name">
+            </div>
+            <div class="info-field" style="grid-column:1/-1">
+              <label class="info-label"><i data-feather="link"></i> Contact Line</label>
+              <input class="info-input cv-field" id="cv-preamble" value="${escHtml(cv.preamble.split('\n').find(l => l.trim()) || '')}" placeholder="City · Phone · email@example.com · linkedin.com/in/you">
+            </div>
           </div>
         </div>
       </div>
+
+      ${cv.sections.map((s, i) => `
+        <div class="card mb-4">
+          <div class="card-hd">
+            <h2>${escHtml(s.title)}</h2>
+          </div>
+          <div class="card-body" style="padding:0">
+            <textarea class="cv-editor cv-field" id="cv-sec-${i}" data-sec="${i}" style="min-height:120px;border-radius:0 0 var(--r-lg) var(--r-lg);border:0">${escHtml(s.content)}</textarea>
+          </div>
+        </div>`).join('')}
+    </div>
+
+    <!-- MY PREFERENCES TAB (profile.yml) -->
+    <div id="tab-prefs" class="profile-tab-body${_profileTab==='prefs'?'':' hidden'}">
+      ${renderInfoForm(profileData, profileYaml)}
     </div>
 
     <!-- TEMPLATE TAB -->
     <div id="tab-template" class="profile-tab-body${_profileTab==='template'?'':' hidden'}">
       <div class="card">
         <div class="card-hd">
-          <h2>CV Template (cv-template.html)</h2>
+          <h2>CV Templates</h2>
           <div class="flex gap-2">
-            <span id="tpl-dirty" style="font-size:13px;color:var(--orange);align-self:center;display:none">Unsaved</span>
-            <button class="btn btn-secondary" id="tpl-save" onclick="saveTemplate()" disabled>
+            <span id="tpl-dirty" style="font-size:13px;color:var(--orange);align-self:center;display:none">Template changed</span>
+            <button class="btn btn-secondary" id="tpl-save" onclick="saveTemplateChanges()" disabled>
               <i data-feather="save"></i> Save
             </button>
             <button class="btn btn-primary" onclick="genPDF()">
@@ -1073,76 +1413,179 @@ async function pageProfile(el) {
             </button>
           </div>
         </div>
-        <div class="card-body" style="padding:0">
-          <textarea class="cv-editor" id="tpl-ed" spellcheck="false" style="height:600px;border-radius:0 0 var(--r-lg) var(--r-lg)">${escHtml(templateHtml)}</textarea>
+        <div class="card-body">
+          <div id="template-picker"></div>
+          <details style="margin-top:16px">
+            <summary style="cursor:pointer;color:var(--text-2);font-size:13px">Advanced: edit HTML source</summary>
+            <div class="card" style="margin-top:10px">
+              <div class="card-body" style="padding:0">
+                <textarea class="cv-editor" id="tpl-ed" spellcheck="false" style="height:420px;border-radius:0 0 var(--r-lg) var(--r-lg)">${escHtml(templateHtml)}</textarea>
+              </div>
+            </div>
+          </details>
         </div>
       </div>
     </div>
   `;
-  feather.replace();
+  replaceIcons();
 
-  // Resume editor live preview
-  const cvEd = qs('#cv-ed');
-  if (cvEd) {
-    cvEd.addEventListener('input', () => {
-      qs('#cv-prev').innerHTML = marked.parse(cvEd.value);
-      qs('#cv-save').disabled = false;
-      qs('#cv-dirty').style.display = 'inline';
+  // Mark cv fields dirty on any change
+  qsa('.cv-field').forEach(el => {
+    el.addEventListener('input', () => {
+      const save = qs('#cv-save');
+      const dirty = qs('#cv-dirty');
+      if (save) save.disabled = false;
+      if (dirty) dirty.style.display = 'inline';
     });
-  }
+  });
 
   // Template editor dirty flag
   const tplEd = qs('#tpl-ed');
   if (tplEd) {
     tplEd.addEventListener('input', () => {
       qs('#tpl-save').disabled = false;
+      qs('#tpl-dirty').textContent = 'Custom source changed';
       qs('#tpl-dirty').style.display = 'inline';
+      _templateDirtyMode = 'source';
     });
   }
+  renderTemplatePicker();
+}
+
+// Save cv.md from the structured fields
+async function saveCvFields() {
+  const rawCv = await fetch('/api/cv').then(r => r.text());
+  const cv = parseCvMd(rawCv);
+
+  const name = qs('#cv-name')?.value ?? cv.name;
+  const preamble = qs('#cv-preamble')?.value ?? cv.preamble;
+  const sections = cv.sections.map((s, i) => ({
+    title: s.title,
+    content: qs(`#cv-sec-${i}`)?.value ?? s.content,
+  }));
+
+  const md = buildCvMd(name, preamble, sections);
+  const r = await fetch('/api/cv', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ content: md }),
+  });
+  if (r.ok) {
+    qs('#cv-save').disabled = true;
+    qs('#cv-dirty').style.display = 'none';
+    toast('Resume saved');
+  } else toast('Save failed');
+}
+
+function renderTemplatePicker() {
+  const mount = qs('#template-picker');
+  if (!mount) return;
+
+  mount.innerHTML = `
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px">
+      ${_templateOptions.map(option => `
+        <button class="template-option${option.id === _selectedTemplateId ? ' active' : ''}" data-template-id="${option.id}" style="text-align:left;border:1px solid ${option.id === _selectedTemplateId ? 'var(--blue)' : 'var(--border)'};background:${option.id === _selectedTemplateId ? 'rgba(37,99,235,0.06)' : 'var(--surface-1)'};border-radius:8px;padding:14px;cursor:pointer">
+          <div style="font-size:15px;font-weight:600;color:var(--text-1)">${escHtml(option.name)}</div>
+          <div style="font-size:13px;color:var(--text-2);margin-top:6px;line-height:1.5">${escHtml(option.description)}</div>
+        </button>
+      `).join('')}
+    </div>
+  `;
+
+  qsa('.template-option', mount).forEach(button => {
+    button.addEventListener('click', () => {
+      _selectedTemplateId = button.getAttribute('data-template-id');
+      qs('#tpl-save').disabled = false;
+      qs('#tpl-dirty').textContent = 'Template changed';
+      qs('#tpl-dirty').style.display = 'inline';
+      _templateDirtyMode = 'choice';
+      renderTemplatePicker();
+      updateTemplatePreview();
+    });
+  });
+
+  updateTemplatePreview();
+}
+
+function updateTemplatePreview() {
+  const frame = qs('#template-preview');
+  if (!frame) return;
+  const selected = _templateOptions.find(option => option.id === _selectedTemplateId) || _templateOptions[0];
+  frame.srcdoc = selected?.preview || '<p style="font-family:sans-serif;padding:24px">No preview available.</p>';
 }
 
 // ── Info form builder ─────────────────────────────────────────────────────
-function renderInfoForm(yaml) {
-  function extract(key) {
-    const m = yaml.match(new RegExp(`^\\s+${key}:\\s*"?([^"\\n]*)"?`, 'm'));
-    return m ? m[1].trim() : '';
-  }
-  const fields = [
-    { key: 'full_name',    label: 'Full Name',      icon: 'user' },
-    { key: 'email',        label: 'Email',           icon: 'mail' },
-    { key: 'phone',        label: 'Phone',           icon: 'phone' },
-    { key: 'location',     label: 'Location',        icon: 'map-pin' },
-    { key: 'linkedin',     label: 'LinkedIn',        icon: 'linkedin' },
-    { key: 'github',       label: 'GitHub',          icon: 'github' },
-    { key: 'portfolio_url',label: 'Portfolio URL',   icon: 'globe' },
-  ];
-  const compFields = [
-    { key: 'target_range',        label: 'Target Range',       icon: 'dollar-sign' },
-    { key: 'location_flexibility', label: 'Location Flexibility', icon: 'navigation' },
-    { key: 'visa_status',          label: 'Visa Status',         icon: 'shield' },
-  ];
-  const narrativeHeadline = extract('headline');
+function renderInfoForm(profile = {}, profileYaml = '') {
+  const candidate = profile.candidate || {};
+  const narrative = profile.narrative || {};
+  const compensation = profile.compensation || {};
+  const location = profile.location || {};
+  const targetRoles = profile.target_roles || {};
+  const primaryRoles = Array.isArray(targetRoles.primary) ? targetRoles.primary.join(', ') : '';
+  const superpowers = Array.isArray(narrative.superpowers) ? narrative.superpowers.join('\n') : '';
+  const excludedLevels = Array.isArray(targetRoles.excluded_levels) ? targetRoles.excluded_levels.join(', ') : '';
+  const preferences = Array.isArray(location.preferences) ? location.preferences.join('\n') : '';
+  const archetypes = Array.isArray(targetRoles.archetypes)
+    ? targetRoles.archetypes.map(item => [item.name || '', item.level || '', item.fit || ''].join(' | ')).join('\n')
+    : '';
+  const proofPoints = Array.isArray(narrative.proof_points)
+    ? narrative.proof_points.map(item => [item.name || '', item.hero_metric || ''].join(' | ')).join('\n')
+    : '';
 
   return `
     <div class="card mb-4">
-      <div class="card-hd"><h2>Identity</h2></div>
+      <div class="card-hd"><h2>Identity</h2><span style="font-size:12px;color:var(--text-2)">These fields are backed by <code>config/profile.yml</code></span></div>
       <div class="card-body">
         <div class="info-grid">
-          ${fields.map(f => `
+          ${[
+            ['candidate.full_name', 'Full Name', 'user', candidate.full_name],
+            ['candidate.email', 'Email', 'mail', candidate.email],
+            ['candidate.phone', 'Phone', 'phone', candidate.phone],
+            ['candidate.location', 'Profile Location', 'map-pin', candidate.location],
+            ['candidate.linkedin', 'LinkedIn', 'linkedin', candidate.linkedin],
+            ['candidate.github', 'GitHub', 'github', candidate.github],
+            ['candidate.portfolio_url', 'Portfolio URL', 'globe', candidate.portfolio_url],
+          ].map(([path, label, icon, value]) => `
             <div class="info-field">
-              <label class="info-label"><i data-feather="${f.icon}"></i> ${f.label}</label>
-              <input class="info-input" data-yaml-key="${f.key}" value="${escHtml(extract(f.key))}" placeholder="${f.label}">
+              <label class="info-label"><i data-feather="${icon}"></i> ${label}</label>
+              <input class="info-input" data-profile-path="${path}" value="${escHtml(value || '')}" placeholder="${label}">
             </div>`).join('')}
         </div>
       </div>
     </div>
 
     <div class="card mb-4">
-      <div class="card-hd"><h2>Narrative</h2></div>
+      <div class="card-hd"><h2>Targets & Narrative</h2></div>
       <div class="card-body">
-        <div class="info-field" style="grid-column:1/-1">
-          <label class="info-label"><i data-feather="align-left"></i> Headline</label>
-          <input class="info-input" data-yaml-key="headline" value="${escHtml(narrativeHeadline)}" placeholder="Your professional headline">
+        <div class="info-grid">
+          <div class="info-field" style="grid-column:1/-1">
+            <label class="info-label"><i data-feather="target"></i> Primary Roles</label>
+            <input class="info-input" data-profile-path="target_roles.primary" value="${escHtml(primaryRoles)}" placeholder="Senior Data Engineer, Analytics Engineer">
+          </div>
+          <div class="info-field" style="grid-column:1/-1">
+            <label class="info-label"><i data-feather="slash"></i> Excluded Levels</label>
+            <input class="info-input" data-profile-path="target_roles.excluded_levels" value="${escHtml(excludedLevels)}" placeholder="Senior, Staff, Principal">
+          </div>
+          <div class="info-field" style="grid-column:1/-1">
+            <label class="info-label"><i data-feather="align-left"></i> Headline</label>
+            <input class="info-input" data-profile-path="narrative.headline" value="${escHtml(narrative.headline || '')}" placeholder="Your professional headline">
+          </div>
+          <div class="info-field" style="grid-column:1/-1">
+            <label class="info-label"><i data-feather="message-square"></i> Exit Story</label>
+            <textarea class="info-input" data-profile-path="narrative.exit_story" rows="3" placeholder="Short positioning story">${escHtml(narrative.exit_story || '')}</textarea>
+          </div>
+          <div class="info-field" style="grid-column:1/-1">
+            <label class="info-label"><i data-feather="zap"></i> Superpowers</label>
+            <textarea class="info-input" data-profile-path="narrative.superpowers" rows="4" placeholder="One per line">${escHtml(superpowers)}</textarea>
+          </div>
+          <div class="info-field" style="grid-column:1/-1">
+            <label class="info-label"><i data-feather="layers"></i> Archetypes</label>
+            <textarea class="info-input" data-profile-path="target_roles.archetypes" rows="5" placeholder="Name | Level | Fit">${escHtml(archetypes)}</textarea>
+          </div>
+          <div class="info-field" style="grid-column:1/-1">
+            <label class="info-label"><i data-feather="award"></i> Proof Points</label>
+            <textarea class="info-input" data-profile-path="narrative.proof_points" rows="5" placeholder="Project name | Hero metric">${escHtml(proofPoints)}</textarea>
+          </div>
         </div>
       </div>
     </div>
@@ -1151,19 +1594,27 @@ function renderInfoForm(yaml) {
       <div class="card-hd"><h2>Compensation &amp; Location</h2></div>
       <div class="card-body">
         <div class="info-grid">
-          ${compFields.map(f => `
+          ${[
+            ['compensation.target_range', 'Target Range', 'dollar-sign', compensation.target_range],
+            ['compensation.minimum', 'Minimum', 'credit-card', compensation.minimum],
+            ['compensation.currency', 'Currency', 'circle', compensation.currency],
+            ['compensation.location_flexibility', 'Location Flexibility', 'navigation', compensation.location_flexibility],
+            ['location.city', 'City', 'map-pin', location.city],
+            ['location.country', 'Country', 'flag', location.country],
+            ['location.state', 'State', 'map', location.state],
+            ['location.timezone', 'Timezone', 'clock', location.timezone],
+            ['location.visa_status', 'Visa Status', 'shield', location.visa_status],
+            ['location.job_search_scope', 'Job Search Scope', 'globe', location.job_search_scope],
+          ].map(([path, label, icon, value]) => `
             <div class="info-field">
-              <label class="info-label"><i data-feather="${f.icon}"></i> ${f.label}</label>
-              <input class="info-input" data-yaml-key="${f.key}" value="${escHtml(extract(f.key))}" placeholder="${f.label}">
+              <label class="info-label"><i data-feather="${icon}"></i> ${label}</label>
+              <input class="info-input" data-profile-path="${path}" value="${escHtml(value || '')}" placeholder="${label}">
             </div>`).join('')}
+          <div class="info-field" style="grid-column:1/-1">
+            <label class="info-label"><i data-feather="map"></i> Location Preferences</label>
+            <textarea class="info-input" data-profile-path="location.preferences" rows="4" placeholder="One preference per line">${escHtml(preferences)}</textarea>
+          </div>
         </div>
-      </div>
-    </div>
-
-    <div class="card mb-4">
-      <div class="card-hd"><h2>Full profile.yml</h2><span style="font-size:12px;color:var(--text-2)">Advanced — edit YAML directly</span></div>
-      <div class="card-body" style="padding:0">
-        <textarea class="cv-editor" id="profile-raw" spellcheck="false" style="height:360px;border-radius:0 0 var(--r-lg) var(--r-lg)">${escHtml(yaml)}</textarea>
       </div>
     </div>
 
@@ -1180,49 +1631,121 @@ function switchProfileTab(tab) {
   qsa('.profile-tab').forEach(b => b.classList.toggle('active', b.getAttribute('onclick').includes(`'${tab}'`)));
   qsa('.profile-tab-body').forEach(d => d.classList.add('hidden'));
   const pane = qs(`#tab-${tab}`);
-  if (pane) { pane.classList.remove('hidden'); feather.replace(); }
+  if (pane) { pane.classList.remove('hidden'); replaceIcons(); }
 }
 
 async function saveProfileInfo() {
-  // Collect field overrides and patch the raw YAML
-  let yaml = qs('#profile-raw')?.value || '';
+  const structured = JSON.parse(JSON.stringify(_profileData || {}));
 
-  qsa('.info-input[data-yaml-key]').forEach(inp => {
-    const key = inp.getAttribute('data-yaml-key');
-    const val = inp.value.replace(/"/g, '\\"');
-    // Replace quoted value: key: "old" → key: "new"
-    yaml = yaml.replace(
-      new RegExp(`(^\\s+${key}:\\s*)"[^"]*"`, 'm'),
-      `$1"${val}"`
-    );
-    // Replace unquoted value
-    yaml = yaml.replace(
-      new RegExp(`(^\\s+${key}:\\s*)(?!")([^\\n]*)`, 'm'),
-      `$1"${val}"`
-    );
+  function setDeep(obj, path, value) {
+    const parts = path.split('.');
+    let cur = obj;
+    for (let i = 0; i < parts.length - 1; i++) {
+      const key = parts[i];
+      if (!cur[key] || typeof cur[key] !== 'object') cur[key] = {};
+      cur = cur[key];
+    }
+    cur[parts[parts.length - 1]] = value;
+  }
+
+  qsa('.info-input[data-profile-path]').forEach(inp => {
+    const path = inp.getAttribute('data-profile-path');
+    let value = inp.value.trim();
+    if (path === 'target_roles.primary') {
+      value = value ? value.split(',').map(item => item.trim()).filter(Boolean) : [];
+    } else if (path === 'narrative.superpowers') {
+      value = value ? value.split('\n').map(item => item.trim()).filter(Boolean) : [];
+    } else if (path === 'target_roles.excluded_levels') {
+      value = value ? value.split(',').map(item => item.trim()).filter(Boolean) : [];
+    } else if (path === 'location.preferences') {
+      value = value ? value.split('\n').map(item => item.trim()).filter(Boolean) : [];
+    } else if (path === 'target_roles.archetypes') {
+      value = value
+        ? value.split('\n').map(line => line.trim()).filter(Boolean).map(line => {
+            const [name = '', level = '', fit = ''] = line.split('|').map(part => part.trim());
+            return { name, level, fit };
+          })
+        : [];
+    } else if (path === 'narrative.proof_points') {
+      value = value
+        ? value.split('\n').map(line => line.trim()).filter(Boolean).map(line => {
+            const [name = '', hero_metric = ''] = line.split('|').map(part => part.trim());
+            return { name, hero_metric };
+          })
+        : [];
+    }
+    setDeep(structured, path, value);
   });
 
-  const r = await fetch('/api/profile', {
+  const r = await fetch('/api/profile/data', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ content: yaml }),
+    body: JSON.stringify({ profile: structured }),
   });
-  if (r.ok) { toast('Profile saved'); if (qs('#profile-raw')) qs('#profile-raw').value = yaml; }
-  else toast('Save failed');
+
+  if (r.ok) {
+    _profileData = structured;
+    toast('Profile saved');
+    renderPage('profile');
+  } else toast('Save failed');
 }
 
 async function saveCV() {
   const content = qs('#cv-ed')?.value;
   if (!content) return;
+  const ok = await saveCVContent(content);
+  if (ok) {
+    qs('#cv-save').disabled = true;
+    qs('#cv-dirty').style.display = 'none';
+    toast('Resume saved');
+  }
+}
+
+async function saveCVContent(content) {
   const r = await fetch('/api/cv', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ content }),
   });
+  if (!r.ok) toast('Save failed');
+  return r.ok;
+}
+
+function arrayBufferToBase64(buffer) {
+  const bytes = new Uint8Array(buffer);
+  let binary = '';
+  for (let i = 0; i < bytes.byteLength; i++) binary += String.fromCharCode(bytes[i]);
+  return btoa(binary);
+}
+
+async function uploadResumeFile(file) {
+  const contentBase64 = arrayBufferToBase64(await file.arrayBuffer());
+  const r = await fetch('/api/cv/upload', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      filename: file.name,
+      mimeType: file.type,
+      contentBase64,
+    }),
+  });
+  const data = await r.json();
+  if (!r.ok || !data.ok) throw new Error(data.error || 'Upload failed');
+  return data.content;
+}
+
+async function saveTemplateChoice() {
+  if (!_selectedTemplateId) return;
+  const r = await fetch('/api/template/select', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ variantId: _selectedTemplateId }),
+  });
   if (r.ok) {
-    qs('#cv-save').disabled = true;
-    qs('#cv-dirty').style.display = 'none';
-    toast('Resume saved');
+    qs('#tpl-save').disabled = true;
+    qs('#tpl-dirty').style.display = 'none';
+    _templateDirtyMode = null;
+    toast('Template selection saved');
   } else toast('Save failed');
 }
 
@@ -1237,8 +1760,15 @@ async function saveTemplate() {
   if (r.ok) {
     qs('#tpl-save').disabled = true;
     qs('#tpl-dirty').style.display = 'none';
+    _templateDirtyMode = null;
     toast('Template saved');
+    renderPage('profile');
   } else toast('Save failed');
+}
+
+async function saveTemplateChanges() {
+  if (_templateDirtyMode === 'source') return saveTemplate();
+  return saveTemplateChoice();
 }
 
 async function genPDF() {
@@ -1249,25 +1779,22 @@ async function genPDF() {
     body: JSON.stringify({}),
   });
   const data = await r.json();
-  toast(data.ok ? 'PDF saved to output/' : 'PDF failed — is Playwright installed?');
+  toast(data.ok ? `PDF saved: ${data.path?.split('/').pop() || 'output/'}` : `PDF failed — ${String(data.output || 'unknown error').slice(0, 80)}`);
 }
 
 function handleResumeFile(event) {
   const file = event.target.files[0];
   if (!file) return;
-  const reader = new FileReader();
-  reader.onload = e => {
-    const content = e.target.result;
-    const ed = qs('#cv-ed');
-    if (ed) {
-      ed.value = content;
-      qs('#cv-prev').innerHTML = marked.parse(content);
-      qs('#cv-save').disabled = false;
-      qs('#cv-dirty').style.display = 'inline';
-      toast(`Loaded ${file.name} — click Save to apply`);
-    }
-  };
-  reader.readAsText(file);
+  (async () => {
+    toast(`Importing ${file.name}…`);
+    await uploadResumeFile(file); // saves to cv.md server-side
+    toast(`Imported — reloading fields…`);
+    // Reload the profile page to show freshly parsed fields
+    const el = qs('#page-profile');
+    if (el) await pageProfile(el);
+  })().catch(error => {
+    toast(error.message);
+  });
 }
 
 function handleResumeDrop(event) {
@@ -1283,11 +1810,15 @@ function handleResumeDrop(event) {
 window.navigate      = navigate;
 window.copy          = copy;
 window.openReport    = openReport;
-window.startScan     = startScan;
+window.startScan        = startScan;
+window.toggleScoreSort  = toggleScoreSort;
 window.stopScan      = stopScan;
 window.clearTerm     = clearTerm;
 window.saveCV           = saveCV;
+window.saveCvFields     = saveCvFields;
 window.saveTemplate     = saveTemplate;
+window.saveTemplateChoice = saveTemplateChoice;
+window.saveTemplateChanges = saveTemplateChanges;
 window.saveProfileInfo  = saveProfileInfo;
 window.switchProfileTab = switchProfileTab;
 window.handleResumeFile = handleResumeFile;
@@ -1296,11 +1827,45 @@ window.genPDF           = genPDF;
 window.updateStatus    = updateStatus;
 window.updateJobStatus = updateJobStatus;
 window.startEval       = startEval;
+window.openScoredJob   = openScoredJob;
+window.generateResume  = generateResume;
 window.openMatcherModal = openMatcherModal;
 window.startMatcher    = startMatcher;
 window.stopMatcher     = stopMatcher;
 window.stopEval        = stopEval;
 window.clearEvalTerm   = clearEvalTerm;
+
+document.addEventListener('click', event => {
+  const resumeBtn = event.target.closest('[data-resume-url], [data-resume-company][data-resume-title]');
+  if (resumeBtn) {
+    event.preventDefault();
+    event.stopPropagation();
+    generateResume({
+      url: resumeBtn.getAttribute('data-resume-url') || '',
+      company: resumeBtn.getAttribute('data-resume-company') || '',
+      title: resumeBtn.getAttribute('data-resume-title') || '',
+    });
+    return;
+  }
+
+  const reportTarget = event.target.closest('[data-report-file]');
+  if (reportTarget) {
+    event.preventDefault();
+    event.stopPropagation();
+    openReport(reportTarget.getAttribute('data-report-file'));
+    return;
+  }
+
+  const scoreTarget = event.target.closest('[data-score-url]');
+  if (scoreTarget) {
+    event.preventDefault();
+    openScoredJob(
+      scoreTarget.getAttribute('data-score-url') || '',
+      scoreTarget.getAttribute('data-score-company') || '',
+      scoreTarget.getAttribute('data-score-title') || ''
+    );
+  }
+});
 
 // Kick off
 applyTheme(getTheme());

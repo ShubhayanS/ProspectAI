@@ -49,6 +49,19 @@ const proc = spawn('claude', ['--print'], {
   stdio: ['pipe', 'inherit', 'inherit'],
 });
 
+function stopClaude() {
+  if (proc.killed) return;
+  try { proc.kill('SIGTERM'); } catch {}
+}
+
+process.on('SIGTERM', () => {
+  stopClaude();
+});
+
+process.on('SIGINT', () => {
+  stopClaude();
+});
+
 proc.stdin.write(prompt);
 proc.stdin.end();
 proc.on('close', code => process.exit(code ?? 0));

@@ -42,8 +42,6 @@ func ParseApplications(careerOpsPath string) []model.CareerApplication {
 
 	lines := strings.Split(string(content), "\n")
 	apps := make([]model.CareerApplication, 0)
-	num := 0
-
 	for _, line := range lines {
 		line = strings.TrimSpace(line)
 		if line == "" || strings.HasPrefix(line, "# ") || strings.HasPrefix(line, "|---") || strings.HasPrefix(line, "| #") {
@@ -61,14 +59,14 @@ func ParseApplications(careerOpsPath string) []model.CareerApplication {
 			line = strings.TrimSpace(line)
 			parts := strings.Split(line, "\t")
 			for _, p := range parts {
-				fields = append(fields, strings.TrimSpace(strings.Trim(p, "|")))
+				fields = append(fields, decodeCell(strings.TrimSpace(strings.Trim(p, "|"))))
 			}
 		} else {
 			// Pure pipe format
 			line = strings.Trim(line, "|")
 			parts := strings.Split(line, "|")
 			for _, p := range parts {
-				fields = append(fields, strings.TrimSpace(p))
+				fields = append(fields, decodeCell(strings.TrimSpace(p)))
 			}
 		}
 
@@ -76,9 +74,12 @@ func ParseApplications(careerOpsPath string) []model.CareerApplication {
 			continue
 		}
 
-		num++
+		rowNum, err := strconv.Atoi(fields[0])
+		if err != nil {
+			continue
+		}
 		app := model.CareerApplication{
-			Number:  num,
+			Number:  rowNum,
 			Date:    fields[1],
 			Company: fields[2],
 			Role:    fields[3],
@@ -282,7 +283,7 @@ func loadJobURLs(careerOpsPath string) map[string]string {
 
 // enrichFromScanHistory fills JobURL from scan-history.tsv by matching company name.
 func enrichFromScanHistory(careerOpsPath string, apps []model.CareerApplication) {
-	scanPath := filepath.Join(careerOpsPath, "scan-history.tsv")
+	scanPath := filepath.Join(careerOpsPath, "data", "scan-history.tsv")
 	scanData, err := os.ReadFile(scanPath)
 	if err != nil {
 		return
@@ -559,7 +560,17 @@ func UpdateApplicationStatus(careerOpsPath string, app model.CareerApplication, 
 		// Match by report number
 		if app.ReportNumber != "" && strings.Contains(line, fmt.Sprintf("[%s]", app.ReportNumber)) {
 			// Replace the status field
-			lines[i] = replaceStatusInLine(line, app.Status, newStatus)
+			lines[i] = replaceStatusInLine(line, newStatus)
+			found = true
+			break
+		}
+		// Fallback for rows created outside the report pipeline
+		fields := parseMarkdownTableLine(line)
+		if len(fields) < 8 {
+			continue
+		}
+		if strconv.Itoa(app.Number) == fields[0] {
+			lines[i] = replaceStatusInLine(line, newStatus)
 			found = true
 			break
 		}
@@ -573,9 +584,31 @@ func UpdateApplicationStatus(careerOpsPath string, app model.CareerApplication, 
 }
 
 // replaceStatusInLine replaces the old status with new status in a table line.
-func replaceStatusInLine(line, oldStatus, newStatus string) string {
-	// Case-insensitive replacement of the status field
-	return strings.Replace(line, oldStatus, newStatus, 1)
+func replaceStatusInLine(line, newStatus string) string {
+	fields := parseMarkdownTableLine(line)
+	if len(fields) < 6 {
+		return line
+	}
+	fields[5] = newStatus
+	return "| " + strings.Join(fields, " | ") + " |"
+}
+
+func parseMarkdownTableLine(line string) []string {
+	line = strings.TrimSpace(line)
+	line = strings.TrimPrefix(line, "|")
+	line = strings.TrimSuffix(line, "|")
+	parts := strings.Split(line, "|")
+	fields := make([]string, 0, len(parts))
+	for _, p := range parts {
+		fields = append(fields, decodeCell(strings.TrimSpace(p)))
+	}
+	return fields
+}
+
+func decodeCell(s string) string {
+	s = strings.ReplaceAll(s, "&#124;", "|")
+	s = strings.ReplaceAll(s, `\|`, "|")
+	return s
 }
 
 // cleanTableCell removes trailing pipes and whitespace from a table cell value.

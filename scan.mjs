@@ -36,6 +36,13 @@ mkdirSync('data', { recursive: true });
 const CONCURRENCY = 10;
 const FETCH_TIMEOUT_MS = 10_000;
 
+function encodeCell(value) {
+  return String(value ?? '')
+    .replace(/\r?\n/g, ' ')
+    .replace(/\t/g, ' ')
+    .replace(/\|/g, '&#124;');
+}
+
 // ── API detection ───────────────────────────────────────────────────
 
 function detectApi(company) {
@@ -343,7 +350,9 @@ function loadSeenCompanyRoles() {
 function appendToPipeline(offers) {
   if (offers.length === 0) return;
 
-  let text = readFileSync(PIPELINE_PATH, 'utf-8');
+  let text = existsSync(PIPELINE_PATH)
+    ? readFileSync(PIPELINE_PATH, 'utf-8')
+    : '# Pipeline Inbox\n\n## Pendientes\n\n## Procesadas\n';
 
   // Find "## Pendientes" section and append after it
   const marker = '## Pendientes';
@@ -353,7 +362,7 @@ function appendToPipeline(offers) {
     const procIdx = text.indexOf('## Procesadas');
     const insertAt = procIdx === -1 ? text.length : procIdx;
     const block = `\n${marker}\n\n` + offers.map(o =>
-      `- [ ] ${o.url} | ${o.company} | ${o.title}`
+      `- [ ] ${o.url} | ${encodeCell(o.company)} | ${encodeCell(o.title)}`
     ).join('\n') + '\n\n';
     text = text.slice(0, insertAt) + block + text.slice(insertAt);
   } else {
@@ -363,7 +372,7 @@ function appendToPipeline(offers) {
     const insertAt = nextSection === -1 ? text.length : nextSection;
 
     const block = '\n' + offers.map(o =>
-      `- [ ] ${o.url} | ${o.company} | ${o.title}`
+      `- [ ] ${o.url} | ${encodeCell(o.company)} | ${encodeCell(o.title)}`
     ).join('\n') + '\n';
     text = text.slice(0, insertAt) + block + text.slice(insertAt);
   }
@@ -374,11 +383,25 @@ function appendToPipeline(offers) {
 function appendToScanHistory(offers, date) {
   // Ensure file + header exist
   if (!existsSync(SCAN_HISTORY_PATH)) {
-    writeFileSync(SCAN_HISTORY_PATH, 'url\tfirst_seen\tportal\ttitle\tcompany\tstatus\n', 'utf-8');
+    writeFileSync(SCAN_HISTORY_PATH, 'url\tfirst_seen\tposted_at\tportal\ttitle\tcompany\tstatus\tscore\n', 'utf-8');
+  } else {
+    const current = readFileSync(SCAN_HISTORY_PATH, 'utf-8');
+    const lines = current.split('\n');
+    const headers = (lines[0] || '').split('\t');
+    if (!headers.includes('posted_at')) {
+      const upgraded = ['url', 'first_seen', 'posted_at', ...headers.slice(2)];
+      const rebuilt = [upgraded.join('\t')];
+      for (const line of lines.slice(1)) {
+        if (!line.trim()) continue;
+        const cells = line.split('\t');
+        rebuilt.push([cells[0] || '', cells[1] || '', '', ...cells.slice(2)].join('\t'));
+      }
+      writeFileSync(SCAN_HISTORY_PATH, rebuilt.join('\n') + '\n', 'utf-8');
+    }
   }
 
   const lines = offers.map(o =>
-    `${o.url}\t${date}\t${o.source}\t${o.title}\t${o.company}\tadded`
+    `${o.url}\t${date}\t${o.postedAt || ''}\t${o.source}\t${encodeCell(o.title)}\t${encodeCell(o.company)}\tadded\t`
   ).join('\n') + '\n';
 
   appendFileSync(SCAN_HISTORY_PATH, lines, 'utf-8');

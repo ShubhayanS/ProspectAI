@@ -8,3 +8,12 @@ Key points:
 - Never submit an application on the user's behalf.
 
 For Codex-specific setup, see `docs/CODEX.md`.
+
+
+<claude-mem-context>
+# Memory Context
+
+# [career-ops] recent context, 2026-04-27 7:14pm EDT
+
+No previous sessions found.
+</claude-mem-context>

@@ -541,6 +541,12 @@ thead th {
   white-space: nowrap;
 }
 
+.th-sortable {
+  cursor: pointer;
+  user-select: none;
+}
+.th-sortable:hover { color: var(--blue); }
+
 tbody tr {
   border-bottom: 1px solid var(--border);
   transition: background var(--dur);
