@@ -1,5 +1,7 @@
 # Personal data (user fills these)
 cv.md
+data/*
+mystuff/*
 data/applications.md
 data/pipeline.md
 data/scan-history.tsv
