@@ -1,0 +1,350 @@
+TalentAlly hiring Machine Learning Engineer in Virginia, United States | LinkedIn
+ Skip to main content
+ LinkedIn
+ Machine Learning Engineer in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Machine Learning Engineer
+ TalentAlly
+ Virginia, United States
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Machine Learning Engineer role at TalentAlly
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Machine Learning Engineer
+ TalentAlly
+ Virginia, United States
+ 9 hours ago
+ 91 applicants
+ See who TalentAlly has hired for this role
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Machine Learning Engineer role at TalentAlly
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Save
+ Report this job
+ Description
+ Leidos is seeking an Applied AI/ML Engineer to support a large, missioncritical U.S. Navy program. This role focuses on designing and building AI and machine learning-enabled performance intelligence systems that help identify operational risks, diagnose systemic performance issues, and surface improvement opportunities across complex program operations.
+ The ideal candidate is a systemsoriented engineer with strong Python development skills and applied data science experience who enjoys working on messy realworld operational problems. Rather than performing oneoff analyses, this role focuses on building durable analytical capabilities and software systems that continuously analyze performance data and enable more proactive program management .
+ This position sits within the program's Performance Management team , supporting Service Level Requirements (SLRs) and broader Navy performance initiatives such as World Class Alignment Metrics (WAM). The work combines systems thinking, applied analytics, and productionquality software engineering to improve how performance issues are detected, understood, and addressed across the program. This team operates in a codefirst environment where analytical capabilities are developed as maintainable software systems rather than oneoff analyses.
+ Primary Responsibilities
+ Design and build AI and machine learning-enabled performance intelligence systems that continuously analyze operational performance data and identify emerging risks, degradation patterns, and improvement opportunities.
+ Design and implement analytical services, pipelines, and tooling in Python that incorporate AI/ML methods and transform operational data into continuously updated performance intelligence.
+ Build clouddeployed analytical tools and services that enable automated or semiautomated detection of performance issues tied to contractual Service Level Requirements (SLRs).
+ Translate messy operational challenges into practical analytical solutions , combining statistical methods, machine learning techniques, and domaininformed logic.
+ Engineer reusable analytical capabilities, frameworks, and software components that strengthen the team's longterm ability to diagnose and improve operational performance.
+ Collaborate with performance analysts, engineers, and program stakeholders to frame problems and design datadriven approaches to improving program outcomes .
+ Investigate systemic performance issues and engineer tools that surface root causes, prioritization signals, and improvement opportunities .
+ Communicate technical insights and analytical findings clearly to both technical teams and program leadership.
+ Support broader Navy performance initiatives by extending analytical methods and tooling beyond individual SLR use cases when appropriate.
+ Required Qualifications
+ Bachelor's degree with 8+ years of experience applying data science, machine learning, or AI to realworld operational or performance problems (additional experience may be considered in lieu of degree)
+ Strong Python development experience building maintainable, productionquality software.
+ Experience designing and implementing analytical pipelines, data processing workflows, or AI/MLenabled analytical systems .
+ Experience working with large, messy, or heterogeneous operational datasets and extracting meaningful signals.
+ Experience deploying analytical code, pipelines, or services in cloud or production environments .
+ Experience developing containerized analytical applications and deploying services through CI/CD pipelines .
+ Experience building APIs or service interfaces that expose analytical capabilities or models.
+ Demonstrated ability to frame ambiguous operational problems and engineer practical analytical solutions .
+ Ability to clearly communicate analytical reasoning and technical insights to both technical and nontechnical stakeholders.
+ Experience building and maintaining analytical systems or tools used operationally by other teams or stakeholders .
+ Active Secret clearance or higher.
+ Preferred Qualifications
+ Experience applying machine learning, statistical modeling, or anomaly detection techniques to operational or performance datasets.
+ Experience building analytical tools, services, or platforms used by operational teams or decisionmakers .
+ Exposure to AIenabled workflows, automation, or reusable analytics frameworks .
+ Familiarity with container orchestration platforms (Kubernetes, ECS, or similar) for deploying scalable analytical services.
+ Experience working in large operational programs or complex enterprise environments , particularly within government or defense programs.
+ Strong systems thinking and curiosity about how complex operational environments function and fail.
+ If you're looking for comfort, keep scrolling. At Leidos, we outthink, outbuild, and outpace the status quo - because the mission demands it. We're not hiring followers. We're recruiting the ones who disrupt, provoke, and refuse to fail. Step 10 is ancient history. We're already at step 30 - and moving faster than anyone else dares.
+ Original Posting:
+ March 18, 2026
+ For U.S. Positions: While subject to change based on business needs, Leidos reasonably anticipates that this job requisition will remain open for at least 3 days with an anticipated close date of no earlier than 3 days after the original posting date as listed above.
+ Pay Range:
+ Pay Range $87,100.00 - $157,450.00
+ The Leidos pay range for this job level is a general guideline only and not a guarantee of compensation or salary. Additional factors considered in extending an offer include (but are not limited to) responsibilities of the job, education, experience, knowledge, skills, and abilities, as well as internal equity, alignment with market data, applicable bargaining agreement (if any), or other law.
+ About Leidos
+ Leidos is an industry and technology leader serving government and commercial customers with smarter, more efficient digital and mission innovations. Headquartered in Reston, Virginia, with 47,000 global employees, Leidos reported annual revenues of approximately $16.7 billion for the fiscal year ended January 3, 2025. For more information, visit
+ Pay and Benefits
+ Pay and benefits are fundamental to any career decision. That's why we craft compensation packages that reflect the importance of the work we do for our customers. Employment benefits include competitive compensation, Health and Wellness programs, Income Protection, Paid Leave and Retirement. More details are available at
+ Securing Your Data
+ Beware of fake employment opportunities using Leidos' name. Leidos will never ask you to provide paymentrelated information during any part of the employment application process (i.e., ask you for money), nor will Leidos ever advance money as part of the hiring process (i.e., send you a check or money order before doing any work). Further, Leidos will only communicate with you through emails that are generated by the Leidos.com automated system - never from free commercial services (e.g., Gmail, Yahoo, Hotmail) or via WhatsApp, Telegram, etc. If you received an email purporting to be from Leidos that asks for paymentrelated information or any other personal information (e.g., about you or your previous employer), and you are concerned about its legitimacy, please make us aware immediately by emailing us at
+ If you believe you are the victim of a scam, contact your local law enforcement and report the incident to the U.S. Federal Trade Commission.
+ Commitment to NonDiscrimination
+ All qualified applicants will receive consideration for employment without regard to sex, race, ethnicity, age, national origin, citizenship, religion, physical or mental disability, medical condition, genetic information, pregnancy, family structure, marital status, ancestry, domestic partner status, sexual orientation, gender identity or expression, veteran or military status, or any other basis prohibited by law. Leidos will also consider for employment qualified applicants with criminal histories consistent with relevant laws.
+ #Remote
+#J-18808-LjbffrPDN-a19155f2-c268-4e77-b708-0f52aafb40e
+2
+ Show more
+ Show less
+ Seniority level
+ Associate
+ Employment type
+ Full-time
+ Job function
+ Information Technology
+ Industries
+ Technology, Information and Media
+ Referrals increase your chances of interviewing at TalentAlly by 2x
+ See who you know
+ Get notified about new Machine Learning Engineer jobs in Virginia, United States .
+ Sign in to create job alert
+ Similar jobs
+ Machine Learning Developer (Freelance)
+ Machine Learning Developer (Freelance)
+ Mindrift
+ Virginia, United States
+ 16 hours ago
+ Senior Machine Learning Engineer
+ Senior Machine Learning Engineer
+ RAZOR
+ Reston, VA
+ $150,000.00
+ -
+ $180,000.00
+ 6 days ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ RAZOR
+ Reston, VA
+ $140,000.00
+ -
+ $180,000.00
+ 6 days ago
+ Data Scientist (Python & SQL) - Freelance AI Trainer
+ Data Scientist (Python & SQL) - Freelance AI Trainer
+ Mindrift
+ Virginia, United States
+ 2 days ago
+ Freelance Machine Learning Engineer
+ Freelance Machine Learning Engineer
+ Mindrift
+ Virginia, United States
+ 16 hours ago
+ Data Scientist
+ Data Scientist
+ Whitespace
+ Alexandria, VA
+ 1 month ago
+ Machine Learning & Operations Engineer
+ Machine Learning & Operations Engineer
+ OptiTrack
+ Arlington, VA
+ 3 days ago
+ Machine Learning Engineer - AI Trainer
+ Machine Learning Engineer - AI Trainer
+ DataAnnotation
+ Virginia, United States
+ 2 days ago
+ Data Scientist, Healthcare
+ Data Scientist, Healthcare
+ For People
+ Arlington, VA
+ 1 week ago
+ Machine Learning Engineer - Remote
+ Machine Learning Engineer - Remote
+ Halvik
+ Vienna, VA
+ 1 month ago
+ Data Scientist
+ Data Scientist
+ DataAnnotation
+ Virginia, United States
+ 1 week ago
+ Data Scientist
+ Data Scientist
+ Booz Allen Hamilton
+ Arlington, VA
+ 1 week ago
+ AI & ML Engineer
+ AI & ML Engineer
+ Booz Allen Hamilton
+ McLean, VA
+ 1 week ago
+ AI/ML Engineer (Title Can Be Discussed)**
+ AI/ML Engineer (Title Can Be Discussed)**
+ Arch Systems, LLC
+ Virginia, United States
+ 5 days ago
+ Freelance Data Science Engineer (Python & SQL)
+ Freelance Data Science Engineer (Python & SQL)
+ Mindrift
+ Virginia, United States
+ 2 days ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Booz Allen Hamilton
+ Arlington, VA
+ 1 week ago
+ Data Science/Machine Learning Engineer (Remote, Continental United States)
+ Data Science/Machine Learning Engineer (Remote, Continental United States)
+ ICA, Inc.
+ Arlington, VA
+ 3 weeks ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Booz Allen Hamilton
+ McLean, VA
+ 1 week ago
+ AI Engineer
+ AI Engineer
+ TalentAlly
+ Virginia, United States
+ 9 hours ago
+ Senior Software Engineer
+ Senior Software Engineer
+ ATPCO
+ Herndon, VA
+ 4 days ago
+ AI/ML Engineer, Senior - WFH1650
+ AI/ML Engineer, Senior - WFH1650
+ Global InfoTek, Inc.
+ Reston, VA
+ 5 days ago
+ Data Scientist/ML Engineer (GEOINT/Computer Vision) VAWFH
+ Data Scientist/ML Engineer (GEOINT/Computer Vision) VAWFH
+ ChatGPT Jobs
+ Reston, VA
+ 4 days ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Booz Allen Hamilton
+ Arlington, VA
+ 4 days ago
+ Freelance Data Scraping Engineer (Python)
+ Freelance Data Scraping Engineer (Python)
+ Mindrift
+ Virginia, United States
+ 3 days ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Booz Allen Hamilton
+ McLean, VA
+ 1 week ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Booz Allen Hamilton
+ Arlington, VA
+ 1 week ago
+ Machine Learning Scientist - AI Trainer
+ Machine Learning Scientist - AI Trainer
+ DataAnnotation
+ Virginia, United States
+ 1 week ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Booz Allen Hamilton
+ McLean, VA
+ 1 week ago
+ Senior Software Engineer FS / Mobile (Remote)
+ Senior Software Engineer FS / Mobile (Remote)
+ Ad Hoc LLC
+ McLean, VA
+ 2 weeks ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Booz Allen Hamilton
+ McLean, VA
+ 4 days ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Booz Allen Hamilton
+ Arlington, VA
+ 1 week ago
+ Research Data Scientist - AI Trainer
+ Research Data Scientist - AI Trainer
+ DataAnnotation
+ Virginia, United States
+ 1 week ago
+ Software Engineer
+ Software Engineer
+ Getem Services
+ Norfolk, VA
+ 5 months ago
+ Senior Software Engineer (Measurement)
+ Senior Software Engineer (Measurement)
+ Teachstone
+ Charlottesville, VA
+ 3 weeks ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Booz Allen Hamilton
+ Arlington, VA
+ 1 week ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Booz Allen Hamilton
+ Norfolk, VA
+ 5 days ago
+ Senior AI/ML Engineer
+ Senior AI/ML Engineer
+ Jobot
+ McLean, VA
+ 16 hours ago
+ Similar Searches
+ Emergency Medicine Resident jobs
+ 1,074 open jobs
+ Intelligence Specialist jobs
+ 7,156 open jobs
+ Scientist jobs
+ 48,969 open jobs
+ Data Scientist jobs
+ 264,158 open jobs
+ General Engineer jobs
+ 54,597 open jobs
+ Staff Research Engineer jobs
+ 1,530 open jobs
+ Insurance Counselor jobs
+ 4,892 open jobs
+ Algorithm Engineer jobs
+ 6,066 open jobs
+ Senior Computer Engineer jobs
+ 1,942 open jobs
+ Senior Scientist jobs
+ 19,214 open jobs
+ Junior Scientist jobs
+ 10,103 open jobs
+ Lead Scientist jobs
+ 14,164 open jobs
+ Data Science Specialist jobs
+ 2,441 open jobs
+ Processing Geophysicist jobs
+ 97 open jobs
+ Assistant Professor of Philosophy jobs
+ 273 open jobs
+ Processing Engineer jobs
+ 235,210 open jobs
+ Senior Manufacturing Process Engineer jobs
+ 7,050 open jobs
+ Python Developer jobs
+ 46,642 open jobs
+ Learning Specialist job

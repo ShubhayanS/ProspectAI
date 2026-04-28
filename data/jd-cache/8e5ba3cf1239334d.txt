@@ -1,0 +1,480 @@
+Loopback Health hiring Data Engineer in Dallas, TX | LinkedIn
+ Skip to main content
+ LinkedIn
+ Data Engineer in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Data Engineer
+ Loopback Health
+ Dallas, TX
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Data Engineer role at Loopback Health
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Data Engineer
+ Loopback Health
+ Dallas, TX
+ 6 hours ago
+ 173 applicants
+ See who Loopback Health has hired for this role
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Data Engineer role at Loopback Health
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Save
+ Report this job
+ This employer will not sponsor applicants for employment visa status (e.g., H1-B) for this position.  All applicants must be currently authorized to work in the United States on a full-time basis.
+ Role Summary
+Loopback Health is seeking an innovative and team-oriented Data Engineer to join our team. In this role, you will be responsible for designing, building, and maintaining scalable data pipelines and transformation processes that power analytics and client solutions. You will play a critical role in managing data flows, ensuring data quality, and collaborating with cross-functional teams to drive system and process improvements. Additionally, you will support the design, implementation, and maintenance of key clinical and enterprise datasets.
+Key Responsibilities
+ Design, build, and maintain scalable data pipelines to ingest, transform, and deliver data across diverse sources and environments
+ Develop and manage ETL/ELT processes within cloud-based data platforms (e.g., Snowflake, Databricks)
+ Own and maintain data transformation logic, codebases, and supporting documentation
+ Model and optimize data structures within data lakes and data warehouses to support analytics and reporting use cases
+ Ensure data reliability, integrity, and performance to meet client and application SLA requirements
+ Manage evolving data ingestion formats across Health Systems, Life Sciences, and Enterprise partner ecosystems
+ Drive automation and continuous improvement of data workflows to reduce manual effort and increase efficiency
+ Implement data quality checks, monitoring, and validation processes
+ Collaborate with business and technical stakeholders to gather requirements and translate them into scalable data solutions
+ Develop and promote best practices in data engineering, data modeling, and pipeline design
+ Conduct data profiling and support testing efforts in partnership with QA and DevOps teams
+ Qualifications
+ Required:
+ 3–5 years of experience in Data Engineering, Data Integration, or a related field
+ Experience designing and building data pipelines and transformation workflows
+ Hands-on experience with cloud data platforms (Snowflake, Databricks) and cloud environments (Azure)
+ Strong experience with SQL and at least one programming language (e.g., Python, C#)
+ Experience with relational and non-relational data modeling, schema design, and performance optimization
+ Familiarity with data lake and data warehouse architecture
+ Preferred
+ Experience working with healthcare or clinical data
+ Knowledge of data orchestration tools and workflow management
+ Experience implementing data quality frameworks and automated testing
+ Ability to communicate complex technical concepts to both technical and non-technical stakeholders
+ Soft Skills
+ Detail-oriented and data-driven.
+ Proactive in identifying inefficiencies and suggesting pragmatic solutions.
+ Comfortable working in a cross-functional, data-intensive environment.
+ Strong communication and documentation skills.
+ All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, or national origin.
+ Show more
+ Show less
+ Seniority level
+ Mid-Senior level
+ Employment type
+ Full-time
+ Job function
+ Information Technology
+ Industries
+ Hospitals and Health Care
+ Referrals increase your chances of interviewing at Loopback Health by 2x
+ See who you know
+ Get notified about new Data Engineer jobs in Dallas, TX .
+ Sign in to create job alert
+ Similar jobs
+ Data Engineer
+ Data Engineer
+ OP
+ Plano, TX
+ 7 hours ago
+ Sr Data Engineer
+ Sr Data Engineer
+ Lennar
+ Irving, TX
+ 6 days ago
+ Analytics Engineer
+ Analytics Engineer
+ Lantern
+ Dallas, TX
+ 2 weeks ago
+ Junior AI/ML Engineer (Data & Cloud Platforms)
+ Junior AI/ML Engineer (Data & Cloud Platforms)
+ Mod Op
+ Dallas, TX
+ 3 weeks ago
+ Data Engineer I
+ Data Engineer I
+ Catalyst Brands LLC
+ Dallas, TX
+ 5 days ago
+ Data Engineer II
+ Data Engineer II
+ Lennar
+ Irving, TX
+ 2 days ago
+ Data Engineer
+ Data Engineer
+ Ragle Inc
+ North Richland Hills, TX
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ NTT DATA North America
+ Dallas, TX
+ 2 weeks ago
+ Data Engineer (Databricks + Python + Azure)
+ Data Engineer (Databricks + Python + Azure)
+ Allata
+ Dallas, TX
+ 1 month ago
+ Data Engineer
+ Data Engineer
+ Longbridge
+ Dallas, TX
+ 4 days ago
+ Data Engineer
+ Data Engineer
+ Protagona
+ Dallas, TX
+ 6 months ago
+ SQL Data Engineer
+ SQL Data Engineer
+ Anblicks
+ Dallas, TX
+ 3 weeks ago
+ Data Engineer
+ Data Engineer
+ NTT DATA North America
+ Dallas, TX
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Paradigm
+ Dallas, TX
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Apexon
+ Dallas, TX
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Addison Group
+ Dallas-Fort Worth Metroplex
+ $100,000.00
+ -
+ $120,000.00
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ CGS Federal (Contact Government Services)
+ Dallas, TX
+ $112,597.33
+ -
+ $152,810.66
+ 1 month ago
+ Data Engineer
+ Data Engineer
+ EssilorLuxottica
+ Dallas, TX
+ 1 week ago
+ Data Engineer - Remote
+ Data Engineer - Remote
+ YO IT Consulting
+ Dallas, TX
+ 1 week ago
+ Data Engineer II
+ Data Engineer II
+ GM Financial
+ Irving, TX
+ 2 weeks ago
+ Engineer II, Data
+ Engineer II, Data
+ CarMax
+ Plano, TX
+ 1 week ago
+ AI Analytics and Visualization Engineer
+ AI Analytics and Visualization Engineer
+ NVIDIA AI
+ Dallas County, TX
+ 1 day ago
+ Sr Data Engineer
+ Sr Data Engineer
+ Topgolf
+ Dallas, TX
+ 2 weeks ago
+ Data Engineer III/Senior (AI and Gen AI)
+ Data Engineer III/Senior (AI and Gen AI)
+ Expeditors
+ Irving, TX
+ $130,000.00
+ -
+ $150,000.00
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ OakTruss Group
+ Dallas, TX
+ 12 hours ago
+ Senior Data Engineer
+ Senior Data Engineer
+ LTM
+ Irving, TX
+ $79,851.00
+ -
+ $107,720.00
+ 1 month ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Senior Data Analyst / Report Developer
+ Senior Data Analyst / Report Developer
+ The Intersect Group
+ Addison, TX
+ $125,000.00
+ -
+ $140,000.00
+ 6 days ago
+ Data Engineer
+ Data Engineer
+ Unisys
+ Plano, TX
+ 3 weeks ago
+ Data Engineer (Ice berg)
+ Data Engineer (Ice berg)
+ LTIMindtree
+ Irving, TX
+ 1 month ago
+ Data Engineer
+ Data Engineer
+ Paychex
+ Irving, TX
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ AARATECH
+ Dallas-Fort Worth Metroplex
+ $60,000.00
+ -
+ $75,000.00
+ 12 hours ago
+ Data Engineer
+ Data Engineer
+ Scalian
+ Grand Prairie, TX
+ 3 weeks ago
+ Big DATA Developer with Python
+ Big DATA Developer with Python
+ LTIMindtree
+ Irving, TX
+ 2 weeks ago
+ Data Analyst
+ Data Analyst
+ Toyota North America
+ Plano, TX
+ 5 days ago
+ Data Engineer (On-Site Dallas)
+ Data Engineer (On-Site Dallas)
+ NTT DATA, Inc.
+ Dallas, TX
+ 1 week ago
+ Data Engineer (Python or Java ) | 3-6 years
+ Data Engineer (Python or Java ) | 3-6 years
+ Apexon
+ Dallas, TX
+ 4 days ago
+ Similar Searches
+ Senior Data Engineer jobs
+ 78,076 open jobs
+ Big Data Developer jobs
+ 26,392 open jobs
+ Hadoop Developer jobs
+ 37,972 open jobs
+ ETL Developer jobs
+ 46,788 open jobs
+ Data Warehouse Engineer jobs
+ 39,476 open jobs
+ Analytical Engineer jobs
+ 7,971 open jobs
+ Data Architect jobs
+ 68,774 open jobs
+ Freelance Engineer jobs
+ 190 open jobs
+ Development Database Administrator jobs
+ 226,600 open jobs
+ ETL Specialist jobs
+ 219,897 open jobs
+ Database Software Engineer jobs
+ 224,263 open jobs
+ Engineer jobs
+ 555,845 open jobs
+ Business Intelligence Engineer jobs
+ 50,282 open jobs
+ Senior Data Warehouse Engineer jobs
+ 10,085 open jobs
+ Pipeline Engineer jobs
+ 39,469 open jobs
+ Teradata Developer jobs
+ 2,501 open jobs
+ Database Engineer jobs
+ 32,874 open jobs
+ Exhibit Coordinator jobs
+ 342 open jobs
+ Senior Solutions Developer jobs
+ 50,281 open jobs
+ SQL Developer jobs
+ 12,445 open jobs
+ Junior Engineer jobs
+ 52,722 open jobs
+ Assistant Produce Manager jobs
+ 3,091 open jobs
+ Data Modeler jobs
+ 263,457 open jobs
+ Data Analyst jobs
+ 329,009 open jobs
+ Senior Data Warehouse Architect jobs
+ 4,641 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Senior Data Engineer jobs
+ Big Data Developer jobs
+ Hadoop Developer jobs
+ ETL Developer jobs
+ Lakeland Care jobs
+ Data Warehouse Engineer jobs
+ Analytical Engineer jobs
+ Data Architect jobs
+ Freelance Engineer jobs
+ Development Database Administrator jobs
+ ETL Specialist jobs
+ Database Software Engineer jobs
+ Engineer jobs
+ Business Intelligence Engineer jobs
+ Senior Data Warehouse Engineer jobs
+ Pipeline Engineer jobs
+ Teradata Developer jobs
+ Database Engineer jobs
+ Exhibit Coordinator jobs
+ Senior Solutions Developer jobs
+ SQL Developer jobs
+ Junior Engineer jobs
+ Assistant Produce Manager jobs
+ Data Modeler jobs
+ Data Analyst jobs
+ Senior Data Warehouse Architect jobs
+ Senior Database Engineer jobs
+ Senior Peoplesoft Consultant jobs
+ ETL Consultant jobs
+ Scala jobs
+ Data Scientist jobs
+ Senior ETL Developer jobs
+ Data Warehouse Specialist jobs
+ Databricks jobs
+ Senior Data Architect jobs
+ Lead Data Architect jobs
+ Business Intelligence Developer jobs
+ The Toledo Clinic jobs
+ Scala Developer jobs
+ General Engineer jobs
+ Senior Business Intelligence Architect jobs
+ Senior System Test Engineer jobs
+ Microsoft Developer jobs
+ Aqua-Tots Swim School jobs
+ Data Warehouse Architect jobs
+ Software Configuration Engineer jobs
+ Data System Engineer jobs
+ Python Developer jobs
+ Data Science Specialist jobs
+ Machine Learning Engineer jobs
+ Scientist jobs
+ Data Warehouse Manager jobs
+ Diocese of Saint Petersburg jobs
+ Project Lead Developer jobs
+ Telecommunications Software Engineer jobs
+ Randall Reilly jobs
+ Processing Geophysicist jobs
+ Senior Database Developer jobs
+ Business Objects Consultant jobs
+ Middleware Engineer jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (Persian)
+ Suomi (Finnish)
+ Français (French)
+ हिंदी (Hindi)
+ Magyar (Hungarian)
+ Bahasa Indonesia (Indonesian)
+ Italiano (Italian)
+ עברית (Hebrew)
+ 日本語 (Japanese)
+ 한국어 (Korean)
+ मराठी (Marathi)
+ Bahasa Malaysia (Malay)
+ Nederlands (Dutch)
+ Norsk (Norwegian)
+ ਪੰਜਾਬੀ (Punjabi)
+ Polski (Polish)
+ Português (Portuguese)
+ Română (Romanian)
+ Русский (Russian)
+ Svenska (Swedish)
+ తెలుగు (Telugu)
+ ภาษาไทย (Thai)
+ Tagalog (Tagalog)
+ Türkçe (Turkish)
+ Українська (Ukrainian)
+ Tiếng Việt (Vietnamese)
+ 简体中文 (Chinese (Simplified))
+ 正體中文 (Chinese (Traditional))
+ Language
+ Agree & Join LinkedIn
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Join now to see who you already know at Loopback Health
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .

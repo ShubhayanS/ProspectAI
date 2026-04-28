@@ -1,0 +1,483 @@
+Genentech hiring Machine Learning Scientist, Scientific Reasoning Models, AI for Drug Discovery in South San Francisco, CA | LinkedIn
+ Skip to main content
+ LinkedIn
+ Machine Learning Scientist, Scientific Reasoning Models, AI for Drug Discovery in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Machine Learning Scientist, Scientific Reasoning Models, AI for Drug Discovery
+ Genentech
+ South San Francisco, CA
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Machine Learning Scientist, Scientific Reasoning Models, AI for Drug Discovery role at Genentech
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Machine Learning Scientist, Scientific Reasoning Models, AI for Drug Discovery
+ Genentech
+ South San Francisco, CA
+ 8 hours ago
+ 166 applicants
+ See who Genentech has hired for this role
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Machine Learning Scientist, Scientific Reasoning Models, AI for Drug Discovery role at Genentech
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Save
+ Report this job
+ The Position
+A healthier future. It’s what drives us to innovate. To continuously advance science and ensure everyone has access to the healthcare they need today and for generations to come. Creating a world where we all have more time with the people we love. That’s what makes us Roche.
+Advances in AI, data, and computational sciences are transforming drug discovery and development. Roche’s Research and Early Development organisations at Genentech (gRED) and Pharma (pRED) have demonstrated how these technologies accelerate R&D, leveraging data and novel computational models to drive impact. Seamless data sharing and access to models across gRED and pRED are essential to maximising these opportunities. The new Computational Sciences Center of Excellence (CoE) is a strategic, unified group whose goal is to harness the transformative power of data and Artificial Intelligence (AI) to assist our scientists in both pRED and gRED to deliver more innovative and transformative medicines for patients worldwide.
+ The Opportunity
+ At Roche's AI for Drug Discovery (AIDD) group, we are revolutionizing drug discovery with cutting-edge machine learning (ML) techniques. We are seeking a Machine Learning Scientist to join the Foundation Models team within Prescient Design (gRED). In this role, you will contribute to our internal reasoning Large Language Models (LLMs) and enable it to succeed at relevant drug discovery tasks, including biomolecular design. You will work at the intersection of engineering and research, designing and scaling large machine learning systems.
+ In this role, you will:
+ Scalable Systems & Engineering: Design, implement, and improve large-scale distributed machine learning systems, writing robust, performance-critical code and contributing to core infrastructure.
+ Model Improvement & Reasoning: Develop and execute strategies to systematically improve performance on scientific tasks, including long-horizon task completion and complex reasoning challenges.
+ Domain Translation: Translate biological and chemical domain knowledge into concrete machine learning objectives, training signals, and evaluation criteria.
+ Evaluation & Benchmarks: Design and implement evaluation methodologies to assess model capabilities relevant to biological research, working with domain experts to establish benchmarks and curate high-quality data.
+ Research-to-Production: Collaborate closely with researchers to translate ideas and prototypes into scalable, production-ready systems.
+ As a Machine Learning Scientist:
+ Focus: You focus on the execution of defined projects. You are responsible for writing clean, efficient code to test specific hypotheses regarding reasoning and alignment.
+ Engineering: You contribute to the maintenance of the training infrastructure and data pipelines, ensuring experiments run reliably on our clusters.
+ Collaboration: You work closely with senior scientists to implement novel algorithms, translating research papers into working prototypes.
+ Who You Are
+ BS/MS in Computer Science, Statistics, Mathematics, Physics, or a related quantitative field with 2+ years of relevant work experience. Or Ph. D. with 0-2 years relevant work experience.
+ LLM Expertise: Experience developing and training large-scale machine learning models, including post-training techniques to enhance domain knowledge, reasoning capabilities, and model alignment.
+ Publication Record: A strong history of research excellence at top-tier venues (e.g., NeurIPS, ICLR, ICML).
+ Engineering: Strong software engineering skills and experience working with high-performance computing systems.
+ Preferred
+ Experience with molecular modalities (e.g., protein sequences, chemical graphs, and structured molecular data).
+ A public portfolio of research or significant contributions to open-source ML libraries.
+ A passion for applying frontier AI to drug discovery.
+ Relocation benefits are NOT available for this job posting
+The expected salary range for this position, based on the primary location of New York City, is $141,100 -262,100 of hiring range, and for San Francisco, $147,600 - 274,000. Actual pay will be determined based on experience, qualifications, geographic location, and other job-related factors permitted by law. A discretionary annual bonus may be available based on individual and Company performance. This position also qualifies for the benefits detailed at the link provided below.
+ Benefits
+ #ComputationCoE
+#tech4lifeComputationalScience
+#tech4lifeAI
+Genentech is an equal opportunity employer. It is our policy and practice to employ, promote, and otherwise treat any and all employees and applicants on the basis of merit, qualifications, and competence. The company's policy prohibits unlawful discrimination, including but not limited to, discrimination on the basis of Protected Veteran status, individuals with disabilities status, and consistent with all federal, state, or local laws.
+If you have a disability and need an accommodation in relation to the online application process, please contact us by completing this form Accommodations for Applicants.
+ Show more
+ Show less
+ Seniority level
+ Associate
+ Employment type
+ Full-time
+ Job function
+ Information Technology and Engineering
+ Industries
+ Biotechnology Research
+ Referrals increase your chances of interviewing at Genentech by 2x
+ See who you know
+ Get notified when a new job is posted.
+ Set alert
+ Sign in to set job alerts for “Machine Learning Researcher” roles.
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Similar jobs
+ Software Engineer, New Grad
+ Software Engineer, New Grad
+ Notion
+ San Francisco, CA
+ 3 days ago
+ Software Engineer, New Grad (AI)
+ Software Engineer, New Grad (AI)
+ Notion
+ San Francisco, CA
+ 4 hours ago
+ Software Engineer, Fullstack, Early Career
+ Software Engineer, Fullstack, Early Career
+ Notion
+ San Francisco, CA
+ 1 month ago
+ Software Engineer (New Grads)
+ Software Engineer (New Grads)
+ Giga
+ San Francisco, CA
+ $160,000.00
+ -
+ $250,000.00
+ 1 week ago
+ Software Engineer, Backend
+ Software Engineer, Backend
+ Tinder
+ Palo Alto, CA
+ $160,000.00
+ -
+ $180,000.00
+ 2 weeks ago
+ Software Engineer (All Levels)
+ Software Engineer (All Levels)
+ Fieldguide
+ San Francisco, CA
+ $150,000.00
+ -
+ $260,000.00
+ 6 months ago
+ Software Engineer I, RLE
+ Software Engineer I, RLE
+ Handshake
+ San Francisco, CA
+ $157,500.00
+ -
+ $175,000.00
+ 4 days ago
+ Full Stack Software Engineer (Early Career)
+ Full Stack Software Engineer (Early Career)
+ Lindy
+ San Francisco, CA
+ $150,000.00
+ -
+ $220,000.00
+ 10 months ago
+ Software Engineer I / II
+ Software Engineer I / II
+ Giga
+ San Francisco, CA
+ $160,000.00
+ -
+ $250,000.00
+ 1 month ago
+ Software Engineer
+ Software Engineer
+ Plaid
+ San Francisco, CA
+ 2 weeks ago
+ Software Engineer, New Grad
+ Software Engineer, New Grad
+ Netic
+ San Francisco, CA
+ 3 months ago
+ Software Engineer - Product (New Grad)
+ Software Engineer - Product (New Grad)
+ Julius AI
+ San Francisco, CA
+ $130,000.00
+ -
+ $150,000.00
+ 4 days ago
+ Software Engineer, Developer Experience
+ Software Engineer, Developer Experience
+ Notion
+ San Francisco, CA
+ 2 months ago
+ Software Engineer
+ Software Engineer
+ Handshake
+ San Francisco, CA
+ $145,000.00
+ -
+ $170,000.00
+ 6 days ago
+ Software Engineer I
+ Software Engineer I
+ Uber
+ San Francisco, CA
+ 2 days ago
+ Associate Software Engineer, RLE
+ Associate Software Engineer, RLE
+ Handshake
+ San Francisco, CA
+ $135,000.00
+ -
+ $150,000.00
+ 3 days ago
+ Software Engineer, New Grad
+ Software Engineer, New Grad
+ Eventual
+ San Francisco, CA
+ $120,000.00
+ -
+ $150,000.00
+ 6 months ago
+ Full Stack Software Engineer, Growth
+ Full Stack Software Engineer, Growth
+ OpenAI
+ San Francisco, CA
+ 2 weeks ago
+ Software Engineer, AI Workflows
+ Software Engineer, AI Workflows
+ Notion
+ San Francisco, CA
+ 2 weeks ago
+ Software Engineer I, Commerce Engineering
+ Software Engineer I, Commerce Engineering
+ Twitch
+ San Francisco, CA
+ 1 week ago
+ Software Engineer, Frontend (All Levels)
+ Software Engineer, Frontend (All Levels)
+ Zip
+ San Francisco, CA
+ 1 week ago
+ Software Engineer I (Coding)
+ Software Engineer I (Coding)
+ Handshake
+ San Francisco, CA
+ $135,000.00
+ -
+ $160,000.00
+ 5 hours ago
+ Software Engineer
+ Software Engineer
+ Harmony
+ Palo Alto, CA
+ 2 years ago
+ Software Engineer, Creator Sponsorships
+ Software Engineer, Creator Sponsorships
+ Twitch
+ San Francisco, CA
+ 2 days ago
+ Software Engineer (Junior/Intermediate)
+ Software Engineer (Junior/Intermediate)
+ Automat
+ San Francisco, CA
+ $150,000.00
+ -
+ $200,000.00
+ 1 month ago
+ Software Engineer
+ Software Engineer
+ Astra
+ Alameda, CA
+ 10 months ago
+ Software Engineer
+ Software Engineer
+ Neon
+ San Francisco, CA
+ $105,000.00
+ -
+ $160,000.00
+ 6 months ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Software Engineer
+ Software Engineer
+ Nudge
+ San Francisco, CA
+ 6 months ago
+ Software Engineer
+ Software Engineer
+ Middesk
+ San Francisco, CA
+ 1 year ago
+ Software Engineer, Full Stack
+ Software Engineer, Full Stack
+ Verse Medical
+ San Francisco, CA
+ $140,000.00
+ -
+ $160,000.00
+ 1 month ago
+ Software Engineer – Frontend / Backend / Fullstack
+ Software Engineer – Frontend / Backend / Fullstack
+ Padlet
+ San Francisco, CA
+ 6 months ago
+ Software Engineer - Platform
+ Software Engineer - Platform
+ Plaid
+ San Francisco, CA
+ 1 week ago
+ Software Engineer
+ Software Engineer
+ Marble
+ San Francisco, CA
+ $180,000.00
+ -
+ $250,000.00
+ 2 weeks ago
+ Software Engineer
+ Software Engineer
+ Imprint
+ San Francisco, CA
+ $140,000.00
+ -
+ $180,000.00
+ 6 months ago
+ Software Engineer - Backend
+ Software Engineer - Backend
+ Snowflake
+ Menlo Park, CA
+ 1 week ago
+ Backend Software Engineer, Growth
+ Backend Software Engineer, Growth
+ OpenAI
+ San Francisco, CA
+ 2 weeks ago
+ Full Stack Software Engineer
+ Full Stack Software Engineer
+ Blink.new
+ San Francisco, CA
+ $85,000.00
+ -
+ $150,000.00
+ 6 months ago
+ Similar Searches
+ Senior Clinical Trial Manager jobs
+ 1,714 open jobs
+ Assistant Project Scientist jobs
+ 4,366 open jobs
+ Associate Director Clinical Research jobs
+ 2,210 open jobs
+ Senior Bioinformatics Scientist jobs
+ 4,873 open jobs
+ Pharmacy Resident jobs
+ 21,623 open jobs
+ Tanning Consultant jobs
+ 14,032 open jobs
+ Process Equipment Engineer jobs
+ 7,839 open jobs
+ Senior Principal Scientist jobs
+ 3,476 open jobs
+ Associate Scientist jobs
+ 19,864 open jobs
+ Computational Biologist jobs
+ 1,177 open jobs
+ Clinical Trial Lead jobs
+ 4,421 open jobs
+ Medical Chemist jobs
+ 20,494 open jobs
+ Process Development Associate jobs
+ 16,465 open jobs
+ Bioinformatics Specialist jobs
+ 224,040 open jobs
+ Clinical Pharmacologist jobs
+ 1,616 open jobs
+ Cardiology Fellow jobs
+ 8,314 open jobs
+ Technical Project Engineer jobs
+ 18,786 open jobs
+ Associate Principal Scientist jobs
+ 3,397 open jobs
+ Principal Scientist jobs
+ 11,010 open jobs
+ Lead Investigator jobs
+ 3,507 open jobs
+ Process Development Scientist jobs
+ 9,053 open jobs
+ Reimbursement Manager jobs
+ 21,923 open jobs
+ Director Clinical Research jobs
+ 7,447 open jobs
+ Director Medical Affairs jobs
+ 5,246 open jobs
+ Clinical Intern jobs
+ 2,427 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Senior Clinical Trial Manager jobs
+ Assistant Project Scientist jobs
+ Gilead Sciences jobs
+ Associate Director Clinical Research jobs
+ Senior Bioinformatics Scientist jobs
+ Cibus jobs
+ Pharmacy Resident jobs
+ Gladstone Institutes jobs
+ Tanning Consultant jobs
+ Rivier University jobs
+ Denali Therapeutics jobs
+ Process Equipment Engineer jobs
+ Exelixis jobs
+ Amgen jobs
+ Cytokinetics jobs
+ Senior Principal Scientist jobs
+ Roche jobs
+ Associate Scientist jobs
+ City of Oceanside jobs
+ Computational Biologist jobs
+ Neurocrine Biosciences jobs
+ Clinical Trial Lead jobs
+ Regeneron jobs
+ Medical Chemist jobs
+ Merck jobs
+ Process Development Associate jobs
+ Bioinformatics Specialist jobs
+ Clinical Pharmacologist jobs
+ Cardiology Fellow jobs
+ Technical Project Engineer jobs
+ Associate Principal Scientist jobs
+ Principal Scientist jobs
+ Lead Investigator jobs
+ AbbVie jobs
+ Process Development Scientist jobs
+ Reimbursement Manager jobs
+ 10x Genomics jobs
+ Director Clinical Research jobs
+ Director Medical Affairs jobs
+ Clinical Intern jobs
+ Senior Medical Science Liaison jobs
+ Biogen jobs
+ Senior Associate Scientist jobs
+ Process Development Chemist jobs
+ Director Clinical Development jobs
+ Alnylam Pharmaceuticals jobs
+ Clinical Scientist jobs
+ Monte Nido jobs
+ Illumina jobs
+ Principal Firmware Engineer jobs
+ Computational Chemist jobs
+ Senior Study Manager jobs
+ Engineering Scientist jobs
+ Bioinformatics Analyst jobs
+ Eli Lilly and Company jobs
+ Account Liaison jobs
+ Foundation Medicine jobs
+ Elliot Health System jobs
+ Clinical Education Manager jobs
+ Bristol Myers Squibb jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ 

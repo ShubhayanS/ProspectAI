@@ -1,0 +1,472 @@
+Yale New Haven Health hiring Data Science Dev/Ops Engineer in Stratford, CT | LinkedIn
+ Skip to main content
+ LinkedIn
+ Data Science Dev/Ops Engineer in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Data Science Dev/Ops Engineer
+ Yale New Haven Health
+ Stratford, CT
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Data Science Dev/Ops Engineer role at Yale New Haven Health
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Data Science Dev/Ops Engineer
+ Yale New Haven Health
+ Stratford, CT
+ 10 hours ago
+ 38 applicants
+ See who Yale New Haven Health has hired for this role
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Data Science Dev/Ops Engineer role at Yale New Haven Health
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Save
+ Report this job
+ Overview
+ To be part of our organization, every employee should understand and share in the YNHHS Vision, support our Mission, and live our Values. These values - integrity, patient-centered, respect, accountability, and compassion - must guide what we do, as individuals and professionals, every day.
+Data Science Dev/Ops Engineer will be an experienced system administrator and DevOps engineer with aproven track record of managing distributed hardware and software environments, integrating emerging technologies and working within a collaborative development and analytics environment. The individual will be responsible for management of dedicated and virtual environments that run data science platforms using Kubernettes. The individual must have familiarity with both Linux and Windows environments.
+EEO/AA/Disability/Veteran
+ Responsibilities
+ System Management /DevOps
+ Coordinates and supports Ubuntu Linux engineering and operations
+ Deploying, managing and administering Kubernetes
+ Manages container workloads (Kubernetes)
+ Develops and supports Infrastructure as code (Python, Ansible, Helm, GitLab)
+ Monitoring and alerting (Prometheus)
+ Coordinates and supports Nutanix operations (management of virtual servers)
+ Researches new technologies or methods to advance technical capabilities of the Co-op Works with system owners to consult on system design and gather technical requirements fo rcomplex IT systems
+ Experience designing to high availability and disaster recovery requirements. This includes designing system across data centers, clusters and within data centers including failover testing
+ Ability to draft system documentation inclusive of KB articles, technical specifications, architecture diagrams
+ Knowledge of storage systems (NAS, SAN, AWS S3)
+ Data Management
+ Participates in the creation of data management plans for key projects
+ Develops data inventory for new data sets within the platform
+ Application Development
+ Assists with defining application use cases and requirements
+ Assists with the development and review of enterprise application architectures
+ Consults with team members related to healthcare database access, particularly for Epic-related data warehouse systems
+ Builds new tools to automate workflows
+ Ability to develop applications within a data science platform
+ Teamwork
+ Creates and maintains regular status reports
+ Attends weekly team meetings to discuss team and project related activities, issues, change, communications, and updates
+ Completes specific task activities as documented in work plans
+ Supports department with application and information systems knowledge
+ Promotes a team atmosphere that is conducive to the overall accomplishment of goals, schedules, and deadlines
+ Openly shares information with all team members
+ Documentation
+ Documents and maintains all required architecture and software comments and configures systems accordingly
+ Contributes to preparation of testing scripts and materials and performs unit, system, and integrated testing tasks
+ Assists with implementation and deployment plans and contributes information to change control process
+ Provides expertise and experience to the development of production environment readiness plan
+ Other
+ Provides training to other staff as appropriate
+ Helps coordinate interactions with vendors
+ Work closely with departmental staff to identify needs and benefits of implementing software solutions and strives to understand their needs
+ Qualifications
+ EDUCATION
+ Bachelor's Degree required, Master's Degree in Healthcare Administration, ITS, or related field preferred.
+ Experience
+ Three to four years of experience in healthcare information technology. Seven to ten years prior experience in ITS, electronic health records or data science platforms. Prior experience in Healthcare or other regulated environment (such as financial services) preferred.
+ Special Skills
+ Strong background in Linux and Windows system administration. Experience with deployment and maintenance of the Kubernetes platform. Knowledge of Python and other data science tools. Familiarity with Kerberos and or Active Directory configuration. Knowledge of DevOps tools (Ansible) for deployment and configuration of infrastructure, container orchestration and implementation of security frameworks within a distributed environment for application deployments.
+YNHHS Requisition ID
+180233
+ Show more
+ Show less
+ Seniority level
+ Not Applicable
+ Employment type
+ Full-time
+ Job function
+ Engineering and Information Technology
+ Industries
+ Hospitals and Health Care
+ Referrals increase your chances of interviewing at Yale New Haven Health by 2x
+ See who you know
+ Get notified about new DevOps Engineer jobs in Stratford, CT .
+ Sign in to create job alert
+ Similar jobs
+ Dev/Ops Engineer
+ Dev/Ops Engineer
+ Smilow Cancer Hospital
+ Stratford, CT
+ 7 hours ago
+ DevOps Engineer
+ DevOps Engineer
+ NR Consulting
+ New Haven, CT
+ 3 days ago
+ DevOps Engineer II
+ DevOps Engineer II
+ DataRobot
+ Fairfield County, CT
+ 5 days ago
+ DevOps Platform Engineer
+ DevOps Platform Engineer
+ Knights of Columbus
+ New Haven, CT
+ 1 week ago
+ Site Reliability Engineer
+ Site Reliability Engineer
+ Priceline
+ Norwalk, CT
+ 2 days ago
+ AWS Cloud Infrastructure Engineer
+ AWS Cloud Infrastructure Engineer
+ Akkodis Group Nordics
+ Stamford, CT
+ 2 weeks ago
+ Senior DevOps Engineer
+ Senior DevOps Engineer
+ D-Wave
+ New Haven, CT
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Veracity Software Inc
+ Ridgefield, CT
+ 5 months ago
+ AWS Cloud Engineer - Contact Center
+ AWS Cloud Engineer - Contact Center
+ The Hartford
+ Danbury, CT
+ 1 month ago
+ AWS Cloud Engineer - Contact Center
+ AWS Cloud Engineer - Contact Center
+ The Hartford
+ Stamford, CT
+ 1 month ago
+ Data Engineer
+ Data Engineer
+ Veracity Software Inc
+ Ridgefield, CT
+ 5 months ago
+ Software Engineer (AWS/Kubernetes) - Cloud Center of Excellence
+ Software Engineer (AWS/Kubernetes) - Cloud Center of Excellence
+ Gartner
+ Stamford, CT
+ 2 weeks ago
+ Senior Site Reliability Engineer
+ Senior Site Reliability Engineer
+ Castleton Commodities International
+ Stamford, CT
+ 1 week ago
+ SDC BCM Tech DevOps Engineer---Senior--Tampa
+ SDC BCM Tech DevOps Engineer---Senior--Tampa
+ EY
+ Stamford, CT
+ 5 days ago
+ Cloud Solutions Engineer (ON-SITE WALLINGFORD, CT)
+ Cloud Solutions Engineer (ON-SITE WALLINGFORD, CT)
+ Systems Integration Inc.
+ Wallingford, CT
+ 4 days ago
+ Senior Software Engineer (AWS/Kubernetes) - Cloud Center of Excellence
+ Senior Software Engineer (AWS/Kubernetes) - Cloud Center of Excellence
+ Gartner
+ Stamford, CT
+ 3 days ago
+ Senior Software Engineer, Cloud
+ Senior Software Engineer, Cloud
+ Hyperfine | AI-Powered Portable MRI
+ Guilford, CT
+ 4 months ago
+ Senior Cloud Infrastructure & Network Automation Engineer
+ Senior Cloud Infrastructure & Network Automation Engineer
+ RightClick
+ Orange, CT
+ 5 days ago
+ Forward Deployed Engineer - AWS
+ Forward Deployed Engineer - AWS
+ Deloitte
+ Stamford, CT
+ 2 weeks ago
+ Cloud Engineer - Manager - Consulting - Location OPEN
+ Cloud Engineer - Manager - Consulting - Location OPEN
+ EY
+ Stamford, CT
+ 1 week ago
+ Lead Cloud Engineer - GCP
+ Lead Cloud Engineer - GCP
+ EPAM Systems
+ Wilton, CT
+ 3 weeks ago
+ Payer Dev, Git & ML-Ops Engineer, Senior Associate
+ Payer Dev, Git & ML-Ops Engineer, Senior Associate
+ PwC
+ Stamford, CT
+ 2 weeks ago
+ Senior Cloud Software Engineer - Intelligent Document Processing
+ Senior Cloud Software Engineer - Intelligent Document Processing
+ The Hartford
+ Danbury, CT
+ 2 months ago
+ Lead Salesforce Engineer (Service Cloud)
+ Lead Salesforce Engineer (Service Cloud)
+ Gartner
+ Stamford, CT
+ 2 weeks ago
+ Manager, ServiceNow SRE Engineer
+ Manager, ServiceNow SRE Engineer
+ Deloitte
+ Stamford, CT
+ 1 day ago
+ Senior Forward Deployed Engineer - AWS
+ Senior Forward Deployed Engineer - AWS
+ Deloitte
+ Stamford, CT
+ 2 weeks ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ PwC Tech Azure Cloud Architect/Engineer (Senior Manager)
+ PwC Tech Azure Cloud Architect/Engineer (Senior Manager)
+ PwC
+ Stamford, CT
+ 2 weeks ago
+ Lead Forward Deployed Engineer - AWS
+ Lead Forward Deployed Engineer - AWS
+ Deloitte
+ Stamford, CT
+ 2 weeks ago
+ Senior Associate, Cloud DevOps
+ Senior Associate, Cloud DevOps
+ KPMG US
+ Stamford, CT
+ 3 months ago
+ Manager, Solution Architect
+ Manager, Solution Architect
+ PwC
+ Stamford, CT
+ 1 week ago
+ Google Cloud Architect - Senior Manager
+ Google Cloud Architect - Senior Manager
+ PwC
+ Stamford, CT
+ 2 weeks ago
+ Senior AI Engineer / Solutions Architect - SFL Scientific
+ Senior AI Engineer / Solutions Architect - SFL Scientific
+ Deloitte
+ Stamford, CT
+ 1 week ago
+ Cloud Deployment Architect- Manager
+ Cloud Deployment Architect- Manager
+ PwC
+ Stamford, CT
+ 2 weeks ago
+ AI-Native Engineering Lead, Full Stack - Manager
+ AI-Native Engineering Lead, Full Stack - Manager
+ PwC
+ Stamford, CT
+ 1 week ago
+ Azure AI Security Senior Consultant
+ Azure AI Security Senior Consultant
+ Deloitte
+ Stamford, CT
+ 5 days ago
+ AI Engineering Manager/Solutions Architect - SFL Scientific
+ AI Engineering Manager/Solutions Architect - SFL Scientific
+ Deloitte
+ Stamford, CT
+ 2 weeks ago
+ Similar Searches
+ Assistant Professor of Music jobs
+ 2,057 open jobs
+ Childcare Teacher jobs
+ 6,942 open jobs
+ Franchise Consultant jobs
+ 2,268 open jobs
+ Audit Project Manager jobs
+ 8,282 open jobs
+ Licensed Social Worker jobs
+ 29,708 open jobs
+ Deacon jobs
+ 149 open jobs
+ Rehabilitation Manager jobs
+ 5,867 open jobs
+ Branch Office Administrator jobs
+ 44,867 open jobs
+ Interventional Cardiologist jobs
+ 2,098 open jobs
+ Assistant Director of Nursing jobs
+ 23,948 open jobs
+ Information System Analyst jobs
+ 279,095 open jobs
+ Health Scientist jobs
+ 3,651 open jobs
+ Data Integrity Analyst jobs
+ 15,112 open jobs
+ Director of Financial Planning and Analysis jobs
+ 4,017 open jobs
+ Assistant Program Coordinator jobs
+ 36,449 open jobs
+ Clinician jobs
+ 183,969 open jobs
+ Online Instructor jobs
+ 65,637 open jobs
+ Genetic Counselor jobs
+ 7,073 open jobs
+ Associate Banker jobs
+ 26,564 open jobs
+ Member Services Specialist jobs
+ 44,107 open jobs
+ Medical Technologist jobs
+ 44,013 open jobs
+ Health Services Manager jobs
+ 41,062 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Assistant Professor of Music jobs
+ Temple University Hospital jobs
+ Middlesex Health jobs
+ Yale New Haven Hospital jobs
+ Childcare Teacher jobs
+ Franchise Consultant jobs
+ Hartford HealthCare jobs
+ Avangrid Renewables jobs
+ AdvantageCare Physicians jobs
+ Stamford Health jobs
+ State of Connecticut jobs
+ Quinnipiac University jobs
+ Nuvance Health jobs
+ Audit Project Manager jobs
+ City of New Haven jobs
+ Licensed Social Worker jobs
+ Yale University jobs
+ University of New Haven jobs
+ Deacon jobs
+ PerfectServe jobs
+ White Plains Hospital jobs
+ Baptist Health System jobs
+ Avera Health jobs
+ Rehabilitation Manager jobs
+ Branch Office Administrator jobs
+ New York Blood Center jobs
+ Albany Medical Center jobs
+ Interventional Cardiologist jobs
+ Complete Care jobs
+ Assistant Director of Nursing jobs
+ NewYork-Presbyterian Hospital jobs
+ Information System Analyst jobs
+ ARUP Laboratories jobs
+ Montefiore Health System jobs
+ EverSource jobs
+ Health Scientist jobs
+ Baystate Health jobs
+ Data Integrity Analyst jobs
+ Director of Financial Planning and Analysis jobs
+ Bon Secours Mercy Health jobs
+ Assistant Program Coordinator jobs
+ Clinician jobs
+ Trinity Health Of New England jobs
+ WVU Medicine jobs
+ Alliance Health jobs
+ Online Instructor jobs
+ Stop & Shop jobs
+ Mission Health jobs
+ Weill Cornell Medicine jobs
+ Genetic Counselor jobs
+ Associate Banker jobs
+ Columbia University Irving Medical Center jobs
+ Brown University jobs
+ Member Services Specialist jobs
+ Kaleida Health jobs
+ The University of Kansas Health System jobs
+ Medical Technologist jobs
+ University of Maryland Medical System jobs
+ Health Services Manager jobs
+ COCC jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (Persian)
+ Suomi (Finnish)
+ Français (French)
+ हिंदी (Hindi)
+ Magyar (Hungarian)
+ Bahasa Indonesia (Indonesian)
+ Italiano (Italian)
+ עברית (Hebrew)
+ 日本語 (Japanese)
+ 한국어 (Korean)
+ मराठी (Marathi)
+ Bahasa Malaysia (Malay)
+ Nederlands (Dutch)
+ Norsk (Norwegian)
+ ਪੰਜਾਬੀ (Punjabi)
+ Polski (Polish)
+ Português (Portuguese)
+ Română (Romanian)
+ Русский (Russian)
+ Svenska (Swedish)
+ తెలుగు (Telugu)
+ ภาษาไทย (Thai)
+ Tagalog (Tagalog)
+ Türkçe (Turkish)
+ Українська (Ukrainian)
+ Tiếng Việt (Vietnamese)
+ 简体中文 (Chinese (Simplified))
+ 正體中文 (Chinese (Traditional))
+ Language
+ Agree & Join LinkedIn
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to see who you already know at Yale New Haven Health
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .

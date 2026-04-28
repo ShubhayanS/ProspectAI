@@ -1,0 +1,418 @@
+Saransh Inc hiring GenAI Engineer & Google Cloud CCAI in Hartford, CT | LinkedIn
+ Skip to main content
+ LinkedIn
+ GenAI Engineer & Google Cloud CCAI in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ GenAI Engineer & Google Cloud CCAI
+ Saransh Inc
+ Hartford, CT
+ Apply
+ GenAI Engineer & Google Cloud CCAI
+ Saransh Inc
+ Hartford, CT
+ 11 hours ago
+ 79 applicants
+ See who Saransh Inc has hired for this role
+ Apply
+ Save
+ Report this job
+ Role Summary
+ We are looking for a GenAI & AI Ops Engineer to build, operate, and optimize AI-powered customer engagement solutions using Google Cloud Contact Center AI (CCAI) and Generative AI. You will ensure reliability, scalability, and performance of conversational AI across voice and digital channels while collaborating with AI, DevOps, and contact center teams.
+Key Responsibilities
+ Deploy and manage Google CCAI solutions including Dialogflow CX virtual agents and Agent Assist.
+ Monitor and optimize conversational flows, intent accuracy, containment, latency, and response quality.
+ Operate LLM-powered assistants, manage prompts, and maintain RAG pipelines and knowledge integrations.
+ Implement observability using Cloud Monitoring, Logging, and analytics tools.
+ Troubleshoot incidents and drive continuous AI performance improvements.
+ Integrate AI assistants with CRM, ticketing, and knowledge systems via APIs and webhooks.
+ Manage CI/CD, versioning, testing, and releases for AI agents and prompts.
+ Required Skills
+ Hands-on experience with Google Cloud Platform and Contact Center AI (CCAI).
+ Strong experience with Dialogflow CX and Generative AI/LLM applications.
+ Proficiency in Python or Node.js.
+ Experience with REST APIs, webhooks, monitoring, and logging tools.
+ Preferred Qualifications
+ Experience with Vertex AI and RAG architectures.
+ Familiarity with LangChain, LlamaIndex, or vector databases.
+ Experience integrating with contact center platforms (Genesys, Five9, Cisco).
+ Google Cloud certifications (Cloud Engineer or ML Engineer).
+ Show more
+ Show less
+ Seniority level
+ Entry level
+ Employment type
+ Full-time
+ Job function
+ Engineering and Information Technology
+ Industries
+ IT Services and IT Consulting
+ Referrals increase your chances of interviewing at Saransh Inc by 2x
+ See who you know
+ Get notified about new Cloud Engineer jobs in Hartford, CT .
+ Sign in to create job alert
+ Similar jobs
+ DevOps Engineer
+ DevOps Engineer
+ Corserva
+ Hartford, CT
+ 6 days ago
+ GCP Devops Engineer
+ GCP Devops Engineer
+ Saransh Inc
+ Hartford, CT
+ 2 weeks ago
+ DevOps Engineer
+ DevOps Engineer
+ DataAnnotation
+ Connecticut, United States
+ 2 days ago
+ AWS Cloud Engineer - Contact Center
+ AWS Cloud Engineer - Contact Center
+ The Hartford
+ Hartford, CT
+ 1 month ago
+ DevOps Engineer - Data Platforms
+ DevOps Engineer - Data Platforms
+ CVS Health
+ Hartford, CT
+ 7 hours ago
+ Data Engineer I (AWS, Python, Databricks)
+ Data Engineer I (AWS, Python, Databricks)
+ Travelers
+ Hartford, CT
+ 1 week ago
+ Cloud Platform Engineer
+ Cloud Platform Engineer
+ DataAnnotation
+ Connecticut, United States
+ 4 days ago
+ Data Engineer I (Databricks, AWS, Python)
+ Data Engineer I (Databricks, AWS, Python)
+ Travelers
+ Hartford, CT
+ 2 months ago
+ DevOps Engineer
+ DevOps Engineer
+ NinjaOne
+ Connecticut, United States
+ 1 week ago
+ Cloud Security Engineer
+ Cloud Security Engineer
+ DataAnnotation
+ Connecticut, United States
+ 2 weeks ago
+ Senior Cloud Engineer
+ Senior Cloud Engineer
+ The Hartford
+ Hartford, CT
+ 3 weeks ago
+ Senior DevOps Engineer - Berlin
+ Senior DevOps Engineer - Berlin
+ Endava
+ Berlin, CT
+ 2 weeks ago
+ Senior DevOps Cloud Engineer(Information Technology Subject Matter Expert)
+ Senior DevOps Cloud Engineer(Information Technology Subject Matter Expert)
+ Connecticut Department of Administrative Services
+ Hartford, CT
+ 1 week ago
+ Cloud Engineer / IS Systems Engineering
+ Cloud Engineer / IS Systems Engineering
+ Hartford HealthCare
+ Farmington, CT
+ 1 week ago
+ Solutions Engineer
+ Solutions Engineer
+ Cloudera
+ Greater Hartford
+ 1 hour ago
+ Azure Databricks Engineer (Python & Pyspark)
+ Azure Databricks Engineer (Python & Pyspark)
+ LA VISEE TECHNOLOGIES
+ Hartford, CT
+ 4 months ago
+ Software Engineer I
+ Software Engineer I
+ Travelers
+ Hartford, CT
+ 5 days ago
+ Sr Cloud Engineer
+ Sr Cloud Engineer
+ The Hartford
+ Hartford, CT
+ 3 days ago
+ Data Engineer I (AWS, Python, SQL)
+ Data Engineer I (AWS, Python, SQL)
+ Travelers
+ Hartford, CT
+ 1 week ago
+ Software Engineer I
+ Software Engineer I
+ Travelers
+ Hartford, CT
+ 3 weeks ago
+ Principal Specialist, Cloud Engineer (ServiceNow and Linux) (REMOTE)
+ Principal Specialist, Cloud Engineer (ServiceNow and Linux) (REMOTE)
+ RTX
+ Hartford, CT
+ 1 week ago
+ DevOps Software Engineer III
+ DevOps Software Engineer III
+ TicketNetwork
+ South Windsor, CT
+ 4 months ago
+ Dev Ops Engineer III
+ Dev Ops Engineer III
+ Farm Credit Financial Partners, Inc.
+ Springfield, MA
+ 2 weeks ago
+ Data Engineer II (AWS, Databricks, PySpark)
+ Data Engineer II (AWS, Databricks, PySpark)
+ Travelers
+ Hartford, CT
+ 2 months ago
+ Cloud Solutions Engineer (ON-SITE WALLINGFORD, CT)
+ Cloud Solutions Engineer (ON-SITE WALLINGFORD, CT)
+ Systems Integration Inc.
+ Wallingford, CT
+ 4 days ago
+ Data Engineer II (Snowflake, AWS, DBT)
+ Data Engineer II (Snowflake, AWS, DBT)
+ Travelers
+ Hartford, CT
+ 2 weeks ago
+ Lead DevSecOps Engineer, Cloud (Azure), Hybrid Schedule
+ Lead DevSecOps Engineer, Cloud (Azure), Hybrid Schedule
+ Eversource Energy
+ Berlin, CT
+ 1 week ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Software Engineer - TypeScript
+ Software Engineer - TypeScript
+ Rollstack
+ Connecticut, United States
+ 3 months ago
+ Data Engineer II (AWS, Snowflake, MongoDB)
+ Data Engineer II (AWS, Snowflake, MongoDB)
+ Travelers
+ Hartford, CT
+ 2 months ago
+ Systems Engineer
+ Systems Engineer
+ PRI Technology
+ East Hartford, CT
+ 3 days ago
+ Data Engineer II (AWS, Python, GenAI)
+ Data Engineer II (AWS, Python, GenAI)
+ Travelers
+ Hartford, CT
+ 1 week ago
+ Software Engineer I - SDLC, GenAI
+ Software Engineer I - SDLC, GenAI
+ Travelers
+ Hartford, CT
+ 6 days ago
+ Software Engineer (ServiceNow)
+ Software Engineer (ServiceNow)
+ Arch Capital Group Ltd.
+ Connecticut, United States
+ $95,000.00
+ -
+ $115,000.00
+ 3 days ago
+ Senior DevOps Cloud Engineer Information Technology Subject Matter Expert #260409-7607FR-001
+ Senior DevOps Cloud Engineer Information Technology Subject Matter Expert #260409-7607FR-001
+ State of Connecticut
+ Hartford, CT
+ 1 week ago
+ Sr. Cloud Devops & MLOps Engineer
+ Sr. Cloud Devops & MLOps Engineer
+ Jobs via Dice
+ Bloomfield, CT
+ 14 minutes ago
+ Cloud Engineer - AI Trainer
+ Cloud Engineer - AI Trainer
+ DataAnnotation
+ Connecticut, United States
+ 2 days ago
+ Azure and Databricks Data Engineer
+ Azure and Databricks Data Engineer
+ Infosys
+ Hartford, CT
+ 1 week ago
+ Similar Searches
+ Mainframe Programmer jobs
+ 2,025 open jobs
+ Peoplesoft Consultant jobs
+ 751 open jobs
+ Process Associate jobs
+ 64,882 open jobs
+ Finance Executive jobs
+ 55,259 open jobs
+ Moderator jobs
+ 4,705 open jobs
+ Senior SAP Consultant jobs
+ 6,084 open jobs
+ Business Intelligence Consultant jobs
+ 24,123 open jobs
+ Graduate Software Engineer jobs
+ 221,089 open jobs
+ Java Software Engineer jobs
+ 36,180 open jobs
+ Graduate Research Assistant jobs
+ 786 open jobs
+ Junior Scientist jobs
+ 10,103 open jobs
+ Business Development Executive jobs
+ 86,298 open jobs
+ Network Developer jobs
+ 222,191 open jobs
+ Chief Information Officer jobs
+ 18,133 open jobs
+ Family Law Attorney jobs
+ 8,856 open jobs
+ Architect jobs
+ 121,688 open jobs
+ Accountant jobs
+ 91,739 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Sensiple jobs
+ Mainframe Programmer jobs
+ Opusing LLC - Staffing Agency jobs
+ Peoplesoft Consultant jobs
+ Citrin Cooperman jobs
+ Process Associate jobs
+ Rescale jobs
+ Finance Executive jobs
+ UnitedHealthcare jobs
+ Shepherd Center jobs
+ City of Memphis jobs
+ Brillio jobs
+ Abacus Service Corporation jobs
+ Endeavors jobs
+ VBeyond Corporation jobs
+ TechnipFMC jobs
+ Bright Horizons jobs
+ Moderator jobs
+ Berkley Technology Services jobs
+ Senior SAP Consultant jobs
+ Amtex Systems Inc jobs
+ Numerator jobs
+ Business Intelligence Consultant jobs
+ Oatey Company jobs
+ PDS jobs
+ Western Alliance Bank jobs
+ Akraya, Inc. jobs
+ UnitedHealth Group jobs
+ Graduate Software Engineer jobs
+ Java Software Engineer jobs
+ Fetch jobs
+ Strategic Staffing Solutions jobs
+ General Dynamics Information Technology jobs
+ Deutsche Bank jobs
+ Bayforce jobs
+ Photon jobs
+ Graduate Research Assistant jobs
+ Transamerica jobs
+ Junior Scientist jobs
+ TekWissen ® jobs
+ Business Development Executive jobs
+ Deltek jobs
+ Mastech Digital jobs
+ Twilio jobs
+ Entegee jobs
+ Snyk jobs
+ Glocomms jobs
+ Labcorp jobs
+ InMobi Advertising jobs
+ Network Developer jobs
+ Excelacom jobs
+ T-Mobile jobs
+ Johnson Controls jobs
+ Chief Information Officer jobs
+ Family Law Attorney jobs
+ GlobalLogic jobs
+ Architect jobs
+ EPITEC jobs
+ Accountant jobs
+ AHEAD jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (Persian)
+ Suomi (Finnish)
+ Français (French)
+ हिंदी (Hindi)
+ Magyar (Hungarian)
+ Bahasa Indonesia (Indonesian)
+ Italiano (Italian)
+ עברית (Hebrew)
+ 日本語 (Japanese)
+ 한국어 (Korean)
+ मराठी (Marathi)
+ Bahasa Malaysia (Malay)
+ Nederlands (Dutch)
+ Norsk (Norwegian)
+ ਪੰਜਾਬੀ (Punjabi)
+ Polski (Polish)
+ Português (Portuguese)
+ Română (Romanian)
+ Русский (Russian)
+ Svenska (Swedish)
+ తెలుగు (Telugu)
+ ภาษาไทย (Thai)
+ Tagalog (Tagalog)
+ Türkçe (Turkish)
+ Українська (Ukrainian)
+ Tiếng Việt (Vietnamese)
+ 简体中文 (Chinese (Simplified))
+ 正體中文 (Chinese (Traditional))
+ Language
+ Agree & Join LinkedIn
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to see who you already know at Saransh Inc
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .

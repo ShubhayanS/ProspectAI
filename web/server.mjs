@@ -533,6 +533,143 @@ function readSafe(filepath) {
   try { return fs.readFileSync(filepath, 'utf-8'); } catch { return ''; }
 }
 
+function trimForPrompt(value, max = 12000) {
+  const text = String(value || '').trim();
+  return text.length > max ? text.slice(0, max) + '\n\n[truncated]' : text;
+}
+
+function htmlToText(html) {
+  return String(html || '')
+    .replace(/<script\b[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style\b[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<br\s*\/?>/gi, '\n')
+    .replace(/<\/(p|div|li|h[1-6]|section)>/gi, '\n')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&#39;|&apos;/g, "'")
+    .replace(/&quot;/g, '"')
+    .replace(/\s+\n/g, '\n')
+    .replace(/\n{3,}/g, '\n\n')
+    .replace(/[ \t]{2,}/g, ' ')
+    .trim();
+}
+
+async function fetchPostingText(url) {
+  if (!url?.startsWith('http')) return '';
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 15_000);
+  try {
+    const res = await fetch(url, {
+      signal: controller.signal,
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/json',
+        'Accept-Language': 'en-US,en;q=0.9',
+      },
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const contentType = res.headers.get('content-type') || '';
+    const raw = await res.text();
+    if (contentType.includes('json')) return JSON.stringify(JSON.parse(raw), null, 2).slice(0, 15000);
+    return htmlToText(raw).slice(0, 15000);
+  } catch (error) {
+    return `Unable to fetch posting text from URL (${error.message}).`;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+function cleanClaudeMarkdown(output) {
+  let text = String(output || '').trim();
+  const fenced = text.match(/```(?:markdown|md)?\s*([\s\S]*?)```/i);
+  if (fenced) text = fenced[1].trim();
+  return text
+    .replace(/^Here(?:'| i)s (?:the )?(?:tailored )?(?:resume|CV).*?:\s*/i, '')
+    .trim();
+}
+
+async function tailorCvWithClaude({ job, cvMarkdown, profileYaml, jdText }) {
+  if (!cvMarkdown.trim()) throw new Error('cv.md is empty. Upload or save a base resume first.');
+
+  const profileContext = readSafe(path.join(ROOT, 'modes', '_profile.md'));
+  const articleDigest = readSafe(path.join(ROOT, 'article-digest.md'));
+  const pdfMode = readSafe(path.join(ROOT, 'modes', 'pdf.md'));
+  const prompt = `
+You are ProspectAI's resume tailoring engine.
+
+Goal:
+Create a truthful, ATS-friendly, human-readable Markdown resume tailored to the specific job below.
+
+Rules:
+- Use only facts already present in the base resume/profile/proof points.
+- Do not invent employers, degrees, tools, metrics, dates, awards, publications, or responsibilities.
+- You may rewrite wording, reorder bullets, select the most relevant projects, and inject JD keywords naturally.
+- Preserve the candidate's identity/contact facts from profile.yml/base resume.
+- Prefer concise bullets with action verbs and concrete impact.
+- Keep standard sections: Summary, Core Competencies or Skills, Work Experience, Projects, Education, Certifications if present.
+- Return ONLY the complete tailored resume in Markdown. No commentary, no analysis, no code fences.
+
+Implementation guidance from the project's PDF mode:
+${trimForPrompt(pdfMode, 5000)}
+
+Job:
+Company: ${job.company || ''}
+Title: ${job.title || ''}
+URL: ${job.url || ''}
+Portal: ${job.portal || ''}
+Posted: ${job.posted_at || ''}
+
+Job description / posting text:
+${trimForPrompt(jdText || 'No full posting text was available. Tailor using title/company/context only.', 14000)}
+
+profile.yml:
+${trimForPrompt(profileYaml, 6000)}
+
+modes/_profile.md:
+${trimForPrompt(profileContext, 6000)}
+
+article-digest.md:
+${trimForPrompt(articleDigest, 6000)}
+
+Base resume cv.md:
+${trimForPrompt(cvMarkdown, 14000)}
+`.trim();
+
+  return await new Promise((resolve, reject) => {
+    const proc = spawn('claude', ['--print'], { cwd: ROOT, stdio: ['pipe', 'pipe', 'pipe'] });
+    let stdout = '';
+    let stderr = '';
+    const timer = setTimeout(() => {
+      try { proc.kill('SIGTERM'); } catch {}
+      reject(new Error('Claude resume generation timed out.'));
+    }, 180_000);
+
+    proc.stdout.on('data', chunk => { stdout += chunk.toString(); });
+    proc.stderr.on('data', chunk => { stderr += chunk.toString(); });
+    proc.on('error', error => {
+      clearTimeout(timer);
+      reject(new Error(`Claude is not available: ${error.message}`));
+    });
+    proc.on('close', code => {
+      clearTimeout(timer);
+      if (code !== 0) {
+        reject(new Error(stderr.trim() || stdout.trim() || `Claude exited with code ${code}`));
+        return;
+      }
+      const markdown = cleanClaudeMarkdown(stdout);
+      if (!markdown.trim()) {
+        reject(new Error('Claude returned an empty resume.'));
+        return;
+      }
+      resolve(markdown);
+    });
+    proc.stdin.end(prompt);
+  });
+}
+
 function parseScanHistory() {
   ensureScanHistorySchema();
   const content = readSafe(path.join(DATA_DIR, 'scan-history.tsv'));
@@ -1177,7 +1314,7 @@ function handleAPI(req, res, url) {
     };
 
     if (activeMatchProc) {
-      send('err', { text: 'Matcher is already running. Stop it before starting another run.' });
+      send('err', { text: 'A scoring run is already active. Stop it before starting another run.' });
       send('done', { code: 1 });
       res.end();
       return;
@@ -1260,7 +1397,7 @@ function handleAPI(req, res, url) {
   if (route === 'jobs/resume' && req.method === 'POST') {
     let body = '';
     req.on('data', c => body += c);
-    req.on('end', () => {
+    req.on('end', async () => {
       let payload = {};
       try { payload = JSON.parse(body || '{}'); } catch {}
 
@@ -1279,13 +1416,22 @@ function handleAPI(req, res, url) {
       const outputPath = path.join(OUTPUT_DIR, outputFile);
       const templateHtml = readSafe(TEMPLATE_PATH);
       const cvMarkdown = readSafe(CV_PATH);
+      const profileYaml = readSafe(PROFILE_PATH);
+      let tailoredMarkdown = '';
 
       try {
         fs.mkdirSync(OUTPUT_DIR, { recursive: true });
-        const html = buildCvHtml({ profile, cvMarkdown, templateHtml });
+        const jdText = await fetchPostingText(job.url || payload.url || '');
+        tailoredMarkdown = await tailorCvWithClaude({ job, cvMarkdown, profileYaml, jdText });
+        const html = buildCvHtml({ profile, cvMarkdown: tailoredMarkdown, templateHtml });
         fs.writeFileSync(tempHtmlPath, html, 'utf-8');
       } catch (error) {
-        json(res, { ok: false, output: error.message }, 500);
+        json(res, {
+          ok: false,
+          output: error.message,
+          needs_ai: true,
+          job: { company: job.company || '', title: job.title || '', url: job.url || '' },
+        }, 500);
         return;
       }
 
@@ -1396,5 +1542,5 @@ function serveStatic(res, pathname) {
 }
 
 server.listen(PORT, () => {
-  console.log(`\n  career-ops dashboard → http://localhost:${PORT}\n`);
+  console.log(`\n  ProspectAI dashboard → http://localhost:${PORT}\n`);
 });

@@ -1,0 +1,330 @@
+Genentech hiring Head, Innovation Accelerator Data Science in South San Francisco, CA | LinkedIn
+ Skip to main content
+ LinkedIn
+ Head, Innovation Accelerator Data Science in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Head, Innovation Accelerator Data Science
+ Genentech
+ South San Francisco, CA
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Head, Innovation Accelerator Data Science role at Genentech
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Head, Innovation Accelerator Data Science
+ Genentech
+ South San Francisco, CA
+ 8 hours ago
+ 44 applicants
+ See who Genentech has hired for this role
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Head, Innovation Accelerator Data Science role at Genentech
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Save
+ Report this job
+ Use AI to assess how you fit
+ Get AI-powered advice on this job and more exclusive features.
+ Am I a good fit for this job?
+ Tailor my resume
+ Sign in to access AI-powered advices
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to evaluate your skills
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to tailor your resume
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ The Position
+A healthier future. It’s what drives us to innovate. To continuously advance science and ensure everyone has access to the healthcare they need today and for generations to come. Creating a world where we all have more time with the people we love. That’s what makes us Roche.
+This role is based in the Innovation Accelerator (IA) team, the innovation engine and connective tissue for Design, Data and Data Science innovation strategy within Product Development Data Sciences (PDD). We translate our long-term PDD vision into actionable strategy, shaping and prioritizing innovative cross-functional use cases that span PDD, PD, and Pharma. As both integrators and incubators, we explore, prototype, and help productize solutions to deliver impact in close partnership with internal Roche teams and external collaborators. With a mindset rooted in openness, value creation, and adaptability, we navigate the innovation ecosystem to drive transformative impact and future readiness across the organization.
+ The Opportunity:
+ The Head of Innovation Accelerator Data Science is responsible for driving technical excellence across design, data and data science innovation programs for Roche Product Development. This role combines deep subject matter expertise in data science and software development with people leadership and portfolio oversight. The Head of IA Data Science ensures strong technical execution, guides architectural decisions, and aligns technical capacity with strategic goals. As a direct report to the Function Head, this position plays a critical role in shaping the innovation roadmap, scaling capabilities, and growing high-performing technical teams.
+ You provide technical leadership across early exploration and productization phases of innovation projects, ensuring alignment with departmental goals and enterprise direction
+ You act as subject matter expert and single point of escalation/problem resolution for applied data science and software engineering within the innovation portfolio
+ You influence PDD data, design and data science (3D) strategy and in-silico strategy & roadmap(s) through strategic technical leadership/expertise
+ You make architectural decisions independently and ensure adherence to best practices for scalability, performance, reliability, and compliance
+ You oversee execution quality, technical risk management, and project velocity across multiple high-impact workstreams and domains
+ You establish and enforce technical standards, enabling reuse, modularity, and robust design across solution development
+ You lead technical capacity planning and resource deployment within the team, prioritizing based on departmental strategy and portfolio needs
+ You collaborate with cross-functional and enterprise partners to translate innovation opportunities into feasible, impactful, and technically sound solutions
+ You drive the Innovation Accelerator portfolio through contribution to governance, resource planning, and progress reviews
+ You identify and integrate new technologies and platforms, applying functional expertise and organizational context to maximize department performance
+ You ensure traceability, reproducibility, and risk mitigation through robust documentation and engineering practices across all technical deliveries
+ You manage a multidisciplinary team of specialists and junior leaders (e.g., data scientists, software engineers), ensuring accountability for delivery, performance, and development
+ You oversee hiring, onboarding, workforce planning, and succession management aligned to departmental capabilities and strategic growth areas
+ You coach and mentor team members to enhance their individual performance and long-term potential, developing future technical leaders across roles and backgrounds
+ You foster a high-performance, inclusive culture focused on collaboration, ownership, and continuous improvement
+ You set development goals, conduct performance evaluations, and guide career progression based on business priorities and professional aspirations
+ You manage team deployment and resource allocation across a complex portfolio of innovation projects, balancing individual growth with business needs
+ You execute short-term department plans by managing priorities, budget, and capacity in coordination with function leadership
+ You influence senior stakeholders and functional leadership to secure alignment, resources, and sponsorship for technical priorities
+ Who you are:
+ You have an advanced degree (Master’s or PhD) in Computer Science, Data Science, Statistics, Engineering, or a related technical field
+ You have 15+ years of hands-on experience in software engineering, data science, or technical innovation, ideally within R&D or regulated environments
+ You have 4+ years in a leadership role managing multidisciplinary technical teams
+ You have proven experience driving technology delivery from prototyping to scaled implementation
+ You have deep expertise in modern data and software development technologies and architectural practices
+ You are proficient with Python or R, and ML libraries such as scikit-learn, XGBoost, TensorFlow, or PyTorch
+ You have a strong understanding of supervised/unsupervised learning, statistical modeling, and experimental design
+ You are familiar with software development practices including version control, testing, and collaborative coding
+ You have experience running simulations or analyses in a high-performing computing environment
+ You have knowledge of and experience with four or more of the following:
+ Epidemiology, including causal inference methods for observational real world data (RWD) or real world evidence (RWE)
+ Bayesian statistics
+ Decision theory, including multiple criteria decision analysis (MCDA), utility elicitation, decision simulation models, or Value of Information
+ Clinical outcomes research using data from electronic health records (EHR)
+ Discovery mechanisms and evidence generation pathways for novel biomarkers and risk scores
+ Interpretable machine learning
+ Methods to incorporate knowledge graphs, ontologies, or other forms of structured information
+ Probabilistic programming languages
+ Complex or innovative clinical trial designs, including adaptive stopping, seamless Phase 2/Phase 3 designs
+ You have a strong track record in managing resources, planning capacity, and balancing competing priorities
+ You have excellent communication and stakeholder management skills
+ You are fluent in agile delivery, DevOps, or other modern ways of working
+ You have a passion for continuous learning
+ You have a passion for mentoring colleagues of all backgrounds
+ You have capacity for independent thinking and ability to make decisions based upon sound principles
+ You exhibit excellent strategic agility including problem-solving and critical thinking skills, and agility that extends beyond technical domain
+ You demonstrate respect for cultural differences when interacting with colleagues in the global workplace
+ You possess excellent verbal and written communication skills, specifically in the areas of presentation and writing, with the ability to explain complex technical concepts in clear language
+ Preferred:
+ Experience in pharma, life sciences, or healthtech sectors
+ Familiarity with regulated environments and compliance-driven product development
+ Exposure to innovation frameworks (e.g., lean startup, dual-track agile)
+ Demonstrated ability to assess and integrate emerging technologies (e.g., GenAI, ML Ops, cloud platforms)
+ Relocation benefits are not available for this posting
+The expected salary range for this position based on the primary location of California is $254,400-$472,400. Actual pay will be determined based on experience, qualifications, geographic location, and other job-related factors permitted by law. A discretionary annual bonus may be available based on individual and Company performance. This position also qualifies for the benefits detailed at the link provided below.
+ Benefits
+ #PPDT
+#PDDSSF
+Genentech is an equal opportunity employer. It is our policy and practice to employ, promote, and otherwise treat any and all employees and applicants on the basis of merit, qualifications, and competence. The company's policy prohibits unlawful discrimination, including but not limited to, discrimination on the basis of Protected Veteran status, individuals with disabilities status, and consistent with all federal, state, or local laws.
+If you have a disability and need an accommodation in relation to the online application process, please contact us by completing this form Accommodations for Applicants.
+ Show more
+ Show less
+ Seniority level
+ Executive
+ Employment type
+ Full-time
+ Job function
+ Science
+ Industries
+ Biotechnology Research
+ Referrals increase your chances of interviewing at Genentech by 2x
+ See who you know
+ Get notified when a new job is posted.
+ Set alert
+ Sign in to set job alerts for “Head of Innovation” roles.
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Similar jobs
+ Senior Director, Corporate Strategy
+ Senior Director, Corporate Strategy
+ Freshworks
+ San Mateo, CA
+ 2 weeks ago
+ Principal or Managing Director, Value Creation Team, Services and AI
+ Principal or Managing Director, Value Creation Team, Services and AI
+ Ares Management
+ San Francisco, CA
+ 1 week ago
+ Senior Director, Corporate Strategy
+ Senior Director, Corporate Strategy
+ Freshworks
+ San Mateo, CA
+ 2 weeks ago
+ Chief Operating Officer
+ Chief Operating Officer
+ The Grapevine Agency
+ Menlo Park, CA
+ 2 hours ago
+ Head of Operations
+ Head of Operations
+ Giga
+ San Francisco, CA
+ 3 hours ago
+ Head of Digital, Banana Republic
+ Head of Digital, Banana Republic
+ Banana Republic
+ San Francisco, CA
+ 1 week ago
+ Head of R&D Operations
+ Head of R&D Operations
+ Asana
+ San Francisco, CA
+ 2 weeks ago
+ Director, Strategy & Operations
+ Director, Strategy & Operations
+ ŌURA
+ San Francisco, CA
+ 1 week ago
+ Head of Operations ($180k-$250k) at BlueDot Impact
+ Head of Operations ($180k-$250k) at BlueDot Impact
+ Jack & Jill
+ San Francisco, CA
+ 3 days ago
+ Executive Director, Growth & Innovation Fund
+ Executive Director, Growth & Innovation Fund
+ Morgan Stanley
+ San Francisco, CA
+ 3 weeks ago
+ Senior Director, Strategy and Operations
+ Senior Director, Strategy and Operations
+ Decagon
+ San Francisco, CA
+ $270,000.00
+ -
+ $350,000.00
+ 2 weeks ago
+ Senior Director, Innovation Incubation
+ Senior Director, Innovation Incubation
+ Equinix
+ Redwood City, CA
+ 1 week ago
+ Director, Corporate Strategy
+ Director, Corporate Strategy
+ Rakuten International
+ San Mateo, CA
+ 2 weeks ago
+ Director, Strategic Initiatives
+ Director, Strategic Initiatives
+ Electronic Arts (EA)
+ Redwood City, CA
+ 2 weeks ago
+ Head of Digital, Athleta
+ Head of Digital, Athleta
+ Athleta
+ San Francisco, CA
+ 5 months ago
+ Director, Strategy & Operations - Service Delivery
+ Director, Strategy & Operations - Service Delivery
+ Whatnot
+ San Francisco, CA
+ $281,000.00
+ -
+ $330,000.00
+ 2 weeks ago
+ Head of Manufacturing
+ Head of Manufacturing
+ Aether
+ South San Francisco, CA
+ $200,000.00
+ -
+ $300,000.00
+ 1 month ago
+ Director, Strategy & Operations
+ Director, Strategy & Operations
+ DoorDash
+ San Francisco, CA
+ 1 week ago
+ Chief of Staff to Founder of AI Start-up
+ Chief of Staff to Founder of AI Start-up
+ Lambent
+ San Francisco, CA
+ $125,000.00
+ -
+ $150,000.00
+ 3 weeks ago
+ Director, Innovation
+ Director, Innovation
+ BioSpace
+ South San Francisco, CA
+ 1 day ago
+ Director, Strategy & Operations
+ Director, Strategy & Operations
+ Salesforce
+ San Francisco, CA
+ 41 minutes ago
+ Director, Corporate Strategy
+ Director, Corporate Strategy
+ ŌURA
+ San Francisco, CA
+ 2 weeks ago
+ Banana Republic Head of Digital, Banana Republic
+ Banana Republic Head of Digital, Banana Republic
+ BoF Careers
+ San Francisco, CA
+ 1 week ago
+ Director, Strategy and Operations
+ Director, Strategy and Operations
+ Bright Machines
+ San Francisco, CA
+ 2 months ago
+ Chief of Staff, CEO
+ Chief of Staff, CEO
+ Handshake
+ San Francisco, CA
+ $256,000.00
+ -
+ $320,000.00
+ 2 weeks ago
+ Director, Energy Innovation and Commercialization
+ Director, Energy Innovation and Commercialization
+ Crusoe
+ San Francisco, CA
+ 1 week ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Vice President of Operations
+ Vice President of Operations
+ Sodexo
+ San Francisco, CA
+ 1 week ago
+ Vice President of Operations
+ Vice President

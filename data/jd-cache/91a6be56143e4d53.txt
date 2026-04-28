@@ -1,0 +1,471 @@
+BeaconFire Inc. hiring Agentic AI Engineer (Python) in New Jersey, United States | LinkedIn
+ Skip to main content
+ LinkedIn
+ Agentic AI Engineer (Python) in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Agentic AI Engineer (Python)
+ BeaconFire Inc.
+ New Jersey, United States
+ Apply
+ Agentic AI Engineer (Python)
+ BeaconFire Inc.
+ New Jersey, United States
+ 3 hours ago
+ Over 200 applicants
+ See who BeaconFire Inc. has hired for this role
+ Apply
+ Save
+ Report this job
+ BeaconFire Inc. provided pay range
+ This range is provided by BeaconFire Inc.. Your actual pay will be based on your skills and experience — talk with your recruiter to learn more.
+ Base pay range
+ $65,000.00/yr - $80,000.00/yr
+ Direct message the job poster from BeaconFire Inc.
+ Afrin Shaikh
+ Afrin Shaikh
+ Technical Sourcer
+ 💼 Job Title: Agentic AI Engineer (Python)
+ 📍 Location: Central New Jersey
+ 🏢 Company: BeaconFire Inc.
+ 🕒 Job Type: Full-Time
+ 🌍 Visa Sponsorship : Available (E-Verified Employer)
+ 🔹 About Us
+ BeaconFire Inc. is a New Jersey–based technology consulting firm specializing in software development, web development , and business intelligence solutions. We are seeking a skilled Agentic AI Engineer to design and productionize advanced AI systems using modern RAG and agent-based architectures.
+ 🔹 Role Overview
+ As an Agentic AI Engineer , you will own the end-to-end development of RAG-based AI systems on Google Cloud Vertex AI. This includes ingestion pipelines, retrieval systems, agent orchestration, evaluation, and deployment. You will work with modern AI frameworks and databases to build scalable, production-ready intelligent systems.
+ 🔧 Key Responsibilities
+ Design and develop high-quality web applications using Python, Flask, and Django
+ Build and optimize RAG pipelines (chunking, embeddings, indexing, retrieval, reranking, grounding)
+ Develop agentic workflows (tool usage, planning, guardrails, structured outputs)
+ Conduct code reviews and ensure maintainable, reusable code
+ Perform testing to ensure system reliability and performance
+ Create and maintain technical documentation
+ Collaborate on project planning, estimation, and prioritization
+ Define and run evaluation frameworks (retrieval metrics, hallucination checks, answer quality)
+ Deploy production systems (APIs, CI/CD, monitoring, cost optimization, security best practices)
+ ✅ Basic Qualifications
+ Strong experience in Python (Python 3) development
+ Understanding of software development lifecycle and testing practices
+ Knowledge of relational databases (e.g., MySQL, PostgreSQL)
+ Experience with version control tools like Git
+ Hands-on experience building RAG systems (hybrid search, reranking, embeddings, prompt design)
+ Familiarity with at least one agentic framework such as:
+ LangChain / LangGraph
+ LlamaIndex
+ Semantic Kernel
+ AutoGen
+ Solid understanding of vector search and experience with at least one vector database
+ Strong engineering practices (testing, telemetry, secure design, reliability mindset)
+ 🎯 Preferred Qualifications
+ Master’s degree in Computer Science or related field
+ Experience with Flask or Django web frameworks
+ Experience building RESTful APIs
+ Familiarity with cloud platforms such as AWS or GCP
+ Experience with Google Cloud Vertex AI and GCP services (IAM, Cloud Run, GKE, logging/monitoring)
+ Knowledge of graph-based RAG (entity linking, traversal, retrieval fusion)
+ Experience with streaming tools (Pub/Sub, Kafka) and document pipelines
+ Familiarity with evaluation tools (RAGAS, TruLens) and prompt/version management
+ Exposure to frontend frameworks (React, Next.js) or internal tooling
+ 🎯 Why Join Us?
+ 💼 Competitive compensation and growth opportunities
+ 🌍 Visa sponsorship available
+ 🤝 Collaborative and innovative team environment
+ 📈 Work on cutting-edge AI and LLM systems
+ 🚀 Opportunity to build production-grade agentic AI solutions.
+ Show more
+ Show less
+ Seniority level
+ Entry level
+ Employment type
+ Full-time
+ Job function
+ Information Technology
+ Industries
+ IT Services and IT Consulting and Software Development
+ Referrals increase your chances of interviewing at BeaconFire Inc. by 2x
+ See who you know
+ Get notified about new Artificial Intelligence Engineer jobs in New Jersey, United States .
+ Sign in to create job alert
+ Similar jobs
+ ML Engineer
+ ML Engineer
+ Catalyst Labs
+ New Jersey, United States
+ 2 weeks ago
+ Python/AI Developer
+ Python/AI Developer
+ GlobalPoint
+ New Brunswick, NJ
+ $55.00
+ -
+ $58.00
+ 5 months ago
+ Applied AI / ML Engineer
+ Applied AI / ML Engineer
+ Catalyst Labs
+ New Jersey, United States
+ 2 weeks ago
+ AI/ML Engineer
+ AI/ML Engineer
+ Reqroute, Inc
+ Jersey City, NJ
+ 10 hours ago
+ Gen AI Developer with Python
+ Gen AI Developer with Python
+ Synechron
+ Jersey City, NJ
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ The Value Maximizer
+ New Jersey, United States
+ 2 months ago
+ Data Engineer
+ Data Engineer
+ The Value Maximizer
+ New Jersey, United States
+ 2 months ago
+ Senior Machine Learning (ML) Engineer
+ Senior Machine Learning (ML) Engineer
+ Dyania Health
+ Jersey City, NJ
+ 1 month ago
+ Gen AI Developer
+ Gen AI Developer
+ Synechron
+ Jersey City, NJ
+ $100,000.00
+ -
+ $110,000.00
+ 1 week ago
+ Gen AI Developer
+ Gen AI Developer
+ Synechron
+ Jersey City, NJ
+ $100,000.00
+ -
+ $110,000.00
+ 1 week ago
+ Python AI Developer
+ Python AI Developer
+ Tata Consultancy Services
+ Jersey City, NJ
+ 4 days ago
+ Artificial Intelligence Engineer
+ Artificial Intelligence Engineer
+ Envision Technology Solutions
+ Berkeley Heights, NJ
+ 2 weeks ago
+ AI/ML Research Engineer, LLM Post-Training & Evaluation
+ AI/ML Research Engineer, LLM Post-Training & Evaluation
+ Synodex
+ Ridgefield Park, NJ
+ 2 months ago
+ Gen AI/ Agentic AI Engineer
+ Gen AI/ Agentic AI Engineer
+ Capgemini
+ Whippany, NJ
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ The Value Maximizer
+ New Jersey, United States
+ 2 months ago
+ Artificial Intelligence Engineer
+ Artificial Intelligence Engineer
+ BeaconFire Inc.
+ New Jersey, United States
+ $65,000.00
+ -
+ $80,000.00
+ 8 hours ago
+ AI Engineer- Gen AI/SWE- Weights & Biases
+ AI Engineer- Gen AI/SWE- Weights & Biases
+ Weights & Biases
+ Livingston, NJ
+ 1 week ago
+ Agentic AI Developer@Berkeley Heights, NJ (5 days onsite)
+ Agentic AI Developer@Berkeley Heights, NJ (5 days onsite)
+ Enexus Global Inc.
+ Berkeley Heights, NJ
+ 3 months ago
+ Data Scientist
+ Data Scientist
+ Valley Bank
+ Morristown, NJ
+ 2 weeks ago
+ Data Engineer III/Senior (AI and Gen AI)
+ Data Engineer III/Senior (AI and Gen AI)
+ Expeditors
+ Edison, NJ
+ $130,000.00
+ -
+ $150,000.00
+ 1 week ago
+ AI Developer (Entry Level)
+ AI Developer (Entry Level)
+ Wipro
+ East Brunswick, NJ
+ 2 weeks ago
+ Artificial Intelligence Engineer
+ Artificial Intelligence Engineer
+ BeaconFire Inc.
+ New Jersey, United States
+ $65,000.00
+ -
+ $80,000.00
+ 7 hours ago
+ AI Data Scientist
+ AI Data Scientist
+ Burlington Stores, Inc.
+ Beverly, NJ
+ $80,000.00
+ -
+ $105,000.00
+ 2 weeks ago
+ Artificial Intelligence Engineer
+ Artificial Intelligence Engineer
+ Synechron
+ Piscataway, NJ
+ $150,000.00
+ -
+ $160,000.00
+ 3 weeks ago
+ Engineer, AI / ML & Analytics Platform Engineering
+ Engineer, AI / ML & Analytics Platform Engineering
+ Veracity Software Inc
+ Plainsboro, NJ
+ 2 months ago
+ MLOps Engineer - Machine Learning Platform
+ MLOps Engineer - Machine Learning Platform
+ Goldman Sachs
+ Jersey City, NJ
+ 8 hours ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Senior AI Engineer
+ Senior AI Engineer
+ Accord Technologies Inc
+ Piscataway, NJ
+ 3 weeks ago
+ Agentic AI Developer (Python)
+ Agentic AI Developer (Python)
+ BeaconFire Inc.
+ New Jersey, United States
+ $65,000.00
+ -
+ $80,000.00
+ 4 hours ago
+ Agentic Gen AI Developer (Python)
+ Agentic Gen AI Developer (Python)
+ BeaconFire Inc.
+ New Jersey, United States
+ $65,000.00
+ -
+ $80,000.00
+ 4 hours ago
+ Agentic AI Developer
+ Agentic AI Developer
+ Saransh Inc
+ Jersey City, NJ
+ 4 months ago
+ AI Engineer
+ AI Engineer
+ NTT DATA North America
+ Warren, NJ
+ 1 week ago
+ Data Science/Data Engineer Intern
+ Data Science/Data Engineer Intern
+ Plymouth Rock Assurance
+ Woodbridge, NJ
+ 1 month ago
+ Associate Data Engineer
+ Associate Data Engineer
+ The Value Maximizer
+ New Jersey, United States
+ 6 days ago
+ Python/AI Engineer
+ Python/AI Engineer
+ Software Guidance & Assistance, Inc. (SGA, Inc.)
+ Rutherford, NJ
+ $79.72
+ -
+ $100.00
+ 3 days ago
+ Applied AI Engineer
+ Applied AI Engineer
+ Catalyst Labs
+ New Jersey, United States
+ 2 weeks ago
+ Applied AI engineer
+ Applied AI engineer
+ Reveille Technologies,Inc
+ New Jersey, United States
+ 11 hours ago
+ Similar Searches
+ Oracle Programmer jobs
+ 150 open jobs
+ Creative Developer jobs
+ 223,445 open jobs
+ Creative Recruiter jobs
+ 4,430 open jobs
+ Staff Analyst jobs
+ 11,778 open jobs
+ Software Quality Assurance Lead jobs
+ 2,356 open jobs
+ Computational Scientist jobs
+ 1,581 open jobs
+ Associate Director of Sales jobs
+ 3,422 open jobs
+ Director of Inside Sales jobs
+ 5,657 open jobs
+ Director of Staffing jobs
+ 10,937 open jobs
+ Account Delivery Manager jobs
+ 2,678 open jobs
+ Utilities Engineer jobs
+ 34,577 open jobs
+ Linux System Engineer jobs
+ 18,569 open jobs
+ Project Management Associate jobs
+ 74,082 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Rutgers University–New Brunswick jobs
+ Oracle Programmer jobs
+ Convergix_ Canada jobs
+ University of the Pacific jobs
+ StratasCorp Technologies jobs
+ Creative Developer jobs
+ TalentWell jobs
+ M Science jobs
+ Care New England jobs
+ Creative Recruiter jobs
+ Liaison jobs
+ Staff Analyst jobs
+ Bombora jobs
+ South Shore Health jobs
+ Software Quality Assurance Lead jobs
+ Computational Scientist jobs
+ Odyssey Information Services jobs
+ Murphy USA jobs
+ Android Industries jobs
+ Ranker jobs
+ Associate Director of Sales jobs
+ Verana Health jobs
+ Crawford Thomas Recruiting jobs
+ Director of Inside Sales jobs
+ RouteOne jobs
+ Nova Biomedical jobs
+ Treasure AI jobs
+ Chenega Corporation jobs
+ Lumeris jobs
+ Planet Technology jobs
+ SpartanNash jobs
+ METER Group jobs
+ Trintech jobs
+ Christian Healthcare Ministries jobs
+ Hyundai AutoEver America jobs
+ Level Agency jobs
+ Director of Staffing jobs
+ Master Electronics jobs
+ Imaginuity jobs
+ F2Onsite jobs
+ United Wholesale Mortgage jobs
+ RevSpring jobs
+ Massachusetts General Hospital jobs
+ ApTask jobs
+ Sisense jobs
+ ECLARO jobs
+ Account Delivery Manager jobs
+ Utilities Engineer jobs
+ Ledgent Technology jobs
+ Interapt jobs
+ FINN Partners jobs
+ Rush University Medical Center jobs
+ Adtran jobs
+ Linux System Engineer jobs
+ Associate Staffing jobs
+ TRS Staffing Solutions jobs
+ ConsultNet Technology Services and Solutions jobs
+ Project Management Associate jobs
+ Joint Commission jobs
+ IBSS jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (Persian)
+ Suomi (Finnish)
+ Français (French)
+ हिंदी (Hindi)
+ Magyar (Hungarian)
+ Bahasa Indonesia (Indonesian)
+ Italiano (Italian)
+ עברית (Hebrew)
+ 日本語 (Japanese)
+ 한국어 (Korean)
+ मराठी (Marathi)
+ Bahasa Malaysia (Malay)
+ Nederlands (Dutch)
+ Norsk (Norwegian)
+ ਪੰਜਾਬੀ (Punjabi)
+ Polski (Polish)
+ Português (Portuguese)
+ Română (Romanian)
+ Русский (Russian)
+ Svenska (Swedish)
+ తెలుగు (Telugu)
+ ภาษาไทย (Thai)
+ Tagalog (Tagalog)
+ Türkçe (Turkish)
+ Українська (Ukrainian)
+ Tiếng Việt (Vietnamese)
+ 简体中文 (Chinese (Simplified))
+ 正體中文 (Chinese (Traditional))
+ Language
+ Agree & Join LinkedIn
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Join now to see who you already know at BeaconFire Inc.
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .

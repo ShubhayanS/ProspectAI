@@ -1,0 +1,483 @@
+Philips hiring Data Engineer – Development & Analytics (Bedford, MA) in Bedford, MA | LinkedIn
+ Skip to main content
+ LinkedIn
+ Data Engineer – Development & Analytics (Bedford, MA) in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Data Engineer – Development & Analytics (Bedford, MA)
+ Philips
+ Bedford, MA
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Data Engineer – Development & Analytics (Bedford, MA) role at Philips
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Data Engineer – Development & Analytics (Bedford, MA)
+ Philips
+ Bedford, MA
+ 1 day ago
+ Over 200 applicants
+ See who Philips has hired for this role
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Data Engineer – Development & Analytics (Bedford, MA) role at Philips
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Save
+ Report this job
+ Job Title
+Data Engineer – Development & Analytics (Bedford, MA)
+ Job Description
+ Data Engineer – Development & Analytics (Bedford, MA)
+ You will join a high-performing team focused on Advanced Imaging products in the Philips Image Guided Therapy Devices (IGT-D) business. This is a cross-functional role focused on building and scaling data infrastructure (pipelines, dashboards, and querying systems) and integrating diverse data sources (field diagnostics, manufacturing, and engineering data) to enable data-driven product analysis.
+ Your Role
+ Scale internal tools for generating and managing data infrastructure. This will include collecting and storing data from diverse sources and creating cloud-based systems for large-scale querying and rapid data access across clinical and product data. Additionally, you will develop dashboards that cross-functional stakeholders will use to interpret and analyze the data on a regular basis.
+ You will report to the Head of Optical & Systems, Advanced Imaging at Philips IGTD, and work alongside a talented and multidisciplinary team of Systems Engineers.
+ Collaborate cross-functionally with product development, quality, operations, field service, and business stakeholders to define data needs, surface key trends, and build custom queries and pipelines.
+ Continue to grow as a data engineer while gaining exposure to systems engineering, quality processes, and cross-functional collaboration in a fast-paced, regulated medical device environment.
+ You're The Right Fit If
+ You have a Bachelor’s degree in data engineering, data analytics, computer science, or a similarly relevant field.
+ You have 2+ years of experience in an individual contributor role developing tools and processes to collect and consolidate diverse data sets, as well as front-end tools to manage and analyze the data. Experience developing cloud-based solutions is a plus.
+ Your skills include developing systems and tools in SQL, Python, or similar for backend data management & data mining and front-end data interrogation/display.
+ You have excellent written and verbal communication skills for effective cross-functional collaboration and reporting are required.
+ You would benefit from having cloud-based tooling experience (GCP, AWS, Azure, etc.), experience with analysis of image and signal data, and experience operating in a regulatory controlled quality system and verifying/validating tools and processes.
+ You must be able to successfully perform the following minimum Physical, Cognitive and Environmental job requirements with or without accommodation for this position.
+ How We Work Together
+ We believe that we are better together than apart. For our office-based teams, this means working in-person at least 3 days per week. Onsite roles require full-time presence in the company’s facilities. Field roles are most effectively done outside of the company’s main facilities, generally at the customers’ or suppliers’ locations.
+This is an office-based role with the expectation of 5 days a week in the Bedford, MA office.
+ About Philips
+ We are a health technology company. We built our entire company around the belief that every human matters, and we won't stop until everybody everywhere has access to the quality healthcare that we all deserve. Do the work of your life to help improve the lives of others.
+ Learn more about our business.
+ Discover our rich and exciting history.
+ Learn more about our purpose.
+ Learn more about our culture.
+ Philips Transparency Details
+ The pay range for this position in MA is $107,000 - $170,000.
+The actual base pay offered may vary within the posted ranges depending on multiple factors including job-related knowledge/skills, experience, business needs, geographical location, and internal equity.
+In addition, other compensation, such as an annual incentive bonus, sales commission or long-term incentives may be offered. Employees are eligible to participate in our comprehensive Philips Total Rewards benefits program, which includes a generous PTO, 401k (up to 7% match), HSA (with company contribution), stock purchase plan, education reimbursement and much more. Details about our benefits can be found here.
+At Philips, it is not typical for an individual to be hired at or near the top end of the range for their role and compensation decisions are dependent upon the facts and circumstances of each case.
+ Additional Information
+ US work authorization is a precondition of employment. The company will not consider candidates who require sponsorship for a work-authorized visa, now or in the future.
+ Company relocation benefits will not be provided for this position. For this position, you must reside in or within commuting distance to Bedford, MA.
+ #ImageGuidedTherapy
+ This requisition is expected to stay active for 45 days but may close earlier if a successful candidate is selected or business necessity dictates. Interested candidates are encouraged to apply as soon as possible to ensure consideration.
+ Philips is an Equal Employment and Opportunity Employer including Disability/Vets and maintains a drug-free workplace.
+ Show more
+ Show less
+ Seniority level
+ Entry level
+ Employment type
+ Full-time
+ Job function
+ Information Technology
+ Industries
+ Hospitals and Health Care
+ Referrals increase your chances of interviewing at Philips by 2x
+ See who you know
+ Get notified about new Data Engineer jobs in Bedford, MA .
+ Sign in to create job alert
+ Similar jobs
+ Data Engineer
+ Data Engineer
+ Arbor
+ Boston, MA
+ 1 month ago
+ Data Engineer (Entry- to Mid-level)
+ Data Engineer (Entry- to Mid-level)
+ Pegasystems
+ Waltham, MA
+ $80,000.00
+ -
+ $96,000.00
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Boston Red Sox
+ Boston, MA
+ 1 week ago
+ Data Engineer (Python & SQL)
+ Data Engineer (Python & SQL)
+ Holistic Partners, Inc
+ Boston, MA
+ 11 hours ago
+ Data & AI Engineer (Remote)
+ Data & AI Engineer (Remote)
+ FortifyIQ
+ Salem, MA
+ 4 weeks ago
+ Data Engineer II
+ Data Engineer II
+ WHOOP
+ Boston, MA
+ 2 weeks ago
+ ETL Engineer
+ ETL Engineer
+ KAYAK
+ Cambridge, MA
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ HarbourVest Partners
+ Boston, MA
+ 6 days ago
+ Data Engineer
+ Data Engineer
+ Raft
+ Hanscom AFB, MA
+ 3 days ago
+ Junior AI Engineer
+ Junior AI Engineer
+ Onto Innovation
+ Wilmington, MA
+ 1 week ago
+ Data Engineer II
+ Data Engineer II
+ Dana-Farber Cancer Institute
+ Boston, MA
+ 2 months ago
+ Analytics Engineer
+ Analytics Engineer
+ Lovable
+ Boston, MA
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ CGS Federal (Contact Government Services)
+ Boston, MA
+ $112,597.33
+ -
+ $152,810.66
+ 1 month ago
+ Data Engineer
+ Data Engineer
+ Greenfield Source Advisors
+ Boston, MA
+ 6 days ago
+ Data Engineer (Contract)
+ Data Engineer (Contract)
+ Selby Jennings
+ Boston, MA
+ $100.00
+ -
+ $110.00
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ CVS Health
+ Wellesley Hills, MA
+ 1 week ago
+ Data Engineer - Remote
+ Data Engineer - Remote
+ YO IT Consulting
+ Boston, MA
+ 1 week ago
+ (Jr.) Machine Learning (ML) Developer
+ (Jr.) Machine Learning (ML) Developer
+ Laminar (Formerly H2Ok Innovations)
+ Somerville, MA
+ $85,000.00
+ -
+ $135,000.00
+ 1 week ago
+ Analytics Engineer
+ Analytics Engineer
+ Global Partners LP
+ Waltham, MA
+ 2 weeks ago
+ Senior Data Engineer
+ Senior Data Engineer
+ Greenfield Source Advisors
+ Boston, MA
+ 6 days ago
+ Data Engineer II
+ Data Engineer II
+ Ahold Delhaize USA
+ Quincy, MA
+ 1 day ago
+ Data Engineer II
+ Data Engineer II
+ Kalderos
+ Boston, MA
+ 1 month ago
+ (Jr.–Sr.) Software Engineer - Backend/Platform
+ (Jr.–Sr.) Software Engineer - Backend/Platform
+ Laminar (Formerly H2Ok Innovations)
+ Somerville, MA
+ $90,000.00
+ -
+ $125,000.00
+ 2 weeks ago
+ Data Engineer III
+ Data Engineer III
+ Ahold Delhaize USA
+ Quincy, MA
+ 1 week ago
+ Sr Analytics Engineer
+ Sr Analytics Engineer
+ Hasbro
+ Boston, MA
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Akkodis Group Nordics
+ Boston, MA
+ 5 days ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Data Engineer
+ Data Engineer
+ Keystone
+ Boston, MA
+ 1 month ago
+ Quantitative Data Engineer
+ Quantitative Data Engineer
+ Options Consulting Solutions
+ Boston, MA
+ 2 weeks ago
+ Senior Data Engineer
+ Senior Data Engineer
+ Takeda
+ Boston, MA
+ $137,000.00
+ -
+ $215,270.00
+ 1 week ago
+ Senior Data Engineer
+ Senior Data Engineer
+ Wellington Management
+ Boston, MA
+ 1 month ago
+ Sr. Data Engineer
+ Sr. Data Engineer
+ DeWinter Group
+ Boston, MA
+ 4 days ago
+ Sr. Data Engineer - Fintech Leader (Series D)
+ Sr. Data Engineer - Fintech Leader (Series D)
+ Andiamo
+ Boston, MA
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ GEI Consultants, Inc.
+ Wakefield, MA
+ 2 weeks ago
+ Data Engineer, Data Platform - Distribution
+ Data Engineer, Data Platform - Distribution
+ KKR
+ Boston, MA
+ 1 week ago
+ AI Software Engineer
+ AI Software Engineer
+ Dassault Systèmes
+ Waltham, MA
+ 1 week ago
+ Sr. Data Engineer - High-Growth Tech Startup
+ Sr. Data Engineer - High-Growth Tech Startup
+ Andiamo
+ Boston, MA
+ 1 week ago
+ Similar Searches
+ Data Engineer jobs
+ 192,126 open jobs
+ Engineer jobs
+ 555,845 open jobs
+ Senior Data Engineer jobs
+ 78,076 open jobs
+ Big Data Developer jobs
+ 26,392 open jobs
+ Hadoop Developer jobs
+ 37,972 open jobs
+ ETL Developer jobs
+ 46,788 open jobs
+ Data Warehouse Engineer jobs
+ 39,476 open jobs
+ Analytical Engineer jobs
+ 7,971 open jobs
+ Data Architect jobs
+ 68,774 open jobs
+ Freelance Engineer jobs
+ 190 open jobs
+ Development Database Administrator jobs
+ 226,600 open jobs
+ ETL Specialist jobs
+ 219,897 open jobs
+ Database Software Engineer jobs
+ 224,263 open jobs
+ Business Intelligence Engineer jobs
+ 50,282 open jobs
+ Senior Data Warehouse Engineer jobs
+ 10,085 open jobs
+ Pipeline Engineer jobs
+ 39,469 open jobs
+ Teradata Developer jobs
+ 2,501 open jobs
+ Database Engineer jobs
+ 32,874 open jobs
+ Exhibit Coordinator jobs
+ 342 open jobs
+ Senior Solutions Developer jobs
+ 50,281 open jobs
+ SQL Developer jobs
+ 12,445 open jobs
+ Junior Engineer jobs
+ 52,722 open jobs
+ Assistant Produce Manager jobs
+ 3,091 open jobs
+ Data Modeler jobs
+ 263,457 open jobs
+ Data Analyst jobs
+ 329,009 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ ITC Infotech jobs
+ Data Engineer jobs
+ Engineer jobs
+ Senior Data Engineer jobs
+ Big Data Developer jobs
+ Hadoop Developer jobs
+ ETL Developer jobs
+ Lakeland Care jobs
+ Data Warehouse Engineer jobs
+ Analytical Engineer jobs
+ Data Architect jobs
+ Freelance Engineer jobs
+ Development Database Administrator jobs
+ ETL Specialist jobs
+ Database Software Engineer jobs
+ Business Intelligence Engineer jobs
+ Senior Data Warehouse Engineer jobs
+ Pipeline Engineer jobs
+ Teradata Developer jobs
+ Database Engineer jobs
+ Exhibit Coordinator jobs
+ Senior Solutions Developer jobs
+ SQL Developer jobs
+ Junior Engineer jobs
+ Assistant Produce Manager jobs
+ Data Modeler jobs
+ Data Analyst jobs
+ Senior Data Warehouse Architect jobs
+ Senior Database Engineer jobs
+ Senior Peoplesoft Consultant jobs
+ ETL Consultant jobs
+ Scala jobs
+ Data Scientist jobs
+ Senior ETL Developer jobs
+ Data Warehouse Specialist jobs
+ Databricks jobs
+ Senior Data Architect jobs
+ Lead Data Architect jobs
+ Business Intelligence Developer jobs
+ The Toledo Clinic jobs
+ Scala Developer jobs
+ General Engineer jobs
+ Senior Business Intelligence Architect jobs
+ Senior System Test Engineer jobs
+ Microsoft Developer jobs
+ Aqua-Tots Swim School jobs
+ Data Warehouse Architect jobs
+ Software Configuration Engineer jobs
+ Data System Engineer jobs
+ Python Developer jobs
+ Data Science Specialist jobs
+ Machine Learning Engineer jobs
+ Scientist jobs
+ Data Warehouse Manager jobs
+ Diocese of Saint Petersburg jobs
+ Project Lead Developer jobs
+ Telecommunications Software Engineer jobs
+ Randall Reilly jobs
+ Processing Geophysicist jobs
+ Senior Database Developer jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (Persian)
+ Suomi (Finnish)
+ Français (French)
+ हिंदी (Hindi)
+ Magyar (Hungarian)
+ Bahasa Indonesia (Indonesian)
+ Italiano (Italian)
+ עברית (Hebrew)
+ 日本語 (Japanese)
+ 한국어 (Korean)
+ मराठी (Marathi)
+ Bahasa Malaysia (Malay)
+ Nederlands (Dutch)
+ Norsk (Norwegian)
+ ਪੰਜਾਬੀ (Punjabi)
+ Polski (Polish)
+ Português (Portuguese)
+ Română (Romanian)
+ Русский (Russian)
+ Svenska (Swedish)
+ తెలుగు (Telugu)
+ ภาษาไทย (Thai)
+ Tagalog (Tagalog)
+ Türkçe (Turkish)
+ Українська (Ukrainian)
+ Tiếng Việt (Vietnamese)
+ 简体中文 (Chinese (Simplified))
+ 正體中文 (Chinese (Traditional))
+ Language
+ Agree & Join LinkedIn
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to see who you already know at Philips
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .

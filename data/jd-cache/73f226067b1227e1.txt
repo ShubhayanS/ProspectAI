@@ -1,0 +1,441 @@
+Maximus hiring AI/ML Software Developer in United States | LinkedIn
+ Skip to main content
+ LinkedIn
+ AI/ML Software Developer in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ AI/ML Software Developer
+ Maximus
+ United States
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the AI/ML Software Developer role at Maximus
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ AI/ML Software Developer
+ Maximus
+ United States
+ 7 hours ago
+ 101 applicants
+ See who Maximus has hired for this role
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the AI/ML Software Developer role at Maximus
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Save
+ Report this job
+ Use AI to assess how you fit
+ Get AI-powered advice on this job and more exclusive features.
+ Am I a good fit for this job?
+ Tailor my resume
+ Sign in to access AI-powered advices
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to evaluate your skills
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to tailor your resume
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Requirements
+ Description & Requirements
+ Maximus is a trusted federal partner supporting mission‑critical programs across national security, defense, and public service delivery. Recent contract awards in cybersecurity and operational readiness underscore Maximus’ role as a reliable prime for high‑impact government missions. Joining Maximus means contributing to meaningful work in fast‑paced environments alongside professionals committed to service, accountability, and results.
+This position is contingent upon contract award and position availability. Selected candidates will receive a contingent offer of employment, which will become final only upon successful contract award to Maximus, availability of the position, and receipt of authorization to proceed.
+ This position is remote and requires a Secret security clearance or higher. Active TS/SCI highly preferred.
+ Maximus TCS (Technology and Consulting Services) Internal Job Profile Code: TCS195, T3, Band 6
+ Job-Specific Essential Duties and Responsibilities:
+ Designs, develops, trains, evaluates, and integrates AI/ML models and algorithms supporting Government operational systems
+ Prepares and structures data for machine learning pipelines, feature engineering, and model lifecycle management
+ Implements model monitoring, performance validation, traceability, and reproducibility of AI artifacts
+ Integrates AI/ML capabilities into software applications and system architectures using APIs and microservices
+ Supports DevSecOps activities including CI/CD pipelines, automated testing, and secure deployment
+ Ensures solutions comply with DoD cybersecurity, RMF, data protection, and Responsible AI policies
+ Supports system accreditation, documentation, testing, and evaluation activities
+ Collaborates with Government and contractor teams across development, integration, and readiness environments
+ Participates in Agile program increment (PI) planning and activities requiring periodic travels
+ Job-Specific Minimum Requirements:
+ Active Secret clearance or above required. Active TS/SCI highly preferred.
+ Bachelor’s degree in related field required
+ A Master’s degree may substitute for 2 years of experience
+ 5 years of experience in the functional area
+ 3 years of demonstrated experience designing, developing, training, and evaluating machine learning models using industry-standard frameworks (e.g., TensorFlow, PyTorch, scikit-learn).
+ 3 years of experience with programming languages commonly used in AI/ML development, such as Python, and supporting languages (e.g., SQL, Java, C++).
+ 3 years demonstrated experience of machine learning concepts, including supervised and unsupervised learning, model evaluation techniques, and feature engineering.
+ Demonstrated experience in preparing, conducting, and documenting various systems tests and results to verify system operability and compliance with project standards and requirements.
+ 3 years of experience testing web-based applications.
+ 3 years of experience participating in software development programs or projects.
+ Demonstrated experience with relational databases, RESTful API development and communication, and system integrations.
+ 5 years of experience with Jenkins and GitLab.
+ Experience structuring data so it can be integrated into machine learning technologies or AI capabilities.
+ Preferred Skills and Qualifications:
+ Experience using Agile Test-Driven Development
+ Experience integrating into DoD DevSecOps environments
+ 5 years of experience with CI/CD software development
+ Experience supporting RMF accreditation and security assessment activities
+ Experience with model monitoring, explainability, and Responsible AI practices
+ Experience integrating AI/ML services into operational dashboards or decision support platforms
+ #techjobs #clearance #veteranspage # USCYBERCOM
+ Minimum Requirements
+ TCS195, T3, Band 6
+EEO Statement
+Maximus is an equal opportunity employer. We evaluate qualified applicants without regard to race, color, religion, sex, age, national origin, disability, veteran status, genetic information and other legally protected characteristics.
+Pay Transparency
+Maximus compensation is based on various factors including but not limited to job location, a candidate's education, training, experience, expected quality and quantity of work, required travel (if any), external market and internal value analysis including seniority and merit systems, as well as internal pay alignment. Annual salary is just one component of Maximus's total compensation package. Other rewards may include short- and long-term incentives as well as program-specific awards. Additionally, Maximus provides a variety of benefits to employees, including health insurance coverage, life and disability insurance, a retirement savings plan, paid holidays and paid time off. Compensation ranges may differ based on contract value but will be commensurate with job duties and relevant work experience. An applicant's salary history will not be used in determining compensation. Maximus will comply with regulatory minimum wage rates and exempt salary thresholds in all instances.
+ Accommodations
+ Maximus provides reasonable accommodations to individuals requiring assistance during any phase of the employment process due to a disability, medical condition, or physical or mental impairment. If you require assistance at any stage of the employment process—including accessing job postings, completing assessments, or participating in interviews,—please contact People Operations at applicantaccom@maximus.com .
+Minimum Salary
+$
+110,000.00
+Maximum Salary
+$
+145,000.00
+ Show more
+ Show less
+ Seniority level
+ Mid-Senior level
+ Employment type
+ Full-time
+ Job function
+ Engineering and Information Technology
+ Industries
+ Government Administration
+ Referrals increase your chances of interviewing at Maximus by 2x
+ See who you know
+ Get notified about new Artificial Intelligence Engineer jobs in United States .
+ Sign in to create job alert
+ Similar jobs
+ Data Engineer (L5)
+ Data Engineer (L5)
+ Netflix
+ United States
+ 3 weeks ago
+ Data Scientist (Stata) | Remote
+ Data Scientist (Stata) | Remote
+ Crossing Hurdles
+ United States
+ $20.00
+ -
+ $100.00
+ 6 days ago
+ Full-Stack Engineer 5 – AI Insights & Visualizations, AI Platform
+ Full-Stack Engineer 5 – AI Insights & Visualizations, AI Platform
+ Netflix
+ United States
+ 3 weeks ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Twilio
+ United States
+ 3 days ago
+ AI/ML Engineer
+ AI/ML Engineer
+ Hilo Aviation, Inc.
+ United States
+ 8 hours ago
+ Software Engineer L4/L5, Model Serving Systems, Machine Learning Platform
+ Software Engineer L4/L5, Model Serving Systems, Machine Learning Platform
+ Netflix
+ United States
+ 4 days ago
+ Data Engineer (L5) - Ads
+ Data Engineer (L5) - Ads
+ Netflix
+ United States
+ 15 hours ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ SnapCode Inc
+ United States
+ 4 months ago
+ ML Engineer - Computer Vision (Remote Position)
+ ML Engineer - Computer Vision (Remote Position)
+ Entefy
+ United States
+ 5 months ago
+ ML Engineer, RL & Autonomous Discovery
+ ML Engineer, RL & Autonomous Discovery
+ Terray Therapeutics
+ United States
+ 1 week ago
+ Software Engineer, Machine Learning
+ Software Engineer, Machine Learning
+ Meta
+ United States
+ $154,003.00
+ -
+ $217,000.00
+ 1 week ago
+ Machine Learning Developer (Freelance)
+ Machine Learning Developer (Freelance)
+ Mindrift
+ United States
+ 16 hours ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Outschool
+ United States
+ 5 months ago
+ Machine Learning Developer (Freelance)
+ Machine Learning Developer (Freelance)
+ Mindrift
+ Florida, United States
+ 16 hours ago
+ Machine Learning Engineer / Data Scientist
+ Machine Learning Engineer / Data Scientist
+ Fusemachines
+ New York, NY
+ 3 months ago
+ Machine Learning Developer (Freelance)
+ Machine Learning Developer (Freelance)
+ Mindrift
+ New York, United States
+ 16 hours ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Shipt
+ United States
+ 1 week ago
+ Research Engineer 4/5 – AI for Member Systems
+ Research Engineer 4/5 – AI for Member Systems
+ Netflix
+ United States
+ 1 week ago
+ Machine Learning Developer (Freelance)
+ Machine Learning Developer (Freelance)
+ Mindrift
+ Colorado, United States
+ 16 hours ago
+ AI Engineer/ML Engineer - Senior Developers - AI Training - USA
+ AI Engineer/ML Engineer - Senior Developers - AI Training - USA
+ Prolific
+ New York, NY
+ 4 days ago
+ Data Platform Engineer (26-27)
+ Data Platform Engineer (26-27)
+ IDEA Public Schools
+ Hidalgo County, TX
+ 1 week ago
+ Applied AI Engineer
+ Applied AI Engineer
+ Foley
+ United States
+ 2 weeks ago
+ Machine Learning Developer (Freelance)
+ Machine Learning Developer (Freelance)
+ Mindrift
+ Michigan, United States
+ 16 hours ago
+ Machine Learning (ML) Engineer
+ Machine Learning (ML) Engineer
+ Vectara
+ San Francisco, CA
+ 1 month ago
+ Data Platform Engineer (26-27)
+ Data Platform Engineer (26-27)
+ IDEA Public Schools
+ Hidalgo County, TX
+ 1 week ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Data Scientist
+ Data Scientist
+ Cint
+ United States
+ 1 week ago
+ Data Analytics Engineer
+ Data Analytics Engineer
+ Ancient Nutrition
+ United States
+ $85.00
+ -
+ $100.00
+ 2 weeks ago
+ Software Engineer L4/L5 Training Platform, Machine Learning Platform
+ Software Engineer L4/L5 Training Platform, Machine Learning Platform
+ Netflix
+ United States
+ 4 days ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Aquabyte
+ Pittsburgh, PA
+ $110,000.00
+ -
+ $165,000.00
+ 4 months ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Twilio
+ United States
+ 2 weeks ago
+ Data Scientist (L5) - Content Understanding
+ Data Scientist (L5) - Content Understanding
+ Netflix
+ United States
+ 2 weeks ago
+ Freelance Data Science Engineer (Python & SQL)
+ Freelance Data Science Engineer (Python & SQL)
+ Mindrift
+ Kentucky, United States
+ 2 days ago
+ AI Analytics and Visualization Engineer
+ AI Analytics and Visualization Engineer
+ NVIDIA
+ California, United States
+ 2 weeks ago
+ AI Engineer
+ AI Engineer
+ Reflow
+ California, United States
+ 4 days ago
+ Machine Learning Engineer - Computer Vision
+ Machine Learning Engineer - Computer Vision
+ CompanyCam
+ Austin, TX
+ 5 hours ago
+ Similar Searches
+ Director of Adult Education jobs
+ 785 open jobs
+ Senior Call Center Manager jobs
+ 1,754 open jobs
+ Patient Account Specialist jobs
+ 12,320 open jobs
+ Organizational Effectiveness Consultant jobs
+ 298 open jobs
+ Senior Manager Internal Communications jobs
+ 2,652 open jobs
+ Deputy Program Manager jobs
+ 12,041 open jobs
+ Chief Clinical Officer jobs
+ 2,602 open jobs
+ Elementary Music Teacher jobs
+ 22,253 open jobs
+ County Administrator jobs
+ 898 open jobs
+ Import Clerk jobs
+ 32,482 open jobs
+ Leadership Development Program jobs
+ 57,327 open jobs
+ Benefits Supervisor jobs
+ 19,061 open jobs
+ Contact Center Consultant jobs
+ 1,064 open jobs
+ Emergency Management Director jobs
+ 1,061 open jobs
+ Senior Intelligence Analyst jobs
+ 2,858 open jobs
+ Employment Advisor jobs
+ 5,208 open jobs
+ Recruitment Associate jobs
+ 12,620 open jobs
+ Program Editor jobs
+ 1,948 open jobs
+ Customer Program Manager jobs
+ 47,958 open jobs
+ Business Office Director jobs
+ 6,427 open jobs
+ Vice President Program Management Office jobs
+ 326 open jobs
+ Implementation Analyst jobs
+ 23,021 open jobs
+ Director Credit Collections jobs
+ 535 open jobs
+ Bid Director jobs
+ 3,006 open jobs
+ Claims Unit Manager jobs
+ 1,268 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Meeting Street jobs
+ DialAmerica jobs
+ Tribalco jobs
+ City of Spartanburg jobs
+ Syneren Technologies Corporation jobs
+ Rural Physicians Group jobs
+ TTC, Inc. jobs
+ ClearOne jobs
+ Director of Adult Education jobs
+ Senior Call Center Manager jobs
+ Patient Account Specialist jobs
+ Organizational Effectiveness Consultant jobs
+ Senior Manager Internal Communications jobs
+ Five Star Solutions jobs
+ Kongregate jobs
+ Prince William County Public Schools jobs
+ Deputy Program Manager jobs
+ Chief Clinical Officer jobs
+ Administrate jobs
+ Elementary Music Teacher jobs
+ WARC jobs
+ Vigilant Technologies jobs
+ County Administrator jobs
+ Diced jobs
+ CATHEXIS jobs
+ Import Clerk jobs
+ Leadership Development Program jobs
+ Benefits Supervisor jobs
+ Children's Home Society of Florida jobs
+ Contact Center Consultant jobs
+ Emergency Management Director jobs
+ Milwaukee County jobs
+ Senior Intelligence Analyst jobs
+ Employment Advisor jobs
+ Recruitment Associate jobs
+ Program Editor jobs
+ Customer Program Manager jobs
+ Business Office Director jobs
+ Vice President Program Management Office jobs
+ Lyric Opera of Chicago jobs
+ Gu

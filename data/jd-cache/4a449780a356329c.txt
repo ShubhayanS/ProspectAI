@@ -1,0 +1,497 @@
+OakTruss Group hiring Data Engineer in Dallas, TX | LinkedIn
+ Skip to main content
+ LinkedIn
+ Data Engineer in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Data Engineer
+ OakTruss Group
+ Dallas, TX
+ Apply
+ Data Engineer
+ OakTruss Group
+ Dallas, TX
+ 12 hours ago
+ Over 200 applicants
+ See who OakTruss Group has hired for this role
+ Apply
+ Save
+ Report this job
+ Data Engineer (AI & Cloud Platforms)
+ Location: Hybrid
+ Travel: 20% or less
+ About the job
+ OakTruss Group is seeking a Data Engineer (AI & Cloud Platforms) to support the design, development, and maintenance of scalable data systems across internal and client-facing initiatives. This role may be assigned across a variety of projects based on business needs, priorities, and areas of focus.
+ This position is ideal for a data engineering professional with a strong engineering mindset and hands-on experience building modern data pipelines, cloud-based platforms, and AI-ready data architectures. The role contributes at both the engineering and solutioning levels, with a strong emphasis on performance, reliability, governance, and secure deployment .
+ Externally, this individual may engage with clients as a technical contributor, helping translate business and data requirements into practical engineering solutions. Internally, this role will partner with leadership, PMO, and cross-functional teams to support data-driven capabilities aligned with company strategy.
+ Key responsibilities
+ Design, build, and maintain scalable data pipelines and ETL/ELT workflows for large-scale structured and unstructured datasets
+ Develop and manage data warehouses, data lakes, and lakehouse environments
+ Build and optimize serverless query solutions using AWS Athena to support cost-effective analysis of data stored in S3
+ Help ensure data quality, lineage, and governance across data assets
+ Optimize query performance and storage for cost and speed
+ Collaborate with data scientists and ML engineers to build and deploy production-ready ML pipelines
+ Build feature engineering pipelines and support maintenance of feature stores to enable AI/ML model development
+ Integrate LLM-based tools, vector databases, or AI APIs into data workflows where applicable
+ Support model monitoring, retraining pipelines, and data drift detection
+ Support the architecture and management of cloud-based data infrastructure on AWS, GCP, or Azure
+ Leverage AWS services including Athena, Glue, S3, and Redshift to build end-to-end data solutions
+ Implement infrastructure-as-code practices using tools such as Terraform, dbt, or similar technologies
+ Build and maintain orchestration workflows using Airflow, Prefect, or similar tools
+ Partner cross-functionally with analytics, product, and engineering teams to define data requirements
+ Document data models, pipeline architecture, and best practices for internal knowledge sharing
+ Contribute to engineering standards, code reviews, and continuous improvement efforts
+ Support and mentor junior engineers as appropriate
+ Support technical execution of data-related engagements in alignment with Statements of Work
+ Help ensure timely delivery of data solutions, documentation, and supporting materials
+ Collaborate with PMO and leadership to manage priorities, timelines, and deliverables
+ Identify and escalate technical risks across projects
+ Contribute to internal tools, accelerators, reusable assets, and knowledge sharing
+ Stay current with advancements in data engineering, cloud platforms, AI/ML operations, and related technologies
+ Qualifications
+ Bachelor’s degree in computer science, engineering, data science, information systems, or a related technical field
+ 5+ years of professional experience in data engineering or related technical roles, including:
+ Experience designing and maintaining scalable data pipelines and modern data platforms
+ 1–2 years supporting AI/ML-adjacent workflows, ML pipelines, or model enablement
+ Consulting or client-facing technical experience preferred
+ Preferred technical experience
+ Proficiency in Python and SQL
+ Experience with Spark or distributed computing is a plus
+ Hands-on experience with AWS, including Athena, Glue, S3, and Redshift
+ Experience building and managing data warehouses, data lakes, or lakehouse environments
+ Familiarity with cloud platforms such as AWS, Azure, or GCP and scalable deployment concepts
+ Experience with orchestration tools such as Airflow, Prefect, or similar platforms
+ Familiarity with infrastructure-as-code and transformation tooling such as Terraform, dbt, or similar technologies
+ Familiarity with MLOps tools and concepts such as MLflow, Kubeflow, SageMaker, or similar platforms
+ Understanding of data quality, governance, lineage, and storage optimization principles
+ Exposure to LLM-based tools, vector databases, or AI APIs within data workflows is a plus
+ Professional attributes
+ Ability to contribute at both technical and advisory levels with credibility in both spaces
+ Strong collaboration skills and the ability to work effectively across technical and business teams
+ Strong communication skills, with the ability to translate technical concepts into clear, actionable insights
+ Strong problem-solving and systems-thinking capabilities
+ High level of ownership, accountability, and attention to detail
+ Ability to work independently while contributing to initiatives under guidance and deadlines
+ Commitment to delivering high-quality, scalable, and efficient solutions
+ Why join us
+ Opportunity to work across modern data engineering, cloud platform, analytics, and AI-adjacent initiatives
+ Exposure to meaningful internal and client-facing work
+ Collaborative environment with cross-functional partnership
+ Strong opportunity to contribute to scalable, high-quality technical solutions
+ Show more
+ Show less
+ Seniority level
+ Mid-Senior level
+ Employment type
+ Full-time
+ Job function
+ Information Technology
+ Industries
+ Business Consulting and Services
+ Referrals increase your chances of interviewing at OakTruss Group by 2x
+ See who you know
+ Featured Benefits
+ Inferred from the description for this job
+ Medical insurance
+ Vision insurance
+ Dental insurance
+ 401(k)
+ Disability insurance
+ Get notified when a new job is posted.
+ Set alert
+ Sign in to set job alerts for “Data Engineer” roles.
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Similar jobs
+ Data Engineer
+ Data Engineer
+ OP
+ Plano, TX
+ 7 hours ago
+ Data Engineer
+ Data Engineer
+ Loopback Health
+ Dallas, TX
+ 6 hours ago
+ Sr Data Engineer
+ Sr Data Engineer
+ Lennar
+ Irving, TX
+ 6 days ago
+ Analytics Engineer
+ Analytics Engineer
+ Lantern
+ Dallas, TX
+ 2 weeks ago
+ Junior AI/ML Engineer (Data & Cloud Platforms)
+ Junior AI/ML Engineer (Data & Cloud Platforms)
+ Mod Op
+ Dallas, TX
+ 3 weeks ago
+ Data Engineer I
+ Data Engineer I
+ Catalyst Brands LLC
+ Dallas, TX
+ 5 days ago
+ Data Engineer II
+ Data Engineer II
+ Lennar
+ Irving, TX
+ 2 days ago
+ Data Engineer
+ Data Engineer
+ Ragle Inc
+ North Richland Hills, TX
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ NTT DATA North America
+ Dallas, TX
+ 2 weeks ago
+ Data Engineer (Databricks + Python + Azure)
+ Data Engineer (Databricks + Python + Azure)
+ Allata
+ Dallas, TX
+ 1 month ago
+ Data Engineer
+ Data Engineer
+ Longbridge
+ Dallas, TX
+ 4 days ago
+ Data Engineer
+ Data Engineer
+ Protagona
+ Dallas, TX
+ 6 months ago
+ SQL Data Engineer
+ SQL Data Engineer
+ Anblicks
+ Dallas, TX
+ 3 weeks ago
+ Data Engineer
+ Data Engineer
+ NTT DATA North America
+ Dallas, TX
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Paradigm
+ Dallas, TX
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Apexon
+ Dallas, TX
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Addison Group
+ Dallas-Fort Worth Metroplex
+ $100,000.00
+ -
+ $120,000.00
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ CGS Federal (Contact Government Services)
+ Dallas, TX
+ $112,597.33
+ -
+ $152,810.66
+ 1 month ago
+ Data Engineer
+ Data Engineer
+ EssilorLuxottica
+ Dallas, TX
+ 1 week ago
+ Data Engineer - Remote
+ Data Engineer - Remote
+ YO IT Consulting
+ Dallas, TX
+ 1 week ago
+ Data Engineer II
+ Data Engineer II
+ GM Financial
+ Irving, TX
+ 2 weeks ago
+ Engineer II, Data
+ Engineer II, Data
+ CarMax
+ Plano, TX
+ 1 week ago
+ AI Analytics and Visualization Engineer
+ AI Analytics and Visualization Engineer
+ NVIDIA AI
+ Dallas County, TX
+ 1 day ago
+ Sr Data Engineer
+ Sr Data Engineer
+ Topgolf
+ Dallas, TX
+ 2 weeks ago
+ Data Engineer III/Senior (AI and Gen AI)
+ Data Engineer III/Senior (AI and Gen AI)
+ Expeditors
+ Irving, TX
+ $130,000.00
+ -
+ $150,000.00
+ 1 week ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Senior Data Engineer
+ Senior Data Engineer
+ LTM
+ Irving, TX
+ $79,851.00
+ -
+ $107,720.00
+ 1 month ago
+ Senior Data Analyst / Report Developer
+ Senior Data Analyst / Report Developer
+ The Intersect Group
+ Addison, TX
+ $125,000.00
+ -
+ $140,000.00
+ 6 days ago
+ Data Engineer
+ Data Engineer
+ Unisys
+ Plano, TX
+ 3 weeks ago
+ Data Engineer (Ice berg)
+ Data Engineer (Ice berg)
+ LTIMindtree
+ Irving, TX
+ 1 month ago
+ Data Engineer
+ Data Engineer
+ Paychex
+ Irving, TX
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ AARATECH
+ Dallas-Fort Worth Metroplex
+ $60,000.00
+ -
+ $75,000.00
+ 12 hours ago
+ Data Engineer
+ Data Engineer
+ Scalian
+ Grand Prairie, TX
+ 3 weeks ago
+ Big DATA Developer with Python
+ Big DATA Developer with Python
+ LTIMindtree
+ Irving, TX
+ 2 weeks ago
+ Data Analyst
+ Data Analyst
+ Toyota North America
+ Plano, TX
+ 5 days ago
+ Data Engineer (On-Site Dallas)
+ Data Engineer (On-Site Dallas)
+ NTT DATA, Inc.
+ Dallas, TX
+ 1 week ago
+ Similar Searches
+ Senior Data Engineer jobs
+ 78,076 open jobs
+ Big Data Developer jobs
+ 26,392 open jobs
+ Hadoop Developer jobs
+ 37,972 open jobs
+ ETL Developer jobs
+ 46,788 open jobs
+ Data Warehouse Engineer jobs
+ 39,476 open jobs
+ Analytical Engineer jobs
+ 7,971 open jobs
+ Data Architect jobs
+ 68,774 open jobs
+ Freelance Engineer jobs
+ 190 open jobs
+ Development Database Administrator jobs
+ 226,600 open jobs
+ ETL Specialist jobs
+ 219,897 open jobs
+ Database Software Engineer jobs
+ 224,263 open jobs
+ Engineer jobs
+ 555,845 open jobs
+ Business Intelligence Engineer jobs
+ 50,282 open jobs
+ Senior Data Warehouse Engineer jobs
+ 10,085 open jobs
+ Pipeline Engineer jobs
+ 39,469 open jobs
+ Teradata Developer jobs
+ 2,501 open jobs
+ Database Engineer jobs
+ 32,874 open jobs
+ Exhibit Coordinator jobs
+ 342 open jobs
+ Senior Solutions Developer jobs
+ 50,281 open jobs
+ SQL Developer jobs
+ 12,445 open jobs
+ Junior Engineer jobs
+ 52,722 open jobs
+ Assistant Produce Manager jobs
+ 3,091 open jobs
+ Data Modeler jobs
+ 263,457 open jobs
+ Data Analyst jobs
+ 329,009 open jobs
+ Senior Data Warehouse Architect jobs
+ 4,641 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Senior Data Engineer jobs
+ Big Data Developer jobs
+ Hadoop Developer jobs
+ ETL Developer jobs
+ Lakeland Care jobs
+ Data Warehouse Engineer jobs
+ Analytical Engineer jobs
+ Data Architect jobs
+ Freelance Engineer jobs
+ Development Database Administrator jobs
+ ETL Specialist jobs
+ Database Software Engineer jobs
+ Engineer jobs
+ Business Intelligence Engineer jobs
+ Senior Data Warehouse Engineer jobs
+ Pipeline Engineer jobs
+ Teradata Developer jobs
+ Database Engineer jobs
+ Exhibit Coordinator jobs
+ Senior Solutions Developer jobs
+ SQL Developer jobs
+ Junior Engineer jobs
+ Assistant Produce Manager jobs
+ Data Modeler jobs
+ Data Analyst jobs
+ Senior Data Warehouse Architect jobs
+ Senior Database Engineer jobs
+ Senior Peoplesoft Consultant jobs
+ ETL Consultant jobs
+ Scala jobs
+ Data Scientist jobs
+ Senior ETL Developer jobs
+ Data Warehouse Specialist jobs
+ Databricks jobs
+ Senior Data Architect jobs
+ Lead Data Architect jobs
+ Business Intelligence Developer jobs
+ The Toledo Clinic jobs
+ Scala Developer jobs
+ General Engineer jobs
+ Senior Business Intelligence Architect jobs
+ Senior System Test Engineer jobs
+ Microsoft Developer jobs
+ Aqua-Tots Swim School jobs
+ Data Warehouse Architect jobs
+ Software Configuration Engineer jobs
+ Data System Engineer jobs
+ Python Developer jobs
+ Data Science Specialist jobs
+ Machine Learning Engineer jobs
+ Scientist jobs
+ Data Warehouse Manager jobs
+ Diocese of Saint Petersburg jobs
+ Project Lead Developer jobs
+ Telecommunications Software Engineer jobs
+ Randall Reilly jobs
+ Processing Geophysicist jobs
+ Senior Database Developer jobs
+ Business Objects Consultant jobs
+ Middleware Engineer jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (Persian)
+ Suomi (Finnish)
+ Français (French)
+ हिंदी (Hindi)
+ Magyar (Hungarian)
+ Bahasa Indonesia (Indonesian)
+ Italiano (Italian)
+ עברית (Hebrew)
+ 日本語 (Japanese)
+ 한국어 (Korean)
+ मराठी (Marathi)
+ Bahasa Malaysia (Malay)
+ Nederlands (Dutch)
+ Norsk (Norwegian)
+ ਪੰਜਾਬੀ (Punjabi)
+ Polski (Polish)
+ Português (Portuguese)
+ Română (Romanian)
+ Русский (Russian)
+ Svenska (Swedish)
+ తెలుగు (Telugu)
+ ภาษาไทย (Thai)
+ Tagalog (Tagalog)
+ Türkçe (Turkish)
+ Українська (Ukrainian)
+ Tiếng Việt (Vietnamese)
+ 简体中文 (Chinese (Simplified))
+ 正體中文 (Chinese (Traditional))
+ Language
+ Agree & Join LinkedIn
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to see who you already know at OakTruss Group
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .

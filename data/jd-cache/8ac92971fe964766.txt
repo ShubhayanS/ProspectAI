@@ -1,0 +1,471 @@
+micro1 hiring AI/ML Engineer in United States | LinkedIn
+ Skip to main content
+ LinkedIn
+ AI/ML Engineer in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ AI/ML Engineer
+ micro1
+ United States
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the AI/ML Engineer role at micro1
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ AI/ML Engineer
+ micro1
+ United States
+ 11 hours ago
+ 55 applicants
+ See who micro1 has hired for this role
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the AI/ML Engineer role at micro1
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Save
+ Report this job
+ Direct message the job poster from micro1
+ Chirag Patel
+ Chirag Patel
+ Senior Technical Recruiter at micro1
+ Job Title: AI/ML Engineer
+ Job Type: Full-Time
+ About Us:
+ micro1 is the end-to-end human data infrastructure behind AGI. Our AI recruiter model is used by frontier AI labs and Fortune 10s to source, vet, and deploy PhDs and professors from the world’s top universities at scale. These experts are placed directly into the training loops of the most advanced AI systems, powering the breakthroughs that move models forward. Our data platform converts their expertise into high-signal training datasets, and our talent management tooling measures, routes, and improves performance at scale.
+ Job Summary:
+ Join our team as a AI/ML Engineer and play a pivotal role in driving mission-critical government initiatives while also contributing to micro1’s proprietary AI infrastructure, you’ll harness advanced large language models (LLMs), retrieval-augmented generation (RAG), and multi-agent orchestration to deliver secure, scalable, and impactful machine learning systems. You’ll work closely with cross-functional experts, leveraging frontier AI platforms and the latest in agentic AI tooling.
+ Key Responsibilities:
+ Design, implement, and optimize AI/ML models particularly leveraging LLMs, RAG, and prompt engineering for production grade applications.
+ Develop and orchestrate multi-agent systems using frameworks such as LangGraph and LangChain.
+ Integrate and deploy solutions on secure cloud environments, including AWS GovCloud, Google GovCloud, Azure IL5+, Vertex AI, and AWS Bedrock.
+ Build robust data pipelines, manage ETL processes, and develop metadata catalogs and ontologies to ensure high-quality data for AI training and inference.
+ Create and maintain REST APIs and SDK integrations to facilitate seamless data and model interactions.
+ Collaborate with product, security, and engineering teams to ensure best-in-class delivery, following secure coding and DevOps best practices (CI/CD).
+ Document technical decisions and communicate complex concepts clearly to both technical and non-technical stakeholders.
+ Required Skills and Qualifications:
+ Proficiency in Python for AI/ML development, including experience with REST APIs and SDK integration.
+ Hands-on experience with LLMs, RAG systems, and prompt engineering in production environments.
+ Familiarity with multi-agent orchestration, tool use, and frameworks like LangGraph and LangChain.
+ Deep understanding of cloud AI services (AWS GovCloud, Google GovCloud, Azure IL5+, Vertex AI, AWS Bedrock).
+ Background in building and maintaining data pipelines, ontologies, metadata catalogs, and ETL processes.
+ Strong grasp of secure coding and modern DevOps practices (CI/CD pipelines).
+ Exceptional written and verbal communication skills for effective collaboration and documentation.
+ Preferred Qualifications:
+ Experience with AI/agentic platforms, such as Anthropic for Gov, OpenAI Enterprise, Gemini Enterprise, or Grok Enterprise.
+ Knowledge of metadata catalog platforms (MCP) and advanced API development techniques.
+ Prior exposure to government or highly regulated cloud environments and compliance standards.
+ Show more
+ Show less
+ Seniority level
+ Mid-Senior level
+ Employment type
+ Full-time
+ Job function
+ Information Technology
+ Industries
+ Software Development and IT Services and IT Consulting
+ Referrals increase your chances of interviewing at micro1 by 2x
+ See who you know
+ Get notified when a new job is posted.
+ Set alert
+ Sign in to set job alerts for “Machine Learning Engineer” roles.
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Similar jobs
+ Data Scientist (Stata) | Remote
+ Data Scientist (Stata) | Remote
+ Crossing Hurdles
+ United States
+ $20.00
+ -
+ $100.00
+ 6 days ago
+ Graduate Software Engineer
+ Graduate Software Engineer
+ Fuze Health
+ United States
+ $76,240.00
+ -
+ $95,300.00
+ 2 weeks ago
+ Data Engineer (L5)
+ Data Engineer (L5)
+ Netflix
+ United States
+ 3 weeks ago
+ AI/ML Engineer
+ AI/ML Engineer
+ Hilo Aviation, Inc.
+ United States
+ 8 hours ago
+ Data Scientist 4/5 - Identity DSE
+ Data Scientist 4/5 - Identity DSE
+ Netflix
+ United States
+ 2 weeks ago
+ Data Scientist (L5) - Content Understanding
+ Data Scientist (L5) - Content Understanding
+ Netflix
+ United States
+ 2 weeks ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Twilio
+ United States
+ 3 days ago
+ Machine Learning Developer (Freelance)
+ Machine Learning Developer (Freelance)
+ Mindrift
+ United States
+ 16 hours ago
+ Machine Learning Developer (Freelance)
+ Machine Learning Developer (Freelance)
+ Mindrift
+ Florida, United States
+ 16 hours ago
+ Machine Learning Developer (Freelance)
+ Machine Learning Developer (Freelance)
+ Mindrift
+ New York, United States
+ 16 hours ago
+ AI Agent Software Engineer Intern
+ AI Agent Software Engineer Intern
+ Cantaloupe Inc
+ Atlanta, GA
+ 2 weeks ago
+ Software Engineer L4/L5 Training Platform, Machine Learning Platform
+ Software Engineer L4/L5 Training Platform, Machine Learning Platform
+ Netflix
+ United States
+ 4 days ago
+ Data Scientist (L5) - Cloud Games Quality of Experience
+ Data Scientist (L5) - Cloud Games Quality of Experience
+ Netflix
+ United States
+ 3 days ago
+ Machine Learning Developer (Freelance)
+ Machine Learning Developer (Freelance)
+ Mindrift
+ Colorado, United States
+ 16 hours ago
+ Software Engineer L4/L5, Model Serving Systems, Machine Learning Platform
+ Software Engineer L4/L5, Model Serving Systems, Machine Learning Platform
+ Netflix
+ United States
+ 4 days ago
+ Machine Learning Developer (Freelance)
+ Machine Learning Developer (Freelance)
+ Mindrift
+ Michigan, United States
+ 16 hours ago
+ Software Engineer (L4) - Personalization
+ Software Engineer (L4) - Personalization
+ Netflix
+ United States
+ 3 days ago
+ AI Agent Software Engineer Intern
+ AI Agent Software Engineer Intern
+ Cantaloupe Inc
+ Malvern, PA
+ 2 weeks ago
+ ML Engineer - Computer Vision (Remote Position)
+ ML Engineer - Computer Vision (Remote Position)
+ Entefy
+ United States
+ 5 months ago
+ Software Engineer
+ Software Engineer
+ Fuze Health
+ Texas, United States
+ $124,800.00
+ -
+ $156,000.00
+ 2 weeks ago
+ Software Engineer | Remote
+ Software Engineer | Remote
+ CodeGeniusRecruit
+ United States
+ $40.00
+ -
+ $50.00
+ 6 days ago
+ Software Engineer, Machine Learning
+ Software Engineer, Machine Learning
+ Meta
+ United States
+ $154,003.00
+ -
+ $217,000.00
+ 1 week ago
+ Data Scientist
+ Data Scientist
+ Attune
+ New York, NY
+ 2 weeks ago
+ Data Platform Engineer (26-27)
+ Data Platform Engineer (26-27)
+ IDEA Public Schools
+ Hidalgo County, TX
+ 1 week ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Machine Learning Engineer / Data Scientist
+ Machine Learning Engineer / Data Scientist
+ Fusemachines
+ New York, NY
+ 3 months ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Twilio
+ United States
+ 2 weeks ago
+ Data Platform Engineer (26-27)
+ Data Platform Engineer (26-27)
+ IDEA Public Schools
+ Hidalgo County, TX
+ 1 week ago
+ Data Scientist 5, Experimentation Platform
+ Data Scientist 5, Experimentation Platform
+ Netflix
+ Los Gatos, CA
+ 4 days ago
+ Machine Learning Engineer, Agentic AI
+ Machine Learning Engineer, Agentic AI
+ Zillow
+ United States
+ 1 day ago
+ ML Engineer, RL & Autonomous Discovery
+ ML Engineer, RL & Autonomous Discovery
+ Terray Therapeutics
+ United States
+ 1 week ago
+ Data Scientist
+ Data Scientist
+ Cint
+ United States
+ 1 week ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Shipt
+ United States
+ 1 week ago
+ AI ML Engineer
+ AI ML Engineer
+ AppSierra
+ Indiana, United States
+ ₹2,000,000.00
+ -
+ ₹3,500,000.00
+ 3 months ago
+ Similar Searches
+ Database Developer jobs
+ 29,690 open jobs
+ Production Manager jobs
+ 88,491 open jobs
+ Science Specialist jobs
+ 14,888 open jobs
+ Machine Learning Engineer jobs
+ 148,937 open jobs
+ Marketing Executive jobs
+ 66,900 open jobs
+ Junior Scientist jobs
+ 10,103 open jobs
+ Researcher jobs
+ 195,654 open jobs
+ Data Scientist jobs
+ 264,158 open jobs
+ Python Developer jobs
+ 46,642 open jobs
+ Engineer jobs
+ 555,845 open jobs
+ Scientist jobs
+ 48,969 open jobs
+ Analyst jobs
+ 694,057 open jobs
+ Developer jobs
+ 258,935 open jobs
+ Intelligence Specialist jobs
+ 7,156 open jobs
+ Business Intelligence Analyst jobs
+ 43,282 open jobs
+ Research Intern jobs
+ 21,678 open jobs
+ Frontend Developer jobs
+ 17,238 open jobs
+ Data Analyst jobs
+ 329,009 open jobs
+ Associate Engineer jobs
+ 48,481 open jobs
+ Partner jobs
+ 644,825 open jobs
+ Emergency Medicine Resident jobs
+ 1,074 open jobs
+ General Engineer jobs
+ 54,597 open jobs
+ Staff Research Engineer jobs
+ 1,530 open jobs
+ Insurance Counselor jobs
+ 4,892 open jobs
+ Algorithm Engineer jobs
+ 6,066 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Database Developer jobs
+ Production Manager jobs
+ Science Specialist jobs
+ Machine Learning Engineer jobs
+ Marketing Executive jobs
+ Junior Scientist jobs
+ Nestlé jobs
+ Researcher jobs
+ Data Scientist jobs
+ Python Developer jobs
+ Engineer jobs
+ Scientist jobs
+ Analyst jobs
+ Jane Street jobs
+ Developer jobs
+ Target jobs
+ Intelligence Specialist jobs
+ Business Intelligence Analyst jobs
+ Research Intern jobs
+ Frontend Developer jobs
+ Dataiku jobs
+ Netflix jobs
+ Data Analyst jobs
+ Uber jobs
+ Associate Engineer jobs
+ EY jobs
+ Partner jobs
+ Seven Bridges jobs
+ Emergency Medicine Resident jobs
+ The Hospital at Westlake Medical Center jobs
+ General Engineer jobs
+ Staff Research Engineer jobs
+ Insurance Counselor jobs
+ SDK Software, Inc. jobs
+ Algorithm Engineer jobs
+ Senior Computer Engineer jobs
+ Senior Scientist jobs
+ Lead Scientist jobs
+ Data Science Specialist jobs
+ Processing Geophysicist jobs
+ Assistant Professor of Philosophy jobs
+ Processing Engineer jobs
+ The Coordinating Center jobs
+ Senior Manufacturing Process Engineer jobs
+ Total Education Solutions jobs
+ Learning Specialist jobs
+ Senior Integration Specialist jobs
+ Research Software Engineer jobs
+ Research Engineer jobs
+ Information Assurance Engineer jobs
+ Quantitative Developer jobs
+ Quantitative Researcher jobs
+ Algorithm Developer jobs
+ ArcBest Technologies jobs
+ Reflexologist jobs
+ Senior Telecommunications Analyst jobs
+ Adjust jobs
+ Robotics Engineer jobs
+ AMI jobs
+ Research Scientist jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (Persian)
+ Suomi (Finnish)
+ Français (French)
+ हिंदी (Hindi)
+ Magyar (Hungarian)
+ Bahasa Indonesia (Indonesian)
+ Italiano (Italian)
+ עברית (Hebrew)
+ 日本語 (Japanese)
+ 한국어 (Korean)
+ मराठी (Marathi)
+ Bahasa Malaysia (Malay)
+ Nederlands (Dutch)
+ Norsk (Norwegian)
+ ਪੰਜਾਬੀ (Punjabi)
+ Polski (Polish)
+ Português (Portuguese)
+ Română (Romanian)
+ Русский (Russian)
+ Svenska (Swedish)
+ తెలుగు (Telugu)
+ ภาษาไทย (Thai)
+ Tagalog (Tagalog)
+ Türkçe (Turkish)
+ Українська (Ukrainian)
+ Tiếng Việt (Vietnamese)
+ 简体中文 (Chinese (Simplified))
+ 正體中文 (Chinese (Traditional))
+ Language
+ Agree & Join LinkedIn
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Join now to see who you already know at micro1
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .

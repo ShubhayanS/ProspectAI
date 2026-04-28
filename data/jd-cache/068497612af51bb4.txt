@@ -1,0 +1,489 @@
+Enigma hiring Machine Learning Engineer | Python | Pytorch | Distributed Training | Optimisation | GPU | Hybrid, San Jose, CA in San Jose, CA | LinkedIn
+ Skip to main content
+ LinkedIn
+ Machine Learning Engineer | Python | Pytorch | Distributed Training | Optimisation | GPU | Hybrid, San Jose, CA in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Machine Learning Engineer | Python | Pytorch | Distributed Training | Optimisation | GPU | Hybrid, San Jose, CA
+ Enigma
+ San Jose, CA
+ Apply
+ Machine Learning Engineer | Python | Pytorch | Distributed Training | Optimisation | GPU | Hybrid, San Jose, CA
+ Enigma
+ San Jose, CA
+ 13 hours ago
+ 180 applicants
+ See who Enigma has hired for this role
+ Apply
+ Save
+ Report this job
+ Use AI to assess how you fit
+ Get AI-powered advice on this job and more exclusive features.
+ Am I a good fit for this job?
+ Tailor my resume
+ Sign in to access AI-powered advices
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to evaluate your skills
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to tailor your resume
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Direct message the job poster from Enigma
+ Tom Goldberg
+ Tom Goldberg
+ Founder @ Enigma | Global Machine Learning & Generative AI Recruitment
+ Machine Learning Engineer | Python | Pytorch | Distributed Training | Optimisation | GPU | Hybrid, San Jose, CA
+ Title: Machine Learning Engineer
+ Location: San Jose, CA
+ Responsibilities:
+ Productize and optimize models from Research into reliable, performant, and cost-efficient services with clear SLOs (latency, availability, cost).
+ Scale training across nodes/GPUs (DDP/FSDP/ZeRO, pipeline/tensor parallelism) and own throughput/time-to-train using profiling and optimization.
+ Implement model-efficiency techniques (quantization, distillation, pruning, KV-cache, Flash Attention) for training and inference without materially degrading quality.
+ Build and maintain model-serving systems (vLLM/Triton/TGI/ONNX/TensorRT/AITemplate) with batching, streaming, caching, and memory management.
+ Integrate with vector/feature stores and data pipelines (FAISS/Milvus/Pinecone/pgvector; Parquet/Delta) as needed for production.
+ Define and track performance and cost KPIs; run continuous improvement loops and capacity planning.
+ Partner with ML Ops on CI/CD, telemetry/observability, model registries; partner with Scientists on reproducible handoffs and evaluations.
+ Educational Qualifications:
+ Bachelors in computer science, Electrical/Computer Engineering, or a related field required; Master’s preferred (or equivalent industry experience).
+ Strong systems/ML engineering with exposure to distributed training and inference optimization.
+ Industry Experience:
+ 3–5 years in ML/AI engineering roles owning training and/or serving in production at scale.
+ Demonstrated success delivering high-throughput, low-latency ML services with reliability and cost improvements.
+ Experience collaborating across Research, Platform/Infra, Data, and Product functions.
+ Technical Skills:
+ Familiarity with deep learning frameworks: PyTorch (primary), TensorFlow.
+ Exposure to large model training techniques (DDP, FSDP, ZeRO, pipeline/tensor parallelism); distributed training experience a plus
+ Optimization: experience profiling and optimizing code execution and model inference: (PTQ/QAT/AWQ/GPTQ), pruning, distillation, KV-cache optimization, Flash Attention
+ Scalable serving: autoscaling, load balancing, streaming, batching, caching; collaboration with platform engineers.
+ Data & storage: SQL/NoSQL, vector stores (FAISS/Milvus/Pinecone/pgvector), Parquet/Delta, object stores.
+ Write performant, maintainable code
+ Understanding of the full ML lifecycle: data collection, model training, deployment, inference, optimization, and evaluation.
+ Machine Learning Engineer | Python | Pytorch | Distributed Training | Optimisation | GPU | Hybrid, San Jose, CA
+ Show more
+ Show less
+ Seniority level
+ Mid-Senior level
+ Employment type
+ Full-time
+ Job function
+ Information Technology
+ Industries
+ Hospitals and Health Care
+ Referrals increase your chances of interviewing at Enigma by 2x
+ See who you know
+ Get notified about new Machine Learning Engineer jobs in San Jose, CA .
+ Sign in to create job alert
+ Similar jobs
+ Machine Learning Engineer Intern
+ Machine Learning Engineer Intern
+ Tinder
+ Palo Alto, CA
+ $47.00
+ -
+ $47.00
+ 2 weeks ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Adobe
+ San Jose, CA
+ 1 week ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Adobe
+ San Jose, CA
+ 1 week ago
+ ML Engineer
+ ML Engineer
+ Catalyst Labs
+ San Jose, CA
+ 2 weeks ago
+ Software Engineer, AI Platform - New Grad
+ Software Engineer, AI Platform - New Grad
+ Nuro
+ Mountain View, CA
+ 2 weeks ago
+ ML Engineer
+ ML Engineer
+ Catalyst Labs
+ Sunnyvale, CA
+ 2 weeks ago
+ AI/ML Engineer
+ AI/ML Engineer
+ Brain Co.
+ San Francisco Bay Area
+ 2 weeks ago
+ ML Engineer
+ ML Engineer
+ Catalyst Labs
+ Santa Clara, CA
+ 2 weeks ago
+ Data Scientist, Analytics
+ Data Scientist, Analytics
+ Discord
+ San Francisco Bay Area
+ 2 weeks ago
+ AI/ML Engineer
+ AI/ML Engineer
+ Lam Research
+ Fremont, CA
+ 3 days ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Adobe
+ San Jose, CA
+ 6 hours ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Aquabyte
+ San Francisco Bay Area
+ $130,000.00
+ -
+ $170,000.00
+ 4 months ago
+ ML Engineer
+ ML Engineer
+ Catalyst Labs
+ Mountain View, CA
+ 2 weeks ago
+ ML Engineer
+ ML Engineer
+ Catalyst Labs
+ Cupertino, CA
+ 2 weeks ago
+ ML Engineer
+ ML Engineer
+ Catalyst Labs
+ Palo Alto, CA
+ 2 weeks ago
+ ML Engineer
+ ML Engineer
+ Catalyst Labs
+ Menlo Park, CA
+ 2 weeks ago
+ Machine Learning Engineer II
+ Machine Learning Engineer II
+ Uber
+ Sunnyvale, CA
+ 2 weeks ago
+ Machine Learning Engineer, AI
+ Machine Learning Engineer, AI
+ Biohub
+ Redwood City, CA
+ 2 weeks ago
+ Machine Learning Engineer (Tapestry)
+ Machine Learning Engineer (Tapestry)
+ X, The Moonshot Factory
+ Mountain View, CA
+ 4 days ago
+ Data Scientist 5, Experimentation Platform
+ Data Scientist 5, Experimentation Platform
+ Netflix
+ Los Gatos, CA
+ 4 days ago
+ ML Research Engineer, Interpretable AI for End-to-End Automated Driving
+ ML Research Engineer, Interpretable AI for End-to-End Automated Driving
+ Toyota Research Institute
+ Los Altos, CA
+ 1 hour ago
+ Early Career AI/ML Engineer
+ Early Career AI/ML Engineer
+ Brain Co.
+ San Francisco Bay Area
+ 2 weeks ago
+ Software Engineer, Machine Learning
+ Software Engineer, Machine Learning
+ Meta
+ Sunnyvale, CA
+ $154,003.00
+ -
+ $217,000.00
+ 1 week ago
+ AI / Machine Learning Junior / Senior / Lead
+ AI / Machine Learning Junior / Senior / Lead
+ Catalyst Labs
+ Santa Clara, CA
+ 2 weeks ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Adobe
+ San Jose, CA
+ 1 week ago
+ AI / Machine Learning Junior / Senior / Lead
+ AI / Machine Learning Junior / Senior / Lead
+ Catalyst Labs
+ Sunnyvale, CA
+ 2 weeks ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Software Engineer, Machine Learning
+ Software Engineer, Machine Learning
+ Meta
+ Menlo Park, CA
+ $154,003.00
+ -
+ $217,000.00
+ 1 week ago
+ Software Engineer, Machine Learning
+ Software Engineer, Machine Learning
+ Meta
+ Menlo Park, CA
+ $121,992.00
+ -
+ $181,000.00
+ 1 week ago
+ AI / Machine Learning Junior / Senior / Lead
+ AI / Machine Learning Junior / Senior / Lead
+ Catalyst Labs
+ Mountain View, CA
+ 2 weeks ago
+ Machine Learning/AI Engineer
+ Machine Learning/AI Engineer
+ Rivian
+ Palo Alto, CA
+ 4 days ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ UnifyID
+ Redwood City, CA
+ 10 months ago
+ Software Engineer, Machine Learning
+ Software Engineer, Machine Learning
+ Meta
+ Sunnyvale, CA
+ $121,992.00
+ -
+ $181,000.00
+ 1 week ago
+ ML Runtime Optimization Engineer
+ ML Runtime Optimization Engineer
+ Applied Intuition
+ Sunnyvale, CA
+ 2 days ago
+ AI / Machine Learning Junior / Senior / Lead
+ AI / Machine Learning Junior / Senior / Lead
+ Catalyst Labs
+ Palo Alto, CA
+ 2 weeks ago
+ Machine Learning Engineer, ML Resources
+ Machine Learning Engineer, ML Resources
+ Waymo
+ Mountain View, CA
+ 5 days ago
+ Machine Learning Engineer, AI Assistant & Autonomous AI Agents
+ Machine Learning Engineer, AI Assistant & Autonomous AI Agents
+ Glean
+ San Francisco Bay Area
+ 2 weeks ago
+ Similar Searches
+ Senior Engineer jobs
+ 199,414 open jobs
+ Intelligence Specialist jobs
+ 7,156 open jobs
+ Control Engineer jobs
+ 50,344 open jobs
+ Machine Learning Engineer jobs
+ 148,937 open jobs
+ Researcher jobs
+ 195,654 open jobs
+ Engineer jobs
+ 555,845 open jobs
+ Emergency Medicine Resident jobs
+ 1,074 open jobs
+ Scientist jobs
+ 48,969 open jobs
+ Data Scientist jobs
+ 264,158 open jobs
+ General Engineer jobs
+ 54,597 open jobs
+ Staff Research Engineer jobs
+ 1,530 open jobs
+ Insurance Counselor jobs
+ 4,892 open jobs
+ Algorithm Engineer jobs
+ 6,066 open jobs
+ Senior Computer Engineer jobs
+ 1,942 open jobs
+ Senior Scientist jobs
+ 19,214 open jobs
+ Junior Scientist jobs
+ 10,103 open jobs
+ Lead Scientist jobs
+ 14,164 open jobs
+ Data Science Specialist jobs
+ 2,441 open jobs
+ Processing Geophysicist jobs
+ 97 open jobs
+ Assistant Professor of Philosophy jobs
+ 273 open jobs
+ Processing Engineer jobs
+ 235,210 open jobs
+ Senior Manufacturing Process Engineer jobs
+ 7,050 open jobs
+ Python Developer jobs
+ 46,642 open jobs
+ Learning Specialist jobs
+ 51,329 open jobs
+ Senior Integration Specialist jobs
+ 49,775 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Senior Engineer jobs
+ Intelligence Specialist jobs
+ Control Engineer jobs
+ Machine Learning Engineer jobs
+ Researcher jobs
+ Engineer jobs
+ Seven Bridges jobs
+ Emergency Medicine Resident jobs
+ Scientist jobs
+ The Hospital at Westlake Medical Center jobs
+ Data Scientist jobs
+ General Engineer jobs
+ Staff Research Engineer jobs
+ Insurance Counselor jobs
+ SDK Software, Inc. jobs
+ Algorithm Engineer jobs
+ Senior Computer Engineer jobs
+ Senior Scientist jobs
+ Junior Scientist jobs
+ Lead Scientist jobs
+ Data Science Specialist jobs
+ Processing Geophysicist jobs
+ Assistant Professor of Philosophy jobs
+ Processing Engineer jobs
+ The Coordinating Center jobs
+ Senior Manufacturing Process Engineer jobs
+ Python Developer jobs
+ Total Education Solutions jobs
+ Learning Specialist jobs
+ Senior Integration Specialist jobs
+ Research Software Engineer jobs
+ Research Engineer jobs
+ Information Assurance Engineer jobs
+ Quantitative Developer jobs
+ Science Specialist jobs
+ Quantitative Researcher jobs
+ Algorithm Developer jobs
+ ArcBest Technologies jobs
+ Reflexologist jobs
+ Senior Telecommunications Analyst jobs
+ Adjust jobs
+ Robotics Engineer jobs
+ AMI jobs
+ Research Scientist jobs
+ Computer Vision Engineer jobs
+ Science Manager jobs
+ Statistical Researcher jobs
+ Data Engineer jobs
+ Quantitative Analyst jobs
+ Software Engineer jobs
+ Graduate Software Engineer jobs
+ Data Mining Specialist jobs
+ Computational Biologist jobs
+ Wireless System Engineer jobs
+ Analytical Engineer jobs
+ Computer Scientist jobs
+ Computer Engineer jobs
+ Senior Audio Engineer jobs
+ Computational Scientist jobs
+ Software System Architect jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (Persian)
+ Suomi (Finnish)
+ Français (French)
+ हिंदी (Hindi)
+ Magyar (Hungarian)
+ Bahasa Indonesia (Indonesian)
+ Italiano (Italian)
+ עברית (Hebrew)
+ 日本語 (Japanese)
+ 한국어 (Korean)
+ मराठी (Marathi)
+ Bahasa Malaysia (Malay)
+ Nederlands (Dutch)
+ Norsk (Norwegian)
+ ਪੰਜਾਬੀ (Punjabi)
+ Polski (Polish)
+ Português (Portuguese)
+ Română (Romanian)
+ Русский (Russian)
+ Svenska (Swedish)
+ తెలుగు (Telugu)
+ ภาษาไทย (Thai)
+ Tagalog (Tagalog)
+ Türkçe (Turkish)
+ Українська (Ukrainian)
+ Tiếng Việt (Vietnamese)
+ 简体中文 (Chinese (Simplified))
+ 正體中文 (Chinese (Traditional))
+ Language
+ Agree & Join LinkedIn
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Join now to see who you already know at Enigma
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .

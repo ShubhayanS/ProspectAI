@@ -1,0 +1,409 @@
+FetchJobs.co hiring Machine Learning Engineer in United States | LinkedIn
+ Skip to main content
+ LinkedIn
+ Machine Learning Engineer in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Machine Learning Engineer
+ FetchJobs.co
+ United States
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Machine Learning Engineer role at FetchJobs.co
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Machine Learning Engineer
+ FetchJobs.co
+ United States
+ 9 hours ago
+ 135 applicants
+ See who FetchJobs.co has hired for this role
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Machine Learning Engineer role at FetchJobs.co
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Save
+ Report this job
+ About The Company
+ Capital One is a leading diversified bank renowned for its innovative approach to financial services. With a strong focus on technology-driven solutions, Capital One has established itself as a pioneer in leveraging data analytics, machine learning, and digital banking to enhance customer experience and operational efficiency. The company prides itself on fostering an inclusive and collaborative work environment, promoting continuous learning, and driving technological advancements that shape the future of banking. Operating across multiple regions, Capital One is committed to delivering responsible financial products and services that empower individuals and businesses alike.
+ About The Role
+ The Lead Machine Learning Engineer at Capital One plays a pivotal role in designing, developing, and deploying scalable machine learning solutions that address complex business challenges. As part of an agile, cross-functional team, you will be responsible for architecting ML systems, building robust models, and ensuring their seamless integration into production environments. This role offers an exciting opportunity to work on cutting-edge technologies, influence architectural decisions, and lead initiatives that improve decision-making processes across various domains. You will collaborate closely with data scientists, data engineers, product managers, and operations teams to deliver innovative solutions that drive business growth and customer satisfaction.
+ Qualifications
+ To be successful in this role, candidates should possess a strong educational background, typically a Bachelor's Degree in computer science, electrical engineering, mathematics, or related fields. A minimum of six years of experience in designing and building data-intensive distributed solutions is required, along with at least four years of programming expertise in Python, Scala, or Java. Additionally, candidates should have a minimum of two years of experience in building, scaling, and optimizing machine learning systems. Preferred qualifications include advanced degrees such as a Master’s or Doctorate, extensive experience with industry-recognized ML frameworks like TensorFlow, PyTorch, or Spark, and a proven track record of developing production-ready data pipelines and deploying ML solutions in cloud environments such as AWS, Azure, or Google Cloud Platform. Leadership experience and contributions to the industry through publications, open source projects, or patents are also highly valued.
+ Responsibilities
+ Design, develop, and deploy machine learning models and components that solve real-world business problems, working collaboratively with product and data science teams.
+ Make informed decisions regarding ML infrastructure, including model selection, data and feature engineering, hyperparameter tuning, and validation techniques.
+ Write, test, and maintain application code to automate model training, testing, deployment, and monitoring processes.
+ Participate in agile development cycles, contributing to the creation and enhancement of scalable software solutions for big data and ML applications.
+ Maintain and monitor models in production, ensuring high availability, performance, and reliability.
+ Leverage cloud-based architectures and technologies to optimize ML model deployment at scale.
+ Construct and optimize data pipelines to facilitate efficient feeding of data into ML models.
+ Implement continuous integration and deployment practices, including automated testing and model monitoring, to ensure seamless updates and performance.
+ Ensure all code adheres to security best practices, models are governed from a risk perspective, and ethical AI principles are followed, including responsible and explainable AI.
+ Utilize programming languages such as Python, Golang, and others to develop robust ML solutions.
+ Benefits
+ Capital One offers a comprehensive package of benefits designed to support your overall well-being and professional growth. Employees are eligible for competitive salaries, performance-based incentives, and long-term incentives, depending on their location and role. The company provides extensive health, dental, and vision coverage, along with wellness programs, financial planning resources, and flexible work arrangements. Capital One fosters a culture of learning through training programs, mentorship, and opportunities to attend industry conferences. Additionally, employees benefit from a collaborative work environment that encourages innovation and diversity, along with resources to support work-life balance and career development.
+Equal Opportunity
+Capital One is an equal opportunity employer committed to fostering an inclusive environment for all employees. The company does not discriminate based on race, color, religion, sex, national origin, age, disability, veteran status, or any other protected characteristic under applicable law. Capital One promotes a drug-free workplace and considers qualified applicants with criminal histories in accordance with relevant laws and regulations. The company values diversity and strives to create a workplace where everyone can thrive, contribute, and succeed. Applicants requiring accommodations during the recruitment process are encouraged to contact the recruiting team, and all information provided will be kept confidential.
+ Show more
+ Show less
+ Seniority level
+ Associate
+ Employment type
+ Full-time
+ Job function
+ Information Technology
+ Industries
+ Technology, Information and Media
+ Referrals increase your chances of interviewing at FetchJobs.co by 2x
+ See who you know
+ Get notified about new Machine Learning Engineer jobs in United States .
+ Sign in to create job alert
+ Similar jobs
+ Data Scientist (Stata) | Remote
+ Data Scientist (Stata) | Remote
+ Crossing Hurdles
+ United States
+ $20.00
+ -
+ $100.00
+ 6 days ago
+ Graduate Software Engineer
+ Graduate Software Engineer
+ Fuze Health
+ United States
+ $76,240.00
+ -
+ $95,300.00
+ 2 weeks ago
+ Data Engineer (L5)
+ Data Engineer (L5)
+ Netflix
+ United States
+ 3 weeks ago
+ AI/ML Engineer
+ AI/ML Engineer
+ Hilo Aviation, Inc.
+ United States
+ 8 hours ago
+ Data Scientist 4/5 - Identity DSE
+ Data Scientist 4/5 - Identity DSE
+ Netflix
+ United States
+ 2 weeks ago
+ Data Scientist (L5) - Content Understanding
+ Data Scientist (L5) - Content Understanding
+ Netflix
+ United States
+ 2 weeks ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Twilio
+ United States
+ 3 days ago
+ Machine Learning Developer (Freelance)
+ Machine Learning Developer (Freelance)
+ Mindrift
+ United States
+ 16 hours ago
+ Machine Learning Developer (Freelance)
+ Machine Learning Developer (Freelance)
+ Mindrift
+ Florida, United States
+ 16 hours ago
+ Machine Learning Developer (Freelance)
+ Machine Learning Developer (Freelance)
+ Mindrift
+ New York, United States
+ 16 hours ago
+ AI Agent Software Engineer Intern
+ AI Agent Software Engineer Intern
+ Cantaloupe Inc
+ Atlanta, GA
+ 2 weeks ago
+ Software Engineer L4/L5 Training Platform, Machine Learning Platform
+ Software Engineer L4/L5 Training Platform, Machine Learning Platform
+ Netflix
+ United States
+ 4 days ago
+ Data Scientist (L5) - Cloud Games Quality of Experience
+ Data Scientist (L5) - Cloud Games Quality of Experience
+ Netflix
+ United States
+ 3 days ago
+ Machine Learning Developer (Freelance)
+ Machine Learning Developer (Freelance)
+ Mindrift
+ Colorado, United States
+ 16 hours ago
+ Software Engineer L4/L5, Model Serving Systems, Machine Learning Platform
+ Software Engineer L4/L5, Model Serving Systems, Machine Learning Platform
+ Netflix
+ United States
+ 4 days ago
+ Machine Learning Developer (Freelance)
+ Machine Learning Developer (Freelance)
+ Mindrift
+ Michigan, United States
+ 16 hours ago
+ Software Engineer (L4) - Personalization
+ Software Engineer (L4) - Personalization
+ Netflix
+ United States
+ 3 days ago
+ AI Agent Software Engineer Intern
+ AI Agent Software Engineer Intern
+ Cantaloupe Inc
+ Malvern, PA
+ 2 weeks ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ ML Engineer - Computer Vision (Remote Position)
+ ML Engineer - Computer Vision (Remote Position)
+ Entefy
+ United States
+ 5 months ago
+ Software Engineer
+ Software Engineer
+ Fuze Health
+ Texas, United States
+ $124,800.00
+ -
+ $156,000.00
+ 2 weeks ago
+ Software Engineer | Remote
+ Software Engineer | Remote
+ CodeGeniusRecruit
+ United States
+ $40.00
+ -
+ $50.00
+ 6 days ago
+ Software Engineer, Machine Learning
+ Software Engineer, Machine Learning
+ Meta
+ United States
+ $154,003.00
+ -
+ $217,000.00
+ 1 week ago
+ Data Scientist
+ Data Scientist
+ Attune
+ New York, NY
+ 2 weeks ago
+ Data Platform Engineer (26-27)
+ Data Platform Engineer (26-27)
+ IDEA Public Schools
+ Hidalgo County, TX
+ 1 week ago
+ Machine Learning Engineer / Data Scientist
+ Machine Learning Engineer / Data Scientist
+ Fusemachines
+ New York, NY
+ 3 months ago
+ Similar Searches
+ Emergency Medicine Resident jobs
+ 1,074 open jobs
+ Intelligence Specialist jobs
+ 7,156 open jobs
+ Scientist jobs
+ 48,969 open jobs
+ Data Scientist jobs
+ 264,158 open jobs
+ General Engineer jobs
+ 54,597 open jobs
+ Staff Research Engineer jobs
+ 1,530 open jobs
+ Insurance Counselor jobs
+ 4,892 open jobs
+ Algorithm Engineer jobs
+ 6,066 open jobs
+ Senior Computer Engineer jobs
+ 1,942 open jobs
+ Senior Scientist jobs
+ 19,214 open jobs
+ Junior Scientist jobs
+ 10,103 open jobs
+ Lead Scientist jobs
+ 14,164 open jobs
+ Data Science Specialist jobs
+ 2,441 open jobs
+ Processing Geophysicist jobs
+ 97 open jobs
+ Assistant Professor of Philosophy jobs
+ 273 open jobs
+ Processing Engineer jobs
+ 235,210 open jobs
+ Senior Manufacturing Process Engineer jobs
+ 7,050 open jobs
+ Python Developer jobs
+ 46,642 open jobs
+ Learning Specialist jobs
+ 51,329 open jobs
+ Senior Integration Specialist jobs
+ 49,775 open jobs
+ Research Software Engineer jobs
+ 26,451 open jobs
+ Research Engineer jobs
+ 262,824 open jobs
+ Engineer jobs
+ 555,845 open jobs
+ Information Assurance Engineer jobs
+ 8,607 open jobs
+ Quantitative Developer jobs
+ 11,546 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Seven Bridges jobs
+ Emergency Medicine Resident jobs
+ Intelligence Specialist jobs
+ Scientist jobs
+ The Hospital at Westlake Medical Center jobs
+ Data Scientist jobs
+ General Engineer jobs
+ Staff Research Engineer jobs
+ Insurance Counselor jobs
+ SDK Software, Inc. jobs
+ Algorithm Engineer jobs
+ Senior Computer Engineer jobs
+ Senior Scientist jobs
+ Junior Scientist jobs
+ Lead Scientist jobs
+ Data Science Specialist jobs
+ Processing Geophysicist jobs
+ Assistant Professor of Philosophy jobs
+ Processing Engineer jobs
+ The Coordinating Center jobs
+ Senior Manufacturing Process Engineer jobs
+ Python Developer jobs
+ Total Education Solutions jobs
+ Learning Specialist jobs
+ Senior Integration Specialist jobs
+ Research Software Engineer jobs
+ Research Engineer jobs
+ Engineer jobs
+ Information Assurance Engineer jobs
+ Quantitative Developer jobs
+ Science Specialist jobs
+ Quantitative Researcher jobs
+ Algorithm Developer jobs
+ ArcBest Technologies jobs
+ Reflexologist jobs
+ Senior Telecommunications Analyst jobs
+ Adjust jobs
+ Robotics Engineer jobs
+ AMI jobs
+ Research Scientist jobs
+ Computer Vision Engineer jobs
+ Science Manager jobs
+ Statistical Researcher jobs
+ Researcher jobs
+ Data Engineer jobs
+ Quantitative Analyst jobs
+ Software Engineer jobs
+ Graduate Software Engineer jobs
+ Data Mining Specialist jobs
+ Computational Biologist jobs
+ Wireless System Engineer jobs
+ Analytical Engineer jobs
+ Computer Scientist jobs
+ Computer Engineer jobs
+ Senior Audio Engineer jobs
+ Computational Scientist jobs
+ Software System Architect jobs
+ Django Developer jobs
+ Signal Processing Engineer jobs
+ Online Marketing Executive jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (Persian)
+ Suomi (Finnish)
+ Français (French)
+ हिंदी (Hindi)
+ Magyar (Hungarian)
+ Bahasa Indonesia (Indonesian)
+ Italiano (Italian)
+ עברית (Hebrew)
+ 日本語 (Japanese)
+ 한국어 (Korean)
+ मराठी (Marathi)
+ Bahasa Malaysia (Malay)
+ Nederlands (Dutch)
+ Norsk (Norwegian)
+ ਪੰਜਾਬੀ (Punjabi)
+ Polski (Polish)
+ Português (Portuguese)
+ Română (Romanian)
+ Русский (Russian)
+ Svenska (Swedish)
+ తెలుగు (Telugu)
+ ภาษาไทย (Thai)
+ Tagalog (Tagalog)
+ Türkçe (Turkish)
+ Українська (Ukrainian)
+ Tiếng Việt (Vietnamese)
+ 简体中文 (Chinese (Simplified))
+ 正體中文 (Chinese (Traditional))
+ Language
+ Agree & Join LinkedIn
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Join now to see who you already know at FetchJobs.co
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .

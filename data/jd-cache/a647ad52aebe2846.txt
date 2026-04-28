@@ -1,0 +1,483 @@
+Edgesource Corporation hiring Data Engineer in Chantilly, VA | LinkedIn
+ Skip to main content
+ LinkedIn
+ Data Engineer in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Data Engineer
+ Edgesource Corporation
+ Chantilly, VA
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Data Engineer role at Edgesource Corporation
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Data Engineer
+ Edgesource Corporation
+ Chantilly, VA
+ 11 hours ago
+ 185 applicants
+ See who Edgesource Corporation has hired for this role
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Data Engineer role at Edgesource Corporation
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Save
+ Report this job
+ Company Overview
+ For over 25 years, Edgesource Corporation has served as an innovative technology service provider for the Department of Defense (DOD), Department of Homeland Security (DHS), Department of State (DOS), the U.S. Intelligence Community, Law Enforcement, and other federal, state, and commercial clients locally, nationally, and abroad. From providing boutique technical solutions in support of the DOD Counter Unmanned Aerial Systems (CUAS) mission set to addressing the most critical Cybersecurity threats facing our nation as a prime contractor with the DHS Cybersecurity & Infrastructure Security Agency (CISA), a career at Edgesource is an opportunity to do meaningful, interesting, and impactful work.
+ Position Overview
+ We are seeking a highly skilled and experienced data engineer to join our team. The ideal candidate will have experience working with large-scale enterprise level data systems on cloud-based architecture platform, to include at a minimum integration of large data, protection of large data, and migration of large data.
+ Job Duties
+ Design, develop, and maintain large-scale enterprise-level data systems using cloud-based architectures
+ Develop data integration solutions for a variety of data sources and formats
+ Ensure the integration of data from multiple sources, including internal and external systems, APIs, and third-party tools
+ Develop and implement data protection strategies, including data encryption, access controls, and disaster recovery plans
+ Manage and execute data migration projects, ensuring data integrity and accuracy during the migration process
+ Collaborate with cross-functional teams to define and execute data-related projects and initiatives
+ Perform data profiling, data cleansing, and data transformation tasks to ensure data quality and consistency
+ Develop and maintain documentation related to data architecture and data flows
+ Implement best practices for data management, including data modeling and data quality assurance
+ Continuously improve the efficiency, scalability, and reliability of data systems and processes
+ Stay up-to-date with industry trends and emerging technologies related to data engineering
+ Required Qualifications
+ Bachelor's degree in Computer Science, Data Science, Engineering or related field
+ Active TS/SCI clearance
+ Minimum of 5 years of experience in data engineering with a focus on large-scale enterprise level data systems
+ Proficient in cloud-based data technologies, such as AWS, Azure, or Google Cloud Platform
+ Demonstrated expertise in designing and building large scale enterprise-level data systems
+ Proven ability to integrate data from multiple sources and formats
+ Strong understanding of data protection and security best practices
+ Experience with data modeling, ETL processes, and data quality assurance
+ Excellent problem-solving skills and ability to work independently and as part of a team
+ Nice to Have Qualifications
+ Experience working in cloud environments (e.g., AWS GovCloud, Azure Government).
+ Experience implementing data quality checks, monitoring pipelines, and optimizing performance for large-scale datasets.
+ Working at Edgesource
+ As an ISO 9001:2015 certified and CMMI Level 3 appraised small business, Edgesource specializes in providing a variety of technical solutions to include software development, database services, enterprise networking, data center virtualization, and management support. We are always seeking top-talent to join our team in helping to address the most critical technical challenges facing our nation.
+At Edgesource, we understand that our employees are our greatest asset, and as such we offer a wide array of benefits to support the well-being of our staff to include:
+ Flexible PTO Policy + 11 Paid Holidays
+ Flexible Work Schedules (Remote / Hybrid)
+ Medical / Dental / Vision / Flexible Spending Account (FSA)
+ 401k Plan with Match
+ Tuition & Professional Development Support
+ Commuter Benefits
+ Bonus & Employee Referral Programs
+ Career Growth Opportunities
+ Disclaimer
+ All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, disability, age, sexual orientation, gender identity, national origin, veteran status, or genetic information. Edgesource is committed to providing access, equal opportunity, and reasonable accommodation for individuals with disabilities in employment, its services, programs, and activities. To request reasonable accommodation, please contact our Recruiting Department by email at recruiting@edgesource.com or by phone at (703) 837-0550
+ Show more
+ Show less
+ Seniority level
+ Mid-Senior level
+ Employment type
+ Full-time
+ Job function
+ Information Technology
+ Industries
+ Information Technology & Services
+ Referrals increase your chances of interviewing at Edgesource Corporation by 2x
+ See who you know
+ Get notified about new Data Engineer jobs in Chantilly, VA .
+ Sign in to create job alert
+ Similar jobs
+ Junior Data Engineer
+ Junior Data Engineer
+ hackajob
+ Washington, DC
+ $100,000.00
+ -
+ $120,000.00
+ 5 days ago
+ Data Engineer II - QuantumBlack, AI by McKinsey
+ Data Engineer II - QuantumBlack, AI by McKinsey
+ QuantumBlack, AI by McKinsey
+ Washington, DC
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Arbor
+ Washington, DC
+ 1 month ago
+ Data Engineer
+ Data Engineer
+ Analytica
+ Washington, DC
+ 6 months ago
+ Data Engineer II - QuantumBlack, AI by McKinsey (Critical Industries)
+ Data Engineer II - QuantumBlack, AI by McKinsey (Critical Industries)
+ QuantumBlack, AI by McKinsey
+ Washington, DC
+ 2 weeks ago
+ Data Engineer - Python/
+ Data Engineer - Python/
+ PlanIT Group, LLC
+ Washington, DC
+ 11 months ago
+ Data Engineer (All Levels)
+ Data Engineer (All Levels)
+ Silverthorne Advisory Group
+ Arlington, VA
+ 2 weeks ago
+ Big Data Engineer
+ Big Data Engineer
+ Cymertek Corporation
+ Reston, VA
+ 5 months ago
+ Data Engineer
+ Data Engineer
+ Obviant
+ Arlington, VA
+ $170,000.00
+ -
+ $230,000.00
+ 5 months ago
+ Data Engineer
+ Data Engineer
+ Redhorse Corporation
+ Chantilly, VA
+ 5 days ago
+ Jr. Data Science Engineer
+ Jr. Data Science Engineer
+ Axle
+ Rockville, MD
+ 5 days ago
+ Big Data Engineer
+ Big Data Engineer
+ Cymertek Corporation
+ Chantilly, VA
+ 5 months ago
+ Big Data Engineer
+ Big Data Engineer
+ Cymertek Corporation
+ Tysons Corner, VA
+ 5 months ago
+ Data Engineer
+ Data Engineer
+ Penn State University
+ Reston, VA
+ 1 year ago
+ Data Engineer
+ Data Engineer
+ Closure Technologies
+ Chantilly, VA
+ 1 month ago
+ ML Data Engineer - Contract-to-Hire
+ ML Data Engineer - Contract-to-Hire
+ Selby Jennings
+ Silver Spring, MD
+ 2 weeks ago
+ Software Engineer
+ Software Engineer
+ NAOVI
+ Chantilly, VA
+ 6 days ago
+ Data Engineer (Python, JavaScript, Pentaho) - TS/SCI Poly
+ Data Engineer (Python, JavaScript, Pentaho) - TS/SCI Poly
+ Leading Path Consulting
+ Chantilly, VA
+ $150,000.00
+ -
+ $285,000.00
+ 1 month ago
+ Senior Data Engineer
+ Senior Data Engineer
+ Mastercard
+ Arlington, VA
+ 1 week ago
+ Data Engineer (Senior)
+ Data Engineer (Senior)
+ Spear AI
+ Washington, DC
+ 1 month ago
+ Junior Data Engineer (5148)
+ Junior Data Engineer (5148)
+ SMX
+ Arlington, VA
+ 1 week ago
+ Data Engineer (Azure)
+ Data Engineer (Azure)
+ Analytica
+ Bethesda, MD
+ 1 month ago
+ JR Data Engineer-- Full Performance
+ JR Data Engineer-- Full Performance
+ Probity Inc.
+ Chantilly, VA
+ 3 weeks ago
+ Data Engineer
+ Data Engineer
+ Northstrat Incorporated
+ Sterling, VA
+ 4 weeks ago
+ Data Engineer
+ Data Engineer
+ hackajob
+ Sterling, VA
+ $120,000.00
+ -
+ $180,000.00
+ 1 week ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Jr Data Engineer
+ Jr Data Engineer
+ Accenture Federal Services
+ Chantilly, VA
+ 3 months ago
+ Data Engineer
+ Data Engineer
+ The Carlyle Group
+ District of Columbia, United States
+ $180,000.00
+ -
+ $200,000.00
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ CGI
+ Arlington, VA
+ 2 days ago
+ Data Engineer
+ Data Engineer
+ Venture Global LNG
+ Arlington, VA
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Edgesource Corporation
+ Chantilly, VA
+ 3 months ago
+ Data Engineer
+ Data Engineer
+ CGI
+ Fairfax, VA
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Level Up, LLC (Washington, D.C.)
+ Reston, VA
+ 1 year ago
+ Engineer I, Data Platforms
+ Engineer I, Data Platforms
+ AARP
+ Washington, DC
+ $97,200.00
+ -
+ $108,000.00
+ 3 days ago
+ AI/ML Engineer
+ AI/ML Engineer
+ Cymertek Corporation
+ Tysons Corner, VA
+ 5 months ago
+ Data Engineer
+ Data Engineer
+ Nightwing
+ Sterling, VA
+ 8 months ago
+ Similar Searches
+ Senior Data Engineer jobs
+ 78,076 open jobs
+ Big Data Developer jobs
+ 26,392 open jobs
+ Hadoop Developer jobs
+ 37,972 open jobs
+ ETL Developer jobs
+ 46,788 open jobs
+ Data Warehouse Engineer jobs
+ 39,476 open jobs
+ Analytical Engineer jobs
+ 7,971 open jobs
+ Data Architect jobs
+ 68,774 open jobs
+ Freelance Engineer jobs
+ 190 open jobs
+ Development Database Administrator jobs
+ 226,600 open jobs
+ ETL Specialist jobs
+ 219,897 open jobs
+ Database Software Engineer jobs
+ 224,263 open jobs
+ Engineer jobs
+ 555,845 open jobs
+ Business Intelligence Engineer jobs
+ 50,282 open jobs
+ Senior Data Warehouse Engineer jobs
+ 10,085 open jobs
+ Pipeline Engineer jobs
+ 39,469 open jobs
+ Teradata Developer jobs
+ 2,501 open jobs
+ Database Engineer jobs
+ 32,874 open jobs
+ Exhibit Coordinator jobs
+ 342 open jobs
+ Senior Solutions Developer jobs
+ 50,281 open jobs
+ SQL Developer jobs
+ 12,445 open jobs
+ Junior Engineer jobs
+ 52,722 open jobs
+ Assistant Produce Manager jobs
+ 3,091 open jobs
+ Data Modeler jobs
+ 263,457 open jobs
+ Data Analyst jobs
+ 329,009 open jobs
+ Senior Data Warehouse Architect jobs
+ 4,641 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Senior Data Engineer jobs
+ Big Data Developer jobs
+ Hadoop Developer jobs
+ ETL Developer jobs
+ Lakeland Care jobs
+ Data Warehouse Engineer jobs
+ Analytical Engineer jobs
+ Data Architect jobs
+ Freelance Engineer jobs
+ Development Database Administrator jobs
+ ETL Specialist jobs
+ Database Software Engineer jobs
+ Engineer jobs
+ Business Intelligence Engineer jobs
+ Senior Data Warehouse Engineer jobs
+ Pipeline Engineer jobs
+ Teradata Developer jobs
+ Database Engineer jobs
+ Exhibit Coordinator jobs
+ Senior Solutions Developer jobs
+ SQL Developer jobs
+ Junior Engineer jobs
+ Assistant Produce Manager jobs
+ Data Modeler jobs
+ Data Analyst jobs
+ Senior Data Warehouse Architect jobs
+ Senior Database Engineer jobs
+ Senior Peoplesoft Consultant jobs
+ ETL Consultant jobs
+ Scala jobs
+ Data Scientist jobs
+ Senior ETL Developer jobs
+ Data Warehouse Specialist jobs
+ Databricks jobs
+ Senior Data Architect jobs
+ Lead Data Architect jobs
+ Business Intelligence Developer jobs
+ The Toledo Clinic jobs
+ Scala Developer jobs
+ General Engineer jobs
+ Senior Business Intelligence Architect jobs
+ Senior System Test Engineer jobs
+ Microsoft Developer jobs
+ Aqua-Tots Swim School jobs
+ Data Warehouse Architect jobs
+ Software Configuration Engineer jobs
+ Data System Engineer jobs
+ Python Developer jobs
+ Data Science Specialist jobs
+ Machine Learning Engineer jobs
+ Scientist jobs
+ Data Warehouse Manager jobs
+ Diocese of Saint Petersburg jobs
+ Project Lead Developer jobs
+ Telecommunications Software Engineer jobs
+ Randall Reilly jobs
+ Processing Geophysicist jobs
+ Senior Database Developer jobs
+ Business Objects Consultant jobs
+ Middleware Engineer jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (Persian)
+ Suomi (Finnish)
+ Français (French)
+ हिंदी (Hindi)
+ Magyar (Hungarian)
+ Bahasa Indonesia (Indonesian)
+ Italiano (Italian)
+ עברית (Hebrew)
+ 日本語 (Japanese)
+ 한국어 (Korean)
+ मराठी (Marathi)
+ Bahasa Malaysia (Malay)
+ Nederlands (Dutch)
+ Norsk (Norwegian)
+ ਪੰਜਾਬੀ (Punjabi)
+ Polski (Polish)
+ Português (Portuguese)
+ Română (Romanian)
+ Русский (Russian)
+ Svenska (Swedish)
+ తెలుగు (Telugu)
+ ภาษาไทย (Thai)
+ Tagalog (Tagalog)
+ Türkçe (Turkish)
+ Українська (Ukrainian)
+ Tiếng Việt (Vietnamese)
+ 简体中文 (Chinese (Simplified))
+ 正體中文 (Chinese (Traditional))
+ Language
+ Agree & Join LinkedIn
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Join now to see who you already know at Edgesource Corporation
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .

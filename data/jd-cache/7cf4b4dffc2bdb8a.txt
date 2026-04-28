@@ -1,0 +1,476 @@
+Enigma hiring AI Research Scientist | Machine Learning | Deep Learning | Natural Language Processing | LLM | Hybrid | San Jose, CA in San Jose, CA | LinkedIn
+ Skip to main content
+ LinkedIn
+ AI Research Scientist | Machine Learning | Deep Learning | Natural Language Processing | LLM | Hybrid | San Jose, CA in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ AI Research Scientist | Machine Learning | Deep Learning | Natural Language Processing | LLM | Hybrid | San Jose, CA
+ Enigma
+ San Jose, CA
+ Apply
+ AI Research Scientist | Machine Learning | Deep Learning | Natural Language Processing | LLM | Hybrid | San Jose, CA
+ Enigma
+ San Jose, CA
+ 12 hours ago
+ 65 applicants
+ See who Enigma has hired for this role
+ Apply
+ Save
+ Report this job
+ Direct message the job poster from Enigma
+ Tom Goldberg
+ Tom Goldberg
+ Founder @ Enigma | Global Machine Learning & Generative AI Recruitment
+ AI Research Scientist | Machine Learning | Deep Learning | Natural Language Processing | LLM | Hybrid | San Jose, CA
+ Title: AI Research Scientist
+ Location: San Jose, CA
+ Responsibilities:
+ Design, execute, and analyze machine learning experiments, establishing strong baselines and selecting appropriate evaluation metrics.
+ Stay up to date with the latest AI research; identify, adapt, and validate novel techniques for company-specific use cases.
+ Define rigorous evaluation protocols, including offline metrics, user studies, and adversarial (red team) testing to ensure statistical soundness.
+ Specify data and annotation requirements; develop annotation guidelines and oversee quality control processes.
+ Collaborate closely with domain experts, product managers, and engineering teams to refine problem statements and operational constraints.
+ Develop reusable research assets such as datasets, modular code components, evaluation suites, and comprehensive documentation.
+ Work alongside ML Engineers to optimize training and inference pipelines, ensuring seamless integration into production systems.
+ Contribute to academic publications and represent the company in research communities, as needed.
+ Educational Qualifications:
+ Ph.D. in Computer Science, Artificial Intelligence, Machine Learning, or a related field is strongly preferred.
+ Candidates with a master’s degree and exceptional research or industry experience will also be considered.
+ Industry Experience:
+ 3–5 years of experience in AI/ML research roles, ideally in applied or product-focused environments.
+ Demonstrated success in delivering research-driven solutions that have been deployed in production.
+ Experience collaborating in cross-functional teams across research, engineering, and product.
+ Publications in top-tier AI/ML conferences (e.g., NeurIPS, ICML, ACL, CVPR) are a plus.
+ Technical Skills:
+ Strong foundational knowledge in machine learning and deep learning algorithms.
+ Hands-on experience with PEFT/LoRA, adapters, fine-tuning techniques, and RLHF/RLAIF (e.g., PPO, DPO, GRPO).
+ Ability to read, implement, and adapt state-of-the-art research papers to real-world use cases.
+ Proficiency in hypothesis-driven experimentation, ablation studies, and statistically sound evaluations.
+ Advanced programming skills in Python (preferred), C++, or Java.
+ Experience with deep learning frameworks such as PyTorch, Hugging Face, NumPy, etc.
+ Strong mathematical foundations in probability, linear algebra, and calculus.
+ Domain expertise in one or more areas: natural language processing (NLP), symbolic reasoning, speech processing, etc.
+ Ability to translate research insights into roadmaps, technical specifications, and product improvements.
+ AI Research Scientist | Machine Learning | Deep Learning | Natural Language Processing | LLM | Hybrid | San Jose, CA
+ Show more
+ Show less
+ Seniority level
+ Mid-Senior level
+ Employment type
+ Full-time
+ Job function
+ Information Technology
+ Industries
+ Hospitals and Health Care
+ Referrals increase your chances of interviewing at Enigma by 2x
+ See who you know
+ Get notified about new Artificial Intelligence Researcher jobs in San Jose, CA .
+ Sign in to create job alert
+ Similar jobs
+ Software Engineer, Backend
+ Software Engineer, Backend
+ Tinder
+ Palo Alto, CA
+ $160,000.00
+ -
+ $180,000.00
+ 2 weeks ago
+ Software Engineer, AI Platform - New Grad
+ Software Engineer, AI Platform - New Grad
+ Nuro
+ Mountain View, CA
+ 2 weeks ago
+ Software Engineer 1
+ Software Engineer 1
+ Intuit
+ Mountain View, CA
+ 1 week ago
+ Software Engineer I, Backend
+ Software Engineer I, Backend
+ Pinterest
+ San Francisco Bay Area
+ 1 week ago
+ Software Engineer - New Grad
+ Software Engineer - New Grad
+ Scale AI
+ San Francisco Bay Area
+ 2 weeks ago
+ Full-Stack Engineer
+ Full-Stack Engineer
+ Mage
+ Santa Clara, CA
+ 3 days ago
+ Software Engineer, Backend
+ Software Engineer, Backend
+ PayPal
+ San Jose, CA
+ 1 week ago
+ Software Engineer, University Grad
+ Software Engineer, University Grad
+ Glean
+ San Francisco Bay Area
+ 2 weeks ago
+ Software Engineer
+ Software Engineer
+ Harmony
+ Palo Alto, CA
+ 2 years ago
+ Full Stack Engineer
+ Full Stack Engineer
+ Microsoft
+ Mountain View, CA
+ 4 days ago
+ Software Engineer
+ Software Engineer
+ Roku
+ San Jose, CA
+ 4 days ago
+ Software Development Engineer
+ Software Development Engineer
+ Adobe
+ San Jose, CA
+ 2 weeks ago
+ Software Engineer 5 - Ads Data Clean Room
+ Software Engineer 5 - Ads Data Clean Room
+ Netflix
+ Los Gatos, CA
+ 2 weeks ago
+ Software Engineer - Backend
+ Software Engineer - Backend
+ PayPal
+ San Jose, CA
+ 1 week ago
+ Software Engineer - Backend
+ Software Engineer - Backend
+ Snowflake
+ Menlo Park, CA
+ 1 week ago
+ Software Engineer, Frontend
+ Software Engineer, Frontend
+ Glean
+ San Francisco Bay Area
+ 2 weeks ago
+ Software Engineer, Fullstack
+ Software Engineer, Fullstack
+ Glean
+ San Francisco Bay Area
+ 4 days ago
+ Full Stack Software Engineer
+ Full Stack Software Engineer
+ Blink.new
+ Palo Alto, CA
+ $85,000.00
+ -
+ $150,000.00
+ 6 months ago
+ Software Engineer, Frontend
+ Software Engineer, Frontend
+ Tessera Labs
+ San Jose, CA
+ $200,000.00
+ -
+ $250,000.00
+ 2 weeks ago
+ Full Stack Software Engineer
+ Full Stack Software Engineer
+ Blink.new
+ Redwood City, CA
+ $85,000.00
+ -
+ $150,000.00
+ 6 months ago
+ Software Engineer, New Grad
+ Software Engineer, New Grad
+ Foxglove
+ San Francisco Bay Area
+ $150,000.00
+ -
+ $210,000.00
+ 2 weeks ago
+ Software Development Engineer
+ Software Development Engineer
+ Adobe
+ San Jose, CA
+ 2 weeks ago
+ Software Engineer, Early Career
+ Software Engineer, Early Career
+ Nectar Social
+ Palo Alto, CA
+ $140,000.00
+ -
+ $160,000.00
+ 2 months ago
+ Software Engineer II - Presto
+ Software Engineer II - Presto
+ Uber
+ Sunnyvale, CA
+ 4 days ago
+ Software Engineer, Backend
+ Software Engineer, Backend
+ Tessera Labs
+ San Jose, CA
+ $200,000.00
+ -
+ $250,000.00
+ 2 weeks ago
+ Software Engineer - Java
+ Software Engineer - Java
+ Honey
+ San Jose, CA
+ 1 week ago
+ Software Engineer (Full-Stack)
+ Software Engineer (Full-Stack)
+ Replo
+ San Francisco Bay Area
+ 8 months ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Software Engineer - Frontend
+ Software Engineer - Frontend
+ Snowflake
+ Menlo Park, CA
+ 2 weeks ago
+ Software Engineer, Machine Learning
+ Software Engineer, Machine Learning
+ Meta
+ Menlo Park, CA
+ $121,992.00
+ -
+ $181,000.00
+ 1 week ago
+ Frontend Software Engineer
+ Frontend Software Engineer
+ Cabana
+ Palo Alto, CA
+ $135,000.00
+ -
+ $200,000.00
+ 3 weeks ago
+ Software Engineer, Backend
+ Software Engineer, Backend
+ Glean
+ San Francisco Bay Area
+ 2 days ago
+ Software Development Engineer
+ Software Development Engineer
+ Adobe
+ San Jose, CA
+ 2 weeks ago
+ Software Engineer Intern (AI-Native) — Summer 2026
+ Software Engineer Intern (AI-Native) — Summer 2026
+ Kognitos
+ San Jose, CA
+ $3,000.00
+ -
+ $4,000.00
+ 1 week ago
+ Software Engineer, Routing
+ Software Engineer, Routing
+ Nuro
+ Mountain View, CA
+ 4 months ago
+ Software Developer 1
+ Software Developer 1
+ Stanford University
+ Stanford, CA
+ 8 months ago
+ Software Engineer
+ Software Engineer
+ Cisco
+ San Jose, CA
+ 9 hours ago
+ Software Engineer II - Fullstack, Grocery
+ Software Engineer II - Fullstack, Grocery
+ Uber
+ Sunnyvale, CA
+ 2 months ago
+ Similar Searches
+ Air Quality Specialist jobs
+ 6,346 open jobs
+ Sound Editor jobs
+ 441 open jobs
+ Software Test Analyst jobs
+ 5,116 open jobs
+ Senior Principal jobs
+ 26,825 open jobs
+ Bioinformatician jobs
+ 18,406 open jobs
+ Test Lead jobs
+ 45,123 open jobs
+ Magento Developer jobs
+ 4,558 open jobs
+ Lead Test Engineer jobs
+ 13,921 open jobs
+ Assessor jobs
+ 6,183 open jobs
+ Environmental Scientist jobs
+ 8,595 open jobs
+ Satellite Engineer jobs
+ 21,822 open jobs
+ Machine Learning Engineer jobs
+ 148,937 open jobs
+ Quality Assurance Automation Engineer jobs
+ 6,313 open jobs
+ Researcher jobs
+ 195,654 open jobs
+ Software Test Engineer jobs
+ 13,421 open jobs
+ Scientist jobs
+ 48,969 open jobs
+ Checker jobs
+ 9,302 open jobs
+ Research Engineer jobs
+ 262,824 open jobs
+ Senior Scientist jobs
+ 19,214 open jobs
+ Data Officer jobs
+ 60,161 open jobs
+ Software Tester jobs
+ 7,128 open jobs
+ Data Scientist jobs
+ 264,158 open jobs
+ PHD jobs
+ 111,034 open jobs
+ Tester jobs
+ 23,600 open jobs
+ Investigator jobs
+ 19,811 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Air Quality Specialist jobs
+ Sound Editor jobs
+ Software Test Analyst jobs
+ RGBSI jobs
+ Senior Principal jobs
+ KAYAK jobs
+ LVI Associates jobs
+ Pipedrive jobs
+ Mindlance jobs
+ Understanding Recruitment jobs
+ Bioinformatician jobs
+ Lawrence Livermore National Laboratory jobs
+ FARFETCH jobs
+ WorldQuant jobs
+ Payoneer jobs
+ Test Lead jobs
+ Cleo jobs
+ Magento Developer jobs
+ WalkWater Technologies jobs
+ Burberry jobs
+ Scale AI jobs
+ Jane Street jobs
+ Lead Test Engineer jobs
+ Assessor jobs
+ Environmental Scientist jobs
+ Satellite Engineer jobs
+ Wise jobs
+ Machine Learning Engineer jobs
+ Quality Assurance Automation Engineer jobs
+ Researcher jobs
+ Rockwell Automation jobs
+ YipitData jobs
+ Envoy jobs
+ Software Test Engineer jobs
+ Scientist jobs
+ Checker jobs
+ Research Engineer jobs
+ Senior Scientist jobs
+ Data Officer jobs
+ Kforce Inc jobs
+ Software Tester jobs
+ Data Scientist jobs
+ PHD jobs
+ Deel jobs
+ Tester jobs
+ Applied Materials jobs
+ Investigator jobs
+ AMD jobs
+ Senior Human Resources Associate jobs
+ Director Data Science jobs
+ Lead Scientist jobs
+ Intelligence Specialist jobs
+ Huawei jobs
+ Burlington Stores, Inc. jobs
+ Computer Engineer jobs
+ Director of Learning jobs
+ Python Developer jobs
+ Harnham jobs
+ Quantitative Researcher jobs
+ Sanofi jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (Persian)
+ Suomi (Finnish)
+ Français (French)
+ हिंदी (Hindi)
+ Magyar (Hungarian)
+ Bahasa Indonesia (Indonesian)
+ Italiano (Italian)
+ עברית (Hebrew)
+ 日本語 (Japanese)
+ 한국어 (Korean)
+ मराठी (Marathi)
+ Bahasa Malaysia (Malay)
+ Nederlands (Dutch)
+ Norsk (Norwegian)
+ ਪੰਜਾਬੀ (Punjabi)
+ Polski (Polish)
+ Português (Portuguese)
+ Română (Romanian)
+ Русский (Russian)
+ Svenska (Swedish)
+ తెలుగు (Telugu)
+ ภาษาไทย (Thai)
+ Tagalog (Tagalog)
+ Türkçe (Turkish)
+ Українська (Ukrainian)
+ Tiếng Việt (Vietnamese)
+ 简体中文 (Chinese (Simplified))
+ 正體中文 (Chinese (Traditional))
+ Language
+ Agree & Join LinkedIn
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to see who you already know at Enigma
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .

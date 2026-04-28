@@ -1,0 +1,499 @@
+OpenAI hiring Learning Systems Data Engineer in New York City Metropolitan Area | LinkedIn
+ Skip to main content
+ LinkedIn
+ Learning Systems Data Engineer in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Join now
+ Sign in
+ Learning Systems Data Engineer
+ OpenAI
+ New York City Metropolitan Area
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Learning Systems Data Engineer role at OpenAI
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Learning Systems Data Engineer
+ OpenAI
+ New York City Metropolitan Area
+ 1 day ago
+ 106 applicants
+ See who OpenAI has hired for this role
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Learning Systems Data Engineer role at OpenAI
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Save
+ Report this job
+ Use AI to assess how you fit
+ Get AI-powered advice on this job and more exclusive features.
+ Am I a good fit for this job?
+ Tailor my resume
+ Sign in to access AI-powered advices
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to evaluate your skills
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to tailor your resume
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ About The Team
+ The Education team at OpenAI is building systems that help make ChatGPT a highly effective learning partner. As AI progress continues to accelerate, our goal is to design learning capabilities that help individuals, developers, educators, and organizations move from curiosity to mastery with the help of AI tools.
+This team works at the intersection of AI systems, learning science, and large-scale platforms to build the infrastructure for AI-native learning experiences globally.
+ About The Role
+ OpenAI is seeking a Learning Systems Engineer to help build the infrastructure behind AI-native learning experiences. This role sits at the intersection of backend systems, learning science, research, and product.
+You will translate pedagogical goals into production systems: learner models, progress tracking, adaptive feedback loops, formative assessments, and analytics to measure whether people are actually learning.
+Your work will help ensure that millions of people around the world can learn effectively and build real capability with AI.
+ What You'll Work On
+ Build AI-Native Learning Infrastructure: Develop core systems for AI education, including dynamic experiences, progress tracking, and assessments.
+ Enable Adaptive Learning: Develop capabilities that allow learning experiences to dynamically adapt to learners’ knowledge, goals, and behaviors over time.
+ Design Data Systems for Insights: Build data pipelines and analytics systems to help educators understand learner outcomes, engagement patterns, and skill development.
+ Empower Educators: Build systems that allow non-engineers to design, configure, and experiment with learning experiences without requiring direct engineering support.
+ What Success Looks Like In The First 12 Months
+ Help launch new AI learning experiences that reach a broad set of learners.
+ Refine infrastructure that allows educators to deliver adaptive learning and assessments.
+ Validate the learning analytics pipeline to provide deeper insights into AI driven learning.
+ Empower education teams to use AI tools to build and iterate at scale.
+ Core Qualifications
+ 5–10+ years of experience in software, data, or learning engineering.
+ Experience building data systems or infrastructure that support education & training.
+ Experience working with learning data, analytics pipelines, or educational metrics.
+ Comfort translating learning or pedagogical goals into technical systems.
+ Strong Additional Qualifications
+ Background in learning science, instructional design, or education research.
+ Experience building LMS platforms or training infrastructure.
+ Experience with learning analytics, learner data models, or educational measurement.
+ Experience building systems that incorporate AI models into educational workflows.
+ Experience with credentialing, certification systems, or competency frameworks.
+ Experience building platforms used by non-technical educators or curriculum teams.
+ Relevant Backgrounds
+ Education technology engineering.
+ Learning analytics or educational data systems.
+ Instructional technology platforms.
+ Training platforms for technical products.
+ AI tutoring systems or adaptive learning platforms.
+ Why This Role Matters
+ AI will fundamentally transform how people learn, work, and create. This role is essential for building the systems that ensure the benefits of AI are accessible to all, enabling learners worldwide to develop meaningful capability with this foundational technology.
+ About OpenAI
+ OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.
+We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.
+For additional information, please see OpenAI’s Affirmative Action and Equal Employment Opportunity Policy Statement.
+Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.
+To notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form. No response will be provided to inquiries unrelated to job posting compliance.
+We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link.
+OpenAI Global Applicant Privacy Policy
+At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.
+ Show more
+ Show less
+ Seniority level
+ Mid-Senior level
+ Employment type
+ Full-time
+ Job function
+ Information Technology
+ Industries
+ Research Services
+ Referrals increase your chances of interviewing at OpenAI by 2x
+ See who you know
+ Get notified about new Data Engineer jobs in New York City Metropolitan Area .
+ Sign in to create job alert
+ Similar jobs
+ Software Engineer (New Grads)
+ Software Engineer (New Grads)
+ Giga
+ New York, NY
+ $160,000.00
+ -
+ $250,000.00
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ BDG
+ New York, NY
+ 11 months ago
+ New Grad Software Engineer
+ New Grad Software Engineer
+ Authentic
+ New York, NY
+ 2 months ago
+ Data Engineer, Product Analytics
+ Data Engineer, Product Analytics
+ Meta
+ New York, NY
+ $177,000.00
+ -
+ $247,000.00
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ MedReview Inc.
+ New York, NY
+ 2 months ago
+ Data Engineer
+ Data Engineer
+ Tapestry
+ New York, NY
+ 1 week ago
+ Data Engineer II
+ Data Engineer II
+ American Express
+ New York, NY
+ $89,250.00
+ -
+ $150,250.00
+ 4 days ago
+ Data Engineer Intern
+ Data Engineer Intern
+ Cornspring
+ New York, NY
+ 6 days ago
+ Data Visualization Engineer
+ Data Visualization Engineer
+ Major League Baseball (MLB)
+ New York, NY
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Imprint
+ New York, NY
+ $140,000.00
+ -
+ $180,000.00
+ 5 months ago
+ Software Engineer, Fullstack, Early Career
+ Software Engineer, Fullstack, Early Career
+ Notion
+ New York, NY
+ 1 month ago
+ Data Engineer
+ Data Engineer
+ Delmar Nord
+ New York, NY
+ 4 days ago
+ Analytics Engineer
+ Analytics Engineer
+ SeatGeek
+ New York, NY
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ G-III Apparel Group
+ New York, NY
+ $120,000.00
+ -
+ $135,000.00
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Kaizen
+ New York, NY
+ 2 weeks ago
+ Data Engineer, Analytics (Technical Leadership)
+ Data Engineer, Analytics (Technical Leadership)
+ Meta
+ New York, NY
+ $210,000.00
+ -
+ $281,000.00
+ 1 week ago
+ Analytics Engineer (New Grad)
+ Analytics Engineer (New Grad)
+ PermitFlow
+ New York, NY
+ $90,000.00
+ -
+ $125,000.00
+ 1 month ago
+ Data Engineer I
+ Data Engineer I
+ Epicured
+ Glen Cove, NY
+ 1 month ago
+ Senior Data Engineer
+ Senior Data Engineer
+ StubHub
+ New York, NY
+ 1 week ago
+ Data Engineer, Product Analytics
+ Data Engineer, Product Analytics
+ Meta
+ New York, NY
+ $147,000.00
+ -
+ $208,000.00
+ 1 week ago
+ Jr. Data Engineer
+ Jr. Data Engineer
+ Northside Center for Child Development
+ New York, NY
+ 8 months ago
+ Data Engineer
+ Data Engineer
+ Cohere
+ New York, NY
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Kumon North America, Inc.
+ Rutherford, NJ
+ $67,000.00
+ -
+ $97,000.00
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Figma
+ New York, NY
+ 6 days ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Data Engineer
+ Data Engineer
+ Sunset
+ New York, NY
+ $180,000.00
+ -
+ $280,000.00
+ 2 weeks ago
+ Data Analytics Engineer
+ Data Analytics Engineer
+ Pelago
+ New York, NY
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Prizeout
+ New York, NY
+ 5 months ago
+ Senior Data Engineer
+ Senior Data Engineer
+ Gambit Technologies
+ New York, NY
+ 4 days ago
+ Data Engineer, Associate
+ Data Engineer, Associate
+ BlackRock
+ New York, NY
+ 1 week ago
+ Data & Analytics Engineer
+ Data & Analytics Engineer
+ Tandem
+ New York, NY
+ $150,000.00
+ -
+ $200,000.00
+ 5 months ago
+ Data Engineer
+ Data Engineer
+ Slang AI
+ New York, NY
+ 2 weeks ago
+ Data Engineer - New York
+ Data Engineer - New York
+ Ducera Partners LLC
+ New York, NY
+ 1 month ago
+ Data Engineer
+ Data Engineer
+ Pierre Fabre Laboratories
+ Secaucus, NJ
+ $90,000.00
+ -
+ $115,000.00
+ 10 hours ago
+ Data Engineer
+ Data Engineer
+ Backstage
+ New York, NY
+ $135,000.00
+ -
+ $155,000.00
+ 2 weeks ago
+ Similar Searches
+ Big Data Developer jobs
+ 26,392 open jobs
+ Senior Data Engineer jobs
+ 78,076 open jobs
+ Data Engineer jobs
+ 192,126 open jobs
+ Senior Software Engineer jobs
+ 78,145 open jobs
+ Director Data Science jobs
+ 4,457 open jobs
+ Engineer jobs
+ 555,845 open jobs
+ Principal Engineer jobs
+ 168,566 open jobs
+ Data Scientist jobs
+ 264,158 open jobs
+ Senior Manager jobs
+ 181,836 open jobs
+ Director jobs
+ 1,220,357 open jobs
+ Recruiter jobs
+ 243,016 open jobs
+ Head of Information Technology jobs
+ 1,958 open jobs
+ Analyst jobs
+ 694,057 open jobs
+ Hadoop Developer jobs
+ 37,972 open jobs
+ ETL Developer jobs
+ 46,788 open jobs
+ Data Warehouse Engineer jobs
+ 39,476 open jobs
+ Analytical Engineer jobs
+ 7,971 open jobs
+ Data Architect jobs
+ 68,774 open jobs
+ Freelance Engineer jobs
+ 190 open jobs
+ Development Database Administrator jobs
+ 226,600 open jobs
+ ETL Specialist jobs
+ 219,897 open jobs
+ Database Software Engineer jobs
+ 224,263 open jobs
+ Business Intelligence Engineer jobs
+ 50,282 open jobs
+ Senior Data Warehouse Engineer jobs
+ 10,085 open jobs
+ Pipeline Engineer jobs
+ 39,469 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Big Data Developer jobs
+ Airwallex jobs
+ Fluence jobs
+ OpenAI jobs
+ Senior Data Engineer jobs
+ Snowflake jobs
+ DoorDash jobs
+ Data Engineer jobs
+ Senior Software Engineer jobs
+ Apple jobs
+ Director Data Science jobs
+ Engineer jobs
+ Couchbase jobs
+ Principal Engineer jobs
+ Wise jobs
+ SAIC jobs
+ Coinbase jobs
+ Data Scientist jobs
+ Target jobs
+ Meta jobs
+ Senior Manager jobs
+ Airbnb jobs
+ Amazon jobs
+ Director jobs
+ Netflix jobs
+ IBM jobs
+ Microsoft jobs
+ Recruiter jobs
+ Head of Information Technology jobs
+ Analyst jobs
+ Tata Consultancy Services jobs
+ Hadoop Developer jobs
+ ETL Developer jobs
+ Lakeland Care jobs
+ Data Warehouse Engineer jobs
+ Analytical Engineer jobs
+ Data Architect jobs
+ Freelance Engineer jobs
+ Development Database Administrator jobs
+ ETL Specialist jobs
+ Database Software Engineer jobs
+ Business Intelligence Engineer jobs
+ Senior Data Warehouse Engineer jobs
+ Pipeline Engineer jobs
+ Teradata Developer jobs
+ Database Engineer jobs
+ Exhibit Coordinator jobs
+ Senior Solutions Developer jobs
+ SQL Developer jobs
+ Junior Engineer jobs
+ Assistant Produce Manager jobs
+ Data Modeler jobs
+ Data Analyst jobs
+ Senior Data Warehouse Architect jobs
+ Senior Database Engineer jobs
+ Senior Peoplesoft Consultant jobs
+ ETL Consultant jobs
+ Scala jobs
+ Senior ETL Developer jobs
+ Data Warehouse Specialist jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (Persian)
+ Suomi (Finnish)
+ Fra

@@ -1,0 +1,493 @@
+10a Labs hiring Machine Learning Engineer in New York, NY | LinkedIn
+ Skip to main content
+ LinkedIn
+ Machine Learning Engineer in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Machine Learning Engineer
+ 10a Labs
+ New York, NY
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Machine Learning Engineer role at 10a Labs
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Machine Learning Engineer
+ 10a Labs
+ New York, NY
+ 9 hours ago
+ Over 200 applicants
+ See who 10a Labs has hired for this role
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Machine Learning Engineer role at 10a Labs
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Save
+ Report this job
+ About 10a Labs: 10a Labs is the safety and threat-intelligence layer trusted by frontier AI labs, AI unicorns, Fortune 10 companies, and leading global technology platforms. Our adversarial red teaming, model evaluations, and intelligence collection enable engineering, safety, and security teams to stay ahead of evolving threats and deploy AI systems safely.
+ About The role: We’re looking for an experienced ML engineer with a strong foundation in traditional ML and hands-on experience applying those skills to modern LLM systems. This is an applied role for someone who owns the full ML lifecycle—from data pipelines and model training to evaluation, deployment, and ongoing iteration in real-world production environments.
+ At least 3–8+ Years of Industry Experience Required
+ In This Role, You Will
+ Build and deploy a multi-stage classification system optimized for high throughput and low latency, while ensuring high recall and precision.
+ Integrate continuous feedback loops from human review to refine model performance.
+ Design and implement real-world ML systems with a focus on robustness, observability, and scalability.
+ Collaborate with researchers and SMEs to generate training data and test against edge cases.
+ Work closely with a broader team of engineers to integrate ML components into production systems and ensure end-to-end system performance.
+ We’re Looking For Someone Who
+ Has designed and deployed full ML pipelines (data ingestion → model training → evaluation → deployment → feedback).
+ Comfortable working with noisy or adversarial real-world data, not just clean benchmarks.
+ Understands the performance tradeoffs between recall, precision, latency, and cost—and knows how to tune for impact.
+ Moves fast with strong instincts for where to prototype, where to systematize, and how to deliver models that hold up in production.
+ Brings curiosity, creativity, innovation, and a bias for action in ambiguous environments.
+ Requirements
+ At least 3–8+ years of professional working experience as a Machine Learning engineer, building, owning and deploying machine learning systems in production.
+ Strong foundation in traditional ML techniques (e.g., clustering, anomaly detection, supervised learning).
+ Hands-on experience with LLMs (e.g., OpenAI, Claude, LLaMA), including fine-tuning and prompt engineering.
+ Proficiency in Python and modern ML / NLP tooling.
+ Experience training models on small datasets and using in-context learning techniques.
+ Familiarity with text processing pipelines, semantic embeddings, and vector search.
+ Clear communicator of complex technical concepts to non-technical audiences.
+ Experience deploying models in cloud environments (e.g., AWS, GCP).
+ Experience designing or integrating human-in-the-loop systems for model evaluation or policy alignment.
+ Nice To Have Experience With
+ Real-time ML pipelines.
+ Scaled moderation or large-scale threat detection.
+ Vision, audio, OCR, or deepfake classification.
+ Designing multilingual embedding systems with code-switch detection.
+ Agentic pipelines for explainable or rationale-based moderation.
+ Rapid prototyping using modern LLM APIs and frameworks (e.g., OpenAI, Hugging Face, LangChain).
+ Error analysis and model forensics—comfortable diving into false positives and failure modes.
+ What Success Looks Like In The First 3 Months
+ You’ve designed and deployed a functioning moderation system using semantic embeddings and fine-tuned classifiers to detect abuse at scale.
+ You've designed and refined at least one model evaluation pipeline, including precision / recall tracking and false positive analysis.
+ You've contributed meaningful ideas to data strategy—synthetic generation, clustering schema, or policy alignment tuning.
+ You’ve owned a full subsystem—from ideation to deployment—and seen it hold up under real usage and scrutiny.
+ Compensation & Benefits
+ Salary Range: $150K–$250K, depending on professional experience, location, and other factors.
+ Bonus: Performance-based annual bonus.
+ Professional Development: Support for continuing education, conferences, or training.
+ Work Environment: Fully remote, U.S.-based.
+ Health Benefits: Comprehensive health, dental, and vision coverage.
+ Time Off: Generous PTO and paid holiday schedule.
+ Retirement: 401(k) plan.
+ Show more
+ Show less
+ Seniority level
+ Mid-Senior level
+ Employment type
+ Full-time
+ Job function
+ Engineering and Information Technology
+ Industries
+ Research Services
+ Referrals increase your chances of interviewing at 10a Labs by 2x
+ See who you know
+ Get notified when a new job is posted.
+ Set alert
+ Sign in to set job alerts for “Machine Learning Engineer” roles.
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Similar jobs
+ Data Scientist
+ Data Scientist
+ Attune
+ New York, NY
+ 2 weeks ago
+ Machine Learning Engineer / Data Scientist
+ Machine Learning Engineer / Data Scientist
+ Fusemachines
+ New York, NY
+ 3 months ago
+ AI Engineer/ML Engineer - Senior Developers - AI Training - USA
+ AI Engineer/ML Engineer - Senior Developers - AI Training - USA
+ Prolific
+ New York, NY
+ 4 days ago
+ Data Scientist
+ Data Scientist
+ Junction
+ New York, NY
+ $180,000.00
+ -
+ $220,000.00
+ 5 days ago
+ Machine Learning Researcher | Upto $75/hr Hourly
+ Machine Learning Researcher | Upto $75/hr Hourly
+ Mercor
+ New York, NY
+ 2 weeks ago
+ Software Engineer, Platform - New York, NY, USA
+ Software Engineer, Platform - New York, NY, USA
+ Speechify
+ New York, NY
+ 1 month ago
+ Data Scientist, New Grad
+ Data Scientist, New Grad
+ SentiLink
+ New York, NY
+ 5 days ago
+ Software Engineer, Machine Learning
+ Software Engineer, Machine Learning
+ Figma
+ New York, NY
+ 6 days ago
+ Data Scientist - AI Trainer
+ Data Scientist - AI Trainer
+ Mercor
+ New York, NY
+ 23 hours ago
+ AI Training - Machine Learning Specialist (EST)
+ AI Training - Machine Learning Specialist (EST)
+ Prolific
+ New York, NY
+ 5 days ago
+ Software Engineer - New Grad
+ Software Engineer - New Grad
+ SeatGeek
+ New York, NY
+ 5 hours ago
+ Software Engineer
+ Software Engineer
+ Mercor
+ New York, NY
+ 6 days ago
+ Machine Learning Engineer, Personalization, Samba
+ Machine Learning Engineer, Personalization, Samba
+ Spotify
+ New York, NY
+ 1 week ago
+ Data Scientist
+ Data Scientist
+ PortPro
+ New York, NY
+ 1 year ago
+ Data Scientist
+ Data Scientist
+ Figma
+ New York, NY
+ 1 week ago
+ Senior AI/ML Engineer: Python & Scientific Computing
+ Senior AI/ML Engineer: Python & Scientific Computing
+ Swayable
+ New York, NY
+ 4 months ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ ImpetusIT
+ New York, NY
+ $60,000.00
+ -
+ $70,000.00
+ 3 days ago
+ Founding Full-Stack Software Engineer
+ Founding Full-Stack Software Engineer
+ Clipbook
+ New York, NY
+ 1 month ago
+ Data Scientist, Research
+ Data Scientist, Research
+ Dstillery
+ New York, NY
+ 3 months ago
+ ML Developer Experience Engineer
+ ML Developer Experience Engineer
+ Adaptive ML
+ New York, NY
+ 1 week ago
+ Software Engineer
+ Software Engineer
+ Modern Treasury
+ New York, NY
+ $120,000.00
+ -
+ $240,000.00
+ 4 months ago
+ AI/ML Engineer
+ AI/ML Engineer
+ New York Technology Partners
+ New York City Metropolitan Area
+ $65.00
+ -
+ $70.00
+ 1 week ago
+ Senior Data Scientist - Agentic AI
+ Senior Data Scientist - Agentic AI
+ Tiger Analytics
+ New York, NY
+ 10 hours ago
+ Machine Learning Engineer - Inference / Serving
+ Machine Learning Engineer - Inference / Serving
+ Yobi AI
+ New York, NY
+ $180,000.00
+ -
+ $275,000.00
+ 5 months ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Python Software Engineer - AI Workflows
+ Python Software Engineer - AI Workflows
+ Alignerr
+ New York, NY
+ $50.00
+ -
+ $75.00
+ 6 days ago
+ Freelance Data Scraping Engineer (Python)
+ Freelance Data Scraping Engineer (Python)
+ Mindrift
+ New York, NY
+ 3 days ago
+ Data Engineer - AI Trainer
+ Data Engineer - AI Trainer
+ Mercor
+ New York, NY
+ 23 hours ago
+ Software Engineer - Platform
+ Software Engineer - Platform
+ Dagster Labs
+ New York, NY
+ 8 hours ago
+ ML Engineer
+ ML Engineer
+ Hyra
+ New York City Metropolitan Area
+ 6 hours ago
+ Python Software Engineer
+ Python Software Engineer
+ Mercor
+ New York, NY
+ 1 week ago
+ Software Engineer
+ Software Engineer
+ Check
+ New York, NY
+ 1 month ago
+ ML Engineer
+ ML Engineer
+ Harnham
+ New York, NY
+ $80.00
+ -
+ $100.00
+ 1 week ago
+ Senior Software Engineer
+ Senior Software Engineer
+ Tremendous
+ New York, NY
+ $150,000.00
+ -
+ $280,000.00
+ 6 months ago
+ Similar Searches
+ Emergency Medicine Resident jobs
+ 1,074 open jobs
+ Intelligence Specialist jobs
+ 7,156 open jobs
+ Scientist jobs
+ 48,969 open jobs
+ Data Scientist jobs
+ 264,158 open jobs
+ General Engineer jobs
+ 54,597 open jobs
+ Staff Research Engineer jobs
+ 1,530 open jobs
+ Insurance Counselor jobs
+ 4,892 open jobs
+ Algorithm Engineer jobs
+ 6,066 open jobs
+ Senior Computer Engineer jobs
+ 1,942 open jobs
+ Senior Scientist jobs
+ 19,214 open jobs
+ Junior Scientist jobs
+ 10,103 open jobs
+ Lead Scientist jobs
+ 14,164 open jobs
+ Data Science Specialist jobs
+ 2,441 open jobs
+ Processing Geophysicist jobs
+ 97 open jobs
+ Assistant Professor of Philosophy jobs
+ 273 open jobs
+ Processing Engineer jobs
+ 235,210 open jobs
+ Senior Manufacturing Process Engineer jobs
+ 7,050 open jobs
+ Python Developer jobs
+ 46,642 open jobs
+ Learning Specialist jobs
+ 51,329 open jobs
+ Senior Integration Specialist jobs
+ 49,775 open jobs
+ Research Software Engineer jobs
+ 26,451 open jobs
+ Research Engineer jobs
+ 262,824 open jobs
+ Engineer jobs
+ 555,845 open jobs
+ Information Assurance Engineer jobs
+ 8,607 open jobs
+ Quantitative Developer jobs
+ 11,546 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Seven Bridges jobs
+ Emergency Medicine Resident jobs
+ Intelligence Specialist jobs
+ Scientist jobs
+ The Hospital at Westlake Medical Center jobs
+ Data Scientist jobs
+ General Engineer jobs
+ Staff Research Engineer jobs
+ Insurance Counselor jobs
+ SDK Software, Inc. jobs
+ Algorithm Engineer jobs
+ Senior Computer Engineer jobs
+ Senior Scientist jobs
+ Junior Scientist jobs
+ Lead Scientist jobs
+ Data Science Specialist jobs
+ Processing Geophysicist jobs
+ Assistant Professor of Philosophy jobs
+ Processing Engineer jobs
+ The Coordinating Center jobs
+ Senior Manufacturing Process Engineer jobs
+ Python Developer jobs
+ Total Education Solutions jobs
+ Learning Specialist jobs
+ Senior Integration Specialist jobs
+ Research Software Engineer jobs
+ Research Engineer jobs
+ Engineer jobs
+ Information Assurance Engineer jobs
+ Quantitative Developer jobs
+ Science Specialist jobs
+ Quantitative Researcher jobs
+ Algorithm Developer jobs
+ ArcBest Technologies jobs
+ Reflexologist jobs
+ Senior Telecommunications Analyst jobs
+ Adjust jobs
+ Robotics Engineer jobs
+ AMI jobs
+ Research Scientist jobs
+ Computer Vision Engineer jobs
+ Science Manager jobs
+ Statistical Researcher jobs
+ Researcher jobs
+ Data Engineer jobs
+ Quantitative Analyst jobs
+ Software Engineer jobs
+ Graduate Software Engineer jobs
+ Data Mining Specialist jobs
+ Computational Biologist jobs
+ Wireless System Engineer jobs
+ Analytical Engineer jobs
+ Computer Scientist jobs
+ Computer Engineer jobs
+ Senior Audio Engineer jobs
+ Computational Scientist jobs
+ Software System Architect jobs
+ Django Developer jobs
+ Signal Processing Engineer jobs
+ Online Marketing Executive jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (Persian)
+ Suomi (Finnish)
+ Français (French)
+ हिंदी (Hindi)
+ Magyar (Hungarian)
+ Bahasa Indonesia (Indonesian)
+ Italiano (Italian)
+ עברית (Hebrew)
+ 日本語 (Japanese)
+ 한국어 (Korean)
+ मराठी (Marathi)
+ Bahasa Malaysia (Malay)
+ Nederlands (Dutch)
+ Norsk (Norwegian)
+ ਪੰਜਾਬੀ (Punjabi)
+ Polski (Polish)
+ Português (Portuguese)
+ Română (Romanian)
+ Русский (Russian)
+ Svenska (Swedish)
+ తెలుగు (Telugu)
+ ภาษาไทย (Thai)
+ Tagalog (Tagalog)
+ Türkçe (Turkish)
+ Українська (Ukrainian)
+ Tiếng Việt (Vietnamese)
+ 简体中文 (Chinese (Simplified))
+ 正體中文 (Chinese (Traditional))
+ Language
+ Agree & Join LinkedIn
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to see who you already know at 10a Labs
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .

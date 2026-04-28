@@ -1,0 +1,475 @@
+Netflix hiring Data Engineer (L5) - Ads in United States | LinkedIn
+ Skip to main content
+ LinkedIn
+ Data Engineer (L5) - Ads in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Data Engineer (L5) - Ads
+ Netflix
+ United States
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Data Engineer (L5) - Ads role at Netflix
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Data Engineer (L5) - Ads
+ Netflix
+ United States
+ 15 hours ago
+ Over 200 applicants
+ See who Netflix has hired for this role
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Data Engineer (L5) - Ads role at Netflix
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Save
+ Report this job
+ Netflix is one of the world's leading entertainment services, with over 300 million paid memberships in over 190 countries enjoying TV series, films and games across a wide variety of genres and languages. Members can play, pause and resume watching as much as they want, anytime, anywhere, and can change their plans at any time.
+ About The Team
+ Ads Data Engineering team sits at the core of building a data ecosystem that will power Netflix’ understanding and decision making about what impact ads have on our business. This team’s main focus is to build rich, connected, and easily accessible data products about ad inventories, forecasting, targeting, ad serving, pacing and much more. We are looking for passionale, mature, and curious software engineers with strong data intuition, analytical mindset and ad ecosystem experience, to contribute to the team’s impact in a quickly evolving.
+We are hiring for several different roles, ranging from senior to staff level for this team.
+ Who are you?
+ Beyond talented, you are curious, creative, and tenacious.
+ Sharp communicator who can break down and explain complex data problems in clear and concise language.
+ You have an extensive background and strong technical expertise working with data at scale, experience with advertising data (preferred) and understand how to build for privacy, and business impact
+ You have a high tolerance for ambiguity and fast-changing context
+ Hands-on experience building batch or streaming production data pipelines, ideally using one or more distributed processing frameworks such as Spark, Flink or Hive/Hadoop
+ Knowledge in data modeling and establishing data architecture across multiple systems
+ Thrive in a fast paced environment, and see yourself as a partner with the business with the shared goal of moving the business forward.
+ Create code that is understandable, simple, and clean, and take pride in its beauty.
+ Love freedom and hate being micromanaged. Given context, you're capable of self-direction.
+ Passionate about data quality and delivering effective data to impact the business.
+ What will you do?
+ Architect, strengthen, and expand the core data products that scale our Ads business. You’ll get on a team of talented data engineers and envision how all the data elements from multiple sources should fit together as a whole, and then execute on that plan.
+ Fully own critical portions of Netflix' Ads data products. Collaborate with stakeholders to understand needs, model tables using software engineering and data warehouse best practices, and develop large scale data processing solutions to ensure the timely delivery of high quality data.
+ Partner with Analytics Engineers, Data Scientists, and Software Engineers to create data products that will serve analysis, ML and reporting needs intuitively
+ Develop best practices for governance of data sets with sensitive information
+ Build strong and collaborative partnerships with data scientists, analytics engineers, and Machine Learning practitioners
+ What (ideally) do you know?
+ Domains related to advertising, data privacy, GDPR
+ Data warehousing, data modeling, and data transformation for both batch and streaming
+ Hands on command programming languages such as python, scala or java as well data exploration using sql
+ Expert at building performant data pipelines and optimizing existing workflows for new features
+ Big Data tech - Hadoop, Spark, Flink, Stream processing, Hive, Presto, etc.
+ Experience with sourcing and modeling data from application APIs
+ Team based software development tools and best practices
+ Our compensation structure consists solely of an annual salary; we do not have bonuses. You choose each year how much of your compensation you want in salary versus stock options. To determine your personal top of market compensation, we rely on market indicators and consider your specific job family, background, skills, and experience to determine your compensation in the market range. The range for this role is $170,000 - $720,000.
+Netflix provides comprehensive benefits including Health Plans, Mental Health support, a 401(k) Retirement Plan with employer match, Stock Option Program, Disability Programs, Health Savings and Flexible Spending Accounts, Family-forming benefits, and Life and Serious Injury Benefits. We also offer paid leave of absence programs. Full-time hourly employees accrue 35 days annually for paid time off to be used for vacation, holidays, and sick paid time off. Full-time salaried employees are immediately entitled to flexible time off. See more detail about our Benefits here.
+Inclusion is a Netflix value and we strive to host a meaningful interview experience for all candidates. If you want an accommodation/adjustment for a disability or any other reason during the hiring process, please send a request to your recruiting partner.
+We are an equal-opportunity employer and celebrate diversity, recognizing that diversity builds stronger teams. We approach diversity and inclusion seriously and thoughtfully. We do not discriminate on the basis of race, religion, color, ancestry, national origin, caste, sex, sexual orientation, gender, gender identity or expression, age, disability, medical condition, pregnancy, genetic makeup, marital status, or military service.
+Job is open for no less than 7 days and will be removed when the position is filled.
+ Show more
+ Show less
+ Seniority level
+ Not Applicable
+ Employment type
+ Full-time
+ Job function
+ Other
+ Industries
+ Entertainment Providers
+ Referrals increase your chances of interviewing at Netflix by 2x
+ See who you know
+ Get notified when a new job is posted.
+ Set alert
+ Sign in to set job alerts for “Data Engineer” roles.
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Similar jobs
+ Data Engineer (L5)
+ Data Engineer (L5)
+ Netflix
+ United States
+ 3 weeks ago
+ Data Engineer
+ Data Engineer
+ Gopuff
+ United States
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Health-E Commerce
+ United States
+ 1 month ago
+ Junior Analytics Engineer
+ Junior Analytics Engineer
+ Mayne Pharma
+ United States
+ 1 week ago
+ Security Analytics Engineer (L4)
+ Security Analytics Engineer (L4)
+ Netflix
+ United States
+ 1 week ago
+ Data Analyst (Stata) | Remote
+ Data Analyst (Stata) | Remote
+ Crossing Hurdles
+ United States
+ $20.00
+ -
+ $100.00
+ 6 days ago
+ Data Engineer
+ Data Engineer
+ MedReview Inc.
+ New York, NY
+ 2 months ago
+ Software Engineer L4/L5, Model Serving Systems, Machine Learning Platform
+ Software Engineer L4/L5, Model Serving Systems, Machine Learning Platform
+ Netflix
+ United States
+ 4 days ago
+ Data Engineer 5 - Privacy
+ Data Engineer 5 - Privacy
+ Netflix
+ United States
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Temu
+ United States
+ 4 days ago
+ Data Analytics Engineer
+ Data Analytics Engineer
+ Ancient Nutrition
+ United States
+ $85.00
+ -
+ $100.00
+ 2 weeks ago
+ Graduate Software Engineer
+ Graduate Software Engineer
+ Fuze Health
+ United States
+ $76,240.00
+ -
+ $95,300.00
+ 2 weeks ago
+ Software Engineer (L4) - Personalization
+ Software Engineer (L4) - Personalization
+ Netflix
+ United States
+ 3 days ago
+ Data Engineer
+ Data Engineer
+ Arbor
+ Austin, TX
+ 1 month ago
+ Data Engineer
+ Data Engineer
+ Arbor
+ Philadelphia, PA
+ 1 month ago
+ Data Platform Engineer (26-27)
+ Data Platform Engineer (26-27)
+ IDEA Public Schools
+ Hidalgo County, TX
+ 1 week ago
+ Senior Data Engineer
+ Senior Data Engineer
+ Health-E Commerce
+ United States
+ 2 weeks ago
+ Data Platform Engineer (26-27)
+ Data Platform Engineer (26-27)
+ IDEA Public Schools
+ Hidalgo County, TX
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Edmunds
+ United States
+ 2 weeks ago
+ Analytics Engineer
+ Analytics Engineer
+ SeatGeek
+ United States
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Arbor
+ Washington, DC
+ 1 month ago
+ Data Engineer
+ Data Engineer
+ Cohere
+ San Francisco, CA
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Avenue Code
+ United States
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Cohere
+ New York, NY
+ 1 week ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Data Engineer
+ Data Engineer
+ Figma
+ San Francisco, CA
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Analytica
+ Washington, DC
+ 6 months ago
+ Data Engineer II
+ Data Engineer II
+ Samsara
+ United States
+ $101,745.00
+ -
+ $153,900.00
+ 3 days ago
+ Data Engineer
+ Data Engineer
+ Arbor
+ Boston, MA
+ 1 month ago
+ Data Engineer
+ Data Engineer
+ Figma
+ New York, NY
+ 6 days ago
+ Data Engineer
+ Data Engineer
+ Elios
+ United States
+ 6 days ago
+ Data Engineer
+ Data Engineer
+ IntePros
+ Phoenix, AZ
+ 1 day ago
+ Data Engineer ($130k - $170k)
+ Data Engineer ($130k - $170k)
+ Tenth Revolution Group
+ United States
+ $150,000.00
+ -
+ $170,000.00
+ 3 days ago
+ Data Engineer
+ Data Engineer
+ Great Value Hiring
+ United States
+ $50.00
+ -
+ $120.00
+ 2 weeks ago
+ Similar Searches
+ Business Intelligence Engineer jobs
+ 50,282 open jobs
+ Big Data Developer jobs
+ 26,392 open jobs
+ Business Intelligence Intern jobs
+ 156 open jobs
+ Data Engineer jobs
+ 192,126 open jobs
+ Cardiologist jobs
+ 5,243 open jobs
+ Network Developer jobs
+ 222,191 open jobs
+ Business Intern jobs
+ 22,088 open jobs
+ Senior Data Engineer jobs
+ 78,076 open jobs
+ Science Manager jobs
+ 15,298 open jobs
+ Data Science Specialist jobs
+ 2,441 open jobs
+ Security Consultant jobs
+ 59,048 open jobs
+ Data Analyst jobs
+ 329,009 open jobs
+ Python Developer jobs
+ 46,642 open jobs
+ Data Manager jobs
+ 114,435 open jobs
+ Security Manager jobs
+ 116,433 open jobs
+ Engineer jobs
+ 555,845 open jobs
+ Intelligence Specialist jobs
+ 7,156 open jobs
+ Director of Architecture jobs
+ 5,759 open jobs
+ Scientist jobs
+ 48,969 open jobs
+ Analyst jobs
+ 694,057 open jobs
+ Data Scientist jobs
+ 264,158 open jobs
+ Cyber Security Specialist jobs
+ 20,744 open jobs
+ Developer jobs
+ 258,935 open jobs
+ Senior Data Analyst jobs
+ 35,445 open jobs
+ Intern jobs
+ 71,196 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Kobie jobs
+ Business Intelligence Engineer jobs
+ Multi Media, LLC jobs
+ Big Data Developer jobs
+ Business Intelligence Intern jobs
+ Data Engineer jobs
+ Cardiologist jobs
+ MyFitnessPal jobs
+ Aircall jobs
+ Albertsons Companies jobs
+ Network Developer jobs
+ Habitat for Humanity International jobs
+ Yelp jobs
+ Business Intern jobs
+ Senior Data Engineer jobs
+ Genentech jobs
+ Instacart jobs
+ Weee! jobs
+ eBay jobs
+ Airbnb jobs
+ Intuit jobs
+ Science Manager jobs
+ Data Science Specialist jobs
+ Security Consultant jobs
+ Netflix jobs
+ Qualcomm jobs
+ Qlik jobs
+ Data Analyst jobs
+ Python Developer jobs
+ Data Manager jobs
+ Security Manager jobs
+ Engineer jobs
+ Apple jobs
+ Optiver jobs
+ Intelligence Specialist jobs
+ Globant jobs
+ Google jobs
+ Director of Architecture jobs
+ Siemens Healthineers jobs
+ Scientist jobs
+ LinkedIn jobs
+ Analyst jobs
+ Data Scientist jobs
+ Verkada jobs
+ Stripe jobs
+ Meta jobs
+ Dexcom jobs
+ Cyber Security Specialist jobs
+ Kin Insurance jobs
+ IBM jobs
+ Developer jobs
+ Spotify jobs
+ Senior Data Analyst jobs
+ Intern jobs
+ Capital One jobs
+ Product Manager jobs
+ Pinterest jobs
+ Zoox jobs
+ Director Data Science jobs
+ Head jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (Persian)
+ Suomi (Finnish)
+ Français (French)
+ हिंदी (Hindi)
+ Magyar (Hungarian)
+ Bahasa Indonesia (Indonesian)
+ Italiano (Italian)
+ עברית (Hebrew)
+ 日本語 (Japanese)
+ 한국어 (Korean)
+ मराठी (Marathi)
+ Bahasa Malaysia (Malay)
+ Nederlands (Dutch)
+ Norsk (Norwegian)
+ ਪੰਜਾਬੀ (Punjabi)
+ Polski (Polish)
+ Português (Portuguese)
+ Română (Romanian)
+ Русский (Russian)
+ Svenska (Swedish)
+ తెలుగు (Telugu)
+ ภาษาไทย (Thai)
+ Tagalog (Tagalog)
+ Türkçe (Turkish)
+ Українська (Ukrainian)
+ Tiếng Việt (Vietnamese)
+ 简体中文 (Chinese (Simplified))
+ 正體中文 (Chinese (Traditional))
+ Language
+ Agree & Join LinkedIn
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to see who you already know at Netflix
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .

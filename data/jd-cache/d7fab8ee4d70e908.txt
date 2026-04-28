@@ -1,0 +1,481 @@
+AgileGrid Solutions hiring Data Engineer -SQL in United States | LinkedIn
+ Skip to main content
+ LinkedIn
+ Data Engineer -SQL in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Data Engineer -SQL
+ AgileGrid Solutions
+ United States
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Data Engineer -SQL role at AgileGrid Solutions
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Data Engineer -SQL
+ AgileGrid Solutions
+ United States
+ 6 hours ago
+ 161 applicants
+ See who AgileGrid Solutions has hired for this role
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Data Engineer -SQL role at AgileGrid Solutions
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Save
+ Report this job
+ Use AI to assess how you fit
+ Get AI-powered advice on this job and more exclusive features.
+ Am I a good fit for this job?
+ Tailor my resume
+ Sign in to access AI-powered advices
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to evaluate your skills
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to tailor your resume
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Job Description - Data Engineer
+ About the Company
+YO IT CONSULTING is a forward-thinking technology solutions provider dedicated to delivering innovative and scalable IT services to clients across various industries. With a focus on leveraging cutting-edge technologies, YO IT CONSULTING strives to empower organizations through digital transformation, data-driven insights, and advanced AI solutions. Our team comprises skilled professionals committed to excellence, collaboration, and continuous learning, ensuring that our clients stay ahead in a rapidly evolving technological landscape.
+ About The Role
+ We are seeking an experienced Data Engineer to join our dynamic team on a contractual basis. In this role, you will be instrumental in developing and maintaining sophisticated data pipelines that support the training and optimization of next-generation AI agents. This fully remote position offers an exciting opportunity to work on innovative AI projects, where your technical expertise will directly influence the success of cutting-edge AI systems. You will collaborate closely with AI and machine learning engineers, contributing to the design and implementation of scalable data architectures that facilitate efficient data flow and high-quality training datasets.
+ Qualifications
+ The ideal candidate will possess a strong educational background in Computer Science, Engineering, or a related discipline, complemented by practical experience in data engineering within AI/ML environments. A minimum of three years’ hands-on experience is required, demonstrating proficiency in developing and managing data pipelines for complex projects. Candidates should have advanced skills in Python, MySQL, PostgreSQL, Java, and JavaScript, along with a solid understanding of AI concepts and agent training. Excellent communication skills are essential to articulate technical processes clearly to diverse stakeholders. Self-motivation, attention to detail, and the ability to thrive in a remote, collaborative setting are key attributes for success in this role.
+ Responsibilities
+ Design, implement, and manage data pipelines to facilitate AI agent training initiatives, ensuring scalability and efficiency.
+ Collaborate with AI/ML engineers to optimize data flows and ensure the integrity of training datasets.
+ Develop and maintain scalable ETL processes using Python, MySQL, and PostgreSQL to support large-scale data operations.
+ Utilize Java and JavaScript to integrate diverse data sources and enable seamless data exchange across systems.
+ Contribute to the enhancement of AI models by providing high-quality, well-structured data inputs.
+ Document data processes comprehensively, ensuring clarity and ease of understanding for technical and non-technical teams.
+ Troubleshoot and resolve data-related issues promptly, maintaining data integrity and reliability for AI applications.
+ Benefits
+ Joining YO IT CONSULTING as a Data Engineer offers numerous benefits, including the opportunity to work on innovative AI projects in a flexible remote environment. You will have access to continuous learning and professional development opportunities, collaborating with a talented team of professionals dedicated to technological excellence. Competitive compensation and a supportive work culture that values diversity, inclusion, and work-life balance are integral parts of our employment philosophy. Additionally, you will gain exposure to the latest AI and data engineering tools, enhancing your skill set and career trajectory.
+Equal Opportunity
+YO IT CONSULTING is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees. We do not discriminate based on race, ethnicity, gender, age, sexual orientation, disability, or any other protected characteristic. We believe that diverse perspectives and experiences drive innovation and excellence, and we are dedicated to fostering a workplace where everyone feels valued and empowered to contribute their best.
+ Show more
+ Show less
+ Seniority level
+ Associate
+ Employment type
+ Full-time
+ Job function
+ Information Technology
+ Industries
+ Technology, Information and Media
+ Referrals increase your chances of interviewing at AgileGrid Solutions by 2x
+ See who you know
+ Get notified about new Data Engineer jobs in United States .
+ Sign in to create job alert
+ Similar jobs
+ Data Engineer (L5)
+ Data Engineer (L5)
+ Netflix
+ United States
+ 3 weeks ago
+ Data Engineer (L5) - Ads
+ Data Engineer (L5) - Ads
+ Netflix
+ United States
+ 15 hours ago
+ Data Engineer
+ Data Engineer
+ Gopuff
+ United States
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Health-E Commerce
+ United States
+ 1 month ago
+ Junior Analytics Engineer
+ Junior Analytics Engineer
+ Mayne Pharma
+ United States
+ 1 week ago
+ Security Analytics Engineer (L4)
+ Security Analytics Engineer (L4)
+ Netflix
+ United States
+ 1 week ago
+ Data Analyst (Stata) | Remote
+ Data Analyst (Stata) | Remote
+ Crossing Hurdles
+ United States
+ $20.00
+ -
+ $100.00
+ 6 days ago
+ Data Engineer
+ Data Engineer
+ MedReview Inc.
+ New York, NY
+ 2 months ago
+ Software Engineer L4/L5, Model Serving Systems, Machine Learning Platform
+ Software Engineer L4/L5, Model Serving Systems, Machine Learning Platform
+ Netflix
+ United States
+ 4 days ago
+ Data Engineer 5 - Privacy
+ Data Engineer 5 - Privacy
+ Netflix
+ United States
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Temu
+ United States
+ 4 days ago
+ Data Analytics Engineer
+ Data Analytics Engineer
+ Ancient Nutrition
+ United States
+ $85.00
+ -
+ $100.00
+ 2 weeks ago
+ Graduate Software Engineer
+ Graduate Software Engineer
+ Fuze Health
+ United States
+ $76,240.00
+ -
+ $95,300.00
+ 2 weeks ago
+ Software Engineer (L4) - Personalization
+ Software Engineer (L4) - Personalization
+ Netflix
+ United States
+ 3 days ago
+ Data Engineer
+ Data Engineer
+ Arbor
+ Austin, TX
+ 1 month ago
+ Data Engineer
+ Data Engineer
+ Arbor
+ Philadelphia, PA
+ 1 month ago
+ Data Platform Engineer (26-27)
+ Data Platform Engineer (26-27)
+ IDEA Public Schools
+ Hidalgo County, TX
+ 1 week ago
+ Senior Data Engineer
+ Senior Data Engineer
+ Health-E Commerce
+ United States
+ 2 weeks ago
+ Data Platform Engineer (26-27)
+ Data Platform Engineer (26-27)
+ IDEA Public Schools
+ Hidalgo County, TX
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Edmunds
+ United States
+ 2 weeks ago
+ Analytics Engineer
+ Analytics Engineer
+ SeatGeek
+ United States
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Arbor
+ Washington, DC
+ 1 month ago
+ Data Engineer
+ Data Engineer
+ Cohere
+ San Francisco, CA
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Avenue Code
+ United States
+ 2 weeks ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Data Engineer
+ Data Engineer
+ Cohere
+ New York, NY
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Figma
+ San Francisco, CA
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Analytica
+ Washington, DC
+ 6 months ago
+ Data Engineer II
+ Data Engineer II
+ Samsara
+ United States
+ $101,745.00
+ -
+ $153,900.00
+ 3 days ago
+ Data Engineer
+ Data Engineer
+ Arbor
+ Boston, MA
+ 1 month ago
+ Data Engineer
+ Data Engineer
+ Figma
+ New York, NY
+ 6 days ago
+ Data Engineer
+ Data Engineer
+ Elios
+ United States
+ 6 days ago
+ Data Engineer
+ Data Engineer
+ IntePros
+ Phoenix, AZ
+ 1 day ago
+ Data Engineer ($130k - $170k)
+ Data Engineer ($130k - $170k)
+ Tenth Revolution Group
+ United States
+ $150,000.00
+ -
+ $170,000.00
+ 3 days ago
+ Similar Searches
+ Senior Data Engineer jobs
+ 78,076 open jobs
+ Big Data Developer jobs
+ 26,392 open jobs
+ Hadoop Developer jobs
+ 37,972 open jobs
+ ETL Developer jobs
+ 46,788 open jobs
+ Data Warehouse Engineer jobs
+ 39,476 open jobs
+ Analytical Engineer jobs
+ 7,971 open jobs
+ Data Architect jobs
+ 68,774 open jobs
+ Freelance Engineer jobs
+ 190 open jobs
+ Development Database Administrator jobs
+ 226,600 open jobs
+ ETL Specialist jobs
+ 219,897 open jobs
+ Database Software Engineer jobs
+ 224,263 open jobs
+ Engineer jobs
+ 555,845 open jobs
+ Business Intelligence Engineer jobs
+ 50,282 open jobs
+ Senior Data Warehouse Engineer jobs
+ 10,085 open jobs
+ Pipeline Engineer jobs
+ 39,469 open jobs
+ Teradata Developer jobs
+ 2,501 open jobs
+ Database Engineer jobs
+ 32,874 open jobs
+ Exhibit Coordinator jobs
+ 342 open jobs
+ Senior Solutions Developer jobs
+ 50,281 open jobs
+ SQL Developer jobs
+ 12,445 open jobs
+ Junior Engineer jobs
+ 52,722 open jobs
+ Assistant Produce Manager jobs
+ 3,091 open jobs
+ Data Modeler jobs
+ 263,457 open jobs
+ Data Analyst jobs
+ 329,009 open jobs
+ Senior Data Warehouse Architect jobs
+ 4,641 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Senior Data Engineer jobs
+ Big Data Developer jobs
+ Hadoop Developer jobs
+ ETL Developer jobs
+ Lakeland Care jobs
+ Data Warehouse Engineer jobs
+ Analytical Engineer jobs
+ Data Architect jobs
+ Freelance Engineer jobs
+ Development Database Administrator jobs
+ ETL Specialist jobs
+ Database Software Engineer jobs
+ Engineer jobs
+ Business Intelligence Engineer jobs
+ Senior Data Warehouse Engineer jobs
+ Pipeline Engineer jobs
+ Teradata Developer jobs
+ Database Engineer jobs
+ Exhibit Coordinator jobs
+ Senior Solutions Developer jobs
+ SQL Developer jobs
+ Junior Engineer jobs
+ Assistant Produce Manager jobs
+ Data Modeler jobs
+ Data Analyst jobs
+ Senior Data Warehouse Architect jobs
+ Senior Database Engineer jobs
+ Senior Peoplesoft Consultant jobs
+ ETL Consultant jobs
+ Scala jobs
+ Data Scientist jobs
+ Senior ETL Developer jobs
+ Data Warehouse Specialist jobs
+ Databricks jobs
+ Senior Data Architect jobs
+ Lead Data Architect jobs
+ Business Intelligence Developer jobs
+ The Toledo Clinic jobs
+ Scala Developer jobs
+ General Engineer jobs
+ Senior Business Intelligence Architect jobs
+ Senior System Test Engineer jobs
+ Microsoft Developer jobs
+ Aqua-Tots Swim School jobs
+ Data Warehouse Architect jobs
+ Software Configuration Engineer jobs
+ Data System Engineer jobs
+ Python Developer jobs
+ Data Science Specialist jobs
+ Machine Learning Engineer jobs
+ Scientist jobs
+ Data Warehouse Manager jobs
+ Diocese of Saint Petersburg jobs
+ Project Lead Developer jobs
+ Telecommunications Software Engineer jobs
+ Randall Reilly jobs
+ Processing Geophysicist jobs
+ Senior Database Developer jobs
+ Business Objects Consultant jobs
+ Middleware Engineer jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (Persian)
+ Suomi (Finnish)
+ Français (French)
+ हिंदी (Hindi)
+ Magyar (Hungarian)
+ Bahasa Indonesia (Indonesian)
+ Italiano (Italian)
+ עברית (Hebrew)
+ 日本語 (Japanese)
+ 한국어 (Korean)
+ मराठी (Marathi)
+ Bahasa Malaysia (Malay)
+ Nederlands (Dutch)
+ Norsk (Norwegian)
+ ਪੰਜਾਬੀ (Punjabi)
+ Polski (Polish)
+ Português (Portuguese)
+ Română (Romanian)
+ Русский (Russian)
+ Svenska (Swedish)
+ తెలుగు (Telugu)
+ ภาษาไทย (Thai)
+ Tagalog (Tagalog)
+ Türkçe (Turkish)
+ Українська (Ukrainian)
+ Tiếng Việt (Vietnamese)
+ 简体中文 (Chinese (Simplified))
+ 正體中文 (Chinese (Traditional))
+ Language
+ Agree & Join LinkedIn
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to see who you already know at AgileGrid Solutions
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .

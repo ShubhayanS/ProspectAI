@@ -1,0 +1,458 @@
+Ascend Learning hiring AI Engineer in Burlington, MA | LinkedIn
+ Skip to main content
+ LinkedIn
+ AI Engineer in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ AI Engineer
+ Ascend Learning
+ Burlington, MA
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the AI Engineer role at Ascend Learning
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ AI Engineer
+ Ascend Learning
+ Burlington, MA
+ 16 hours ago
+ Over 200 applicants
+ See who Ascend Learning has hired for this role
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the AI Engineer role at Ascend Learning
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Save
+ Report this job
+ Use AI to assess how you fit
+ Get AI-powered advice on this job and more exclusive features.
+ Am I a good fit for this job?
+ Tailor my resume
+ Sign in to access AI-powered advices
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to evaluate your skills
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to tailor your resume
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ We Impact Lives Through Purpose-Driven Work in A People First Culture
+ Ascend Learning, a leading healthcare and learning technology company, is the connection between a powerful portfolio of brands serving students, educators, and employers with outcomes-based, data-driven solutions across the lifecycle of learning. From testing to certification, Ascend Learning products are used by physicians, emergency medical professionals, nurses, allied health professionals, certified personal trainers, financial advisors, skilled trades professionals and insurance brokers.
+Headquartered in Burlington, MA, with additional office locations and hybrid and remote workers in cities across the U.S., Ascend Learning was recognized by Newsweek and Plant-A Insights Group as one of America’s 2025 Greatest Workplaces as well as America’s Best Places to work for Mental Well-Being for 2025.
+We're always looking for talented, passionate professionals to join us in our mission to help change lives. If this sounds like an environment where you'd thrive, read on to learn more.
+ What You'll Do
+ As an AI Engineer, you will be instrumental in developing and implementing Ascend's AI-powered products and solutions, contributing to the transformation of education through innovative technology. This role builds, tests, and deploys scalable solutions using Generative AI and Machine Learning (ML) foundational models. The AI Engineer is a product-minded, hands-on technical contributor who moves quickly from idea to working prototype, translating user needs into impactful AI features. This role works closely with other AI engineers (including on-shore and off-shore contractors) and cross-functional teams to deliver high-quality AI solutions while continuously developing technical expertise in the field.
+ WHERE YOU’LL WORK
+ This position will work a hybrid schedule from either of our office locations in Leawood, KS or Burlington, MA.
+ How You’ll Spend Your Time
+ Develop and deploy distributed systems and backend services that integrate LLMs / ML Models into real-world educational products
+ Contribute to the design and development of Generative AI/ML system within established architecture
+ Partner closely with product teams to rapidly prototype and ship AI-powered features, translating user needs into working solutions quickly
+ Leverage agentic coding tools and AI-assisted development workflows to accelerate prototyping, and ship higher-quality solutions faster
+ Participate in code review ands and technical discussions to continuously improve solution quality
+ Collaborate with cross-functional teams, including product teams, data scientists, data engineers, and software engineers to develop AI capabilities into existing and new products
+ Take ownership of defining project milestones, timelines, and ensuring successful delivery within specified deadlines
+ Maintain and update technical documentations for implemented features and processes
+ Support team members through knowledge sharing and collaborative problem-solving
+ Research and evaluate new tools and techniques
+ Stay current with the latest AI technologies and methodologies through continuous learning
+ What You'll Need
+ High school diploma or GED required. Bachelor’s degree in Computer Science, Artificial Intelligence, Software Engineering or closely related field or equivalent experience preferred
+ 3+ years of progressive work experience in AI or software engineering roles
+ Microsoft Azure AI Engineer certification preferred
+ Working knowledge of Large Language Models, prompt engineering, context management, and embedding techniques
+ Experience in Python, REST API development (FastAPI)
+ Experience with cloud infrastructure (Azure) preferred
+ Experience with containerization (Docker), orchestration (Kubernetes), CI/CD and basic DevOps practices
+ Strong product sense with the ability to understand user needs and contribute to building intuitive, impactful AI experience
+ Experience with event-driven architectures and distributed messaging systems such as Apache Kafka or similar technologies
+ Knowledge or experience with modern web development frameworks such as Angular or React preferred
+ Strong analytical and problem-solving skills with attention to detail
+ Excellent verbal and written communication skills
+ Aspirations for professional development and growth opportunities
+ Team-oriented mindset with ability to work independently on assigned tasks
+ Benefits
+ Flexible and generous paid time off
+ Competitive medical, dental, vision and life insurance
+ 401(k) employer matching program
+ Parental leave
+ Wellness resources
+ Charitable matching program
+ On-site workout facilities (Leawood, Gilbert, Burlington)
+ Community outreach groups
+ Tuition reimbursement
+ Fostering A Sense of Belonging
+ Our values-driven culture unifies our teams and inspires a mindset of action, innovation, and collaboration, with a relentless focus on customers. We seek out and celebrate all people and perspectives and cultivate an inclusive culture where everyone can thrive, feel valued, and be authentic. Our culture is firmly rooted in the belief that by embracing our differences and drawing on diverse perspectives, we are a stronger, more innovative, and more successful organization where employees experience a sense of belonging.
+Ascend Learning, LLC is proud to be an equal opportunity employer (M/F/Vets/Disabled). No agency or search firm submissions will be accepted. Applications for U.S.-based positions with Ascend Learning, LLC must be legally authorized to work in the United States, and verification of employment eligibility will be required at the time of hire.
+ Show more
+ Show less
+ Seniority level
+ Mid-Senior level
+ Employment type
+ Full-time
+ Job function
+ Engineering and Information Technology
+ Industries
+ E-Learning Providers
+ Referrals increase your chances of interviewing at Ascend Learning by 2x
+ See who you know
+ Get notified when a new job is posted.
+ Set alert
+ Sign in to set job alerts for “Artificial Intelligence Engineer” roles.
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Similar jobs
+ (Jr.) Machine Learning (ML) Developer
+ (Jr.) Machine Learning (ML) Developer
+ Laminar (Formerly H2Ok Innovations)
+ Somerville, MA
+ $85,000.00
+ -
+ $135,000.00
+ 1 week ago
+ ML Engineer
+ ML Engineer
+ Catalyst Labs
+ Boston, MA
+ 2 weeks ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Ikigai
+ Cambridge, MA
+ 5 months ago
+ Junior AI Engineer
+ Junior AI Engineer
+ Onto Innovation
+ Wilmington, MA
+ 1 week ago
+ AI Software Engineer
+ AI Software Engineer
+ Dassault Systèmes
+ Waltham, MA
+ 1 week ago
+ Applied AI / ML Engineer
+ Applied AI / ML Engineer
+ Catalyst Labs
+ Boston, MA
+ 2 weeks ago
+ AI Engineer/ML Engineer - Senior Developers - AI Training - Boston, US
+ AI Engineer/ML Engineer - Senior Developers - AI Training - Boston, US
+ Prolific
+ Boston, MA
+ 4 days ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Air Space Intelligence
+ Boston, MA
+ 3 months ago
+ AI Software Engineer
+ AI Software Engineer
+ Dassault Systèmes
+ Waltham, MA
+ 3 days ago
+ Applied AI Engineer
+ Applied AI Engineer
+ Catalyst Labs
+ Boston, MA
+ 2 weeks ago
+ Data & AI Engineer (Remote)
+ Data & AI Engineer (Remote)
+ FortifyIQ
+ Salem, MA
+ 4 weeks ago
+ Data Scientist
+ Data Scientist
+ Ikigai
+ Cambridge, MA
+ 5 months ago
+ Data Scientist - Graduate
+ Data Scientist - Graduate
+ Nasdaq
+ Boston, MA
+ 2 weeks ago
+ Artificial Intelligence (AI) Engineer
+ Artificial Intelligence (AI) Engineer
+ WilmerHale
+ Boston, MA
+ 4 days ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Superluminal Medicines Inc.
+ Boston, MA
+ 1 month ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Tagup
+ Boston, MA
+ 2 months ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Cambridge Mobile Telematics
+ Cambridge, MA
+ 1 month ago
+ Software Engineer, Applied AI
+ Software Engineer, Applied AI
+ HackerOne
+ Boston, MA
+ 1 week ago
+ Data Scientist Intern
+ Data Scientist Intern
+ Triple Ring Technologies
+ Boston, MA
+ 3 weeks ago
+ AI Software Engineer
+ AI Software Engineer
+ Alexander Technology Group
+ Burlington, MA
+ 2 weeks ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ MORSE Corp
+ Greater Boston
+ 2 weeks ago
+ AI/LLM Engineer (remote)
+ AI/LLM Engineer (remote)
+ Safe Sign Technologies
+ Cambridge, MA
+ 1 year ago
+ AI Lab Research Engineer
+ AI Lab Research Engineer
+ Lila Sciences
+ Cambridge, MA
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Arbor
+ Boston, MA
+ 1 month ago
+ AI/ML Research Engineer
+ AI/ML Research Engineer
+ Manifold Bio
+ Boston, MA
+ 2 weeks ago
+ Data Engineer (Entry- to Mid-level)
+ Data Engineer (Entry- to Mid-level)
+ Pegasystems
+ Waltham, MA
+ $80,000.00
+ -
+ $96,000.00
+ 2 weeks ago
+ Software Engineer, Machine Learning
+ Software Engineer, Machine Learning
+ Meta
+ Boston, MA
+ $183,997.00
+ -
+ $257,000.00
+ 1 week ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Machine Learning Engineer, Distributed vLLM (LLM-D)
+ Machine Learning Engineer, Distributed vLLM (LLM-D)
+ Red Hat
+ Boston, MA
+ 1 week ago
+ AI Platform Engineer
+ AI Platform Engineer
+ Nabla Bio
+ Boston, MA
+ 2 weeks ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Gaia AI
+ Boston, MA
+ 1 week ago
+ AI Trainer - Advanced Python Developers - Boston
+ AI Trainer - Advanced Python Developers - Boston
+ Prolific
+ Boston, MA
+ 1 month ago
+ Data Scientist
+ Data Scientist
+ FINTRX
+ Boston, MA
+ 3 weeks ago
+ INTERNSHIP Core Modeling AI/ML Software Engineer
+ INTERNSHIP Core Modeling AI/ML Software Engineer
+ Dassault Systèmes
+ Waltham, MA
+ 1 week ago
+ Data Scientist - Data-Driven Global Investment Firm
+ Data Scientist - Data-Driven Global Investment Firm
+ Andiamo
+ Boston, MA
+ 1 week ago
+ Data Scientist
+ Data Scientist
+ MORSE Corp
+ Greater Boston
+ 4 days ago
+ Machine Learning Engineer, Distributed & Scalable Training
+ Machine Learning Engineer, Distributed & Scalable Training
+ Lila Sciences
+ Cambridge, MA
+ 1 week ago
+ Senior ML Engineer I/II, Agentic Simulations
+ Senior ML Engineer I/II, Agentic Simulations
+ Lila Sciences
+ Cambridge, MA
+ 2 days ago
+ Similar Searches
+ Strategic Account Representative jobs
+ 8,664 open jobs
+ Business Objects Developer jobs
+ 17,449 open jobs
+ Crystal Report Developer jobs
+ 224,339 open jobs
+ Chaplain Resident jobs
+ 22,618 open jobs
+ Graphic Production Artist jobs
+ 3,093 open jobs
+ Publishing Director jobs
+ 5,316 open jobs
+ Solutions Marketing Manager jobs
+ 8,515 open jobs
+ Property Director jobs
+ 9,648 open jobs
+ Director of Assessment jobs
+ 16,060 open jobs
+ Professor of Nursing jobs
+ 5,654 open jobs
+ Global Marketing Director jobs
+ 5,706 open jobs
+ Nursing Instructor jobs
+ 32,996 open jobs
+ Commission Analyst jobs
+ 29,524 open jobs
+ Professor Phd jobs
+ 4,015 open jobs
+ Sales Compensation Analyst jobs
+ 13,745 open jobs
+ Qualitative Research Director jobs
+ 174 open jobs
+ Senior Software Architect jobs
+ 58,058 open jobs
+ Oncology Nurse jobs
+ 274,306 open jobs
+ Policy Manager jobs
+ 53,633 open jobs
+ Field Sales Executive jobs
+ 66,467 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Cleveland Institute of Art jobs
+ Strategic Account Representative jobs
+ DoSomething jobs
+ Southern New Hampshire Health jobs
+ Instruction Partners jobs
+ Business Objects Developer jobs
+ Crystal Report Developer jobs
+ Hospital for Special Care jobs
+ Chaplain Resident jobs
+ Vista Higher Learning jobs
+ City of Olathe jobs
+ Dimensional Innovations jobs
+ Graphic Production Artist jobs
+ Reading Partners jobs
+ NoRedInk jobs
+ Publishing Director jobs
+ Solutions Marketing Manager jobs
+ VitalSource jobs
+ The Chronicle of Higher Education jobs
+ 540 jobs
+ Property Director jobs
+ Director of Assessment jobs
+ Workforce Opportunity Services jobs
+ Bridgeway jobs
+ Professor of Nursing jobs
+ Metro One Security jobs
+ Seesaw Learning jobs
+ Community Medical Services jobs
+ LRS jobs
+ Global Marketing Director jobs
+ The Gideons International jobs
+ Nursing Instructor jobs
+ EG America jobs
+ Commission Analyst jobs
+ ClassLink jobs
+ Basin Electric Power Cooperative jobs
+ Professor Phd jobs
+ Nextworld® jobs
+ Sales Compensation Analyst jobs
+ Follett jobs
+ DAC jobs
+ Clever Inc. jobs
+ Qualitative Research Director jobs
+ University of North Carolina Wilmington jobs
+ Teach For America jobs
+ Florida Medical Clinic Orlando Health jobs
+ RBC Bearings jobs
+ Sheppard Pratt jobs
+ Senior Software Architect jobs
+ Netsmart jobs
+ David's Bridal jobs
+ Oncology Nurse jobs
+ Propio Language Services jobs
+ Imagine Learning jobs
+ Coca-Co

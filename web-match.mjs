@@ -1,49 +1,53 @@
 #!/usr/bin/env node
 /**
  * web-match.mjs — Batch job scorer for the career-ops web dashboard
- * Reads eligible jobs from scan-history.tsv, fetches the posting text,
- * scores each with claude --print using _profile.md + cv.md context,
+ * Reads eligible jobs from scan-history.tsv, fetches the posting text
+ * (cached in data/jd-cache/), scores each with claude --print in parallel,
  * writes scores back, and saves a markdown fit report.
  *
- * Usage: node web-match.mjs [--today] [--limit N] [--all]
+ * Usage: node web-match.mjs [--today] [--limit N] [--all] [--concurrency N]
  */
-import { readFileSync, writeFileSync, readdirSync, unlinkSync } from 'fs';
+import { readFileSync, writeFileSync, readdirSync, unlinkSync, mkdirSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { spawn } from 'child_process';
+import { createHash } from 'crypto';
 import { buildResumeContext } from './resume-context.mjs';
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const TSV_PATH = join(ROOT, 'data', 'scan-history.tsv');
 const REPORTS_DIR = join(ROOT, 'reports');
+const JD_CACHE_DIR = join(ROOT, 'data', 'jd-cache');
 const TODAY = new Date().toISOString().slice(0, 10);
 const REPORT_RETENTION_DAYS = parseInt(process.env.REPORT_RETENTION_DAYS || '7', 10);
-let activeClaude = null;
+
 let shuttingDown = false;
-
-function stopActiveClaude() {
-  if (!activeClaude || activeClaude.killed) return;
-  try { activeClaude.kill('SIGTERM'); } catch {}
-}
-
-process.on('SIGTERM', () => {
-  shuttingDown = true;
-  stopActiveClaude();
-});
-
-process.on('SIGINT', () => {
-  shuttingDown = true;
-  stopActiveClaude();
-});
+process.on('SIGTERM', () => { shuttingDown = true; });
+process.on('SIGINT',  () => { shuttingDown = true; });
 
 function readSafe(p) {
   try { return readFileSync(p, 'utf-8'); } catch { return ''; }
 }
 
+// ── JD Cache ────────────────────────────────────────────────────────
+function urlHash(url) {
+  return createHash('sha1').update(url).digest('hex').slice(0, 16);
+}
+
+function getCachedJd(url) {
+  const file = join(JD_CACHE_DIR, urlHash(url) + '.txt');
+  return readSafe(file);
+}
+
+function setCachedJd(url, text) {
+  try {
+    mkdirSync(JD_CACHE_DIR, { recursive: true });
+    writeFileSync(join(JD_CACHE_DIR, urlHash(url) + '.txt'), text, 'utf-8');
+  } catch {}
+}
 
 // ── Load context files ──────────────────────────────────────────────
 const profile = readSafe(join(ROOT, 'modes', '_profile.md'));
-const shared  = readSafe(join(ROOT, 'modes', '_shared.md'));
 const cv      = readSafe(join(ROOT, 'cv.md'));
 const resumeContext = buildResumeContext(cv, { maxChars: 8000 });
 
@@ -52,7 +56,7 @@ if (!cv.trim()) {
   process.exit(1);
 }
 
-// ── Read TSV ────────────────────────────────────────────────────────
+// ── TSV helpers ─────────────────────────────────────────────────────
 function readTsv() {
   const content = readSafe(TSV_PATH);
   if (!content.trim()) return { headers: [], rows: [] };
@@ -68,20 +72,58 @@ function writeTsv(headers, rows) {
 }
 
 function decodeCell(value) {
-  return String(value ?? '')
-    .replace(/&#124;/g, '|')
-    .replace(/\\\|/g, '|');
+  return String(value ?? '').replace(/&#124;/g, '|').replace(/\\\|/g, '|');
 }
 
 function slugify(value) {
-  return String(value ?? '')
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '') || 'job';
+  return String(value ?? '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') || 'job';
 }
 
 function normalizeKey(value) {
   return String(value ?? '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+}
+
+// ── Report index (built once at startup) ───────────────────────────
+let _reportIndex = null; // Map<urlHash|titleKey, filename>
+
+function buildReportIndex() {
+  if (_reportIndex) return _reportIndex;
+  _reportIndex = new Map();
+  try {
+    for (const filename of readdirSync(REPORTS_DIR)) {
+      if (!filename.endsWith('.md')) continue;
+      const content = readSafe(join(REPORTS_DIR, filename));
+      // index by URL
+      const urlMatch = content.match(/\*\*URL:\*\*\s*(https?:\/\/\S+)/);
+      if (urlMatch) _reportIndex.set(urlHash(urlMatch[1].trim()), filename);
+      // index by company+title from heading
+      const heading = content.match(/^#\s+\d+\s+[—–-]\s+(.+)/m)?.[1] || '';
+      const parts = heading.split('|');
+      if (parts.length >= 2) {
+        const key = normalizeKey(parts[0]) + '::' + normalizeKey(parts.slice(1).join('|'));
+        _reportIndex.set(key, filename);
+      }
+    }
+  } catch {}
+  return _reportIndex;
+}
+
+function existingReportFor(url, company, title) {
+  const idx = buildReportIndex();
+  if (url) {
+    const hit = idx.get(urlHash(url));
+    if (hit) return hit;
+  }
+  return idx.get(normalizeKey(company) + '::' + normalizeKey(title)) || '';
+}
+
+function nextReportNumber() {
+  try {
+    const nums = readdirSync(REPORTS_DIR)
+      .map(name => parseInt(name.match(/^(\d+)-/)?.[1] || '0', 10))
+      .filter(Boolean);
+    return Math.max(0, ...nums) + 1;
+  } catch { return 1; }
 }
 
 function reportDateFromFilename(filename) {
@@ -93,7 +135,6 @@ function cleanupOldReports() {
   const cutoff = new Date();
   cutoff.setHours(0, 0, 0, 0);
   cutoff.setDate(cutoff.getDate() - REPORT_RETENTION_DAYS);
-
   const deleted = [];
   try {
     for (const filename of readdirSync(REPORTS_DIR)) {
@@ -109,37 +150,6 @@ function cleanupOldReports() {
   return deleted;
 }
 
-function nextReportNumber() {
-  try {
-    const nums = readdirSync(REPORTS_DIR)
-      .map(name => parseInt(name.match(/^(\d+)-/)?.[1] || '0', 10))
-      .filter(Boolean);
-    return Math.max(0, ...nums) + 1;
-  } catch {
-    return 1;
-  }
-}
-
-function existingReportFor(url, company, title) {
-  try {
-    for (const filename of readdirSync(REPORTS_DIR).filter(f => f.endsWith('.md'))) {
-      const content = readSafe(join(REPORTS_DIR, filename));
-      if (url && content.includes(url)) return filename;
-      if (url) continue;
-      const titleMatch = content.match(/^#\s+\d+\s+[—–-]\s+(.+)/m)?.[1] || '';
-      const parts = titleMatch.split('|');
-      if (parts.length >= 2) {
-        const reportCompany = parts[0].trim();
-        const reportTitle = parts.slice(1).join('|').trim();
-        if (normalizeKey(reportCompany) === normalizeKey(company) && normalizeKey(reportTitle) === normalizeKey(title)) {
-          return filename;
-        }
-      }
-    }
-  } catch {}
-  return '';
-}
-
 function isReportEligibleStatus(status) {
   const normalized = String(status || '').trim().toLowerCase();
   return !normalized || normalized === 'added' || normalized === 'evaluated';
@@ -147,10 +157,11 @@ function isReportEligibleStatus(status) {
 
 function isTodayRow(row, indexes) {
   const firstSeen = row[indexes.firstSeenIdx] || '';
-  const postedAt = row[indexes.postedAtIdx] || '';
+  const postedAt  = row[indexes.postedAtIdx]  || '';
   return firstSeen === TODAY || postedAt === TODAY;
 }
 
+// ── HTML → text ─────────────────────────────────────────────────────
 function htmlToText(html) {
   return String(html || '')
     .replace(/<script\b[\s\S]*?<\/script>/gi, ' ')
@@ -158,20 +169,19 @@ function htmlToText(html) {
     .replace(/<br\s*\/?>/gi, '\n')
     .replace(/<\/(p|div|li|h[1-6]|section)>/gi, '\n')
     .replace(/<[^>]+>/g, ' ')
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&amp;/g, '&')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&#39;|&apos;/g, "'")
-    .replace(/&quot;/g, '"')
-    .replace(/\s+\n/g, '\n')
-    .replace(/\n{3,}/g, '\n\n')
-    .replace(/[ \t]{2,}/g, ' ')
+    .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>').replace(/&#39;|&apos;/g, "'").replace(/&quot;/g, '"')
+    .replace(/\s+\n/g, '\n').replace(/\n{3,}/g, '\n\n').replace(/[ \t]{2,}/g, ' ')
     .trim();
 }
 
 async function fetchPostingText(url) {
   if (!url?.startsWith('http')) return '';
+
+  // Cache hit
+  const cached = getCachedJd(url);
+  if (cached) return cached;
+
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), 15_000);
   try {
@@ -186,8 +196,11 @@ async function fetchPostingText(url) {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const contentType = res.headers.get('content-type') || '';
     const raw = await res.text();
-    if (contentType.includes('json')) return JSON.stringify(JSON.parse(raw), null, 2).slice(0, 15000);
-    return htmlToText(raw).slice(0, 15000);
+    const text = contentType.includes('json')
+      ? JSON.stringify(JSON.parse(raw), null, 2).slice(0, 15000)
+      : htmlToText(raw).slice(0, 15000);
+    setCachedJd(url, text);
+    return text;
   } catch (error) {
     return `Unable to fetch posting text from URL (${error.message}).`;
   } finally {
@@ -195,42 +208,27 @@ async function fetchPostingText(url) {
   }
 }
 
+// ── Blocker detection ───────────────────────────────────────────────
 function detectBlockers(title, jdText) {
   const text = `${title}\n${jdText}`.toLowerCase();
   const sentences = text.split(/[.!?\n]+/).map(s => s.trim()).filter(Boolean);
   const blockers = [];
   let cap = 5;
 
-  const add = (label, scoreCap) => {
-    blockers.push(label);
-    cap = Math.min(cap, scoreCap);
-  };
+  const add = (label, scoreCap) => { blockers.push(label); cap = Math.min(cap, scoreCap); };
 
-  if (/\b(no longer accepting applications|job is closed|position has been filled|posting has expired)\b/.test(text)) {
-    add('Posting appears closed or expired', 1.0);
-  }
-  if (sentences.some(s => /\b(ph\.?d|doctorate|doctoral)\b/.test(s) && /\b(required|must|required qualification|minimum qualification|requires)\b/.test(s))) {
-    add('PhD or doctorate appears required', 1.5);
-  }
-  if (/\b(active\s+)?(security\s+)?clearance\b/.test(text) && /\b(required|must|active)\b/.test(text)) {
-    add('Active clearance appears required', 1.5);
-  }
-  if (/\b(staff|principal|director|manager|lead)\b/.test(title.toLowerCase())) {
-    add('Title indicates senior leadership level', 2.0);
-  }
-  if (/\bsenior|sr\.\b|\bsr\b/.test(title.toLowerCase())) {
-    add('Title indicates senior level', 2.5);
-  }
+  if (/\b(no longer accepting applications|job is closed|position has been filled|posting has expired)\b/.test(text)) add('Posting appears closed or expired', 1.0);
+  if (sentences.some(s => /\b(ph\.?d|doctorate|doctoral)\b/.test(s) && /\b(required|must|required qualification|minimum qualification|requires)\b/.test(s))) add('PhD or doctorate appears required', 1.5);
+  if (/\b(active\s+)?(security\s+)?clearance\b/.test(text) && /\b(required|must|active)\b/.test(text)) add('Active clearance appears required', 1.5);
+  if (/\b(staff|principal|director|manager|lead)\b/.test(title.toLowerCase())) add('Title indicates senior leadership level', 2.0);
+  if (/\bsenior|sr\.\b|\bsr\b/.test(title.toLowerCase())) add('Title indicates senior level', 2.5);
 
-  const years = [...text.matchAll(/\b([5-9]|1[0-5])\+?\s*(?:years|yrs)\b/g)]
-    .map(match => parseInt(match[1], 10));
+  const years = [...text.matchAll(/\b([5-9]|1[0-5])\+?\s*(?:years|yrs)\b/g)].map(m => parseInt(m[1], 10));
   if (years.some(n => n >= 7)) add('7+ years of experience appears required', 1.5);
   else if (years.some(n => n >= 5)) add('5+ years of experience appears required', 2.0);
   else if (years.some(n => n >= 3)) add('3+ years of experience appears required', 3.0);
 
-  if (/\b(internship|intern|co-?op)\b/.test(text) && !/\bnew grad|entry[- ]level|early career\b/.test(text)) {
-    add('Intern/co-op role may not match full-time target', 3.0);
-  }
+  if (/\b(internship|intern|co-?op)\b/.test(text) && !/\bnew grad|entry[- ]level|early career\b/.test(text)) add('Intern/co-op role may not match full-time target', 3.0);
 
   return { blockers: [...new Set(blockers)], cap };
 }
@@ -285,17 +283,21 @@ function saveReport({ company, title, url, score, reason, blockers, reportMd, jd
     ? body
     : buildFallbackReport({ num, company, title, url, score, reason, blockers, jdText });
   writeFileSync(filepath, normalized + '\n', 'utf-8');
+
+  // Update index immediately so parallel workers don't double-write
+  const idx = buildReportIndex();
+  if (url) idx.set(urlHash(url), filename);
+  idx.set(normalizeKey(company) + '::' + normalizeKey(title), filename);
+
   return filename;
 }
 
 // ── Score a single job with claude --print ──────────────────────────
 function scoreJob(title, company, url, jdText, blockerInfo) {
   return new Promise((resolve) => {
-    if (shuttingDown) {
-      resolve({ score: null, reason: 'stopped' });
-      return;
-    }
+    if (shuttingDown) { resolve({ score: null, reason: 'stopped' }); return; }
 
+    const reportNum = nextReportNumber();
     const prompt = [
       '## Career-Ops Matcher Report',
       '',
@@ -334,7 +336,7 @@ function scoreJob(title, company, url, jdText, blockerInfo) {
       'REASON: one short sentence',
       'BLOCKERS: comma-separated blockers or None',
       'REPORT_MD_START',
-      `# ${String(nextReportNumber()).padStart(3, '0')} — ${company} | ${title}`,
+      `# ${String(reportNum).padStart(3, '0')} — ${company} | ${title}`,
       '',
       `**Date:** ${TODAY}`,
       '**Score:** X.X/5',
@@ -354,18 +356,13 @@ function scoreJob(title, company, url, jdText, blockerInfo) {
       'REPORT_MD_END',
     ].join('\n');
 
-    const proc = spawn('claude', ['--print'], {
-      cwd: ROOT,
-      stdio: ['pipe', 'pipe', 'pipe'],
-    });
-    activeClaude = proc;
+    const proc = spawn('claude', ['--print'], { cwd: ROOT, stdio: ['pipe', 'pipe', 'pipe'] });
     let settled = false;
     let timer = null;
     const finish = (result) => {
       if (settled) return;
       settled = true;
       if (timer) clearTimeout(timer);
-      if (activeClaude === proc) activeClaude = null;
       resolve(result);
     };
 
@@ -373,29 +370,44 @@ function scoreJob(title, company, url, jdText, blockerInfo) {
     proc.stdin.write(prompt);
     proc.stdin.end();
     proc.stdout.on('data', d => { out += d.toString(); });
-    proc.stderr.on('data', () => {}); // suppress claude UI output
+    proc.stderr.on('data', () => {});
 
     proc.on('close', () => {
-      const scoreMatch = out.match(/SCORE:\s*([\d.]+)/);
+      const scoreMatch  = out.match(/SCORE:\s*([\d.]+)/);
       const reasonMatch = out.match(/REASON:\s*(.+)/);
       const blockersMatch = out.match(/BLOCKERS:\s*(.+)/);
       const reportMatch = out.match(/REPORT_MD_START\s*([\s\S]*?)\s*REPORT_MD_END/);
       const rawScore = scoreMatch ? parseFloat(scoreMatch[1]).toFixed(1) : null;
-      const score = applyCap(rawScore, blockerInfo.cap);
-      const reason = reasonMatch ? reasonMatch[1].trim() : '';
+      const score    = applyCap(rawScore, blockerInfo.cap);
+      const reason   = reasonMatch ? reasonMatch[1].trim() : '';
       const blockers = blockersMatch ? blockersMatch[1].trim() : '';
-      const reportMd = reportMatch ? reportMatch[1].trim().replace(/\*\*Score:\*\*\s*X\.X\/5/, `**Score:** ${score}/5`) : '';
+      const reportMd = reportMatch
+        ? reportMatch[1].trim().replace(/\*\*Score:\*\*\s*X\.X\/5/, `**Score:** ${score}/5`)
+        : '';
       finish({ score, reason, blockers, reportMd });
     });
 
     proc.on('error', () => finish({ score: null, reason: 'claude not found' }));
 
-    // Timeout after 60s
     timer = setTimeout(() => {
       try { proc.kill('SIGTERM'); } catch {}
       finish({ score: null, reason: 'timeout' });
-    }, 60_000);
+    }, 90_000);
   });
+}
+
+// ── Concurrency pool ────────────────────────────────────────────────
+async function processWithConcurrency(items, concurrency, fn) {
+  const results = new Array(items.length);
+  let next = 0;
+  async function worker() {
+    while (next < items.length) {
+      const idx = next++;
+      results[idx] = await fn(items[idx], idx);
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(concurrency, items.length) }, worker));
+  return results;
 }
 
 // ── Main ─────────────────────────────────────────────────────────────
@@ -406,53 +418,48 @@ async function main() {
   }
 
   const args = process.argv.slice(2);
-  const allArg = args.includes('--all');
-  const todayArg = args.includes('--today');
-  const dryRun = args.includes('--dry-run');
-  const limitArg = args.indexOf('--limit');
-  const urlArg = args.indexOf('--url');
+  const allArg    = args.includes('--all');
+  const todayArg  = args.includes('--today');
+  const dryRun    = args.includes('--dry-run');
+  const limitArg  = args.indexOf('--limit');
+  const urlArg    = args.indexOf('--url');
+  const concArg   = args.indexOf('--concurrency');
   const targetUrl = urlArg !== -1 ? String(args[urlArg + 1] || '').trim() : '';
-  const limit = limitArg !== -1 ? parseInt(args[limitArg + 1] || '0', 10) : 0;
+  const limit     = limitArg !== -1 ? parseInt(args[limitArg + 1] || '0', 10) : 0;
+  const concurrency = concArg !== -1 ? parseInt(args[concArg + 1] || '3', 10) : 3;
   const todayOnly = todayArg || (!allArg && !targetUrl);
 
   let { headers, rows } = readTsv();
   if (!headers.length) { console.log('No jobs found in scan-history.tsv'); return; }
 
-  const urlIdx    = headers.indexOf('url');
-  const titleIdx  = headers.indexOf('title');
-  const companyIdx= headers.indexOf('company');
-  const statusIdx = headers.indexOf('status');
+  const urlIdx     = headers.indexOf('url');
+  const titleIdx   = headers.indexOf('title');
+  const companyIdx = headers.indexOf('company');
+  const statusIdx  = headers.indexOf('status');
   const firstSeenIdx = headers.indexOf('first_seen');
-  const postedAtIdx = headers.indexOf('posted_at');
-  let   scoreIdx  = headers.indexOf('score');
+  const postedAtIdx  = headers.indexOf('posted_at');
+  let   scoreIdx   = headers.indexOf('score');
 
-  // Add score column if missing
   if (scoreIdx === -1) {
     headers.push('score');
     scoreIdx = headers.length - 1;
     rows = rows.map(r => { while (r.length < headers.length) r.push(''); return r; });
   }
 
-  // Find active evaluation jobs that either need a score or need a full matcher report.
+  // Build report index once (O(reports) disk reads, not O(rows * reports))
+  buildReportIndex();
+
   let toScore = rows.filter(r => {
-    const status = r[statusIdx] || '';
-    const score  = r[scoreIdx]  || '';
-    const url = r[urlIdx] || '';
-    const title = decodeCell(r[titleIdx] || '');
+    const status  = r[statusIdx]  || '';
+    const score   = r[scoreIdx]   || '';
+    const url     = r[urlIdx]     || '';
+    const title   = decodeCell(r[titleIdx]   || '');
     const company = decodeCell(r[companyIdx] || '');
     if (targetUrl && url !== targetUrl) return false;
     if (todayOnly && !isTodayRow(r, { firstSeenIdx, postedAtIdx })) return false;
     return isReportEligibleStatus(status) && (!score || !existingReportFor(url, company, title));
   });
-  toScore.sort((a, b) => {
-    const aScore = parseFloat(a[scoreIdx] || '');
-    const bScore = parseFloat(b[scoreIdx] || '');
-    const aHasScore = Number.isFinite(aScore);
-    const bHasScore = Number.isFinite(bScore);
-    if (aHasScore !== bHasScore) return aHasScore ? -1 : 1;
-    if (aHasScore && bHasScore && bScore !== aScore) return bScore - aScore;
-    return 0;
-  });
+
   if (limit > 0) toScore = toScore.slice(0, limit);
 
   if (!toScore.length) {
@@ -463,29 +470,32 @@ async function main() {
   console.log(`Found ${toScore.length} job${toScore.length !== 1 ? 's' : ''} needing score/report. Matching…`);
   if (todayOnly) console.log(`Daily scope: only jobs first seen or posted on ${TODAY}. Use --all for the full backlog.`);
   if (limit > 0) console.log(`Manual cap: limited to ${limit}.`);
+  console.log(`Concurrency: ${concurrency} parallel Claude calls`);
+  console.log(`JD cache: data/jd-cache/ (fetches cached on first run)`);
   console.log('━'.repeat(60));
 
   if (dryRun) {
     for (const row of toScore.slice(0, 25)) {
-      const title = decodeCell(row[titleIdx] || '');
+      const title   = decodeCell(row[titleIdx]   || '');
       const company = decodeCell(row[companyIdx] || '');
-      const score = row[scoreIdx] || 'unscored';
-      console.log(`DRY RUN: ${company} — ${title} (${score})`);
+      const score   = row[scoreIdx] || 'unscored';
+      const cached  = getCachedJd(row[urlIdx] || '') ? '(cached)' : '(needs fetch)';
+      console.log(`DRY RUN: ${company} — ${title} (${score}) ${cached}`);
     }
     console.log(`✓ Dry run only. No Claude calls made.`);
     return;
   }
 
   let done = 0;
-  for (const row of toScore) {
-    if (shuttingDown) break;
+  const total = toScore.length;
+
+  await processWithConcurrency(toScore, concurrency, async (row) => {
+    if (shuttingDown) return;
     const title   = decodeCell(row[titleIdx]   || '');
     const company = decodeCell(row[companyIdx] || '');
-    const url     = row[urlIdx]     || '';
+    const url     = row[urlIdx] || '';
 
-    process.stdout.write(`⏳  [${done + 1}/${toScore.length}] ${company} — ${title.slice(0, 50)}…`);
-
-    const jdText = await fetchPostingText(url);
+    const jdText     = await fetchPostingText(url);
     const blockerInfo = detectBlockers(title, jdText);
     const { score, reason, reportMd } = await scoreJob(title, company, url, jdText, blockerInfo);
 
@@ -493,21 +503,21 @@ async function main() {
       ? saveReport({ company, title, url, score, reason, blockers: blockerInfo.blockers, reportMd, jdText })
       : '';
 
-    // Commit score only after the matching report exists. This keeps score/report atomic.
+    // Write score to TSV atomically
     const target = rows.find(r => r[urlIdx] === url);
     if (target && reportFile) {
       target[scoreIdx] = score ?? '';
       writeTsv(headers, rows);
     }
 
+    done++;
     if (score) {
       const capNote = blockerInfo.cap < 5 ? ` cap=${blockerInfo.cap}` : '';
-      process.stdout.write(`\r✅  [${done + 1}/${toScore.length}] ${company} — ${title.slice(0, 40)} → ${score}/5${capNote}  ${reason.slice(0, 50)}  ${reportFile}\n`);
+      console.log(`✅  [${done}/${total}] ${company} — ${title.slice(0, 40)} → ${score}/5${capNote}  ${reason.slice(0, 50)}  ${reportFile}`);
     } else {
-      process.stdout.write(`\r⚠️   [${done + 1}/${toScore.length}] ${company} — ${title.slice(0, 40)} → failed\n`);
+      console.log(`⚠️   [${done}/${total}] ${company} — ${title.slice(0, 40)} → failed`);
     }
-    done++;
-  }
+  });
 
   console.log('━'.repeat(60));
   console.log(`✓ Matched ${done} job${done !== 1 ? 's' : ''}. Refresh Jobs/Reports to see scores and reports.`);

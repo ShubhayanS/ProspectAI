@@ -1,0 +1,386 @@
+Akkodis hiring Enterprise Data Analytics and AI Developer in California, United States | LinkedIn
+ Skip to main content
+ LinkedIn
+ Enterprise Data Analytics and AI Developer in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Enterprise Data Analytics and AI Developer
+ Akkodis
+ California, United States
+ Apply
+ Enterprise Data Analytics and AI Developer
+ Akkodis
+ California, United States
+ 9 hours ago
+ 39 applicants
+ See who Akkodis has hired for this role
+ Apply
+ Save
+ Report this job
+ Use AI to assess how you fit
+ Get AI-powered advice on this job and more exclusive features.
+ Am I a good fit for this job?
+ Tailor my resume
+ Sign in to access AI-powered advices
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to evaluate your skills
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to tailor your resume
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Akkodis provided pay range
+ This range is provided by Akkodis. Your actual pay will be based on your skills and experience — talk with your recruiter to learn more.
+ Base pay range
+ $150,000.00/yr - $170,000.00/yr
+ Additional compensation types
+ Annual Bonus
+ Direct message the job poster from Akkodis
+ Jedah Caldwell
+ Jedah Caldwell
+ Recruiting Manager at Akkodis #AlwaysHiring
+ Akkodis is seeking a remote Enterprise Data Analytics and AI Developer Local to southern California. If you are interested, please apply!
+ Target Salary Range: $140,000-170,000
+ Fulltime role
+ How You’ll Make an Impact:
+ The Enterprise Data Analytics and AI Developer is responsible for the design, implementation, and deployment of enterprise-scale data management, data analytics, and AI capabilities. The role leverages Microsoft Fabric (including OneLake, Data Factory, lakehouses, warehouses, and Power BI) and Microsoft AI Foundry (including model catalog, agent service, evaluations/observability, and control planes) to deliver secure, governed, and reliable solutions. Working across traditional corporate organizations and lines of business, this role ensures solutions are delivered to specification, aligned with enterprise architecture standards, resilient in production, and optimized for cost, performance, and compliance.
+ Duties and Responsibilities:
+ Strategy & Planning
+ Partner with enterprise architecture & engineering to define data and AI roadmaps that align with business objectives and operating models.
+ Develop reference architectures and patterns for Fabric (OneLake, Lakehouse/Warehouse, Data Factory) and AI
+ Foundry (agents, grounding, evaluations, guardrails).
+ Shape data service standards (naming, domains, data contracts), semantic modeling conventions, and model lifecycle policies.
+ Contribute to backlog planning, estimation, release planning, and solution sizing for enterprise programs.
+ Influence security, privacy, and compliance requirements (RBAC, sensitivity labels, DLP) for data and AI workloads.
+ Organizational Leadership
+ Provide technical leadership and mentorship to technical teams and practitioners while establishing code review, testing, and deployment standards.
+ Translate business outcomes into technical designs and acceptance criteria; communicate tradeoffs and risks to non-technical stakeholders.
+ Collaborate with corporate governance teams to ensure responsible AI and governed data usage.
+ Enable knowledge transfer with high-quality documentation, runbooks, and enablement sessions for end users and support teams.
+ Project Leadership
+ Lead end-to-end technical delivery for multiple initiatives—from discovery and design through build, test, release, and operations.
+ Define technical work breakdown structures (WBS), estimates, and resource plans; provide progress updates tied to backlog items and milestones.
+ Own technical quality gates: design reviews, data model reviews, security reviews, and production readiness assessments.
+ Coordinate integration with third-party systems and data providers; support vendor RFP/SOW technical inputs and evaluation criteria.
+ Drive non-functional requirements (performance, availability, observability, cost) and execute performance/scalability tests prior to go-live.
+ Facilitate UAT, cutover planning, and incident response playbooks; ensure smooth transitions to operations.
+ Technical Microsoft Copilot
+ Design, configure, and deploy custom copilots using Microsoft’s Copilot studio
+ Train technical users on the design and prototyping of custom copilots
+ Integrate custom copilots into Teams and SharePoint user interfaces
+ Microsoft Fabric
+ Design Lakehouse and Warehouse architectures in OneLake and implement domain-driven data services.
+ Build ingestion and transformation ETL pipelines with Data Factory, notebooks, shortcuts, and mirroring
+ Develop Power BI semantic models and datasets; optimize aggregations, partitions, incremental refreshes, and query performance.
+ Implement KQL databases for streaming/operational analytics and monitoring use cases.
+ Harden solutions with OAuth, SAML assertions, RBAC, sensitivity labels, row-level/object-level security, and workspace isolation; integrate with Purview where applicable.
+ Automate CI/CD for Fabric items (Lakehouse, Warehouse, Semantic Models, Data Factory) using deployment pipelines.
+ Microsoft AI Foundry
+ Select and evaluate models via the model catalog and implement model router policies and versioning/upgrade strategies.
+ Build and host single and multi-agent solutions with Agent Service while integrating frameworks agent frameworks as needed.
+ Implement retrieval-augmented generation (RAG) using Azure AI Search & vector indices while securely grounding agents with Fabric Data Agents where applicable.
+ Instrument tracing, evaluations, and guardrails and configure data leakage prevention per enterprise policy.
+ Operate with the Foundry control plane for fleet governance, cost controls, and policy enforcement while integrating alerts with enterprise monitoring.
+ Implement Machine Learning tools to design and train AI models to solve business challenges.
+ Experience with data pipelines related to enterprise structured and unstructured data models.
+ Deep understanding of Azure tooling.
+ DevOps, Quality, and Operations
+ Establish CI/CD for data and AI assets using GitHub and implement environment promotion, approvals, and rollback strategies.
+ Create automated tests (unit, pipeline, data quality, prompt/agent evals) and define associated runbooks
+ Set up cost observability and right-size capacity and throughput.
+ Implement telemetry and logging for data pipelines, query performance, agent runs, tool calls, error handling, and publish operational dashboards.
+ Minimum Qualifications
+ 7+ years of hands-on experience in data engineering, analytics engineering, and/or AI application development in enterprise environments.
+ Deep understanding of data modeling frameworks: Kimbal, EDW Streaming and Lakehouse Architecture.
+ Expertise with Microsoft Fabric: OneLake, Data Factory, Lakehouse, Warehouse, Real-Time Intelligence/KQL, and Power BI semantic models.
+ Expertise with Microsoft AI Foundry: model catalog, Agent Service, evaluations/observability, safety/guardrails, and Control Plane.
+ Proficiency in SQL, Python, and KQL; experience with data modeling (star, data vault), and performance tuning.
+ Experience implementing RAG pipelines (Azure AI Search/vector indices) and securely grounding agents to governed enterprise data.
+ Proven delivery of production-grade solutions with CI/CD, IaC, automated testing, and operations runbooks on Azure.
+ Strong understanding of data governance, privacy, and security (RBAC, sensitivity labels, row-level/object-level security, DLP).
+ Excellent communication skills with the ability to explain complex technical topics to diverse stakeholders.
+ Must possess a valid driver’s license and have active personal automobile liability insurance by the first day of employment
+ Preferred Qualifications
+ Bachelor’s degree in Computer Science, Information Systems, Data Engineering, or related field.
+ Certifications such as Microsoft Certified: Azure Data Engineer Associate, Azure AI Engineer Associate, or Microsoft Fabric certifications.
+ Experience with Purview governance, DLP policies, and compliance frameworks in regulated industries.
+ Experience integrating ERP’s or other enterprise business systems.
+ Ability to interoperate within multi-platform services
+ “Benefit offerings include medical, dental, vision, term life insurance, short-term disability insurance, additional voluntary benefits, commuter benefits and 401K plan. Our program provides employees the flexibility to choose the type of coverage that meets their individual needs. Available paid leave may include Paid Sick Leave, where required by law; any other paid leave required by Federal, State or local law; and Holiday pay upon meeting eligibility criteria. Disclaimer: These benefit offerings do not apply to client-recruited jobs and jobs which are direct hire to a client”
+ Show more
+ Show less
+ Seniority level
+ Mid-Senior level
+ Employment type
+ Full-time
+ Job function
+ Information Technology
+ Industries
+ Technology, Information and Media
+ Referrals increase your chances of interviewing at Akkodis by 2x
+ See who you know
+ Get notified when a new job is posted.
+ Set alert
+ Sign in to set job alerts for “Artificial Intelligence Engineer” roles.
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Similar jobs
+ Machine Learning (ML) Engineer
+ Machine Learning (ML) Engineer
+ Vectara
+ San Francisco, CA
+ 1 month ago
+ AI Analytics and Visualization Engineer
+ AI Analytics and Visualization Engineer
+ NVIDIA
+ California, United States
+ 2 weeks ago
+ AI Engineer
+ AI Engineer
+ Reflow
+ California, United States
+ 4 days ago
+ AI Engineers
+ AI Engineers
+ Pangaea Data
+ South San Francisco, CA
+ 1 year ago
+ Software Engineer - AI Platform (US)
+ Software Engineer - AI Platform (US)
+ Genios AI
+ Santa Clara, CA
+ 7 months ago
+ AI Engineer
+ AI Engineer
+ ReadMe
+ San Francisco, CA
+ 2 weeks ago
+ AI Data Engineer
+ AI Data Engineer
+ Influur
+ San Francisco Bay Area
+ $200,000.00
+ -
+ $200,000.00
+ 3 months ago
+ AI Engineer
+ AI Engineer
+ Influur
+ San Francisco Bay Area
+ $150,000.00
+ -
+ $200,000.00
+ 2 months ago
+ AI Engineer/ML Engineer - Senior Developers - AI Training - San Diego, USA
+ AI Engineer/ML Engineer - Senior Developers - AI Training - San Diego, USA
+ Prolific
+ San Diego, CA
+ 4 days ago
+ AI Engineer/ML Engineer - Senior Developers - AI Training - San Francisco, US
+ AI Engineer/ML Engineer - Senior Developers - AI Training - San Francisco, US
+ Prolific
+ San Francisco, CA
+ 4 days ago
+ AI Developer
+ AI Developer
+ Nozomi Networks
+ San Francisco, CA
+ 4 days ago
+ Applied AI Engineer
+ Applied AI Engineer
+ Institutes of Health
+ San Diego, CA
+ 1 week ago
+ AI Software Engineer
+ AI Software Engineer
+ Glover Labs
+ San Francisco, CA
+ 1 month ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Hang
+ Los Angeles, CA
+ 6 months ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Liftoff Mobile
+ California, United States
+ 1 week ago
+ ML Platform Engineer, tvScientific
+ ML Platform Engineer, tvScientific
+ Pinterest
+ San Francisco, CA
+ 4 days ago
+ Python Game Developer (Panda3D) - Remote
+ Python Game Developer (Panda3D) - Remote
+ YO IT Consulting
+ San Jose, CA
+ 1 week ago
+ Data Scientist 5, Experimentation Platform
+ Data Scientist 5, Experimentation Platform
+ Netflix
+ Los Gatos, CA
+ 4 days ago
+ AI/ML Engineer
+ AI/ML Engineer
+ UST
+ Aliso Viejo, CA
+ 2 weeks ago
+ Python Game Developer (Panda3D) - Remote
+ Python Game Developer (Panda3D) - Remote
+ YO IT Consulting
+ San Francisco, CA
+ 1 week ago
+ Python Game Developer (Panda3D) - Remote
+ Python Game Developer (Panda3D) - Remote
+ YO IT Consulting
+ California, United States
+ 1 week ago
+ Sr AI Engineer, AI Platform
+ Sr AI Engineer, AI Platform
+ Samsara
+ California, United States
+ $188,190.00
+ -
+ $221,400.00
+ 4 days ago
+ AI Engineer
+ AI Engineer
+ AKIVA AI
+ Milpitas, CA
+ $125,000.00
+ -
+ $225,000.00
+ 4 weeks ago
+ AI Engineer/ML Engineer - Senior Developers - AI Training - San Jose, USA
+ AI Engineer/ML Engineer - Senior Developers - AI Training - San Jose, USA
+ Prolific
+ San Jose, CA
+ 3 days ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Swish Analytics
+ San Francisco, CA
+ 2 months ago
+ Data Engineer (Healthcare Data)
+ Data Engineer (Healthcare Data)
+ Pangaea Data
+ South San Francisco, CA
+ 1 year ago
+ AI Engineer
+ AI Engineer
+ Ready Health
+ California, United States
+ 1 week ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ AI Engineer
+ AI Engineer
+ Stott and May
+ California, United States
+ 2 weeks ago
+ Software Engineer, Machine Learning
+ Software Engineer, Machine Learning
+ Figma
+ San Francisco, CA
+ 1 week ago
+ Software Engineer, Data Engineering
+ Software Engineer, Data Engineering
+ Verse
+ San Francisco, CA
+ 5 days ago
+ AI Engineer (GTM)
+ AI Engineer (GTM)
+ HumanSignal
+ San Francisco, CA
+ 1 month ago
+ Senior Machine Learning Engineer
+ Senior Machine Learning Engineer
+ Vectara
+ San Francisco, CA
+ 1 month ago
+ Data Scientist, New Grad
+ Data Scientist, New Grad
+ SentiLink
+ Los Angeles, CA
+ 5 days ago
+ Senior AI Engineer
+ Senior AI Engineer
+ Apogee Global RMS
+ San Jose, CA
+ 1 month ago
+ Data Scientist, Support
+ Data Scientist, Support
+ OpenAI
+ San Francisco, CA
+ 2 weeks ago
+ Data Scientist, New Grad
+ Data Scientist, New Grad
+ SentiLink
+ San Francisco, CA
+ 5 days ago
+ AI Trainer - Advanced Python Developers - San Fran
+ AI Trainer - Advanced Python Developers - San Fran
+ Prolific
+ San Francisco, CA
+ 1 month ago
+ Similar Searches
+ Key Account Manager Automotive jobs
+ 190 open jobs
+ Senior Configuration Analyst jobs
+ 14,375 open jobs
+ Unix Linux Administrator jobs
+ 12,397 open jobs
+ Unix System Administrator jobs
+ 17,557 open jobs
+ Network Field Technician jobs
+ 11,944 open jobs
+ Senior Technology Architect jobs
+ 53,952 open jobs
+ Configuration Management Engineer jobs
+ 2,288 open jobs
+ Unix Engineer jobs
+ 15,942 open jobs
+ Production Quality Engineer jobs
+ 18,078 open jobs
+ Biztalk 

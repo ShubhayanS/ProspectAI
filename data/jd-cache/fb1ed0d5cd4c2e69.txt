@@ -1,0 +1,416 @@
+Rillet hiring Applied AI Engineer in New York, NY | LinkedIn
+ Skip to main content
+ LinkedIn
+ Applied AI Engineer in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Applied AI Engineer
+ Rillet
+ New York, NY
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Applied AI Engineer role at Rillet
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Applied AI Engineer
+ Rillet
+ New York, NY
+ 20 hours ago
+ Over 200 applicants
+ See who Rillet has hired for this role
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Applied AI Engineer role at Rillet
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Save
+ Report this job
+ Use AI to assess how you fit
+ Get AI-powered advice on this job and more exclusive features.
+ Am I a good fit for this job?
+ Tailor my resume
+ Sign in to access AI-powered advices
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to evaluate your skills
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to tailor your resume
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ What We Do
+ Rillet serves accounting and finance teams. Our customers are the financial brains of their companies. Our job is to help them run the numbers with impossible speed, accuracy, and insight.
+Rillet is an AI-native ERP that can drive a zero-day close. We are different because of our unified source-of-truth data model, hundreds of best-in-class native integrations (Stripe, Ramp, Salesforce, etc), automated & auditable workflows, multi-entity consolidation, and quickly expanding army of specialized AI agents (e.g., accrual, audit, P&L flux, board decks, etc). These earn us a consistently perfect customer satisfaction score. High-growth AI customers like Mercor, and Function Health love our ship velocity, because their financial stack needs to scale as quickly as they do.
+This huge market is ours to take. We have raised $100M from leading investors (including Sequoia, a16z, Iconiq, Oak HC/FT, and First Round) to help everyone run their numbers at the speed of AI.
+ Who We Are
+ Rillet’s pace is not for everyone. Intelligence is table stakes. To succeed here, you need extreme speed, agency, and flexibility.
+Successful Rilleteers do not wait for assignments. They internalize a mission, design a strategy, and bring back results that are better, faster, and more creative than a manager could have asked for.
+Work revolves around our customers. Successful Rilleteers are energized by delivering the most important things, even those that weren’t in the original plan.
+In this role, you do not need to be an accountant. But you do need to appreciate the value that our customers can create for their own company when we equip them with the perfect financial tools. Successful Rilleteers love powering the financial core of the world’s fastest-growing companies.
+ Who We Need
+ As an Applied AI Engineer on Rillet's AI & ML team, you'll design and ship production AI systems that transform how finance and accounting teams operate. This team sits at the intersection of LLMs, ERP workflows, and financial data, building the intelligence layer that makes Rillet fundamentally different from legacy ERP. You'll own high-impact features end-to-end, from model integration to infrastructure, and your work will be used daily by finance teams at companies like Neuralink, Kickstarter, and Windsurf.
+We're an AI-native company, and we expect our engineers to bring that same mindset to how they work. If you're energized by pushing the boundaries of what AI can do in a real product context, you'll fit right in.
+We're looking for teammates within commutable distance of our NYC or San Francisco offices (or willing to relocate). Team members work in-office Tuesdays and Thursdays, plus one additional flexible day.
+ What You'll Do
+ Own AI features end-to-end: from designing agentic workflows and RAG pipelines to the infrastructure that runs them in production at scale.
+ Work on genuinely hard problems: financial data is structured, high-stakes, and unforgiving, making it one of the more interesting domains to apply LLMs to.
+ Build the evaluation frameworks and experimentation loops that turn good models into reliable, production-grade systems.
+ Partner directly with product and domain experts to push the frontier of what AI can do inside an ERP, not just what's been done before.
+ Who We're Looking For
+ 3+ years in a technical role with a strong foundation in backend systems, APIs, and cloud infrastructure
+ 2+ years shipping production AI systems with real users and real stakes, not research or prototypes
+ Hands-on experience with production LLM applications: RAG pipelines, agentic systems, or structured extraction
+ Proficiency in Python and comfort working across the full stack to deliver end-to-end features
+ Strong product instincts and a habit of thinking about user impact, not just technical correctness
+ Drawn to hard, ambiguous problems and energized by building in an environment where the playbook is still being written
+ Bonus Points
+ Background in fintech, ERP, or accounting software
+ Experience with fine-tuning or training models, not just inference
+ Familiarity with Python, Kotlin, Java, or TypeScript
+ Experience building AI systems that operate on structured financial or transactional data
+ Life At Rillet
+ Competitive Pay & Benefits: Backed by world-class investors, we offer strong salaries plus equity so you share in our success. We've got you covered with top-tier health and dental insurance, premiums partially or fully covered for you, plus 90% coverage for dependents.
+ Room to Grow: We're building a team of ambitious, high-performing people who will grow with the company. As Rillet scales, so will your role, responsibilities, and compensation.
+ Flexibility That Works: Take the time you need with flexible PTO and 9 company-wide holidays. We value both the flexibility of remote and hybrid work and the creativity and energy that comes from in-person collaboration at our hubs in San Francisco, NYC, and Barcelona.
+ Build Real Connections: Great work happens when people connect. Join us for team offsites in incredible locations, our team has bonded everywhere from New York and San Francisco to Toronto, Italy, France, and beyond.
+ Show more
+ Show less
+ Seniority level
+ Mid-Senior level
+ Employment type
+ Full-time
+ Job function
+ Engineering and Information Technology
+ Industries
+ Software Development
+ Referrals increase your chances of interviewing at Rillet by 2x
+ See who you know
+ Get notified about new Artificial Intelligence Engineer jobs in New York, NY .
+ Sign in to create job alert
+ Similar jobs
+ AI Engineer
+ AI Engineer
+ Bisnow
+ New York, NY
+ $65,000.00
+ -
+ $85,000.00
+ 4 days ago
+ ML Engineer
+ ML Engineer
+ Catalyst Labs
+ New York, NY
+ 2 weeks ago
+ ML Engineer
+ ML Engineer
+ Radical AI
+ New York, NY
+ 10 months ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Spotify
+ New York, NY
+ 6 days ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Spotify
+ New York, NY
+ 1 week ago
+ ML Engineer
+ ML Engineer
+ Catalyst Labs
+ New York, NY
+ 2 weeks ago
+ Applied AI Engineer
+ Applied AI Engineer
+ Tandem
+ New York, NY
+ $170,000.00
+ -
+ $300,000.00
+ 5 months ago
+ AI/ML Applied Engineer
+ AI/ML Applied Engineer
+ Karumi (YC F25)
+ New York, NY
+ $120.00
+ -
+ $170.00
+ 4 months ago
+ AI Engineer/ML Engineer - Senior Developers - AI Training - USA
+ AI Engineer/ML Engineer - Senior Developers - AI Training - USA
+ Prolific
+ New York, NY
+ 4 days ago
+ Applied AI Engineer
+ Applied AI Engineer
+ Nevis
+ New York, NY
+ 4 months ago
+ AI Software Engineer
+ AI Software Engineer
+ Gallatin AI, Inc.
+ New York, NY
+ $80,000.00
+ -
+ $210,000.00
+ 5 months ago
+ ML Engineer
+ ML Engineer
+ Sunset
+ New York, NY
+ $200,000.00
+ -
+ $300,000.00
+ 2 weeks ago
+ Applied AI Engineer
+ Applied AI Engineer
+ Sapien
+ New York, NY
+ $175,000.00
+ -
+ $250,000.00
+ 2 months ago
+ Machine Learning Engineer II
+ Machine Learning Engineer II
+ Uber
+ New York, NY
+ 3 weeks ago
+ Machine Learning Engineer / Data Scientist
+ Machine Learning Engineer / Data Scientist
+ Fusemachines
+ New York, NY
+ 3 months ago
+ Machine Learning Engineer II, Pricing
+ Machine Learning Engineer II, Pricing
+ Uber
+ New York, NY
+ 2 months ago
+ Data Scientist
+ Data Scientist
+ Roku
+ New York, NY
+ $135,000.00
+ -
+ $153,000.00
+ 3 weeks ago
+ Data Analytics Engineer
+ Data Analytics Engineer
+ Pelago
+ New York, NY
+ 2 weeks ago
+ Software Engineer, AI Automation
+ Software Engineer, AI Automation
+ Paces
+ Brooklyn, NY
+ 1 week ago
+ Data & Analytics Engineer
+ Data & Analytics Engineer
+ Tandem
+ New York, NY
+ $150,000.00
+ -
+ $200,000.00
+ 5 months ago
+ Applied AI Engineer (Automation)
+ Applied AI Engineer (Automation)
+ Fusemachines
+ New York, NY
+ 2 months ago
+ AI Engineer
+ AI Engineer
+ ReadMe
+ New York, NY
+ 2 weeks ago
+ Applied AI Engineer
+ Applied AI Engineer
+ Catalyst Labs
+ New York, NY
+ 2 weeks ago
+ Machine Learning Engineer, AI
+ Machine Learning Engineer, AI
+ Biohub
+ New York, NY
+ 2 weeks ago
+ AI/ML Engineer
+ AI/ML Engineer
+ Savant Bio
+ New York, NY
+ 1 day ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Applied AI Engineer
+ Applied AI Engineer
+ Catalyst Labs
+ New York, NY
+ 2 weeks ago
+ AI/ML Engineer
+ AI/ML Engineer
+ Rulebase (YC F24)
+ New York, NY
+ $100,000.00
+ -
+ $200,000.00
+ 1 month ago
+ Founding ML Engineer
+ Founding ML Engineer
+ Photonium
+ New York, NY
+ $150,000.00
+ -
+ $200,000.00
+ 9 months ago
+ Applied AI Engineer
+ Applied AI Engineer
+ Luminai
+ New York, NY
+ $170,000.00
+ -
+ $250,000.00
+ 3 weeks ago
+ Software Engineer, Applied AI
+ Software Engineer, Applied AI
+ Norm Ai
+ New York, NY
+ 1 week ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Finch
+ New York, NY
+ $180,000.00
+ -
+ $280,000.00
+ 1 month ago
+ Applied AI Software Engineer (All Levels)
+ Applied AI Software Engineer (All Levels)
+ Blossom
+ New York, NY
+ $150,000.00
+ -
+ $220,000.00
+ 1 week ago
+ AI Engineer ($150k–$300k + Equity) at Vibecode
+ AI Engineer ($150k–$300k + Equity) at Vibecode
+ Jack & Jill
+ New York, NY
+ 5 days ago
+ Data Scientist, Customer Support Analytics
+ Data Scientist, Customer Support Analytics
+ Etsy
+ Brooklyn, NY
+ 2 days ago
+ Software Engineer | AI
+ Software Engineer | AI
+ Gecko Robotics
+ New York, NY
+ 2 months ago
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (Persian)
+ Suomi (Finnish)
+ Français (French)
+ हिंदी (Hindi)
+ Magyar (Hungarian)
+ Bahasa Indonesia (Indonesian)
+ Italiano (Italian)
+ עברית (Hebrew)
+ 日本語 (Japanese)
+ 한국어 (Korean)
+ मराठी (Marathi)
+ Bahasa Malaysia (Malay)
+ Nederlands (Dutch)
+ Norsk (Norwegian)
+ ਪੰਜਾਬੀ (Punjabi)
+ Polski (Polish)
+ Português (Portuguese)
+ Română (Romanian)
+ Русский (Russian)
+ Svenska (Swedish)
+ తెలుగు (Telugu)
+ ภาษาไทย (Thai)
+ Tagalog (Tagalog)
+ Türkçe (Turkish)
+ Українська (Ukrainian)
+ Tiếng Việt (Vietnamese)
+ 简体中文 (Chinese (Simplified))
+ 正體中文 (Chinese (Traditional))
+ Language
+ Agree & Join LinkedIn
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to see who you already know at Rillet
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .

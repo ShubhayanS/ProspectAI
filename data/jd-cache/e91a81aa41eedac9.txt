@@ -1,0 +1,392 @@
+TalentAlly hiring Data Scientist in Greater Chicago Area | LinkedIn
+ Agree & Join LinkedIn
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Skip to main content
+ LinkedIn
+ Data Scientist in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Data Scientist
+ TalentAlly
+ Greater Chicago Area
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Data Scientist role at TalentAlly
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Data Scientist
+ TalentAlly
+ Greater Chicago Area
+ 7 hours ago
+ Be among the first 25 applicants
+ See who TalentAlly has hired for this role
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Data Scientist role at TalentAlly
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Save
+ Report this job
+ Use AI to assess how you fit
+ Get AI-powered advice on this job and more exclusive features.
+ Am I a good fit for this job?
+ Tailor my resume
+ Sign in to access AI-powered advices
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to evaluate your skills
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to tailor your resume
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Senior Manager, Data Science - US Card (Upmarket Segments)
+ Data is at the center of everything we do. As a startup, we disrupted the credit card industry by individually personalizing every credit card offer using statistical modeling and the relational database, cutting edge technology in 1988! Fast-forward a few years, and this little innovation and our passion for data has skyrocketed us to a Fortune 200 company and a leader in the world of data-driven decision-making.
+ As a Data Scientist at Capital One, you'll be part of a team that's leading the next wave of disruption at a whole new scale, using the latest in computing and machine learning technologies and operating across billions of customer records to unlock the big opportunities that help everyday people save money, time and agony in their financial lives.
+ Role Description
+ In this role, you will:
+ Partner with a cross-functional team of data scientists, software engineers, and product managers to deliver a product customers love
+ Leverage a broad stack of technologies - Python, Conda, AWS, H2O, Spark, and more - to reveal the insights hidden within huge volumes of numeric and textual data
+ Build machine learning models through all phases of development, from design through training, evaluation, validation, and implementation
+ Flex your interpersonal skills to translate the complexity of your work into tangible business goals
+ The Ideal Candidate is:
+ Customer first. You love the process of analyzing and creating, but also share our passion to do the right thing. You know at the end of the day it's about making the right decision for our customers.
+ Innovative. You continually research and evaluate emerging technologies. You stay current on published state-of-the-art methods, technologies, and applications and seek out opportunities to apply them.
+ Creative. You thrive on bringing definition to big, undefined problems. You love asking questions and pushing hard to find answers. You're not afraid to share a new idea.
+ A leader. You challenge conventional thinking and work with stakeholders to identify and improve the status quo. You're passionate about talent development for your own team and beyond.
+ Technical. You're comfortable with open-source languages and are passionate about developing further. You have hands-on experience developing data science solutions using open-source tools and cloud computing platforms.
+ Statistically-minded. You've built models, validated them, and backtested them. You know how to interpret a confusion matrix or a ROC curve. You have experience with clustering, classification, sentiment analysis, time series, and deep learning.
+ A data guru. "Big data" doesn't faze you. You have the skills to retrieve, combine, and analyze data from a variety of sources and structures. You know understanding the data is often the key to great data science.
+ Basic Qualifications:
+ Currently has, or is in the process of obtaining one of the following with an expectation that the required degree will be obtained on or before the scheduled start date:
+ A Bachelor's Degree in a quantitative field (Statistics, Economics, Operations Research, Analytics, Mathematics, Computer Science, or a related quantitative field) plus 7 years of experience performing data analytics
+ A Master's Degree in a quantitative field (Statistics, Economics, Operations Research, Analytics, Mathematics, Computer Science, or a related quantitative field) or an MBA with a quantitative concentration plus 5 years of experience performing data analytics
+ A PhD in a quantitative field (Statistics, Economics, Operations Research, Analytics, Mathematics, Computer Science, or a related quantitative field) plus 2 years of experience performing data analytics
+ At least 2 years of experience leveraging open source programming languages for large scale data analysis
+ At least 2 years of experience working with machine learning
+ At least 2 years of experience utilizing relational databases
+ Preferred Qualifications:
+ PhD in "STEM" field (Science, Technology, Engineering, or Mathematics) plus 4 years of experience in data analytics
+ At least 1 year of experience working with AWS
+ At least 1 year of experience managing people
+ At least 5 years' experience in Python, Scala, or R for large scale data analysis
+ At least 5 years' experience with machine learning
+ Capital One will consider sponsoring a new qualified applicant for employment authorization for this position
+ The minimum and maximum full-time annual salaries for this role are listed below, by location. Please note that this salary information is solely for candidates hired to perform work within one of these locations, and refers to the amount Capital One is willing to pay at the time of this posting. Salaries for part-time roles will be prorated based upon the agreed upon number of hours to be regularly worked.
+ Chicago, IL: $209,000 - $238,500 for Sr Mgr, Data Science
+ McLean, VA: $229,900 - $262,400 for Sr Mgr, Data Science
+ New York, NY: $250,800 - $286,200 for Sr Mgr, Data Science
+ Richmond, VA: $209,000 - $238,500 for Sr Mgr, Data Science
+ Candidates hired to work in other locations will be subject to the pay range associated with that location, and the actual annualized salary amount offered to any candidate at the time of hire will be reflected solely in the candidate's offer letter.
+ This role is also eligible to earn performance based incentive compensation, which may include cash bonus(es) and/or long term incentives (LTI). Incentives could be discretionary or non discretionary depending on the plan.
+ Capital One offers a comprehensive, competitive, and inclusive set of health, financial and other benefits that support your total well-being. Learn more at theCapital One Careers website. Eligibility varies based on full or part-time status, exempt or non-exempt status, and management level.
+ This role is expected to accept applications for a minimum of 5 business days.
+ No agencies please. Capital One is an equal opportunity employer (EOE, including disability/vet) committed to non-discrimination in compliance with applicable federal, state, and local laws. Capital One promotes a drug-free workplace. Capital One will consider for employment qualified applicants with a criminal history in a manner consistent with the requirements of applicable laws regarding criminal background inquiries, including, to the extent applicable, Article 23-A of the New York Correction Law; San Francisco, California Police Code Article 49, Sections 4901-4920; New York City's Fair Chance Act; Philadelphia's Fair Criminal Records Screening Act; and other applicable federal, state, and local laws and regulations regarding criminal background inquiries.
+ If you have visited our website in search of information on employment opportunities or to apply for a position, and you require an accommodation, please contact Capital One Recruiting at 1-800-304-9102 or via email at RecruitingAccommodation@capitalone.com. All information you provide will be kept confidential and will be used only to the extent required to provide needed reasonable accommodations.
+ For technical support or questions about Capital One's recruiting process, please send an email to Careers@capitalone.com
+ Capital One does not provide, endorse nor guarantee and is not liable for third-party products, services, educational tools or other information available through this site.
+ Capital One Financial is made up of several different entities. Please note that any position posted in Canada is for Capital One Canada, any position posted in the United Kingdom is for Capital One Europe and any position posted in the Philippines is for Capital One Philippines Service Corp. (COPSSC).
+ PDN-a1a1fbde-bf68-4d90-975d-94246935d5f9
+ Show more
+ Show less
+ Seniority level
+ Associate
+ Employment type
+ Full-time
+ Job function
+ Information Technology
+ Industries
+ Technology, Information and Media
+ Referrals increase your chances of interviewing at TalentAlly by 2x
+ See who you know
+ Get notified about new Data Scientist jobs in Greater Chicago Area .
+ Sign in to create job alert
+ Similar jobs
+ Data Scientist, New Grad
+ Data Scientist, New Grad
+ SentiLink
+ Chicago, IL
+ 5 days ago
+ Data Scientist II - QuantumBlack, AI by McKinsey
+ Data Scientist II - QuantumBlack, AI by McKinsey
+ QuantumBlack, AI by McKinsey
+ Chicago, IL
+ 1 week ago
+ Data Scientist - Statistics
+ Data Scientist - Statistics
+ United Airlines
+ Chicago, IL
+ 1 week ago
+ Data Scientist - Machine Learning
+ Data Scientist - Machine Learning
+ United Airlines
+ Chicago, IL
+ 1 week ago
+ Data Science Trainee
+ Data Science Trainee
+ Tech Consulting
+ Chicago, IL
+ $35.00
+ -
+ $40.00
+ 1 hour ago
+ Data Scientist II – QuantumBlack, AI by McKinsey (Critical Industries)
+ Data Scientist II – QuantumBlack, AI by McKinsey (Critical Industries)
+ QuantumBlack, AI by McKinsey
+ Chicago, IL
+ 1 week ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ PayPal
+ Chicago, IL
+ 1 week ago
+ Data Scientist
+ Data Scientist
+ UL Solutions
+ Greater Chicago Area
+ 4 days ago
+ Forward-Deployed Data Scientist
+ Forward-Deployed Data Scientist
+ Braze
+ Chicago, IL
+ $138,000.00
+ -
+ $165,000.00
+ 12 hours ago
+ Senior Data Scientist
+ Senior Data Scientist
+ Strike Social
+ Chicago, IL
+ 6 months ago
+ Machine Learning / Data Science Engineer
+ Machine Learning / Data Science Engineer
+ CapTech
+ Chicago, IL
+ 2 weeks ago
+ Data Scientist - LLM
+ Data Scientist - LLM
+ Harnham
+ Chicago, IL
+ $120,000.00
+ -
+ $170,000.00
+ 6 days ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Darwill
+ Oakbrook Terrace, IL
+ $110,000.00
+ -
+ $125,000.00
+ 4 days ago
+ Data Scientist / Senior Data Scientist
+ Data Scientist / Senior Data Scientist
+ DoorDash
+ Chicago, IL
+ 16 hours ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Selby Jennings
+ Chicago, IL
+ $150,000.00
+ -
+ $200,000.00
+ 2 weeks ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Emonics LLC
+ Chicago, IL
+ 4 days ago
+ Applied Machine Learning Engineer – ML & AI Systems
+ Applied Machine Learning Engineer – ML & AI Systems
+ TAG - The Aspen Group
+ Chicago, IL
+ $120,000.00
+ -
+ $145,000.00
+ 4 weeks ago
+ Data Scientist
+ Data Scientist
+ Young Innovations
+ Algonquin, IL
+ $120,000.00
+ -
+ $140,000.00
+ 5 months ago
+ Data Scientist
+ Data Scientist
+ Quanta Search
+ Chicago, IL
+ 10 months ago
+ AI/Machine Learning Engineer
+ AI/Machine Learning Engineer
+ Argonne National Laboratory
+ Lemont, IL
+ 4 hours ago
+ Sr. Data Scientist
+ Sr. Data Scientist
+ TAG - The Aspen Group
+ Chicago, IL
+ $128,000.00
+ -
+ $145,000.00
+ 2 weeks ago
+ Software Engineer
+ Software Engineer
+ Alexander Chapman
+ Chicago, IL
+ 6 days ago
+ AI/ML Data Contributor
+ AI/ML Data Contributor
+ TSMG Holding
+ Chicago, IL
+ 8 hours ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Reyes Coca-Cola Bottling
+ Niles, IL
+ $103,455.00
+ -
+ $129,319.00
+ 1 week ago
+ Data Scientist
+ Data Scientist
+ HAVI
+ Chicago, IL
+ 2 weeks ago
+ AI/ML Data Contributor
+ AI/ML Data Contributor
+ TSMG Holding
+ Chicago, IL
+ 8 hours ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Machine Learning Engineer
+ Machine Learning Engineer
+ PayPal
+ Chicago, IL
+ 1 week ago
+ Lead Data Scientist
+ Lead Data Scientist
+ Tezo
+ Chicago, IL
+ $70.00
+ -
+ $90.00
+ 1 week ago
+ Data Scientist
+ Data Scientist
+ Loyola University Chicago
+ Chicago, IL
+ 1 week ago
+ Data Scientist – AI Training & Evaluation
+ Data Scientist – AI Training & Evaluation
+ Alignerr
+ Chicago, IL
+ $25.00
+ -
+ $40.00
+ 4 days ago
+ Data Scientist
+ Data Scientist
+ TransUnion
+ Chicago, IL
+ 1 week ago
+ Data Scientist - LLM
+ Data Scientist - LLM
+ Harnham
+ Chicago, IL
+ $120,000.00
+ -
+ $170,000.00
+ 1 week ago
+ Principal Data Scientist - Applied AI
+ Principal Data Scientist - Applied AI
+ Sigmoid
+ Chicago, IL
+ 3 weeks ago
+ Data Scientist II, Real World Evidence (RWE), Pharma R&D
+ Data Scientist II, Real World Evidence (RWE), Pharma R&D
+ Tempus AI
+ Chicago, IL
+ 1 day ago
+ Data Scientist
+ Data Scientist
+ Wi-Tronix
+ Bolingbrook, IL
+ 6 days ago
+ Data Scientist III
+ Data Scientist III
+ Uber Freight
+ Chicago, IL
+ 6 days ago
+ Similar Searches
+ Scientist jobs
+ 48,969 open jobs
+ Data Science Specialist jobs
+ 2,441 open jobs
+ Junior Scientist jobs
+ 10,103 open jobs
+ Lead Scientist jobs
+ 14,164 open jobs
+ Senior Scientist jobs
+ 19,214 open jobs
+ Machine Learning Engineer jobs
+ 148,937 open jobs
+ Data Warehouse Project Manager jobs
+ 10,365 open jobs
+ Science Manager jobs
+ 15,298 open jobs
+ Senior Staff Scientist jobs
+ 6,754 open jobs
+ Staff Geophysicist jobs
+ 106 open jobs
+ Data Analyst jobs
+ 329,009 open jobs
+ Assist

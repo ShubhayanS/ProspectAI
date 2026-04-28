@@ -1,0 +1,439 @@
+Centraprise hiring Databricks Data Engineer in Deerfield, IL | LinkedIn
+ Skip to main content
+ LinkedIn
+ Databricks Data Engineer in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Join now
+ Sign in
+ Databricks Data Engineer
+ Centraprise
+ Deerfield, IL
+ Apply
+ Databricks Data Engineer
+ Centraprise
+ Deerfield, IL
+ 7 hours ago
+ 116 applicants
+ See who Centraprise has hired for this role
+ Apply
+ Save
+ Report this job
+ Direct message the job poster from Centraprise
+ Rahul Kumar
+ Rahul Kumar
+ Talent Acquisition Specialist / Lead
+ Databricks Data Engineer
+ Deerfield, IL - Onsite
+ Fulltime
+ Mandatory skills: Databricks, Spark, Azure, Python, Cosmos DB, Azure DevOps (GitHub, CI/CD pipelines, Boards etc.), Docker & Azure Kubernetes Service, Graffana, JUnit, Postman, SonarQube
+ Additional Skills: 3–6 years of experience in data engineering on cloud data platforms. Hands‑on experience building Spark jobs with Scala/Spark and/or PySpark on Databricks. Experience ingesting data from batch and streaming sources into ADLS Gen2 using Delta or Apache Iceberg tables. Good SQL skills for joins, aggregations, and data quality checks. Understanding of core Azure data services (Event Hubs/Kafka, Data Factory/Databricks Workflows, Key Vault). Experience working with Git‑based workflows and CI/CD in Azure DevOps or GitHub.
+ Good to have skills: Exposure to Spark Structured Streaming for near real‑time use cases. Experience with data quality tools or frameworks and writing unit/integration tests for data pipelines. Familiarity with data modeling and performance considerations in Lakehouse environments.
+ Roles & Responsibilities:
+ Responsible for building data products in Databricks using Scala/Spark
+ Responsible for Ops work managing production for the data products developed and deployed to production
+ Responsible for testing data products based on product specification and end to end validation
+ Set up monitoring, logging, and alerting Spark jobs and data pipelines using Azure Monitor/Log Analytics or similar tools
+ Coordinate with offshore team in India
+ Show more
+ Show less
+ Seniority level
+ Mid-Senior level
+ Employment type
+ Full-time
+ Job function
+ Information Technology
+ Industries
+ IT Services and IT Consulting
+ Referrals increase your chances of interviewing at Centraprise by 2x
+ See who you know
+ Get notified about new Data Engineer jobs in Deerfield, IL .
+ Sign in to create job alert
+ Similar jobs
+ Data Engineer
+ Data Engineer
+ CNH
+ Oak Brook, IL
+ 1 week ago
+ Data Analytics Engineer
+ Data Analytics Engineer
+ Northern Trust
+ Chicago, IL
+ 2 weeks ago
+ Databricks Data Engineer
+ Databricks Data Engineer
+ Atem Corp
+ Deerfield, IL
+ 5 days ago
+ Data Engineer
+ Data Engineer
+ Paychex
+ Chicago, IL
+ 1 week ago
+ Data Engineer, Consumer
+ Data Engineer, Consumer
+ Attain
+ Chicago, IL
+ 1 month ago
+ Data Engineer
+ Data Engineer
+ CGS Federal (Contact Government Services)
+ Chicago, IL
+ $112,597.33
+ -
+ $152,810.66
+ 1 month ago
+ Data Engineer
+ Data Engineer
+ Valorem Reply
+ Greater Chicago Area
+ 4 days ago
+ Data Analytics Engineer (GCP)
+ Data Analytics Engineer (GCP)
+ RHR International
+ Greater Chicago Area
+ $110,000.00
+ -
+ $140,000.00
+ 1 week ago
+ IT Data Engineer
+ IT Data Engineer
+ Pactiv Evergreen Inc.
+ Lake Forest, IL
+ 1 month ago
+ Sr. Data Engineer
+ Sr. Data Engineer
+ Hologram Inc.
+ Chicago, IL
+ 3 weeks ago
+ Data Engineer
+ Data Engineer
+ Stott and May
+ Chicago, IL
+ $60.00
+ -
+ $95.00
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Forbes Technical Consulting
+ Park Ridge, IL
+ 2 weeks ago
+ Data Engineer (AIA)
+ Data Engineer (AIA)
+ Cognizant
+ Chicago, IL
+ 4 days ago
+ Data Engineer
+ Data Engineer
+ Uline
+ Glenview, IL
+ 4 days ago
+ Data Engineer III
+ Data Engineer III
+ Ahold Delhaize USA
+ Chicago, IL
+ 1 week ago
+ Data Engineer (AIA)
+ Data Engineer (AIA)
+ Cognizant
+ Chicago, IL
+ 4 days ago
+ Data Engineer, Lead
+ Data Engineer, Lead
+ Farmer's Fridge
+ Chicago, IL
+ $150,000.00
+ -
+ $160,000.00
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Numerator
+ Chicago, IL
+ $97,000.00
+ -
+ $133,100.00
+ 2 weeks ago
+ Data Engineer 2026- Data Platforms
+ Data Engineer 2026- Data Platforms
+ IBM
+ Chicago, IL
+ 5 days ago
+ Data Engineer
+ Data Engineer
+ Radley James
+ Chicago, IL
+ 2 weeks ago
+ Data Analytics Engineer
+ Data Analytics Engineer
+ Request Technology, LLC
+ Chicago, IL
+ 1 week ago
+ Data Engineer-25118
+ Data Engineer-25118
+ Rush University Medical Center
+ Chicago, IL
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ HAVI
+ Chicago, IL
+ 14 hours ago
+ Jr. Software Engineer
+ Jr. Software Engineer
+ NetSfere
+ Chicago, IL
+ 1 year ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Data Engineer, Cumberland/FICCO
+ Data Engineer, Cumberland/FICCO
+ DRW
+ Chicago, IL
+ 2 weeks ago
+ Senior Data Engineer
+ Senior Data Engineer
+ Valorem Reply
+ Greater Chicago Area
+ 4 days ago
+ Machine Learning Data Engineer
+ Machine Learning Data Engineer
+ Oden Technologies
+ Chicago, IL
+ 1 month ago
+ Analytics Engineer
+ Analytics Engineer
+ PurposeCare
+ Greater Chicago Area
+ $90,000.00
+ -
+ $110,000.00
+ 1 week ago
+ Jr. Software Engineer
+ Jr. Software Engineer
+ NetSfere
+ Chicago, IL
+ 1 year ago
+ Analytics Engineer
+ Analytics Engineer
+ JVM Realty Corporation
+ Oak Brook, IL
+ $120,000.00
+ -
+ $130,000.00
+ 1 month ago
+ Junior Software Engineer
+ Junior Software Engineer
+ TransMarket Group
+ Chicago, IL
+ 1 week ago
+ Data Engineer - API
+ Data Engineer - API
+ Capgemini
+ Greater Chicago Area
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Vaiticka Solution
+ Chicago, IL
+ $60.00
+ -
+ $60.00
+ 1 week ago
+ Senior Data Engineer
+ Senior Data Engineer
+ Above Lending
+ Chicago, IL
+ $110,000.00
+ -
+ $150,000.00
+ 2 weeks ago
+ Similar Searches
+ Senior Data Engineer jobs
+ 78,076 open jobs
+ Big Data Developer jobs
+ 26,392 open jobs
+ Hadoop Developer jobs
+ 37,972 open jobs
+ ETL Developer jobs
+ 46,788 open jobs
+ Data Warehouse Engineer jobs
+ 39,476 open jobs
+ Analytical Engineer jobs
+ 7,971 open jobs
+ Data Architect jobs
+ 68,774 open jobs
+ Freelance Engineer jobs
+ 190 open jobs
+ Development Database Administrator jobs
+ 226,600 open jobs
+ ETL Specialist jobs
+ 219,897 open jobs
+ Database Software Engineer jobs
+ 224,263 open jobs
+ Engineer jobs
+ 555,845 open jobs
+ Business Intelligence Engineer jobs
+ 50,282 open jobs
+ Senior Data Warehouse Engineer jobs
+ 10,085 open jobs
+ Pipeline Engineer jobs
+ 39,469 open jobs
+ Teradata Developer jobs
+ 2,501 open jobs
+ Database Engineer jobs
+ 32,874 open jobs
+ Exhibit Coordinator jobs
+ 342 open jobs
+ Senior Solutions Developer jobs
+ 50,281 open jobs
+ SQL Developer jobs
+ 12,445 open jobs
+ Junior Engineer jobs
+ 52,722 open jobs
+ Assistant Produce Manager jobs
+ 3,091 open jobs
+ Data Modeler jobs
+ 263,457 open jobs
+ Data Analyst jobs
+ 329,009 open jobs
+ Senior Data Warehouse Architect jobs
+ 4,641 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Senior Data Engineer jobs
+ Big Data Developer jobs
+ Hadoop Developer jobs
+ ETL Developer jobs
+ Lakeland Care jobs
+ Data Warehouse Engineer jobs
+ Analytical Engineer jobs
+ Data Architect jobs
+ Freelance Engineer jobs
+ Development Database Administrator jobs
+ ETL Specialist jobs
+ Database Software Engineer jobs
+ Engineer jobs
+ Business Intelligence Engineer jobs
+ Senior Data Warehouse Engineer jobs
+ Pipeline Engineer jobs
+ Teradata Developer jobs
+ Database Engineer jobs
+ Exhibit Coordinator jobs
+ Senior Solutions Developer jobs
+ SQL Developer jobs
+ Junior Engineer jobs
+ Assistant Produce Manager jobs
+ Data Modeler jobs
+ Data Analyst jobs
+ Senior Data Warehouse Architect jobs
+ Senior Database Engineer jobs
+ Senior Peoplesoft Consultant jobs
+ ETL Consultant jobs
+ Scala jobs
+ Data Scientist jobs
+ Senior ETL Developer jobs
+ Data Warehouse Specialist jobs
+ Databricks jobs
+ Senior Data Architect jobs
+ Lead Data Architect jobs
+ Business Intelligence Developer jobs
+ The Toledo Clinic jobs
+ Scala Developer jobs
+ General Engineer jobs
+ Senior Business Intelligence Architect jobs
+ Senior System Test Engineer jobs
+ Microsoft Developer jobs
+ Aqua-Tots Swim School jobs
+ Data Warehouse Architect jobs
+ Software Configuration Engineer jobs
+ Data System Engineer jobs
+ Python Developer jobs
+ Data Science Specialist jobs
+ Machine Learning Engineer jobs
+ Scientist jobs
+ Data Warehouse Manager jobs
+ Diocese of Saint Petersburg jobs
+ Project Lead Developer jobs
+ Telecommunications Software Engineer jobs
+ Randall Reilly jobs
+ Processing Geophysicist jobs
+ Senior Database Developer jobs
+ Business Objects Consultant jobs
+ Middleware Engineer jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (Persian)
+ Suomi (Finnish)
+ Français (French)
+ हिंदी (Hindi)
+ Magyar (Hungarian)
+ Bahasa Indonesia (Indonesian)
+ Italiano (Italian)
+ עברית (Hebrew)
+ 日本語 (Japanese)
+ 한국어 (Korean)
+ मराठी (Marathi)
+ Bahasa Malaysia (Malay)
+ Nederlands (Dutch)
+ Norsk (Norwegian)
+ ਪੰਜਾਬੀ (Punjabi)
+ Polski (Polish)
+ Português (Portuguese)
+ Română (Romanian)
+ Русский (Russian)
+ Svenska (Swedish)
+ తెలుగు (Telugu)
+ ภาษาไทย (Thai)
+ Tagalog (Tagalog)
+ Türkçe (Turkish)
+ Українська (Ukrainian)
+ Tiếng Việt (Vietnamese)
+ 简体中文 (Chinese (Simplified))
+ 正體中文 (Chinese (Traditional))
+ Language
+ Agree & Join LinkedIn
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Join now to see who you already know at Centraprise
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .

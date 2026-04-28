@@ -1,0 +1,435 @@
+Infinity Home Services hiring Business Intelligence Engineer in United States | LinkedIn
+ Skip to main content
+ LinkedIn
+ Business Intelligence Engineer in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Join now
+ Sign in
+ Business Intelligence Engineer
+ Infinity Home Services
+ United States
+ Apply
+ Business Intelligence Engineer
+ Infinity Home Services
+ United States
+ 9 hours ago
+ Over 200 applicants
+ See who Infinity Home Services has hired for this role
+ Apply
+ Save
+ Report this job
+ Use AI to assess how you fit
+ Get AI-powered advice on this job and more exclusive features.
+ Am I a good fit for this job?
+ Tailor my resume
+ Sign in to access AI-powered advices
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to evaluate your skills
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to tailor your resume
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Direct message the job poster from Infinity Home Services
+ Bill Uebbing
+ Bill Uebbing
+ Talent Acquisition | Organizational Development | Brand Ambassadorship
+ Role Overview
+ AI/BI Analytics Engineer advances our in-home BI ecosystem. In this role, you will transform high‑volume data from systems such as Zoho, Acculynx, Vena, Acumatica, and various APIs into reliable, scalable models that support reporting across the business.
+ You will maintain and enhance our reporting environment, ensuring trusted data models and high‑performing BI solutions. AI is central to how we build at IHS - this role develops primarily through AI tools (Claude, Gemini, OpenAI) , deploying frequently and iterating quickly. While AI accelerates delivery, you are fully accountable for architecture, validation, and quality.
+ The ideal candidate brings exceptionally strong SQL, Elixir, JavaScript, and C# skills, a solid understanding of modern data engineering and medallion‑architecture patterns, and the ability to partner closely with stakeholders. This is a fast‑moving, collaborative role suited to an expert level AI operator writing, refining, and testing code at speed and delivering high‑quality data products.
+ Key Responsibilities
+ Own, refine, and maintain business‑ready datasets across all data layers (bronze → gold), ensuring accuracy, usability, and long‑term reliability.
+ Develop, optimize, and document SQL transformations that standardize, consolidate, and model data from multiple systems.
+ Partner closely with senior leadership (Director of FP&A, CFO, CEO) to translate business questions into trustworthy reporting and analytical outputs.
+ Build and maintain the core logic that powers our next‑generation, web‑based reporting platform.
+ Deliver new reports, dashboards, and data products with consistent definitions, shared metrics, and clear business logic.
+ Manage and improve orchestration, scheduling, and monitoring of data pipelines, extraction processes, and transformation workflows.
+ Strengthen data quality through rigorous validation, testing, documentation, and continuous QA improvements.
+ Optimize SQL code and data models for performance, scalability, and maintainability within a growing analytics ecosystem.
+ Support and contribute to the migration from legacy BI tools toward a modern, flexible reporting environment.
+ Work collaboratively with technical and non‑technical teams to prioritize requests, troubleshoot issues, and enhance BI delivery processes.
+ Leverage AI tools (e.g., Claude, Gemini, OpenAI) as the primary development workflow—writing, refactoring, and testing code in rapid, iterative cycles.
+ IHS Job Description and Posting
+ Requirements
+ 5+ years of experience in analytics engineering, BI engineering, data warehousing, or equivalent analytical development roles.
+ Advanced SQL expertise, including writing, optimizing, and maintaining complex transformations and data models.
+ Strong understanding of layered analytical architectures (bronze/silver/gold).
+ Demonstrated ability to convert raw operational data into trusted reporting models and well‑structured layers.
+ Strong communication and interpersonal skills with proven success supporting senior executives and cross‑functional partners.
+ Experience administering, building, or supporting BI tools, reporting systems, dashboards, or custom reporting applications.
+ Solid grasp of data quality practices, including testing, documentation, and long‑term production support.
+ Ability to balance hands‑on technical execution with business‑facing ownership and delivery.
+ Hands‑on experience using AI tools as the primary method of writing, debugging, and refining code—comfortable owning the output and validating accuracy.
+ Genuine interest in emerging AI capabilities and a desire to apply them to accelerate BI development.
+ A proactive, iterative work style with comfort deploying frequently, gathering feedback, and improving quickly.
+ Benefits
+ Opportunities for professional growth and development tied to your personal interests
+ A transparent, supportive, and collaborative work environment
+ The chance to make a positive impact on our communities and the environment
+ Competitive: Health, dental, and vision coverage; PTO; Paid Holidays; Life Insurance; 401k with match
+ Compensation
+ This position offers up to $120,000 per year depending upon a variety of factors. This position offers additional performance-based compensation targeted to 10% of the base.
+ About Us
+ Infinity Home Services (“IHS”) was founded by Wisconsin entrepreneurs with a simple but ambitious goal: to raise the standard of residential roofing and exterior remodeling and “Save our Communities from Unscrupulous Contractors.”
+ Today, we are recognized as a leader in our industry delivering exceptional roofing, windows, and siding installation services using only the most trusted, top‑quality materials.
+ Our platform brings together a family of respected local brands, empowering each to enhance service delivery, strengthen community presence, and expand market share. We stand behind every job we perform, using top quality materials, best‑in‑class installation practices, and an ongoing commitment to do the right thing.
+ IHS is rapidly expanding both organically and through strategic acquisitions. As we shape the future of the Home Services industry, we seek ethical, forward‑thinking professionals who bring innovation, integrity, and craftsmanship to their roles. The work we perform directly protects our customers’ most important investment, their homes!
+ IHS is an equal opportunity employer. All applicants will be considered for employment without attention to race, color, religion, sex, sexual orientation, gender identity, national origin, veteran or disability status.
+ Show more
+ Show less
+ Seniority level
+ Mid-Senior level
+ Employment type
+ Full-time
+ Job function
+ Information Technology
+ Industries
+ Specialty Trade Contractors
+ Referrals increase your chances of interviewing at Infinity Home Services by 2x
+ See who you know
+ Featured Benefits
+ Inferred from the description for this job
+ Medical insurance
+ Vision insurance
+ Dental insurance
+ 401(k)
+ Get notified about new Business Intelligence Engineer jobs in United States .
+ Sign in to create job alert
+ Similar jobs
+ Data Engineer (L5)
+ Data Engineer (L5)
+ Netflix
+ United States
+ 3 weeks ago
+ Business Intelligence Developer/Tableau/Azure 100 % Remote
+ Business Intelligence Developer/Tableau/Azure 100 % Remote
+ Apetan Consulting LLC
+ United States
+ 8 hours ago
+ Business Intelligence Developer (Power BI)
+ Business Intelligence Developer (Power BI)
+ Konnex4
+ United States
+ 4 weeks ago
+ Business Intelligence Developer
+ Business Intelligence Developer
+ Sparibis
+ United States
+ 1 week ago
+ Junior Analytics Engineer
+ Junior Analytics Engineer
+ Mayne Pharma
+ United States
+ 1 week ago
+ Data Engineer (L5) - Ads
+ Data Engineer (L5) - Ads
+ Netflix
+ United States
+ 15 hours ago
+ Data Visualization Developer (Business Intelligence)
+ Data Visualization Developer (Business Intelligence)
+ BME Strategies
+ United States
+ $79,040.00
+ -
+ $112,320.00
+ 2 weeks ago
+ Business Intelligence Developer - (Tableau,Thoughtspot,SQL)
+ Business Intelligence Developer - (Tableau,Thoughtspot,SQL)
+ AssistRx
+ United States
+ $110,000.00
+ -
+ $135,000.00
+ 4 months ago
+ Business Intelligence Developer - (Tableau,Thoughtspot,SQL)
+ Business Intelligence Developer - (Tableau,Thoughtspot,SQL)
+ AssistRx
+ Orlando, FL
+ $110,000.00
+ -
+ $135,000.00
+ 4 months ago
+ AI Analytics and Visualization Engineer
+ AI Analytics and Visualization Engineer
+ NVIDIA
+ California, United States
+ 2 weeks ago
+ Senior Business Intelligence Engineer
+ Senior Business Intelligence Engineer
+ Tebra
+ United States
+ 5 days ago
+ Data Analytics Engineer
+ Data Analytics Engineer
+ Ancient Nutrition
+ United States
+ $85.00
+ -
+ $100.00
+ 2 weeks ago
+ Analytics Engineer
+ Analytics Engineer
+ SeatGeek
+ United States
+ 2 weeks ago
+ Senior Business Intelligence Engineer
+ Senior Business Intelligence Engineer
+ Tebra
+ Corona del Mar, CA
+ 5 days ago
+ Analytics Engineer 5 - Ads
+ Analytics Engineer 5 - Ads
+ Netflix
+ United States
+ 3 weeks ago
+ Security Analytics Engineer (L4)
+ Security Analytics Engineer (L4)
+ Netflix
+ United States
+ 1 week ago
+ Business Intelligence Developer
+ Business Intelligence Developer
+ ComResource
+ Columbus, OH
+ 1 week ago
+ Senior Analytics Engineer
+ Senior Analytics Engineer
+ Victory Live
+ Atlanta, GA
+ 1 week ago
+ Analytics Engineer 5 - Ads Reporting & Metric Standards
+ Analytics Engineer 5 - Ads Reporting & Metric Standards
+ Netflix
+ United States
+ 1 week ago
+ Analytics Engineer
+ Analytics Engineer
+ Terra
+ United States
+ 1 week ago
+ BI Engineer
+ BI Engineer
+ OPENLANE
+ Carmel, IN
+ 2 weeks ago
+ Business Intelligence Engineer
+ Business Intelligence Engineer
+ Adelaide
+ United States
+ 1 week ago
+ BI Engineer
+ BI Engineer
+ Loenbro
+ Denver, CO
+ 2 weeks ago
+ Senior Business Intelligence Engineer (Qlik Sense to PowerBI Migration)
+ Senior Business Intelligence Engineer (Qlik Sense to PowerBI Migration)
+ Talent Groups
+ Massachusetts, United States
+ $75.00
+ -
+ $85.00
+ 11 hours ago
+ BI Engineer
+ BI Engineer
+ OPENLANE
+ Carmel, IN
+ 2 days ago
+ BI Engineer , BI Center of Excellence
+ BI Engineer , BI Center of Excellence
+ Evolent
+ United States
+ 2 weeks ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Data & Analytics Engineer
+ Data & Analytics Engineer
+ MojoTech
+ United States
+ 1 week ago
+ Staff Analytics Engineer
+ Staff Analytics Engineer
+ Airbnb
+ United States
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Gopuff
+ United States
+ 1 week ago
+ Business Intelligence Engineer
+ Business Intelligence Engineer
+ Humana
+ United States
+ $89,000.00
+ -
+ $121,400.00
+ 3 days ago
+ Analytics Engineer 5 - Content
+ Analytics Engineer 5 - Content
+ Netflix
+ United States
+ 4 days ago
+ Distributed Systems Engineer (L4) - Data Platform
+ Distributed Systems Engineer (L4) - Data Platform
+ Netflix
+ United States
+ 1 week ago
+ Business Intelligence Developer
+ Business Intelligence Developer
+ Kavaliro
+ Orlando, FL
+ 1 week ago
+ Business Intelligence Developer (Alteryx & Tableau)
+ Business Intelligence Developer (Alteryx & Tableau)
+ McGraw Hill
+ United States
+ 4 days ago
+ Data Engineer
+ Data Engineer
+ MedReview Inc.
+ New York, NY
+ 2 months ago
+ Business Intelligence Developer
+ Business Intelligence Developer
+ Tria Federal (Tria)
+ United States
+ 4 days ago
+ Similar Searches
+ Senior Business Intelligence Architect jobs
+ 6,567 open jobs
+ Business Intelligence Administrator jobs
+ 238,765 open jobs
+ Lead Tester jobs
+ 1,376 open jobs
+ Senior Business Intelligence Developer jobs
+ 6,086 open jobs
+ Senior SAP Analyst jobs
+ 7,205 open jobs
+ Business Intelligence Developer jobs
+ 25,542 open jobs
+ Senior Advisory Consultant jobs
+ 22,019 open jobs
+ Senior Business Intelligence Analyst jobs
+ 23,381 open jobs
+ Principal Application Engineer jobs
+ 40,199 open jobs
+ Financial Market Analyst jobs
+ 14,136 open jobs
+ Business Intelligence Consultant jobs
+ 24,123 open jobs
+ Business Intelligence Architect jobs
+ 9,964 open jobs
+ Business Intelligence Lead jobs
+ 7,717 open jobs
+ Data Warehouse Analyst jobs
+ 15,007 open jobs
+ Regional Analyst jobs
+ 19,185 open jobs
+ Senior Data Warehouse Engineer jobs
+ 10,085 open jobs
+ Assistant Professor of Business jobs
+ 522 open jobs
+ Business Intelligence Manager jobs
+ 17,837 open jobs
+ Information Designer jobs
+ 3,665 open jobs
+ Advertising Sales Representative jobs
+ 30,898 open jobs
+ Sap Business Intelligence Consultant jobs
+ 470 open jobs
+ Restaurant Chef jobs
+ 12,818 open jobs
+ Senior Strategy Analyst jobs
+ 32,470 open jobs
+ Senior Associate Analyst jobs
+ 514 open jobs
+ Head of Global Operations jobs
+ 4,915 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Providence Health Plan jobs
+ Senior Business Intelligence Architect jobs
+ AVA Consulting jobs
+ Debtwire jobs
+ Business Intelligence Administrator jobs
+ Lead Tester jobs
+ Michigan Technological University jobs
+ Senior Business Intelligence Developer jobs
+ Senior SAP Analyst jobs
+ Business Intelligence Developer jobs
+ Senior Advisory Consultant jobs
+ Senior Business Intelligence Analyst jobs
+ Principal Application Engineer jobs
+ Financial Market Analyst jobs
+ Business Intelligence Consultant jobs
+ Business Intelligence Architect jobs
+ Business Intelligence Lead jobs
+ Data Warehouse Analyst jobs
+ Regional Analyst jobs
+ University of Idaho jobs
+ Senior Data Warehouse Engineer jobs
+ Assistant Professor of Business jobs
+ Business Intelligence Manager jobs
+ Information Designer jobs
+ Advertising Sales Representative jobs
+ Sap Business Intelligence Consultant jobs
+ Restaurant Chef jobs
+ Senior Strategy Analyst jobs
+ Senior Associate Analyst jobs
+ Head of Global Operations jobs
+ Principal Test Engineer jobs
+ Data Engineer jobs
+ Business Intelligence Specialist jobs
+ Cognos Developer jobs
+ Workforce Solutions jobs
+ Business Intelligence Analyst jobs
+ Senior Store Manager jobs
+ Schreiner Group jobs
+ Senior Data Analyst jobs
+ Data Modeler jobs
+ Oracle Database Developer jobs
+ Senior Human Resources Partner jobs
+ ETL Specialist jobs
+ Supply Chain Engineer jobs
+ Lead Data Analyst jobs
+ Network Security Specialist jobs

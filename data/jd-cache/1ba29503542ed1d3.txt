@@ -1,0 +1,442 @@
+BAJ Consulting LLC hiring Azure Data Engineer in Tempe, AZ | LinkedIn
+ Skip to main content
+ LinkedIn
+ Azure Data Engineer in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Azure Data Engineer
+ BAJ Consulting LLC
+ Tempe, AZ
+ Apply
+ Azure Data Engineer
+ BAJ Consulting LLC
+ Tempe, AZ
+ 9 hours ago
+ 69 applicants
+ See who BAJ Consulting LLC has hired for this role
+ Apply
+ Save
+ Report this job
+ Pay: $135,000.00 - $140,000.00 per year
+ Job description:
+ This is a full time permanent role. Monday - Thursday on site, Friday work from home. Full benefits package, 401k match, PTO.
+ Salary - 135k - 140k - 15% bonus
+ Looking for a Data Engineer in an agile process with 2 week sprints, task deliverables and assign stories to the developer and the developer can ask any questions in refinement. Do the work, update status in call every day, ensure fully responsible.
+ 90% of work is on on Azure Databricks writing python pyspark and SQL for the data ingestion framework and implement CICD process.
+ 10% Documentation – Jira/Confluence must have.
+ Scripting, deep SQL and python and deep data bricks experience
+ At least 7 years of experience
+ Must Haves:
+ Databricks: should know about entity catalog, cluster management, storage accounts, deep knowledge of pyspark, databricks dashboard, notebook management. Deep knowledge on the GitHub actions, automate CICD deployment in GitHub actions. Should know how to use copilot in GitHub actions.
+ Pyspark
+ Python
+ SQL querying
+ Apache Airflow: integrate and schedule the jobs
+ Show more
+ Show less
+ Seniority level
+ Mid-Senior level
+ Employment type
+ Full-time
+ Job function
+ Information Technology
+ Industries
+ Staffing and Recruiting
+ Referrals increase your chances of interviewing at BAJ Consulting LLC by 2x
+ See who you know
+ Get notified when a new job is posted.
+ Set alert
+ Sign in to set job alerts for “Data Engineer” roles.
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Similar jobs
+ Data Developer 1.19
+ Data Developer 1.19
+ Focused HR Solutions
+ Phoenix, AZ
+ $56.00
+ -
+ $58.00
+ 1 year ago
+ Data Engineer
+ Data Engineer
+ IntePros
+ Phoenix, AZ
+ 1 day ago
+ Data Engineer
+ Data Engineer
+ Paychex
+ Tempe, AZ
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Interactive Resources - iR
+ Tempe, AZ
+ $100,000.00
+ -
+ $120,000.00
+ 3 weeks ago
+ Data Engineer - Remote
+ Data Engineer - Remote
+ YO IT Consulting
+ Phoenix, AZ
+ 1 week ago
+ Python/Transact SQL Software Engineer
+ Python/Transact SQL Software Engineer
+ Intellimed
+ Phoenix, AZ
+ 1 month ago
+ Data Engineer
+ Data Engineer
+ KUBRA
+ Tempe, AZ
+ 3 days ago
+ Database IT Engineer III (Police)
+ Database IT Engineer III (Police)
+ Mesa Police Department
+ Mesa, AZ
+ 2 months ago
+ Data Engineer
+ Data Engineer
+ AP Professionals
+ Phoenix, AZ
+ 1 week ago
+ Senior Data Engineer
+ Senior Data Engineer
+ IntePros
+ Phoenix, AZ
+ $110.00
+ -
+ $120.00
+ 11 hours ago
+ Data Engineer
+ Data Engineer
+ Viasat
+ Tempe, AZ
+ 1 week ago
+ Database Engineer I
+ Database Engineer I
+ Paychex
+ Phoenix, AZ
+ 2 days ago
+ Data Engineer
+ Data Engineer
+ Viasat
+ Tempe, AZ
+ 2 months ago
+ Software Engineer - Python - Cloud - graduate level
+ Software Engineer - Python - Cloud - graduate level
+ Canonical
+ Phoenix, AZ
+ 1 month ago
+ Data Engineer/Fabric Developer
+ Data Engineer/Fabric Developer
+ New York Technology Partners
+ Phoenix, AZ
+ 4 days ago
+ Sr Data Engineer (967)
+ Sr Data Engineer (967)
+ Sharp Decisions
+ Scottsdale, AZ
+ 1 week ago
+ Solution Data Engineer – DG Infomatica Engineer
+ Solution Data Engineer – DG Infomatica Engineer
+ Circle K
+ Tempe, AZ
+ 1 week ago
+ Data Engineer - Marketing Analytics
+ Data Engineer - Marketing Analytics
+ Kforce Inc
+ Phoenix, AZ
+ $50.00
+ -
+ $60.00
+ 6 days ago
+ Analytics Engineer, GTM Data Infrastructure
+ Analytics Engineer, GTM Data Infrastructure
+ DoorDash
+ Phoenix, AZ
+ 2 days ago
+ Analytics Engineer
+ Analytics Engineer
+ Harnham
+ Phoenix, AZ
+ $130,000.00
+ -
+ $150,000.00
+ 3 months ago
+ Principal Engineer I - Senior Data Engineer
+ Principal Engineer I - Senior Data Engineer
+ Western Alliance Bank
+ Phoenix, AZ
+ 4 days ago
+ Data Engineer II, Transportation Execution, Speed Team
+ Data Engineer II, Transportation Execution, Speed Team
+ Amazon
+ Tempe, AZ
+ 3 days ago
+ Database Engineer
+ Database Engineer
+ Headfarmer
+ Peoria, AZ
+ $100,000.00
+ -
+ $110,000.00
+ 3 hours ago
+ Senior Data Engineer - Remote
+ Senior Data Engineer - Remote
+ DriveTime
+ Tempe, AZ
+ 4 days ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Software Engineer
+ Software Engineer
+ PayPal
+ Scottsdale, AZ
+ 4 hours ago
+ (Artificial Intelligence-AI) EXPERIENCED Software Engineer-Python, AWS: HYBRID
+ (Artificial Intelligence-AI) EXPERIENCED Software Engineer-Python, AWS: HYBRID
+ State Farm
+ Tempe, AZ
+ 2 months ago
+ Data Center Engineer
+ Data Center Engineer
+ TrustNet Technologies
+ Phoenix, AZ
+ $45.00
+ -
+ $45.00
+ 20 hours ago
+ Data Engineer - Senior Associate
+ Data Engineer - Senior Associate
+ PwC
+ Phoenix, AZ
+ 2 weeks ago
+ Fabric Data Engineer
+ Fabric Data Engineer
+ New York Technology Partners
+ Phoenix, AZ
+ 4 days ago
+ Senior Data Engineer, Predictive Modeling
+ Senior Data Engineer, Predictive Modeling
+ Carvana
+ Tempe, AZ
+ 1 month ago
+ Software Engineer
+ Software Engineer
+ PayPal
+ Scottsdale, AZ
+ 4 days ago
+ Data Solutions Engineer
+ Data Solutions Engineer
+ Paycor
+ Tempe, AZ
+ 1 week ago
+ Sr Data Engineer
+ Sr Data Engineer
+ Akkodis Group Nordics
+ Phoenix, AZ
+ 2 weeks ago
+ Senior Backend Software Engineer, Atlas AI
+ Senior Backend Software Engineer, Atlas AI
+ Cognite
+ Phoenix, AZ
+ 2 days ago
+ Similar Searches
+ Senior Data Engineer jobs
+ 78,076 open jobs
+ Big Data Developer jobs
+ 26,392 open jobs
+ Hadoop Developer jobs
+ 37,972 open jobs
+ ETL Developer jobs
+ 46,788 open jobs
+ Data Warehouse Engineer jobs
+ 39,476 open jobs
+ Analytical Engineer jobs
+ 7,971 open jobs
+ Data Architect jobs
+ 68,774 open jobs
+ Freelance Engineer jobs
+ 190 open jobs
+ Development Database Administrator jobs
+ 226,600 open jobs
+ ETL Specialist jobs
+ 219,897 open jobs
+ Database Software Engineer jobs
+ 224,263 open jobs
+ Engineer jobs
+ 555,845 open jobs
+ Business Intelligence Engineer jobs
+ 50,282 open jobs
+ Senior Data Warehouse Engineer jobs
+ 10,085 open jobs
+ Pipeline Engineer jobs
+ 39,469 open jobs
+ Teradata Developer jobs
+ 2,501 open jobs
+ Database Engineer jobs
+ 32,874 open jobs
+ Exhibit Coordinator jobs
+ 342 open jobs
+ Senior Solutions Developer jobs
+ 50,281 open jobs
+ SQL Developer jobs
+ 12,445 open jobs
+ Junior Engineer jobs
+ 52,722 open jobs
+ Assistant Produce Manager jobs
+ 3,091 open jobs
+ Data Modeler jobs
+ 263,457 open jobs
+ Data Analyst jobs
+ 329,009 open jobs
+ Senior Data Warehouse Architect jobs
+ 4,641 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Senior Data Engineer jobs
+ Big Data Developer jobs
+ Hadoop Developer jobs
+ ETL Developer jobs
+ Lakeland Care jobs
+ Data Warehouse Engineer jobs
+ Analytical Engineer jobs
+ Data Architect jobs
+ Freelance Engineer jobs
+ Development Database Administrator jobs
+ ETL Specialist jobs
+ Database Software Engineer jobs
+ Engineer jobs
+ Business Intelligence Engineer jobs
+ Senior Data Warehouse Engineer jobs
+ Pipeline Engineer jobs
+ Teradata Developer jobs
+ Database Engineer jobs
+ Exhibit Coordinator jobs
+ Senior Solutions Developer jobs
+ SQL Developer jobs
+ Junior Engineer jobs
+ Assistant Produce Manager jobs
+ Data Modeler jobs
+ Data Analyst jobs
+ Senior Data Warehouse Architect jobs
+ Senior Database Engineer jobs
+ Senior Peoplesoft Consultant jobs
+ ETL Consultant jobs
+ Scala jobs
+ Data Scientist jobs
+ Senior ETL Developer jobs
+ Data Warehouse Specialist jobs
+ Databricks jobs
+ Senior Data Architect jobs
+ Lead Data Architect jobs
+ Business Intelligence Developer jobs
+ The Toledo Clinic jobs
+ Scala Developer jobs
+ General Engineer jobs
+ Senior Business Intelligence Architect jobs
+ Senior System Test Engineer jobs
+ Microsoft Developer jobs
+ Aqua-Tots Swim School jobs
+ Data Warehouse Architect jobs
+ Software Configuration Engineer jobs
+ Data System Engineer jobs
+ Python Developer jobs
+ Data Science Specialist jobs
+ Machine Learning Engineer jobs
+ Scientist jobs
+ Data Warehouse Manager jobs
+ Diocese of Saint Petersburg jobs
+ Project Lead Developer jobs
+ Telecommunications Software Engineer jobs
+ Randall Reilly jobs
+ Processing Geophysicist jobs
+ Senior Database Developer jobs
+ Business Objects Consultant jobs
+ Middleware Engineer jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (Persian)
+ Suomi (Finnish)
+ Français (French)
+ हिंदी (Hindi)
+ Magyar (Hungarian)
+ Bahasa Indonesia (Indonesian)
+ Italiano (Italian)
+ עברית (Hebrew)
+ 日本語 (Japanese)
+ 한국어 (Korean)
+ मराठी (Marathi)
+ Bahasa Malaysia (Malay)
+ Nederlands (Dutch)
+ Norsk (Norwegian)
+ ਪੰਜਾਬੀ (Punjabi)
+ Polski (Polish)
+ Português (Portuguese)
+ Română (Romanian)
+ Русский (Russian)
+ Svenska (Swedish)
+ తెలుగు (Telugu)
+ ภาษาไทย (Thai)
+ Tagalog (Tagalog)
+ Türkçe (Turkish)
+ Українська (Ukrainian)
+ Tiếng Việt (Vietnamese)
+ 简体中文 (Chinese (Simplified))
+ 正體中文 (Chinese (Traditional))
+ Language
+ Agree & Join LinkedIn
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Join now to see who you already know at BAJ Consulting LLC
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .

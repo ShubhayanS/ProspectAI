@@ -1,0 +1,458 @@
+Jobright.ai hiring Data Scientist, Early Career in United States | LinkedIn
+ Skip to main content
+ LinkedIn
+ Data Scientist, Early Career in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Data Scientist, Early Career
+ Jobright.ai
+ United States
+ Data Scientist, Early Career
+ Jobright.ai
+ United States
+ 10 hours ago
+ Be among the first 25 applicants
+ See who Jobright.ai has hired for this role
+ No longer accepting applications
+ Report this job
+ Jobright is your personal AI job search agent that transforms the job search process into a fast, expert-guided journey. They are seeking an AI Engineer to build and scale business-facing AI agents, managing the entire lifecycle from prototype to production.
+ Why Join Us
+ Build real, production AI agents used by real users
+ High ownership and impact
+ Work at the intersection of AI, agents, and product
+ Shape how people experience AI-driven job search
+ Responsibilities
+ Develop and deploy predictive models and machine learning algorithms that power the core logic of our production AI agents
+ Experiment with and optimize Large Language Model (LLM) prompts, fine-tuning techniques, and RAG pipelines to improve agent performance and reliability
+ Perform deep-dive statistical analysis on user interaction data to identify patterns that drive product improvements and feature innovation
+ Monitor model performance and provide technical support during critical product iteration cycles
+ Qualification
+ Required
+ Recent graduate or entry-level professional (0–2 years of experience) with a degree in Data Science, Computer Science, Statistics, or a related quantitative field
+ Strong programming skills in Python and proficiency with machine learning libraries such as PyTorch, TensorFlow, or Scikit-learn
+ Practical understanding of LLM architectures, prompt engineering, and the evaluation of generative AI outputs
+ Excellent communication skills with the ability to articulate technical methodology and complex modeling results to the broader team
+ Must live in and be authorized to work in the United States
+ Preferred
+ Previous internship or research experience focused on Natural Language Processing (NLP), autonomous agents, or recommendation systems
+ Experience building and maintaining data pipelines and working with cloud infrastructure (AWS/GCP/Azure)
+ Strong technical foundation in SQL and database management for efficient data extraction and feature engineering
+ Show more
+ Show less
+ Seniority level
+ Entry level
+ Employment type
+ Full-time
+ Job function
+ Engineering
+ Industries
+ Software Development
+ Referrals increase your chances of interviewing at Jobright.ai by 2x
+ See who you know
+ Featured Benefits
+ Inferred from the description for this job
+ Medical insurance
+ Vision insurance
+ Dental insurance
+ 401(k)
+ Get notified about new Data Scientist jobs in United States .
+ Sign in to create job alert
+ Similar jobs
+ Software Engineer (All Levels)
+ Software Engineer (All Levels)
+ Fieldguide
+ San Francisco, CA
+ $150,000.00
+ -
+ $260,000.00
+ 6 months ago
+ Software Engineer (L4) - Personalization
+ Software Engineer (L4) - Personalization
+ Netflix
+ United States
+ 3 days ago
+ Software Engineer & Computer Science - Recent Grad/Full Time
+ Software Engineer & Computer Science - Recent Grad/Full Time
+ Honeywell
+ United States
+ 5 days ago
+ Software Engineer - New Grad
+ Software Engineer - New Grad
+ SeatGeek
+ New York, NY
+ 5 hours ago
+ Software Engineer (L5) - Experimentation Platform
+ Software Engineer (L5) - Experimentation Platform
+ Netflix
+ United States
+ 2 days ago
+ Software Engineer L4/L5, Model Serving Systems, Machine Learning Platform
+ Software Engineer L4/L5, Model Serving Systems, Machine Learning Platform
+ Netflix
+ United States
+ 4 days ago
+ Software Engineer - Open Connect Control Plane
+ Software Engineer - Open Connect Control Plane
+ Netflix
+ United States
+ 16 hours ago
+ Software Engineer (Remote)
+ Software Engineer (Remote)
+ The Home Depot
+ Austin, TX
+ $50,000.00
+ -
+ $130,000.00
+ 3 days ago
+ Software Engineer ($140K – $210K + Equity) at Ambrook
+ Software Engineer ($140K – $210K + Equity) at Ambrook
+ Jack & Jill
+ San Francisco, CA
+ 2 days ago
+ Software Engineer I
+ Software Engineer I
+ Ophelia
+ United States
+ 1 month ago
+ Software Engineer
+ Software Engineer
+ Microsoft
+ United States
+ 4 days ago
+ Software Engineer, Machine Learning
+ Software Engineer, Machine Learning
+ Meta
+ United States
+ $154,003.00
+ -
+ $217,000.00
+ 1 week ago
+ Software Engineer L4/L5 Training Platform, Machine Learning Platform
+ Software Engineer L4/L5 Training Platform, Machine Learning Platform
+ Netflix
+ United States
+ 4 days ago
+ Software Engineer 5 - Member, Commerce & Games Engineering
+ Software Engineer 5 - Member, Commerce & Games Engineering
+ Netflix
+ United States
+ 2 weeks ago
+ Software Engineer
+ Software Engineer
+ Check
+ New York, NY
+ 1 month ago
+ Software Engineer
+ Software Engineer
+ Check
+ San Francisco, CA
+ 1 month ago
+ Junior Software Engineer
+ Junior Software Engineer
+ hackajob
+ United States
+ $33,000.00
+ -
+ $63,000.00
+ 1 week ago
+ Software Engineer & Computer Science - Recent Grad/Full Time (US Person Required)
+ Software Engineer & Computer Science - Recent Grad/Full Time (US Person Required)
+ Honeywell
+ United States
+ 4 days ago
+ Software Engineer 4, N-Tech Systems Engineering
+ Software Engineer 4, N-Tech Systems Engineering
+ Netflix
+ United States
+ 6 days ago
+ Junior Software Engineer
+ Junior Software Engineer
+ ECFX
+ United States
+ 2 weeks ago
+ Software Engineer
+ Software Engineer
+ Deep Sky
+ Los Angeles, CA
+ 5 months ago
+ Software Engineer (L6) - Technical Catalog
+ Software Engineer (L6) - Technical Catalog
+ Netflix
+ United States
+ 4 days ago
+ Software Engineer L4/L5 - Data and Feature Infrastructure, Machine Learning Platform
+ Software Engineer L4/L5 - Data and Feature Infrastructure, Machine Learning Platform
+ Netflix
+ United States
+ 2 weeks ago
+ Software Development Engineer
+ Software Development Engineer
+ Zillow
+ United States
+ 3 days ago
+ Software Engineer
+ Software Engineer
+ Outschool
+ United States
+ 6 months ago
+ Software Engineer (New Grad) | Remote
+ Software Engineer (New Grad) | Remote
+ Crossing Hurdles
+ United States
+ $180,000.00
+ -
+ $250,000.00
+ 18 hours ago
+ Software Engineer, Frontend
+ Software Engineer, Frontend
+ Ramp
+ United States
+ $143,200.00
+ -
+ $284,000.00
+ 5 days ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Software Engineer
+ Software Engineer
+ Twilio
+ United States
+ 2 weeks ago
+ Graduate Software Engineer
+ Graduate Software Engineer
+ LetsGetChecked
+ United States
+ 4 days ago
+ Software Engineer
+ Software Engineer
+ Modern Treasury
+ New York, NY
+ $120,000.00
+ -
+ $240,000.00
+ 4 months ago
+ Full Stack Software Engineer - Growth
+ Full Stack Software Engineer - Growth
+ Substack
+ San Francisco, CA
+ 1 day ago
+ Software Engineer
+ Software Engineer
+ Socket
+ United States
+ 3 months ago
+ Software Engineer
+ Software Engineer
+ Hilo Aviation, Inc.
+ United States
+ 8 hours ago
+ Software Engineer (full-stack)
+ Software Engineer (full-stack)
+ Tines
+ New York, United States
+ 2 weeks ago
+ Software Engineer
+ Software Engineer
+ Microsoft
+ United States
+ 3 days ago
+ Security Software Engineer (L4), Detection Engineering
+ Security Software Engineer (L4), Detection Engineering
+ Netflix
+ United States
+ 1 week ago
+ Software Engineer
+ Software Engineer
+ Skio
+ San Francisco Bay Area
+ 7 months ago
+ Similar Searches
+ Scientist jobs
+ 48,969 open jobs
+ Data Science Specialist jobs
+ 2,441 open jobs
+ Junior Scientist jobs
+ 10,103 open jobs
+ Lead Scientist jobs
+ 14,164 open jobs
+ Senior Scientist jobs
+ 19,214 open jobs
+ Machine Learning Engineer jobs
+ 148,937 open jobs
+ Data Warehouse Project Manager jobs
+ 10,365 open jobs
+ Science Manager jobs
+ 15,298 open jobs
+ Senior Staff Scientist jobs
+ 6,754 open jobs
+ Staff Geophysicist jobs
+ 106 open jobs
+ Data Analyst jobs
+ 329,009 open jobs
+ Assistant City Engineer jobs
+ 18,090 open jobs
+ Principal Geophysicist jobs
+ 64 open jobs
+ Senior Information Developer jobs
+ 1,040 open jobs
+ Director Data Science jobs
+ 4,457 open jobs
+ Pathology Resident jobs
+ 609 open jobs
+ Statistician jobs
+ 20,674 open jobs
+ Biostatistician jobs
+ 21,103 open jobs
+ Regional Risk Manager jobs
+ 3,488 open jobs
+ Data Mining Specialist jobs
+ 24,616 open jobs
+ Bioinformatician jobs
+ 18,406 open jobs
+ Algorithm Developer jobs
+ 1,195 open jobs
+ Senior Integration Specialist jobs
+ 49,775 open jobs
+ Statistical Researcher jobs
+ 1,534 open jobs
+ Principal Scientist jobs
+ 11,010 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Century Park Associates jobs
+ Scientist jobs
+ Data Science Specialist jobs
+ Junior Scientist jobs
+ Lead Scientist jobs
+ Senior Scientist jobs
+ Machine Learning Engineer jobs
+ Total Education Solutions jobs
+ Data Warehouse Project Manager jobs
+ Science Manager jobs
+ Security Alliance jobs
+ Senior Staff Scientist jobs
+ Staff Geophysicist jobs
+ Data Analyst jobs
+ Assistant City Engineer jobs
+ Principal Geophysicist jobs
+ Telamon Corporation jobs
+ Senior Information Developer jobs
+ Director Data Science jobs
+ Bureau of Economic Analysis jobs
+ Pathology Resident jobs
+ Statistician jobs
+ Biostatistician jobs
+ Regional Risk Manager jobs
+ Data Mining Specialist jobs
+ Bioinformatician jobs
+ Algorithm Developer jobs
+ Senior Integration Specialist jobs
+ Statistical Researcher jobs
+ Principal Scientist jobs
+ Data Engineer jobs
+ Saving Sight jobs
+ Quantitative Researcher jobs
+ Computational Biologist jobs
+ Perceptron jobs
+ Science Specialist jobs
+ Jacksonville Zoo and Botanical Gardens jobs
+ Senior Bioinformatics Scientist jobs
+ Principal Statistician jobs
+ Quantitative Analyst jobs
+ Senior Business Analyst Contract jobs
+ Senior Mechanical Project Engineer jobs
+ Research Scientist jobs
+ Bioinformatics Specialist jobs
+ Research Statistician jobs
+ Signal Processing Engineer jobs
+ Information Assurance Engineer jobs
+ Intelligence Specialist jobs
+ Geospatial Analyst jobs
+ Scout Talent jobs
+ Computational Scientist jobs
+ Bioinformatics Analyst jobs
+ Physical Scientist jobs
+ Processing Geophysicist jobs
+ Statistical Assistant jobs
+ Joomla Developer jobs
+ Senior Statistical Programmer jobs
+ Computational Chemist jobs
+ Personal Capital jobs
+ Analyst jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (Persian)
+ Suomi (Finnish)
+ Français (French)
+ हिंदी (Hindi)
+ Magyar (Hungarian)
+ Bahasa Indonesia (Indonesian)
+ Italiano (Italian)
+ עברית (Hebrew)
+ 日本語 (Japanese)
+ 한국어 (Korean)
+ मराठी (Marathi)
+ Bahasa Malaysia (Malay)
+ Nederlands (Dutch)
+ Norsk (Norwegian)
+ ਪੰਜਾਬੀ (Punjabi)
+ Polski (Polish)
+ Português (Portuguese)
+ Română (Romanian)
+ Русский (Russian)
+ Svenska (Swedish)
+ తెలుగు (Telugu)
+ ภาษาไทย (Thai)
+ Tagalog (Tagalog)
+ Türkçe (Turkish)
+ Українська (Ukrainian)
+ Tiếng Việt (Vietnamese)
+ 简体中文 (Chinese (Simplified))
+ 正體中文 (Chinese (Traditional))
+ Language
+ Agree & Join LinkedIn
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to see who you already know at Jobright.ai
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .

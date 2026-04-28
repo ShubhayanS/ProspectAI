@@ -1,0 +1,424 @@
+HiddenLayer hiring Data Scientist in United States | LinkedIn
+ Skip to main content
+ LinkedIn
+ Data Scientist in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Data Scientist
+ HiddenLayer
+ United States
+ Apply
+ Data Scientist
+ HiddenLayer
+ United States
+ 3 hours ago
+ 160 applicants
+ See who HiddenLayer has hired for this role
+ Apply
+ Save
+ Report this job
+ Use AI to assess how you fit
+ Get AI-powered advice on this job and more exclusive features.
+ Am I a good fit for this job?
+ Tailor my resume
+ Sign in to access AI-powered advices
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to evaluate your skills
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to tailor your resume
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Remote [within the US]
+ About The Role
+ We're looking for a Data Scientist to join our Data Sciences and ML Engineering team. You'll be building, shipping, and improving the models and LLM-powered systems that sit at the core of our security products — the pieces that make the difference between a tool that flags noise and one that helps defenders find what matters.
+This is a hands-on role on a small, focused team. You'll have real ownership over the models and pipelines you build, close collaboration with engineering and product, and the runway to go deep on the hard problems.
+ Who We Are
+ HiddenLayer protects the world’s most valuable technologies from adversarial AI attacks. We were founded by AI professionals and security specialists with first-hand experience of how insidious adversarial AI attacks can be to detect and defend against. Determined to prove that these attacks were preventable, the team developed a unique, patent-pending, productized solution to support organizations in accelerating their adoption of AI securely.
+Our dedication to innovation has been recognized by prestigious awards such as RSA's Innovation Sandbox Winner, CB Insights AI 100, CyberTech 100, and SC's Most Promising Early-Stage Start-up.
+ What You’ll Do
+ Security is a domain where the adversary is adaptive, the signal is rare, and the cost of a miss is real. That makes for interesting modeling problems — ones where off-the-shelf approaches rarely carry you the whole way, and where careful research, solid experimentation, and production rigor each matter for our success.
+ Your Work Will Span a Few Areas
+ Model development and research. Building classifiers, detectors, and scoring models on messy, high-stakes security data. Designing experiments, evaluating trade-offs, and iterating on architectures — not just hyperparameters.
+ LLM agent systems. Shaping the prompts, context, tool-use patterns, and supporting content that drive our LLM agents.
+ Production delivery. Shipping models behind real traffic, monitoring them, and improving them over time.
+ Evaluation and iteration. Building the evaluation harnesses and feedback loops that let us know whether a change is actually an improvement — often the hardest part of the work. Our models only improve for customers when our evaluations highlight what really matters.
+ Who You Are
+ Production experience is the single most important thing. We'd like to see around 3–4+ years of experience delivering models into production environments where they've had to perform, be maintained, and evolve. That's the background that tends to set people up for success here.
+ Beyond That
+ Depth in ML fundamentals. You understand model architectures and can reason about why a given approach is or isn't a good fit for a problem. You've moved well past treating models as black boxes and past tuning that stops at sample weights and decision thresholds.
+ Willingness to experiment. You're comfortable trying genuinely novel approaches when the standard playbook runs out, and you can tell the difference between a promising result and a fragile one.
+ Strong engineering instincts. Your code is something teammates can read, extend, and trust in production. You think about reproducibility, testing, and handoff — not just whether something runs on your laptop.
+ Experience with LLMs in practice. You've worked with LLM-based systems in some real capacity — prompting, context design, tool use, evaluation, or fine-tuning — and have opinions shaped by actually shipping things.
+ Comfort with ambiguity. Security problems rarely come with clean labels or clean data. You're able to frame problems, scope them, and make progress without a fully paved path. You’ll help highlight ambiguity and reason about how to make progress even when humans don’t all agree on one single answer.
+ An advanced degree (MS or PhD) in a technical discipline. This doesn't have to be in data science or ML specifically — strong backgrounds in CS, statistics, physics, math, engineering, and related fields are all welcome. Your on-the-job experience is what matters the most.
+ We want to be upfront about research and publications: while we're supportive of engagement with the broader research community, our team's focus is firmly on shipping. Publishing papers and attending conferences can absolutely happen, but they aren't the center of gravity of the role. If your primary goal is academic output, this probably isn't the best fit — and we'd rather say that clearly than have it be a surprise.
+ WHY HIDDENLAYER?
+ We’re moving at (what feels like) the speed of light. HiddenLayer is a venture-backed company and recently closed a $50M funding round led by M12, Microsoft’s Venture Fund, and Moore Strategic Ventures.
+ Benefits
+ Attracting and retaining the very best people is our #1 priority. That’s why we offer our team best-in-class benefits, including:
+ Fully Remote: We are a completely remote global team. Though we’re distributed, we are intentional about getting the team together a couple of times a year. We offer a generous stipend for your home office setup, annual upgrades to ensure you have a comfortable workspace and a monthly stipend for internet/phone expenses.
+ Comprehensive Health & Wellness Benefits: Better than your average startup healthcare benefits. With five options to choose from, of which are fully subsidized by HiddenLayer, we offer a variety of options to fit each person’s needs. We also offer vision, dental, and 401k offerings.
+ Flexible Time Off: Enjoy unlimited and flexible time off for all salaried employees, in addition to 15 paid company holidays.
+ Commitment to Learning and Development: We support personal growth and education through a dedicated L&D fund that can be used for training, conferences, certifications and industry events.
+ Diversity, Equity, and Inclusion: We are committed to building a diverse team with individuals from various backgrounds, experiences, abilities, and perspectives, and we are proud to be an equal opportunity employer.
+ To learn more about HiddenLayer visit HiddenLayer and follow us on LinkedIn or Twitter.
+HiddenLayer is an Equal Opportunity/Affirmative Action employer. All qualified applicants will receive consideration for employment without regard to sex, race, color, religion, national origin, age, marital status, political affiliation, sexual orientation, gender identity, genetic information, disability or protected veteran status. We are committed to providing a workplace free of any discrimination or harassment.
+ Show more
+ Show less
+ Seniority level
+ Mid-Senior level
+ Employment type
+ Full-time
+ Job function
+ Engineering and Information Technology
+ Industries
+ Computer and Network Security
+ Referrals increase your chances of interviewing at HiddenLayer by 2x
+ See who you know
+ Get notified about new Data Scientist jobs in United States .
+ Sign in to create job alert
+ Similar jobs
+ Data Science Intern
+ Data Science Intern
+ Airbnb
+ United States
+ 5 days ago
+ Data Scientist (L5) - Cloud Games Quality of Experience
+ Data Scientist (L5) - Cloud Games Quality of Experience
+ Netflix
+ United States
+ 3 days ago
+ Data Scientist (L5) - Content Understanding
+ Data Scientist (L5) - Content Understanding
+ Netflix
+ United States
+ 2 weeks ago
+ Data Scientist, Product Analytics
+ Data Scientist, Product Analytics
+ Meta
+ United States
+ $147,000.00
+ -
+ $208,000.00
+ 1 week ago
+ Machine Learning Engineer / Data Scientist
+ Machine Learning Engineer / Data Scientist
+ Fusemachines
+ New York, NY
+ 3 months ago
+ Data Scientist
+ Data Scientist
+ Cint
+ United States
+ 1 week ago
+ Data Scientist (Stata) | Remote
+ Data Scientist (Stata) | Remote
+ Crossing Hurdles
+ United States
+ $20.00
+ -
+ $100.00
+ 6 days ago
+ Data Scientist 5 - Member Value Research
+ Data Scientist 5 - Member Value Research
+ Netflix
+ United States
+ 4 days ago
+ Data Scientist 4/5 - Identity DSE
+ Data Scientist 4/5 - Identity DSE
+ Netflix
+ United States
+ 2 weeks ago
+ Data Scientist, Product Analytics
+ Data Scientist, Product Analytics
+ Meta
+ United States
+ $177,000.00
+ -
+ $247,000.00
+ 1 week ago
+ Data Scientist (L5) - Content Promotion & Discovery Performance
+ Data Scientist (L5) - Content Promotion & Discovery Performance
+ Netflix
+ United States
+ 1 day ago
+ Jr. Data Scientist
+ Jr. Data Scientist
+ Why Hiring
+ United States
+ 15 hours ago
+ Senior Machine Learning Engineer
+ Senior Machine Learning Engineer
+ RAZOR
+ Reston, VA
+ $150,000.00
+ -
+ $180,000.00
+ 6 days ago
+ Data Scientist
+ Data Scientist
+ Angel
+ Provo, UT
+ $110,000.00
+ -
+ $130,000.00
+ 10 hours ago
+ Data Scientist
+ Data Scientist
+ Zest AI
+ United States
+ 2 weeks ago
+ Data Scientist (Remote)
+ Data Scientist (Remote)
+ Elder Research
+ United States
+ 3 days ago
+ Data Scientist, Ads
+ Data Scientist, Ads
+ Reddit, Inc.
+ United States
+ 2 weeks ago
+ Data Scientist
+ Data Scientist
+ Attune
+ New York, NY
+ 2 weeks ago
+ Data Scientist, All Levels
+ Data Scientist, All Levels
+ Ramp
+ United States
+ $137,120.00
+ -
+ $297,330.00
+ 5 days ago
+ Data Scientist
+ Data Scientist
+ Ford Motor Company
+ United States
+ 1 week ago
+ Data Scientist, Research
+ Data Scientist, Research
+ Dstillery
+ New York, NY
+ 3 months ago
+ Data Scientist L6 - Games Portfolio
+ Data Scientist L6 - Games Portfolio
+ Netflix
+ United States
+ 2 weeks ago
+ Data Scientist
+ Data Scientist
+ Analytica
+ Bethesda, MD
+ 4 weeks ago
+ Data Scientist
+ Data Scientist
+ Electrosoft
+ United States
+ 2 weeks ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Data Scientist, Support
+ Data Scientist, Support
+ OpenAI
+ San Francisco, CA
+ 2 weeks ago
+ Data Scientist 5 - Ads Experimentation
+ Data Scientist 5 - Ads Experimentation
+ Netflix
+ United States
+ 1 week ago
+ Data Scientist 5- Evolving Core Metrics
+ Data Scientist 5- Evolving Core Metrics
+ Netflix
+ United States
+ 2 weeks ago
+ Data Scientist 5, Experimentation Platform
+ Data Scientist 5, Experimentation Platform
+ Netflix
+ Los Gatos, CA
+ 4 days ago
+ Data Scientist, New Grad
+ Data Scientist, New Grad
+ SentiLink
+ New York, NY
+ 5 days ago
+ Data Scientist | $80/hr Remote
+ Data Scientist | $80/hr Remote
+ Crossing Hurdles
+ United States
+ $30.00
+ -
+ $80.00
+ 3 weeks ago
+ Machine Learning (ML) Engineer
+ Machine Learning (ML) Engineer
+ Vectara
+ San Francisco, CA
+ 1 month ago
+ Data Scientist
+ Data Scientist
+ Convey Health Solutions
+ United States
+ 2 weeks ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Twilio
+ United States
+ 3 days ago
+ Data Scientist
+ Data Scientist
+ Electrosoft
+ Atlanta, GA
+ 2 weeks ago
+ Similar Searches
+ Scientist jobs
+ 48,969 open jobs
+ Data Science Specialist jobs
+ 2,441 open jobs
+ Junior Scientist jobs
+ 10,103 open jobs
+ Lead Scientist jobs
+ 14,164 open jobs
+ Senior Scientist jobs
+ 19,214 open jobs
+ Machine Learning Engineer jobs
+ 148,937 open jobs
+ Data Warehouse Project Manager jobs
+ 10,365 open jobs
+ Science Manager jobs
+ 15,298 open jobs
+ Senior Staff Scientist jobs
+ 6,754 open jobs
+ Staff Geophysicist jobs
+ 106 open jobs
+ Data Analyst jobs
+ 329,009 open jobs
+ Assistant City Engineer jobs
+ 18,090 open jobs
+ Principal Geophysicist jobs
+ 64 open jobs
+ Senior Information Developer jobs
+ 1,040 open jobs
+ Director Data Science jobs
+ 4,457 open jobs
+ Pathology Resident jobs
+ 609 open jobs
+ Statistician jobs
+ 20,674 open jobs
+ Biostatistician jobs
+ 21,103 open jobs
+ Regional Risk Manager jobs
+ 3,488 open jobs
+ Data Mining Specialist jobs
+ 24,616 open jobs
+ Bioinformatician jobs
+ 18,406 open jobs
+ Algorithm Developer jobs
+ 1,195 open jobs
+ Senior Integration Specialist jobs
+ 49,775 open jobs
+ Statistical Researcher jobs
+ 1,534 open jobs
+ Principal Scientist jobs
+ 11,010 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Century Park Associates jobs
+ Scientist jobs
+ Data Science Specialist jobs
+ Junior Scientist jobs
+ Lead Scientist jobs
+ Senior Scientist jobs
+ Machine Learning Engineer jobs
+ Total Education Solutions jobs
+ Data Warehouse Project Manager jobs
+ Science Manager jobs
+ Security Alliance jobs
+ Senior Staff Scientist jobs
+ Staff Geophysicist jobs
+ Data Analyst jobs
+ Assistant City Engineer jobs
+ Principal Geophysicist jobs
+ Telamon Corporation jobs
+ Senior Information Developer jobs
+ Director Data Science jobs
+ Bureau of Economic Analysis jobs
+ Pathology Resident jobs
+ Statistician jobs
+ Biostatistician jobs
+ Regional Risk Manager jobs
+ Data Mining Specialist jobs
+ Bioinformatician jobs
+ Algorithm Developer jobs
+ Senior Integration Specialist jobs
+ Statistical Researcher jobs
+ Principal Scientist jobs
+ Data Engineer jobs
+ Saving Sight jobs
+ Quantitative Researcher jobs
+ Computational Biologist jobs
+ Perceptron jobs
+ Science Specialist jobs
+ Jacksonville Zoo and Botanical Gardens jobs
+ Senior Bioinformatics Scientist jobs
+ Principal Statistician jobs
+ Quantitative Analyst jobs
+ Senior Business Analyst Contract jobs
+ Senior Mechanical Project Engineer jobs
+ Research Scientist jobs
+ Bioinformatics Specialist jobs
+ Research Statistician jobs
+ Signal Processing Engineer jobs
+ Information Assurance Engineer jobs
+ Intelligence Specialist jobs
+ Geospatial Analyst jobs
+ Scout Talent jobs
+ Computational Scientist jobs
+ Bioinformatics Analyst jobs
+ Physical Scientist jobs
+ Processing Geophysicist jobs
+ Statistical Assistant jobs
+ Joomla Developer jobs
+ Senior Statistical Programmer jobs
+ Computational Chemist jobs
+ Personal Capital j

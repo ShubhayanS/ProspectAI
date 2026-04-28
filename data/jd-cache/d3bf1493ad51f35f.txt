@@ -1,0 +1,498 @@
+TikTok hiring Data Scientist - TikTok Ads in Seattle, WA | LinkedIn
+ Skip to main content
+ LinkedIn
+ Data Scientist - TikTok Ads in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Data Scientist - TikTok Ads
+ TikTok
+ Seattle, WA
+ Apply
+ Data Scientist - TikTok Ads
+ TikTok
+ Seattle, WA
+ 1 day ago
+ Over 200 applicants
+ See who TikTok has hired for this role
+ Apply
+ Save
+ Report this job
+ Use AI to assess how you fit
+ Get AI-powered advice on this job and more exclusive features.
+ Am I a good fit for this job?
+ Tailor my resume
+ Sign in to access AI-powered advices
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to evaluate your skills
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to tailor your resume
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Responsibilities
+ About The TikTok Monetization Product Data Science Team
+We're the TikTok Monetization Products data science team, who enables and champions data driven decision making. Our Vision is to become the world class data science team, where data is used rigorously to drive all decision making. Our Mission is to drive monetization and sustainable revenue growth for TikTok through data science.
+Responsibilities：
+1. Work with large, complex data sets. Solve difficult, non-routine analysis problems, applying advanced analytical methods as needed. Conduct analysis that includes data gathering and requirements specification, processing, analysis, ongoing deliverables, and presentations.
+2. Build and prototype analysis pipelines iteratively to provide insights at scale.
+3. Develop comprehensive knowledge of Tiktok data structures and metrics, advocating for changes where needed for product development.
+Interact cross-functionally, making business recommendations (e.g., cost-benefit, forecasting, experiment analysis) with effective presentations of findings at multiple levels of stakeholders through visual displays of quantitative information.
+4. Research and develop analysis, forecasting, and optimization methods to improve the quality of TikTok ads products.
+ Qualifications
+ Minimum Qualifications:
+- Master's degree in a quantitative discipline (e.g., Statistics, Operations Research,
+- Economics, Computer Science, Mathematics, Physics) or equivalent practical experience.
+- Expertise with statistical data analysis such as linear models, multivariate analysis, stochastic models, sampling methods.
+- Experience with statistical software (e.g. R, Python, MATLAB) and database languages (e.g. SQL)
+Preferred Qualifications:
+- Demonstrated leadership and self-direction. Willingness to both teach others and learn new techniques.
+-Demonstrated skills in selecting the right statistical tools given a data analysis problem. Effective written and verbal communication skills.
+ About TikTok
+ TikTok is the leading destination for short-form mobile video. At TikTok, our mission is to inspire creativity and bring joy. TikTok's global headquarters are in Los Angeles and Singapore, and we also have offices in New York City, London, Dublin, Paris, Berlin, Dubai, Jakarta, Seoul, and Tokyo.​
+ Why Join Us
+ Inspiring creativity is at the core of TikTok's mission. Our innovative product is built to help people authentically express themselves, discover and connect – and our global, diverse teams make that possible. Together, we create value for our communities, inspire creativity and bring joy - a mission we work towards every day.​
+We strive to do great things with great people. We lead with curiosity, humility, and a desire to make impact in a rapidly growing tech company. Every challenge is an opportunity to learn and innovate as one team. We're resilient and embrace challenges as they come. By constantly iterating and fostering an "Always Day 1" mindset, we achieve meaningful breakthroughs for ourselves, our company, and our users. When we create and grow together, the possibilities are limitless. Join us.​
+​
+Diversity & Inclusion​
+TikTok is committed to creating an inclusive space where employees are valued for their skills, experiences, and unique perspectives. Our platform connects people from across the globe and so does our workplace. At TikTok, our mission is to inspire creativity and bring joy. To achieve that goal, we are committed to celebrating our diverse voices and to creating an environment that reflects the many communities we reach. We are passionate about this and hope you are too.​
+ TikTok Accommodation
+ TikTok is committed to providing reasonable accommodations in our recruitment processes for candidates with disabilities, pregnancy, sincerely held religious beliefs or other reasons protected by applicable laws. If you need assistance or a reasonable accommodation, please reach out to us at https://tinyurl.com/RA-request​
+ Job Information
+ 【For Pay Transparency】Compensation Description (Annually)
+The base salary range for this position in the selected city is $170240 - $277970 annually.​
+Compensation may vary outside of this range depending on a number of factors, including a candidate’s qualifications, skills, competencies and experience, and location. Base pay is one part of the Total Package that is provided to compensate and recognize employees for their work, and this role may be eligible for additional discretionary bonuses/incentives, and restricted stock units.​
+Benefits may vary depending on the nature of employment and the country work location. Employees have day one access to medical, dental, and vision insurance, a 401(k) savings plan with company match, paid parental leave, short-term and long-term disability coverage, life insurance, wellbeing benefits, among others. Employees also receive 10 paid holidays per year, 10 paid sick days per year and 17 days of Paid Personal Time (prorated upon hire with increasing accruals by tenure).​
+The Company reserves the right to modify or change these benefits programs at any time, with or without notice.​
+For Los Angeles County (unincorporated) Candidates:​
+Qualified applicants with arrest or conviction records will be considered for employment in accordance with all federal, state, and local laws including the Los Angeles County Fair Chance Ordinance for Employers and the California Fair Chance Act. Our company believes that criminal history may have a direct, adverse and negative relationship on the following job duties, potentially resulting in the withdrawal of the conditional offer of employment:​
+1. Interacting and occasionally having unsupervised contact with internal/external clients and/or colleagues;​
+2. Appropriately handling and managing confidential information including proprietary and trade secret information and access to information technology systems; and​
+3. Exercising sound judgment.​
+ Show more
+ Show less
+ Seniority level
+ Mid-Senior level
+ Employment type
+ Full-time
+ Job function
+ Engineering and Information Technology
+ Industries
+ Technology, Information and Internet
+ Referrals increase your chances of interviewing at TikTok by 2x
+ See who you know
+ Get notified about new Data Scientist jobs in Seattle, WA .
+ Sign in to create job alert
+ Similar jobs
+ Machine Learning Scientist (L4) - Content & Conversation Modeling
+ Machine Learning Scientist (L4) - Content & Conversation Modeling
+ Netflix
+ Seattle, WA
+ 2 weeks ago
+ Data Scientist
+ Data Scientist
+ Opendoor
+ Seattle, WA
+ 6 days ago
+ Data Scientist, Product Analytics
+ Data Scientist, Product Analytics
+ Meta
+ Redmond, WA
+ $147,000.00
+ -
+ $208,000.00
+ 1 week ago
+ Data Scientist
+ Data Scientist
+ Capgemini
+ Seattle, WA
+ $70,000.00
+ -
+ $110,000.00
+ 4 hours ago
+ Data Scientist
+ Data Scientist
+ Ascendion
+ Redmond, WA
+ $145,600.00
+ -
+ $166,400.00
+ 7 hours ago
+ Data Scientist, Product Analytics
+ Data Scientist, Product Analytics
+ Meta
+ Seattle, WA
+ $177,000.00
+ -
+ $247,000.00
+ 1 week ago
+ Data Scientist, Product Analytics
+ Data Scientist, Product Analytics
+ Meta
+ Seattle, WA
+ $147,000.00
+ -
+ $208,000.00
+ 1 week ago
+ Data Scientist
+ Data Scientist
+ Ascendion
+ Redmond, WA
+ 3 days ago
+ Data Scientist, Product Analytics
+ Data Scientist, Product Analytics
+ Meta
+ Bellevue, WA
+ $147,000.00
+ -
+ $208,000.00
+ 1 week ago
+ Data Scientist, New Grad
+ Data Scientist, New Grad
+ SentiLink
+ Seattle, WA
+ 5 days ago
+ Data Scientist, Algorithms, Optimization - Fulfillment
+ Data Scientist, Algorithms, Optimization - Fulfillment
+ Lyft
+ Seattle, WA
+ 1 week ago
+ Data Scientist
+ Data Scientist
+ Ascendion
+ Redmond, WA
+ $166,000.00
+ -
+ $176,000.00
+ 3 days ago
+ Data Scientist
+ Data Scientist
+ SIDRAM TECHNOLOGIES
+ Seattle, WA
+ 4 weeks ago
+ Data Scientist - Marketing Analytics
+ Data Scientist - Marketing Analytics
+ Ascendion
+ Redmond, WA
+ $160,000.00
+ -
+ $180,000.00
+ 3 days ago
+ Data Scientist - Data-Driven Global Investment Firm
+ Data Scientist - Data-Driven Global Investment Firm
+ Andiamo
+ Seattle, WA
+ 1 week ago
+ Applied Machine Learning Engineer
+ Applied Machine Learning Engineer
+ IUNU
+ Seattle, WA
+ 4 months ago
+ Data Scientist II
+ Data Scientist II
+ Microsoft
+ Redmond, WA
+ 2 weeks ago
+ Data Scientist (Infrastructure Diagnostics)
+ Data Scientist (Infrastructure Diagnostics)
+ Phaidra
+ Seattle, WA
+ 4 days ago
+ Data Scientist
+ Data Scientist
+ Stackline
+ Seattle, WA
+ 1 day ago
+ Data Scientist
+ Data Scientist
+ Agility Partners
+ Redmond, WA
+ $80.00
+ -
+ $85.00
+ 4 days ago
+ Data Scientist, Products & Applied Research
+ Data Scientist, Products & Applied Research
+ Meta
+ Seattle, WA
+ $177,000.00
+ -
+ $247,000.00
+ 1 week ago
+ AI Scientist Internship
+ AI Scientist Internship
+ Wyze
+ Kirkland, WA
+ 2 months ago
+ Data Scientist
+ Data Scientist
+ Superhuman
+ Seattle, WA
+ $225,000.00
+ -
+ $275,000.00
+ 6 hours ago
+ Data Scientist - Digital Data Science - Hybrid - Seattle, WA
+ Data Scientist - Digital Data Science - Hybrid - Seattle, WA
+ Nordstrom
+ Seattle, WA
+ 5 days ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Vilya
+ Seattle, WA
+ 1 month ago
+ Software Engineer
+ Software Engineer
+ Microsoft
+ Redmond, WA
+ 4 days ago
+ Scientist II, Uber Direct
+ Scientist II, Uber Direct
+ Uber
+ Seattle, WA
+ 1 week ago
+ Data Scientist (contract)
+ Data Scientist (contract)
+ Microsoft
+ Redmond, WA
+ 4 days ago
+ Data Scientist, Global E-commerce
+ Data Scientist, Global E-commerce
+ TikTok
+ Seattle, WA
+ 3 weeks ago
+ senior decision scientist
+ senior decision scientist
+ Starbucks
+ Seattle, WA
+ $130,300.00
+ -
+ $217,400.00
+ 4 days ago
+ Data Scientist, Prime Air
+ Data Scientist, Prime Air
+ Amazon Science
+ Seattle, WA
+ 2 days ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ MORSE Corp
+ Seattle, WA
+ 2 weeks ago
+ Data Scientist
+ Data Scientist
+ BCforward
+ Redmond, WA
+ $80.00
+ -
+ $85.00
+ 4 days ago
+ Data Scientist
+ Data Scientist
+ TALENT Software Services
+ Redmond, WA
+ $70.00
+ -
+ $85.00
+ 4 days ago
+ Similar Searches
+ Senior Food Scientist jobs
+ 233 open jobs
+ Economic Consultant jobs
+ 1,719 open jobs
+ Associate Scientist jobs
+ 19,864 open jobs
+ Policy Manager jobs
+ 53,633 open jobs
+ Data Scientist jobs
+ 264,158 open jobs
+ Investigations Specialist jobs
+ 23,939 open jobs
+ Junior Scientist jobs
+ 10,103 open jobs
+ Business Data Analyst jobs
+ 65,569 open jobs
+ Quantitative Researcher jobs
+ 11,570 open jobs
+ Intelligence Specialist jobs
+ 7,156 open jobs
+ Scientist jobs
+ 48,969 open jobs
+ Data Science Specialist jobs
+ 2,441 open jobs
+ Data Analyst jobs
+ 329,009 open jobs
+ Economist jobs
+ 185,268 open jobs
+ Machine Learning Engineer jobs
+ 148,937 open jobs
+ Postdoctoral Researcher jobs
+ 7,268 open jobs
+ Summer Intern jobs
+ 23,466 open jobs
+ Marketing Analyst jobs
+ 73,086 open jobs
+ PHD jobs
+ 111,034 open jobs
+ Analyst jobs
+ 694,057 open jobs
+ Intern jobs
+ 71,196 open jobs
+ Operational Risk Analyst jobs
+ 9,188 open jobs
+ Engineer jobs
+ 555,845 open jobs
+ Design Analyst jobs
+ 22,395 open jobs
+ Regional Marketing Specialist jobs
+ 26,511 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Reily Foods Company jobs
+ Senior Food Scientist jobs
+ Economic Consultant jobs
+ Associate Scientist jobs
+ Oxford Economics jobs
+ Policy Manager jobs
+ Data Scientist jobs
+ S-E-A jobs
+ TikTok jobs
+ Academy Sports + Outdoors jobs
+ Investigations Specialist jobs
+ L.E.K. Consulting jobs
+ GlobalFoundries jobs
+ Junior Scientist jobs
+ WEX jobs
+ Business Data Analyst jobs
+ Quantitative Researcher jobs
+ WHOOP jobs
+ Nationwide Children's Hospital jobs
+ Intelligence Specialist jobs
+ Robinhood jobs
+ Seattle Children's jobs
+ New York State Department of Health jobs
+ Cummins Inc. jobs
+ Scientist jobs
+ Data Science Specialist jobs
+ Jacobs jobs
+ Huawei jobs
+ Fred Hutch jobs
+ Data Analyst jobs
+ Economist jobs
+ Pearson jobs
+ Wells Fargo jobs
+ Coca-Cola Beverages Florida jobs
+ Machine Learning Engineer jobs
+ Aon jobs
+ Postdoctoral Researcher jobs
+ Summer Intern jobs
+ Marketing Analyst jobs
+ Uber jobs
+ PHD jobs
+ Analyst jobs
+ Intern jobs
+ IQVIA jobs
+ Genentech jobs
+ Mayo Clinic jobs
+ Operational Risk Analyst jobs
+ Netflix jobs
+ Accenture jobs
+ Coinbase jobs
+ Engineer jobs
+ Design Analyst jobs
+ Regional Marketing Specialist jobs
+ Amazon jobs
+ Software Engineer jobs
+ Economic Analyst jobs
+ Investment Analyst jobs
+ Lawrence Livermore National Laboratory jobs
+ Visa jobs
+ Clinical Professor jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (Persian)
+ Suomi (Finnish)
+ Français (French)
+ हिंदी (Hindi)
+ Magyar (Hungarian)
+ Bahasa Indonesia (Indonesian)
+ Italiano (Italian)
+ עברית (Hebrew)
+ 日本語 (Japanese)
+ 한국어 (Korean)
+ मराठी (Marathi)
+ Bahasa Malaysia (Malay)
+ Nederlands (Dutch)
+ Norsk (Norwegian)
+ ਪੰਜਾਬੀ (Punjabi)
+ Polski (Polish)
+ Português (Portuguese)
+ Română (Romanian)
+ Русский (Russian)
+ Svenska (Swedish)
+ తెలుగు (Telugu)
+ ภาษาไทย (Thai)
+ Tagalog (Tagalog)
+ Türkçe (Turkish)
+ Українська (Ukrainian)
+ Tiếng Việt (Vietnamese)
+ 简体中文 (Chinese (Simplified))
+ 正體中

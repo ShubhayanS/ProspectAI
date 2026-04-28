@@ -1,0 +1,220 @@
+Initialized Capital hiring Applied AI Engineer, Product & GTM in San Francisco, CA | LinkedIn
+ Skip to main content
+ LinkedIn
+ Applied AI Engineer, Product & GTM in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Join now
+ Sign in
+ Applied AI Engineer, Product & GTM
+ Initialized Capital
+ San Francisco, CA
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Applied AI Engineer, Product & GTM role at Initialized Capital
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Applied AI Engineer, Product & GTM
+ Initialized Capital
+ San Francisco, CA
+ 8 hours ago
+ 105 applicants
+ See who Initialized Capital has hired for this role
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Applied AI Engineer, Product & GTM role at Initialized Capital
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Save
+ Report this job
+ Use AI to assess how you fit
+ Get AI-powered advice on this job and more exclusive features.
+ Am I a good fit for this job?
+ Tailor my resume
+ Sign in to access AI-powered advices
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to evaluate your skills
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to tailor your resume
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Location
+San Francisco
+Employment Type
+Full time
+Location Type
+On-site
+Department
+Product & GTM
+ Compensation
+ $200K – $240K
+ OverviewApplication
+ About Sygaldry
+ Sygaldry Technologies is building quantum-accelerated AI servers to exponentially speed up training and inference for AI. By integrating quantum and AI, we're accelerating the path to superintelligence, and addressing the problem of rising compute costs and energy bottlenecks. Sygaldry AI servers combine multiple qubit types within a single, fault-tolerant architecture to deliver the combination of cost, scale, and speed necessary for advanced AI applications. We pioneer new domains in physics, engineering, and AI, tackling the hardest challenges with a grounded, optimistic, and rigorous culture. We're looking for individuals ready to define the intersection of quantum and AI and drive its profound global impact.
+ About The Role
+ Our teams work closely together, research scientists developing quantum algorithms, systems engineers building the product, and a GTM team engaging frontier labs and industry partners. This role is the technical thread that runs through all of them. You'll work with the AI & Algorithms team to understand what the research produces, with the product and systems teams to shape simulation requirements and architecture decisions, and with the GTM team to turn technical results into materials that drive partnerships. You write real code, working inside simulation codebases, building automated analysis pipelines, and producing the technical outputs that external audiences see. You'll use agentic AI tools extensively to move fast, but you need the coding fundamentals to work directly with complex simulation infrastructure.
+ What You’ll Work On
+ Simulation & Analysis Pipelines
+ Work directly with datacenter simulation frameworks: extract results, build post-processing pipelines, generate formatted outputs
+ Build automated pipelines that transform analytical projections into charts, tables, and slide-ready assets
+ Maintain authoritative projection datasets for quantum advantage across frontier AI model architectures
+ Write tools that make simulation results reproducible and auditable
+ Work with Quantum Algorithm experts to translate quantum resource analysis into inputs for classical simulation pipelines
+ Technical Content & Materials
+ Produce performance charts, architecture diagrams, and comparison tables from simulation and analysis data
+ Support white paper production with technical content, figures, and data validation
+ Build and maintain dashboards tracking performance projections and simulation milestones
+ Product & Partner Engineering
+ Work with the systems engineering team to translate simulation results into product requirements and architecture decisions
+ Produce materials for partner meetings and conference presentations
+ Support demo prototypes that showcase simulation and product capabilities
+ Coordinate across the AI team, product team, and GTM team to ensure technical outputs are timely and accurate
+ You May Be a Good Fit If You
+ Write code daily -- pipelines, scripts, and tools, not just slide decks
+ Translate complexity into clarity without losing accuracy
+ Are quantitatively comfortable -- these are physics and math-heavy projections, not marketing copy
+ Use AI tools aggressively but know their limits
+ Move fast - partner meetings, conferences, and white paper deadlines don't wait
+ Are curious about the underlying systems -- you want to understand how the simulation works, not just its outputs
+ Strong Candidates May Have
+ Solid Python programming (this is an engineering role, not an analyst role)
+ Experience with simulation frameworks, benchmarking infrastructure, or performance analysis tools (ASTRA-sim, gem5, or similar)
+ Data pipeline construction (ETL, automation, post-processing workflows)
+ Data analysis and visualization (plotly, matplotlib, pandas)
+ Interactive notebook experience (marimo, Jupyter) for analysis and presentation
+ Technical writing ability (white papers, technical summaries)
+ ML/AI domain knowledge (training, inference, model architectures, distributed systems)
+ Experience producing technical materials for enterprise partnerships or investor relations
+ Background in solutions engineering, technical program management, or applied systems engineering
+ How We’re Different
+ At Sygaldry, curiosity and intellectual courage drive our work. We approach ambitious challenges with a grounded, optimistic, and rigorous culture and know that kind people build the strongest teams. We prioritize mission over ego and collaborate openly with a strong sense of shared purpose. We dream big, yet we execute with a love of detail. We’re looking for scientists, engineers, and operators to forge new paths with us at the intersection of quantum and AI.
+ Culture & Benefits
+ Visa Sponsorship - We know what it takes to make top talent thrive here. We’re open to supporting visas whenever possible.
+ Compensation - We value your contribution and invest in your future with a competitive salary and meaningful equity.
+ Benefits - Your well-being matters. We provide company-sponsored health coverage to give you and your family peace of mind.
+ Connection - Whether it’s company offsite or casual crew socials, we make time to connect, recharge, and have fun together.
+ Time Off - We trust you to take the time you need. Unlimited PTO so you can rest, recharge, and come back ready to make an impact.
+ We encourage applications from candidates with diverse backgrounds. We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristics.
+We encourage you to apply even if you do not believe you meet every single qualification. If you don’t think this role is right for you, but you believe that you would have something meaningful to contribute to our mission, please reach out at letsbuild@sygaldry.com
+Compensation Range: $200K - $240K
+ What You’ll Work On
+ Simulation & Analysis Pipelines
+ Work directly with datacenter simulation frameworks: extract results, build post-processing pipelines, generate formatted outputs
+ Build automated pipelines that transform analytical projections into charts, tables, and slide-ready assets
+ Maintain authoritative projection datasets for quantum advantage across frontier AI model architectures
+ Write tools that make simulation results reproducible and auditable
+ Work with Quantum Algorithm experts to translate quantum resource analysis into inputs for classical simulation pipelines
+ Technical Content & Materials
+ Produce performance charts, architecture diagrams, and comparison tables from simulation and analysis data
+ Support white paper production with technical content, figures, and data validation
+ Build and maintain dashboards tracking performance projections and simulation milestones
+ Product & Partner Engineering
+ Work with the systems engineering team to translate simulation results into product requirements and architecture decisions
+ Produce materials for partner meetings and conference presentations
+ Support demo prototypes that showcase simulation and product capabilities
+ Coordinate across the AI team, product team, and GTM team to ensure technical outputs are timely and accurate
+ You May Be a Good Fit If You
+ Write code daily -- pipelines, scripts, and tools, not just slide decks
+ Translate complexity into clarity without losing accuracy
+ Are quantitatively comfortable -- these are physics and math-heavy projections, not marketing copy
+ Use AI tools aggressively but know their limits
+ Move fast - partner meetings, conferences, and white paper deadlines don't wait
+ Are curious about the underlying systems -- you want to understand how the simulation works, not just its outputs
+ Strong Candidates May Have
+ Solid Python programming (this is an engineering role, not an analyst role)
+ Experience with simulation frameworks, benchmarking infrastructure, or performance analysis tools (ASTRA-sim, gem5, or similar)
+ Data pipeline construction (ETL, automation, post-processing workflows)
+ Data analysis and visualization (plotly, matplotlib, pandas)
+ Interactive notebook experience (marimo, Jupyter) for analysis and presentation
+ Technical writing ability (white papers, technical summaries)
+ ML/AI domain knowledge (training, inference, model architectures, distributed systems)
+ Experience producing technical materials for enterprise partnerships or investor relations
+ Background in solutions engineering, technical program management, or applied systems engineering
+ Culture & Benefits
+ Visa Sponsorship - We know what it takes to make top talent thrive here. We’re open to supporting visas whenever possible.
+ Compensation - We value your contribution and invest in your future with a competitive salary and meaningful equity.
+ Benefits - Your well-being matters. We provide company-sponsored health coverage to give you and your family peace of mind.
+ Connection - Whether it’s company offsite or casual crew socials, we make time to connect, recharge, and have fun together.
+ Time Off - We trust you to take the time you need. Unlimited PTO so you can rest, recharge, and come back ready to make an impact.
+ We encourage applications from candidates with diverse backgrounds. We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristics.
+We encourage you to apply even if you do not believe you meet every single qualification. If you don’t think this role is right for you, but you believe that you would have something meaningful to contribute to our mission, please reach out at letsbuild@sygaldry.com
+Compensation Range: $200K - $240K
+ What You’ll Work On
+ Simulation & Analysis Pipelines
+ Work directly with datacenter simulation frameworks: extract results, build post-processing pipelines, generate formatted outputs
+ Build automated pipelines that transform analytical projections into charts, tables, and slide-ready assets
+ Maintain authoritative projection datasets for quantum advantage across frontier AI model architectures
+ Write tools that make simulation results reproducible and auditable
+ Work with Quantum Algorithm experts to translate quantum resource analysis into inputs for classical simulation pipelines
+ Technical Content & Materials
+ Produce performance charts, architecture diagrams, and comparison tables from simulation and analysis data
+ Support white paper production with technical content, figures, and data validation
+ Build and maintain dashboards tracking performance projections and simulation milestones
+ Product & Partner Engineering
+ Work with the systems engineering team to translate simulation results into product requirements and architecture decisions
+ Produce materials for partner meetings and conference presentations
+ Support demo prototypes that showcase simulation and product capabilities
+ Coordinate across the AI team, product team, and GTM team to ensure technical outputs are timely and accurate
+ You May Be a Good Fit If You
+ Write code daily -- pipelines, scripts, and tools, not just slide decks
+ Translate complexity into clarity without losing accuracy
+ Are quantitatively comfortable -- these are physics and math-heavy projections, not marketing copy
+ Use AI tools aggressively but know their limits
+ Move fast - partner meetings, conferences, and white paper deadlines don't wait
+ Are curious about the underlying systems -- you want to understand how the simulation works, not just its outputs
+ Strong Candidates May Have
+ Solid Python programming (this is an engineering role, not an analyst role)
+ Experience with simulation frameworks, benchmarking infrastructure, or performance analysis tools (ASTRA-sim, gem5, or similar)
+ Data pipeline construction (ETL, automation, post-processing workflows)
+ Data analysis and visualization (plotly, matplotlib, pandas)
+ Interactive notebook experience (marimo, Jupyter) for analysis and presentation
+ Technical writing ability (white papers, technical summaries)
+ ML/AI domain knowledge (training, inference, model architectures, distributed systems)
+ Experience producing technical materials for enterprise partnerships or investor relations
+ Background in solutions engineering, technical program management, or applied systems engineering
+ Cult

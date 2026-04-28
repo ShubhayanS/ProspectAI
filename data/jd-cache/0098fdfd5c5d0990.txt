@@ -1,0 +1,465 @@
+Genentech hiring Machine Learning Engineer, Foundation Models (Prescient / AI for Drug Discovery) in New York, NY | LinkedIn
+ Skip to main content
+ LinkedIn
+ Machine Learning Engineer, Foundation Models (Prescient / AI for Drug Discovery) in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Machine Learning Engineer, Foundation Models (Prescient / AI for Drug Discovery)
+ Genentech
+ New York, NY
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Machine Learning Engineer, Foundation Models (Prescient / AI for Drug Discovery) role at Genentech
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Machine Learning Engineer, Foundation Models (Prescient / AI for Drug Discovery)
+ Genentech
+ New York, NY
+ 8 hours ago
+ Over 200 applicants
+ See who Genentech has hired for this role
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Machine Learning Engineer, Foundation Models (Prescient / AI for Drug Discovery) role at Genentech
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Save
+ Report this job
+ Use AI to assess how you fit
+ Get AI-powered advice on this job and more exclusive features.
+ Am I a good fit for this job?
+ Tailor my resume
+ Sign in to access AI-powered advices
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to evaluate your skills
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to tailor your resume
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ The Position
+A healthier future. It’s what drives us to innovate. To continuously advance science and ensure everyone has access to the healthcare they need today and for generations to come. Creating a world where we all have more time with the people we love. That’s what makes us Roche.
+Advances in AI, data, and computational sciences are transforming drug discovery and development. Roche’s Research and Early Development organisations at Genentech (gRED) and Pharma (pRED) have demonstrated how these technologies accelerate R&D, leveraging data and novel computational models to drive impact. Seamless data sharing and access to models across gRED and pRED are essential to maximising these opportunities. The new Computational Sciences Center of Excellence (CoE) is a strategic, unified group whose goal is to harness this transformative power of data and Artificial Intelligence (AI) to assist our scientists in both pRED and gRED to deliver more innovative and transformative medicines for patients worldwide.
+ The Opportunity
+ At Roche's AI for Drug Discovery (AIDD) group (Prescient Design), we are revolutionizing drug discovery with cutting-edge machine learning techniques. We are seeking talented engineers with a passion for building large-scale, distributed machine learning algorithms and systems that will transform the drug discovery process. AIDD’s Foundation Model team is seeking an exceptional Machine Learning Engineer to develop the backend of our internal agents platform and enable the next generation of AI/ML-powered drug discovery applications as part of our broader Lab-in-the-Loop approach. We are looking for someone who is not only passionate about technical problem-solving but also has a proven track record of delivering innovative solutions in AI/ML. The ideal candidate should have extensive experience in leading and managing a team of engineers and scientists, and be able to foster a culture of innovation, collaboration, and excellence across the broader Roche organization. The group provides a dynamic and challenging environment for multidisciplinary research, including access to heterogeneous data sources, close links to top academic institutions around the world, as well as collaborations with internal Genentech and Roche teams.
+ In this role, you will:
+ Develop various, cutting-edge internal AI/ML-based applications for drug discovery and development.
+ Develop across the lifecycle of LLMs including data engineering, pre-training, fine-tuning, post-training, and evaluation
+ Deploy models in production environments, working closely with other engineers to ensure scalability and reliability
+ Solve core backend challenges in ML and engineering including the design, implementation, and scaling of our data, training, and deployment pipeline
+ Collaborate closely with cross-functional teams across both AIDD and Roche to solve complex problems in the life sciences
+ Who You Are
+ You have a BS/MS in Computer Science, Statistics, related field, or equivalent experience and 2+ years of industry experience in machine learning; or a PhD in Computer Science and related field and 0+ years of industry experience.
+ You have demonstrated success in technical capabilities deploying machine learning models in industry-grade production environments
+ Experience in back-end development for LLM-powered agents and tools, or working with Model Context Protocol (MCP).
+ You have experience in developing LLM/GenAI products and are familiar with open-source AI frameworks like Open WebUI.
+ Strong interest in solving problems in drug discovery and biomedical science.
+ You have strong programming skills in Python and using deep learning frameworks like PyTorch
+ You have extensive experience with deep learning & LLMs.
+ A collaborative and open-minded team player who values constructive feedback, refrains from judgment, and fosters a positive and respectful team environment.
+ Strong communication skills, with the ability to effectively communicate technical concepts to both technical and non-technical audiences as well as interfacing with scientific and engineering leadership
+ A passion for solving complex technical problems and a commitment to staying up-to-date with the latest developments in machine learning
+ An extensive track record of delivering innovative solutions in machine learning
+ Relocation benefits are NOT available for this job posting
+The expected salary range for this position, based on the primary location of New York City, is $141,100 - $262,100 of hiring range. Actual pay will be determined based on experience, qualifications, geographic location, and other job-related factors permitted by law. A discretionary annual bonus may be available based on individual and Company performance. This position also qualifies for the benefits detailed at the link provided below.
+ Benefits
+ #ComputationCoE
+#tech4lifeComputationalScience
+#tech4lifeAI
+Genentech is an equal opportunity employer. It is our policy and practice to employ, promote, and otherwise treat any and all employees and applicants on the basis of merit, qualifications, and competence. The company's policy prohibits unlawful discrimination, including but not limited to, discrimination on the basis of Protected Veteran status, individuals with disabilities status, and consistent with all federal, state, or local laws.
+If you have a disability and need an accommodation in relation to the online application process, please contact us by completing this form Accommodations for Applicants.
+ Show more
+ Show less
+ Seniority level
+ Associate
+ Employment type
+ Full-time
+ Job function
+ Information Technology and Engineering
+ Industries
+ Biotechnology Research
+ Referrals increase your chances of interviewing at Genentech by 2x
+ See who you know
+ Get notified about new Machine Learning Engineer jobs in New York, NY .
+ Sign in to create job alert
+ Similar jobs
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Spotify
+ New York, NY
+ 6 days ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Spotify
+ New York, NY
+ 1 week ago
+ Software Engineer (New Grads)
+ Software Engineer (New Grads)
+ Giga
+ New York, NY
+ $160,000.00
+ -
+ $250,000.00
+ 2 weeks ago
+ ML Engineer
+ ML Engineer
+ Radical AI
+ New York, NY
+ 10 months ago
+ New Grad Software Engineer
+ New Grad Software Engineer
+ Authentic
+ New York, NY
+ 2 months ago
+ Software Engineer, Fullstack, Early Career
+ Software Engineer, Fullstack, Early Career
+ Notion
+ New York, NY
+ 1 month ago
+ Data Scientist
+ Data Scientist
+ Roku
+ New York, NY
+ $135,000.00
+ -
+ $153,000.00
+ 3 weeks ago
+ ML Engineer
+ ML Engineer
+ Catalyst Labs
+ New York, NY
+ 2 weeks ago
+ Data Scientist
+ Data Scientist
+ Attune
+ New York, NY
+ 2 weeks ago
+ Machine Learning Engineer, Personalization, Mindsweeper
+ Machine Learning Engineer, Personalization, Mindsweeper
+ Spotify
+ New York, NY
+ 5 days ago
+ ML Engineer
+ ML Engineer
+ Catalyst Labs
+ New York, NY
+ 2 weeks ago
+ AI/ML Applied Engineer
+ AI/ML Applied Engineer
+ Karumi (YC F25)
+ New York, NY
+ $120.00
+ -
+ $170.00
+ 4 months ago
+ Machine Learning Engineer, AI
+ Machine Learning Engineer, AI
+ Biohub
+ New York, NY
+ 2 weeks ago
+ AI/ML Engineer
+ AI/ML Engineer
+ Savant Bio
+ New York, NY
+ 1 day ago
+ Data Scientist, Customer Support Analytics
+ Data Scientist, Customer Support Analytics
+ Etsy
+ Brooklyn, NY
+ 2 days ago
+ Software Engineer, AI Workflows
+ Software Engineer, AI Workflows
+ Notion
+ New York, NY
+ 2 weeks ago
+ Machine Learning Researcher
+ Machine Learning Researcher
+ Morgan Stanley
+ New York, NY
+ 4 days ago
+ ML Engineer
+ ML Engineer
+ Sunset
+ New York, NY
+ $200,000.00
+ -
+ $300,000.00
+ 2 weeks ago
+ Machine Learning Engineer / Data Scientist
+ Machine Learning Engineer / Data Scientist
+ Fusemachines
+ New York, NY
+ 3 months ago
+ AI/ML Engineer
+ AI/ML Engineer
+ Rulebase (YC F24)
+ New York, NY
+ $100,000.00
+ -
+ $200,000.00
+ 1 month ago
+ AI Data Scientist (Quant Fund)
+ AI Data Scientist (Quant Fund)
+ Stabile Search
+ New York City Metropolitan Area
+ $400,000.00
+ -
+ $600,000.00
+ 6 days ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Machine Learning Engineer II
+ Machine Learning Engineer II
+ Uber
+ New York, NY
+ 3 weeks ago
+ Data Scientist
+ Data Scientist
+ Andiamo
+ New York, NY
+ 1 week ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Finch
+ New York, NY
+ $180,000.00
+ -
+ $280,000.00
+ 1 month ago
+ Machine Learning Engineer (Remote)
+ Machine Learning Engineer (Remote)
+ Output Biosciences
+ New York, NY
+ $100,000.00
+ -
+ $210,000.00
+ 7 months ago
+ Data Scientist
+ Data Scientist
+ Fusemachines
+ New York, NY
+ 1 month ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Pangram Labs
+ New York, NY
+ $150,000.00
+ -
+ $250,000.00
+ 2 months ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Meltwater
+ New York, NY
+ 3 days ago
+ Data Scientist, All Levels
+ Data Scientist, All Levels
+ Ramp
+ New York, NY
+ $137,120.00
+ -
+ $297,330.00
+ 2 weeks ago
+ Machine Learning Engineer (NYC)
+ Machine Learning Engineer (NYC)
+ Output Biosciences
+ New York, NY
+ $110,000.00
+ -
+ $250,000.00
+ 3 months ago
+ Similar Searches
+ Machine Learning Engineer jobs
+ 148,937 open jobs
+ Scientist jobs
+ 48,969 open jobs
+ Bioinformatician jobs
+ 18,406 open jobs
+ Computational Biologist jobs
+ 1,177 open jobs
+ Data Scientist jobs
+ 264,158 open jobs
+ Strategy Analyst jobs
+ 50,868 open jobs
+ Research Engineer jobs
+ 262,824 open jobs
+ Developer jobs
+ 258,935 open jobs
+ Software Engineer jobs
+ 300,699 open jobs
+ Engineer jobs
+ 555,845 open jobs
+ Emergency Medicine Resident jobs
+ 1,074 open jobs
+ Intelligence Specialist jobs
+ 7,156 open jobs
+ General Engineer jobs
+ 54,597 open jobs
+ Staff Research Engineer jobs
+ 1,530 open jobs
+ Insurance Counselor jobs
+ 4,892 open jobs
+ Algorithm Engineer jobs
+ 6,066 open jobs
+ Senior Computer Engineer jobs
+ 1,942 open jobs
+ Senior Scientist jobs
+ 19,214 open jobs
+ Junior Scientist jobs
+ 10,103 open jobs
+ Lead Scientist jobs
+ 14,164 open jobs
+ Data Science Specialist jobs
+ 2,441 open jobs
+ Processing Geophysicist jobs
+ 97 open jobs
+ Assistant Professor of Philosophy jobs
+ 273 open jobs
+ Processing Engineer jobs
+ 235,210 open jobs
+ Senior Manufacturing Process Engineer jobs
+ 7,050 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Index Exchange jobs
+ Machine Learning Engineer jobs
+ Infosys jobs
+ LinkedIn jobs
+ Scientist jobs
+ Google jobs
+ Bioinformatician jobs
+ Computational Biologist jobs
+ Genentech jobs
+ Bristol Myers Squibb jobs
+ Data Scientist jobs
+ PathAI jobs
+ Strategy Analyst jobs
+ Research Engineer jobs
+ Developer jobs
+ NVIDIA jobs
+ Software Engineer jobs
+ Engineer jobs
+ Seven Bridges jobs
+ Emergency Medicine Resident jobs
+ Intelligence Specialist jobs
+ The Hospital at Westlake Medical Center jobs
+ General Engineer jobs
+ Staff Research Engineer jobs
+ Insurance Counselor jobs
+ SDK Software, Inc. jobs
+ Algorithm Engineer jobs
+ Senior Computer Engineer jobs
+ Senior Scientist jobs
+ Junior Scientist jobs
+ Lead Scientist jobs
+ Data Science Specialist jobs
+ Processing Geophysicist jobs
+ Assistant Professor of Philosophy jobs
+ Processing Engineer jobs
+ The Coordinating Center jobs
+ Senior Manufacturing Process Engineer jobs
+ Python Developer jobs
+ Total Education Solutions jobs
+ Learning Specialist jobs
+ Senior Integration Specialist jobs
+ Research Software Engineer jobs
+ Information Assurance Engineer jobs
+ Quantitative Developer jobs
+ Science Specialist jobs
+ Quantitative Researcher jobs
+ Algorithm Developer jobs
+ ArcBest Technologies jobs
+ Reflexologist jobs
+ Senior Telecommunications Analyst jobs
+ Adjust jobs
+ Robotics Engineer jobs
+ AMI jobs
+ Research Scientist jobs
+ Computer Vision Engineer jobs
+ Science Manager jobs
+ Statistical Researcher jobs
+ Researcher jobs
+ Data Engineer jobs
+ Quantitative Analyst jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (Persian)
+ Suomi (Finnish)
+ Français (French)
+ हिंदी (Hindi)
+ Magyar (Hungarian)
+ Bahasa Indonesia (Indonesian)
+ Italiano (Italian)
+ עברית (Hebrew)
+ 日本語 (Japanese)
+ 한국어 (Korean)

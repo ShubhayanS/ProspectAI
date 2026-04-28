@@ -1,0 +1,459 @@
+HAVI hiring Data Engineer in Chicago, IL | LinkedIn
+ Skip to main content
+ LinkedIn
+ Data Engineer in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Data Engineer
+ HAVI
+ Chicago, IL
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Data Engineer role at HAVI
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Data Engineer
+ HAVI
+ Chicago, IL
+ 14 hours ago
+ Over 200 applicants
+ See who HAVI has hired for this role
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Data Engineer role at HAVI
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Save
+ Report this job
+ Full/Part-time: Full time
+Job Category: Analytics
+City: Toronto
+HAVI is a global, privately owned company focused on innovating, optimizing and managing the supply chains of leading brands. Offering services in marketing analytics, packaging, supply chain management and logistics, HAVI partners with companies to address challenges big and small across the supply chain, from commodity to customer. Founded in 1974, HAVI employs more than 10,000 people and serves customers in more than 100 countries. For more information, please visit HAVI.com.
+Architect, design, implement, enhance, and maintain highly scalable, available, secure, and elastic cloud-ready data solutions using cutting-edge technologies to support our predictive and prescriptive analytics needs. Be an expert in our data domains, act as a trusted partner and advisor to solutions architects and data scientists and become a crucial part of the analytics solution lifecycle – from prototype to production and operations of our data science and advanced analytics solutions in areas such as promotions, supply and demand planning, item/menu level analytics, supply chain simulations, and optimization, competitive benchmarking, and root cause analysis. Continuously improve and advance our data solutions.
+ This is a hybrid role based at 303-1 Concorde Gate North York, ON, M3C 3N6, Canada. Candidates must reside in the Toronto metropolitan area. Relocation assistance is not offered at this time.
+ Responsibilities:
+ Responsible for working with the data management, data science, decision science, and technology teams to address supply chain data needs in demand and supply planning, replenishment, pricing, and optimization
+ Develop/refine the data requirements, design/develop data deliverables, and optimize data pipelines in non-production and production environments
+ Design, build, and manage/monitor data pipelines for data structures encompassing data transformation, data models, schemas, metadata, and workload management. The ability to work with both IT and business
+ Integrate analytics and data science output into business processes and workflows
+ Build and optimize data pipelines, pipeline architectures, and integrated datasets. These should include ETL/ELT, data replication/CI-CD, API design, and access
+ Work with and optimize existing ETL processes and data integration and preparation flows and help move them to production
+ Work with popular data discovery, analytics, and BI and AI tools in semantic-layer data discovery
+ Adept in agile methodologies and capable of applying DevOps and DataOps principles to data pipelines to improve communication, integration, reuse, and automation of data flows between data managers and data consumers across the organization
+ Implement Agentic AI capability to drive efficiency and opportunity
+ Qualifications:
+ Bachelor’s degree in computer science, data management, information systems, information science or a related field; advanced degree in computer science, data management, information systems, information science or a related field preferred.
+ 3+ years in data engineering building production data pipelines (batch and/or streaming) with Spark on cloud.
+ 2+ years hands-on Azure Databricks (PySpark/Scala, Spark SQL, Delta Lake) including:
+ Delta Lake operations (MERGE/CDC, OPTIMIZE/Z-ORDER, VACUUM, partitioning, schema evolution).
+ Unity Catalog (RBAC, permissions, lineage, data masking/row-level access).
+ Databricks Jobs/Workflows or Delta Live Tables.
+ Azure Data Factory for orchestration (pipelines, triggers, parameterization, IRs) and integration with ADLS Gen2, Key Vault.
+ Strong SQL across large datasets; performance tuning (joins, partitions, file sizing).
+ Data quality at scale (e.g., Great Expectations/Deequ), monitoring and alerting; debug/backfill playbooks.
+ DevOps for data: Git branching, code reviews, unit/integration testing (pytest/dbx), CI/CD (Azure DevOps/GitHub Actions).
+ Infrastructure as Code (Terraform or Bicep) for Databricks workspaces, cluster policies, ADF, storage.
+ Observability & cost control: Azure Monitor/Log Analytics; cluster sizing, autoscaling, Photon; cost/perf trade-offs.
+ Proven experience collaborating with cross-functional stakeholders (analytics, data governance, product, security) to ship and support data products.
+ Dimensions & Stakholders:
+ Content scope: Data engineering, data modeling, Agentic AI and automation, and data solution operationalization
+ Geographical Scope: Global
+ Stakeholders & Networks: Analytics and Insights, DevOps, Product Management, Technology
+ Working model: Individual contributor, collaborates with cross-functional team within global planning and analytics
+ Starting Salary is $95,000-$110,000 with a 5% targeted bonus
+ TOTAL REWARDS
+ Our total rewards philosophy integrates programs for compensation, benefits, recognition, learning and development, corporate culture, corporate citizenship and work-life balance. While individual program components may differ by country, some things remain constant:
+ Our commitment to rewarding results
+ Opportunities to work with talented and driven individuals at every level of our company who respect each other, treat each other fairly and hold one another accountable for our customers’—and our company’s—success
+ There's more ...
+ Inclusive employee resource groups
+ Generous extended healthcare benefits and other great benefits
+ Paid parental and medical leave programs
+ RRSP and DPSP benefits with a company match component and profit sharing
+ 15 days of paid time off plus company holidays
+ Hybrid work model with flexibility
+ Tuition reimbursement
+ EQUAL OPPORTUNITY EMPLOYER
+ We are an equal opportunity employer and we value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, sex, gender, gender expression, sexual orientation, age, marital status, veteran status, or disability status. We will ensure that individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment. Please contact us to request accommodation.
+ RECRUITING AGENCIES
+ HAVI does not accept agency resumes submitted by third-party vendors unless a valid agreement has been signed and the HAVI Talent Acquisition Team has granted authorization for submissions for a specified position. Please do not submit or forward resumes to our site, HAVI employees, or any other company location. HAVI is not responsible for any fees related to unsolicited resumes.
+Are you a good match for this job?
+Please submit an online application with your salary expectations and an indication of your earliest starting date.
+ Show more
+ Show less
+ Seniority level
+ Mid-Senior level
+ Employment type
+ Full-time
+ Job function
+ Information Technology
+ Industries
+ Holding Companies
+ Referrals increase your chances of interviewing at HAVI by 2x
+ See who you know
+ Get notified when a new job is posted.
+ Set alert
+ Sign in to set job alerts for “Data Engineer” roles.
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Similar jobs
+ Senior Data Engineer (f/m/d) (part-/fulltime)
+ Senior Data Engineer (f/m/d) (part-/fulltime)
+ European Energy Exchange AG
+ Clearing, IL
+ 2 months ago
+ Data Engineer
+ Data Engineer
+ CNH
+ Oak Brook, IL
+ 1 week ago
+ Data Analytics Engineer
+ Data Analytics Engineer
+ Northern Trust
+ Chicago, IL
+ 2 weeks ago
+ Data Engineer, Consumer
+ Data Engineer, Consumer
+ Attain
+ Chicago, IL
+ 1 month ago
+ Data Engineer
+ Data Engineer
+ CGS Federal (Contact Government Services)
+ Chicago, IL
+ $112,597.33
+ -
+ $152,810.66
+ 1 month ago
+ Sr. Data Engineer
+ Sr. Data Engineer
+ Hologram Inc.
+ Chicago, IL
+ 3 weeks ago
+ Data Engineer
+ Data Engineer
+ Numerator
+ Chicago, IL
+ $97,000.00
+ -
+ $133,100.00
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Paychex
+ Chicago, IL
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Stott and May
+ Chicago, IL
+ $60.00
+ -
+ $95.00
+ 2 weeks ago
+ Data Engineer, Lead
+ Data Engineer, Lead
+ Farmer's Fridge
+ Chicago, IL
+ $150,000.00
+ -
+ $160,000.00
+ 2 weeks ago
+ Data Engineer III
+ Data Engineer III
+ Ahold Delhaize USA
+ Chicago, IL
+ 1 week ago
+ Data Analytics Engineer (GCP)
+ Data Analytics Engineer (GCP)
+ RHR International
+ Greater Chicago Area
+ $110,000.00
+ -
+ $140,000.00
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ MJ Holding Company, LLC
+ Bridgeview, IL
+ 4 days ago
+ Data Engineer-25118
+ Data Engineer-25118
+ Rush University Medical Center
+ Chicago, IL
+ 1 week ago
+ Databricks Data Engineer
+ Databricks Data Engineer
+ Atem Corp
+ Deerfield, IL
+ 5 days ago
+ Data Engineer
+ Data Engineer
+ Vista Applied Solutions Group Inc
+ Chicago, IL
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Valorem Reply
+ Greater Chicago Area
+ 4 days ago
+ Data Engineer (AIA)
+ Data Engineer (AIA)
+ Cognizant
+ Chicago, IL
+ 4 days ago
+ Jr. Software Engineer
+ Jr. Software Engineer
+ NetSfere
+ Chicago, IL
+ 1 year ago
+ Data Engineer (AIA)
+ Data Engineer (AIA)
+ Cognizant
+ Chicago, IL
+ 4 days ago
+ Data Engineer, Cumberland/FICCO
+ Data Engineer, Cumberland/FICCO
+ DRW
+ Chicago, IL
+ 2 weeks ago
+ Machine Learning Data Engineer
+ Machine Learning Data Engineer
+ Oden Technologies
+ Chicago, IL
+ 1 month ago
+ Data Engineer
+ Data Engineer
+ Forbes Technical Consulting
+ Park Ridge, IL
+ 2 weeks ago
+ Data Engineer 2026- Data Platforms
+ Data Engineer 2026- Data Platforms
+ IBM
+ Chicago, IL
+ 5 days ago
+ Jr. Software Engineer
+ Jr. Software Engineer
+ NetSfere
+ Chicago, IL
+ 1 year ago
+ Junior Software Engineer
+ Junior Software Engineer
+ TransMarket Group
+ Chicago, IL
+ 1 week ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Data Engineer
+ Data Engineer
+ Burtch Works
+ Chicago, IL
+ $129,000.00
+ -
+ $144,000.00
+ 6 days ago
+ Senior Data Engineer
+ Senior Data Engineer
+ Above Lending
+ Chicago, IL
+ $110,000.00
+ -
+ $150,000.00
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Radley James
+ Chicago, IL
+ 2 weeks ago
+ Data Engineer III
+ Data Engineer III
+ Old National Bank
+ Chicago, IL
+ 1 week ago
+ Analytics Engineer
+ Analytics Engineer
+ JVM Realty Corporation
+ Oak Brook, IL
+ $120,000.00
+ -
+ $130,000.00
+ 1 month ago
+ Data Analytics Engineer
+ Data Analytics Engineer
+ Request Technology, LLC
+ Chicago, IL
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Uline
+ Glenview, IL
+ 4 days ago
+ Data Engineer
+ Data Engineer
+ RAPP
+ Greater Chicago Area
+ 5 days ago
+ Engineer, Data, Search & Social
+ Engineer, Data, Search & Social
+ Publicis Media
+ Chicago, IL
+ 1 week ago
+ Junior Software Engineer
+ Junior Software Engineer
+ Renterra
+ Chicago, IL
+ $75,000.00
+ -
+ $125,000.00
+ 2 months ago
+ Similar Searches
+ Senior Data Engineer jobs
+ 78,076 open jobs
+ Big Data Developer jobs
+ 26,392 open jobs
+ Hadoop Developer jobs
+ 37,972 open jobs
+ ETL Developer jobs
+ 46,788 open jobs
+ Data Warehouse Engineer jobs
+ 39,476 open jobs
+ Analytical Engineer jobs
+ 7,971 open jobs
+ Data Architect jobs
+ 68,774 open jobs
+ Freelance Engineer jobs
+ 190 open jobs
+ Development Database Administrator jobs
+ 226,600 open jobs
+ ETL Specialist jobs
+ 219,897 open jobs
+ Database Software Engineer jobs
+ 224,263 open jobs
+ Engineer jobs
+ 555,845 open jobs
+ Business Intelligence Engineer jobs
+ 50,282 open jobs
+ Senior Data Warehouse Engineer jobs
+ 10,085 open jobs
+ Pipeline Engineer jobs
+ 39,469 open jobs
+ Teradata Developer jobs
+ 2,501 open jobs
+ Database Engineer jobs
+ 32,874 open jobs
+ Exhibit Coordinator jobs
+ 342 open jobs
+ Senior Solutions Developer jobs
+ 50,281 open jobs
+ SQL Developer jobs
+ 12,445 open jobs
+ Junior Engineer jobs
+ 52,722 open jobs
+ Assistant Produce Manager jobs
+ 3,091 open jobs
+ Data Modeler jobs
+ 263,457 open jobs
+ Data Analyst jobs
+ 329,009 open jobs
+ Senior Data Warehouse Architect jobs
+ 4,641 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Senior Data Engineer jobs
+ Big Data Developer jobs
+ Hadoop Developer jobs
+ ETL Developer jobs
+ Lakeland Care jobs
+ Data Warehouse Engineer jobs
+ Analytical Engineer jobs
+ Data Architect jobs
+ Freelance Engineer jobs
+ Development Database Administrator jobs
+ ETL Specialist jobs
+ Database Software Engineer jobs
+ Engineer jobs
+ Business Intelligence Engineer jobs
+ Senior Data Warehouse Engineer jobs
+ Pipeline Engineer jobs
+ Teradata Developer jobs
+ Database Engineer jobs
+ Exhibit Coordinator jobs
+ Senior Solutions Developer jobs
+ SQL Developer jobs
+ Junior Engineer jobs
+ Assistant Produce Manager jobs
+ Data Modeler jobs
+ Data Analyst jobs
+ Senior Data Warehouse Architect jobs
+ Senior Database Engineer jobs
+ Senior Peoplesoft Consultant jobs
+ ETL Consultant jobs
+ Scala jobs
+ Data Scientist jobs
+ Senior ETL Developer jobs
+ Data Warehouse Specialist jobs
+ Databricks jobs
+ Senior Data Architect jobs
+ Lead Data Architect jobs
+ Business Intelligence Developer jobs
+ The Toledo Clinic jobs
+ Scala Developer jobs
+ General Engineer jobs
+ Senior Business Intelligence Architect jobs
+ Senior System Test Engineer jobs
+ Microsoft Developer jobs
+ Aqua-Tots Swim School jobs
+ Data Warehouse Architect jobs
+ Software Configuration Engineer jobs
+ Data System Engineer jobs
+ Python Developer jobs
+ Data Science Specialist jobs
+ Machine Learning Engineer jobs
+ Scientist jobs
+ Data Warehouse Manager jobs
+ Diocese of Saint Petersburg jobs
+ Project Lead Developer jobs
+ Telecommunications Software Engineer jobs
+ Randall Reilly jobs
+ Processing Geophysicist jobs
+ Senior Database Developer jobs
+ Business Objects Consultant jobs
+ Middleware Engineer jobs
+ Link

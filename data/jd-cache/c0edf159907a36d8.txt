@@ -1,0 +1,427 @@
+Workhuman hiring NLP Data Scientist in Massachusetts, United States | LinkedIn
+ Skip to main content
+ LinkedIn
+ NLP Data Scientist in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ NLP Data Scientist
+ Workhuman
+ Massachusetts, United States
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the NLP Data Scientist role at Workhuman
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ NLP Data Scientist
+ Workhuman
+ Massachusetts, United States
+ 9 hours ago
+ Over 200 applicants
+ See who Workhuman has hired for this role
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the NLP Data Scientist role at Workhuman
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Save
+ Report this job
+ Job Description
+ The Opportunity
+ Are you passionate about applying NLP and LLMs to real-world, human-focused challenges? As an NLP Data Scientist at Workhuman, you'll contribute to building AI tools that help organizations understand how their people work, grow, and connect. You'll work across multiple active projects simultaneously rather than embedded on a single product team - one quarter you might be building a text classification model, the next contributing to an LLM evaluation pipeline or translating a new client need into a tool or analysis we haven't built before. What stays constant is working with large volumes of unstructured workplace text and shipping models that drive real product outcomes.
+ This is a remote position based in the US.
+ Applicants must have valid permanent work authorization in the U.S. (e.g., U.S. citizen, permanent resident). We are unable to offer visa sponsorship for this role.
+ What We Can Offer You
+ The opportunity to design and deploy NLP and LLM-powered models that directly power Workhuman's AI products.
+ Hands-on work with large volumes of unstructured text — employee recognition data, feedback, survey responses, and more.
+ Exposure to the full applied NLP lifecycle: problem framing, data preparation, model development, evaluation, and production handoff.
+ Collaboration with a cross-functional team of Data Scientists, ML Engineers, Software Engineers, and Product Managers.
+ A learning-forward environment with access to the latest research, tools, and best practices in NLP and generative AI.
+ The Skills You Will Bring
+ Foundational experience with NLP techniques, including text classification, named entity recognition, information extraction, and working with unstructured text data.
+ Proficiency in Python and comfort with the modern NLP/ML stack - HuggingFace Transformers, spaCy, NLTK, Gensim, scikit-learn, statsmodels, pandas, and pyarrow.
+ Familiarity with LLMs and their practical applications — including prompt design and basic LLM evaluation techniques (e.g., LLM-as-judge, semantic similarity scoring). Genuine curiosity about model evaluation is a strong plus.
+ Some experience with cloud-based ML infrastructure; AWS and Bedrock experience is a plus.
+ Comfort working with boto3 or similar SDKs to integrate ML capabilities into larger systems.
+ A collaborative, solution-oriented approach to ambiguous problems.
+ Strong communication skills, with the ability to translate technical findings into clear language for non-technical audiences.
+ The base salary range for this position is $130,000 - $155,000. Offered base compensation within this range will be determined based on the candidate’s qualifications, experience, geographic location, and other factors relevant to the scope and responsibilities of this role. This role is also eligible for bonus or other variable compensation based on job performance and our standard benefits package, which supports employee well-being and work-life balance.
+ Thank you for considering joining our team. We strive to create an inclusive and accessible application process for all candidates. If you encounter any difficulties or have specific accessibility requirements while applying for this position, please don't hesitate to reach out to us at  globalrecruitment@workhuman.com  for assistance. We are committed to ensuring equal access to opportunities for all individuals.
+ The Company
+ At Workhuman® our mission is to bring more humanity to the workplace. We recognise and embrace individuals’ differences and believe that workforce diversity and inclusion are essential to our long-term growth and success. Even if you don’t think you “check every single box” above, please still consider applying. We’re looking for a human who is collaborative, and innovative with a growth mindset. We love what we do because we’re shaping the future of work through our people and our technology. Our human cloud-based applications are helping some of the world’s leading global brands connect culture to shared purpose. The Workhuman Cloud empowers employees to thank, talk and celebrate each other, creating an environment that sparks gratitude and human connection while increasing employee engagement and productivity.
+ Did you know we have an award-winning culture across EMEA and North America:
+ We were named as #5 Best Workplace in the Great Place to Work Awards in Ireland in 2022 in the large sized workplace category. We were also recognised as a Best Workplace for Women and a Best Workplace in Technology in 2020, 2021 and 2022.
+ In 2021 we were named as #2 Best Workplace in Europe in the medium sized workplace category.
+ We were also recognised as #2 Best Large Places to Work in Boston by Built In for 2023 as well as a Best Place to Work in Boston, U.S. Best Large Places to Work and U.S. Best Places to Work.
+ There are currently over 7.5 million users on the Workhuman® cloud across 180 countries.
+ Our core values are Respect, Determination, Innovation and Imagination.
+ Workhuman is an Equal Opportunity Employer and is committed to the principle of equal employment opportunity for all employees. We proudly provide a work environment free of discrimination and harassment. Employment decisions at Workhuman are based on solely on business needs, job requirements and individual qualifications, without regard to race, color, religion or belief, national, social, or ethnic origin, sex (including pregnancy), age, sexual orientation, gender identity and/or expression, marital, civil union or domestic partnership status, past or present military service, or any other status protected by the laws or regulations in the locations where we operate. Workhuman believes that diversity and inclusion among our teammates is critical to our success as a global company, and we seek to recruit, develop and retain the most talented people from a diverse candidate pool.
+ Show more
+ Show less
+ Seniority level
+ Entry level
+ Employment type
+ Full-time
+ Job function
+ Engineering and Information Technology
+ Industries
+ Human Resources Services
+ Referrals increase your chances of interviewing at Workhuman by 2x
+ See who you know
+ Get notified about new Data Scientist jobs in Massachusetts, United States .
+ Sign in to create job alert
+ Similar jobs
+ Data Scientist
+ Data Scientist
+ Ikigai
+ Cambridge, MA
+ 5 months ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Ikigai
+ Cambridge, MA
+ 5 months ago
+ Data Scientist
+ Data Scientist
+ Berkshire Partners
+ Boston, MA
+ $170,000.00
+ -
+ $210,000.00
+ 5 days ago
+ Data Scientist - Graduate
+ Data Scientist - Graduate
+ Nasdaq
+ Boston, MA
+ 2 weeks ago
+ Data Scientist - Data-Driven Global Investment Firm
+ Data Scientist - Data-Driven Global Investment Firm
+ Andiamo
+ Boston, MA
+ 1 week ago
+ Data Scientist
+ Data Scientist
+ The Brixton Group
+ Quincy, MA
+ 1 week ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Tagup
+ Boston, MA
+ 2 months ago
+ Machine Learning and DSP Research Intern
+ Machine Learning and DSP Research Intern
+ Bose Corporation
+ Framingham, MA
+ 1 week ago
+ Data Scientist
+ Data Scientist
+ Red Oak Sourcing
+ Foxborough (Foxboro), MA
+ $68,000.00
+ -
+ $108,000.00
+ 6 days ago
+ Data Scientist Intern
+ Data Scientist Intern
+ Triple Ring Technologies
+ Boston, MA
+ 3 weeks ago
+ Entry Level Software Developer
+ Entry Level Software Developer
+ SkillStorm
+ Boston, MA
+ 6 days ago
+ Senior Data Scientist
+ Senior Data Scientist
+ Evolv Technology
+ Waltham, MA
+ $129,000.00
+ -
+ $209,000.00
+ 6 days ago
+ AI Scientist
+ AI Scientist
+ Nabla Bio
+ Boston, MA
+ 2 weeks ago
+ Research Scientist I/II, AI for Process Engineering
+ Research Scientist I/II, AI for Process Engineering
+ Lila Sciences
+ Cambridge, MA
+ 1 week ago
+ Data Scientist
+ Data Scientist
+ FINTRX
+ Boston, MA
+ 3 weeks ago
+ Clinical Scientist, Clinical Development
+ Clinical Scientist, Clinical Development
+ Oruka Therapeutics
+ Waltham, MA
+ 1 month ago
+ Data Scientist - Global Tech Leader
+ Data Scientist - Global Tech Leader
+ Andiamo
+ Boston, MA
+ 1 week ago
+ AI Research Scientist
+ AI Research Scientist
+ Ground Truth Analytics
+ Cambridge, MA
+ 1 month ago
+ ML Research Scientist I/II, Multimodal Data Extraction
+ ML Research Scientist I/II, Multimodal Data Extraction
+ Lila Sciences
+ Cambridge, MA
+ 2 days ago
+ Machine Learning Scientist I/II, Multi-Modal Scientific Reasonings
+ Machine Learning Scientist I/II, Multi-Modal Scientific Reasonings
+ Lila Sciences
+ Cambridge, MA
+ 2 weeks ago
+ Machine Learning Engineer II/ Senior Machine Learning Engineer I, Physical Sciences
+ Machine Learning Engineer II/ Senior Machine Learning Engineer I, Physical Sciences
+ Lila Sciences
+ Cambridge, MA
+ 2 weeks ago
+ Machine Learning Scientist, AI Explainability
+ Machine Learning Scientist, AI Explainability
+ SES AI
+ Woburn, MA
+ 3 days ago
+ Data Scientist (Agentic AI)
+ Data Scientist (Agentic AI)
+ Bioscope AI
+ Boston, MA
+ 1 month ago
+ Data Scientist, AI Engineering
+ Data Scientist, AI Engineering
+ Trinity Life Sciences
+ Waltham, MA
+ 1 week ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Data Scientist
+ Data Scientist
+ Akkodis
+ Northborough, MA
+ 1 week ago
+ Data Scientist, RWE
+ Data Scientist, RWE
+ ConcertAI
+ Boston, MA
+ 3 days ago
+ Data Scientist
+ Data Scientist
+ DataAnnotation
+ Massachusetts, United States
+ 2 weeks ago
+ Data Scientist / Engineer (Healthcare Solutions)
+ Data Scientist / Engineer (Healthcare Solutions)
+ Shift Technology
+ Boston, MA
+ 1 week ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Superluminal Medicines Inc.
+ Boston, MA
+ 1 month ago
+ Senior Data Scientist - Global Finance Leader
+ Senior Data Scientist - Global Finance Leader
+ Andiamo
+ Boston, MA
+ 1 week ago
+ Machine Learning Scientist I/II, Scientific Reasoning
+ Machine Learning Scientist I/II, Scientific Reasoning
+ Lila Sciences
+ Cambridge, MA
+ 2 days ago
+ Machine Learning Scientist, LLM Training & Inference Research
+ Machine Learning Scientist, LLM Training & Inference Research
+ Lila Sciences
+ Cambridge, MA
+ 1 week ago
+ Data Scientist
+ Data Scientist
+ Definitive Healthcare
+ Framingham, MA
+ 1 week ago
+ Data Scientist, Power Markets
+ Data Scientist, Power Markets
+ REsurety
+ Boston, MA
+ 2 weeks ago
+ Similar Searches
+ Scientist jobs
+ 48,969 open jobs
+ Data Science Specialist jobs
+ 2,441 open jobs
+ Junior Scientist jobs
+ 10,103 open jobs
+ Lead Scientist jobs
+ 14,164 open jobs
+ Senior Scientist jobs
+ 19,214 open jobs
+ Machine Learning Engineer jobs
+ 148,937 open jobs
+ Data Warehouse Project Manager jobs
+ 10,365 open jobs
+ Science Manager jobs
+ 15,298 open jobs
+ Senior Staff Scientist jobs
+ 6,754 open jobs
+ Staff Geophysicist jobs
+ 106 open jobs
+ Data Analyst jobs
+ 329,009 open jobs
+ Assistant City Engineer jobs
+ 18,090 open jobs
+ Principal Geophysicist jobs
+ 64 open jobs
+ Senior Information Developer jobs
+ 1,040 open jobs
+ Director Data Science jobs
+ 4,457 open jobs
+ Pathology Resident jobs
+ 609 open jobs
+ Statistician jobs
+ 20,674 open jobs
+ Biostatistician jobs
+ 21,103 open jobs
+ Regional Risk Manager jobs
+ 3,488 open jobs
+ Data Mining Specialist jobs
+ 24,616 open jobs
+ Bioinformatician jobs
+ 18,406 open jobs
+ Algorithm Developer jobs
+ 1,195 open jobs
+ Senior Integration Specialist jobs
+ 49,775 open jobs
+ Statistical Researcher jobs
+ 1,534 open jobs
+ Principal Scientist jobs
+ 11,010 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Century Park Associates jobs
+ Scientist jobs
+ Data Science Specialist jobs
+ Junior Scientist jobs
+ Lead Scientist jobs
+ Senior Scientist jobs
+ Machine Learning Engineer jobs
+ Total Education Solutions jobs
+ Data Warehouse Project Manager jobs
+ Science Manager jobs
+ Security Alliance jobs
+ Senior Staff Scientist jobs
+ Staff Geophysicist jobs
+ Data Analyst jobs
+ Assistant City Engineer jobs
+ Principal Geophysicist jobs
+ Telamon Corporation jobs
+ Senior Information Developer jobs
+ Director Data Science jobs
+ Bureau of Economic Analysis jobs
+ Pathology Resident jobs
+ Statistician jobs
+ Biostatistician jobs
+ Regional Risk Manager jobs
+ Data Mining Specialist jobs
+ Bioinformatician jobs
+ Algorithm Developer jobs
+ Senior Integration Specialist jobs
+ Statistical Researcher jobs
+ Principal Scientist jobs
+ Data Engineer jobs
+ Saving Sight jobs
+ Quantitative Researcher jobs
+ Computational Biologist jobs
+ Perceptron jobs
+ Science Specialist jobs
+ Jacksonville Zoo and Botanical Gardens jobs
+ Senior Bioinformatics Scientist jobs
+ Principal Statistician jobs
+ Quantitative Analyst jobs
+ Senior Business Analyst Contract jobs
+ Senior Mechanical Project Engineer jobs
+ Research Scientist jobs
+ Bioinformatics Specialist jobs
+ Research Statistician jobs
+ Signal Processing Engineer jobs
+ Information Assurance Engineer jobs
+ Intelligence Specialist jobs
+ Geospatial Analyst jobs
+ Scout Talent jobs
+ Computational Scientist jobs
+ Bioinformatics Analyst jobs
+ Physical Scientist jobs
+ Processing Geophysicist jobs
+ Statistical Assistant jobs
+ Joomla Developer jobs
+ Senior Statistical Programmer jobs
+ Computational Chemist jobs
+ Personal Capital jobs
+ Analyst jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (Persian)
+ Suomi (Finnish)
+ Français (French)
+ हिंदी (Hindi)
+ Magyar (Hungarian)
+ Bahasa Indonesia (Indonesian)
+ Italiano (Italian)
+ עברית (Hebrew)
+ 日本語 (Japanese)
+ 한국어 (Korean)
+ मराठी (

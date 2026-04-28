@@ -1,0 +1,458 @@
+TTX Company hiring Data Engineer in Charlotte, NC | LinkedIn
+ Skip to main content
+ LinkedIn
+ Data Engineer in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Data Engineer
+ TTX Company
+ Charlotte, NC
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Data Engineer role at TTX Company
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Data Engineer
+ TTX Company
+ Charlotte, NC
+ 5 hours ago
+ Over 200 applicants
+ See who TTX Company has hired for this role
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Data Engineer role at TTX Company
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Save
+ Report this job
+ Position Summary
+ JOB DESCRIPTION
+ The Data Engineer is an interdisciplinary individual on the Data Analytics team who collaborates closely with multiple stakeholders across the enterprise and Information Technology (IT), to ensure the most important data is accessible and well-understood.
+A Data Engineer designs, develops, implements, and supports new and existing highly efficient ELT/ETL processes and data sets. Other responsibilities include working closely with data consumers, solution architects, security, and governance teams to implement solutions to answer complex questions and drive business decisions. Apply your proven communication skills, problem-solving skills, and knowledge of best practices in designing, developing, and deploying data and analytic solutions.
+Data Engineers need to be adept in several technical and business skills. These include working with diverse datasets, parsing and understanding data, working with domain experts, data scientists, and analysts in framing business problems, and provisioning integrated data quickly across multiple environments. Data Engineers should be inquisitive and motivated to learn modern technologies and capabilities that benefit the organization, and lead the effort in evaluating technology for acceptance at TTX. Data Engineers also assist the business data science efforts with source data, building data sets, helping evaluate models, and integrating analytics and data science model outputs into business processes.
+ Key Responsibilities
+ Hybrid cloud environment: the Data Engineer works in a hybrid cloud ecosystem, composed of Azure, Oracle, and on-premises technologies, building and supporting data and analytics solutions. The Data Engineer will need to learn the data, tools, and capabilities resident in this hybrid ecosystem, such as Fabric, Synapse, Data Lakes, Azure ML, and SQL Server.
+ Build data pipelines: Managed data pipelines consist of a series of stages through which data flows. Designing, building, and maintaining data pipelines in Azure and the on-premises ecosystems will be the primary responsibility of the data engineer.
+ Drive data-centric decision making. Assists with enhancing the data and metadata management infrastructure to ensure data quality, accessibility, and security.
+ Collaborate across departments: Collaborates with business data consumers of various skill levels in refining their requirements for various data and analytics initiatives. This collaboration can lead to building enterprise data products, enabling data-driven decision-making.
+ Lead, educate, and train: Be curious and knowledgeable about innovative technologies and data initiatives. Research and propose data ingestion, preparation, integration, and operationalization tools or techniques to aid these initiatives. Train team members, data consumers, data scientists, and data analysts in these technologies and preparation techniques.
+ Participate in ensuring compliance and governance during data use: Data Engineers work with data governance teams (and Data Stewards within these teams) in building, vetting, and promoting content, which adheres to data governance and compliance initiatives.
+ Become a data and analytics evangelist: TTX considers the Data Engineer a blend of data and analytics “evangelist,” “guru” and “fixer.” This role promotes the available data and analytics capabilities and expertise to business unit leaders, educating them in leveraging these capabilities in achieving their business goals.
+ CORE COMPETENCIES
+ Education and Training
+ A bachelor's degree in computer science, statistics, applied mathematics, data management, information systems, information science, or a related quantitative field [or equivalent work experience] is required.
+ The ideal candidate will have a combination of IT, data governance, analytics, and communication skills.
+ Previous Experience
+ At least 2 years or more of work experience in data management disciplines, including data integration, modeling, optimization, data quality, and/or other areas directly relevant to data engineering responsibilities and tasks.
+ At least 2 years of experience working in cross-functional teams and collaborating with business stakeholders in support of a departmental and/or multi-departmental data management and analytics initiative.
+ Technical [and Business] Knowledge/Skills
+ Experience with various languages and advanced analytics tools such as SQL, Python, Power BI, Fabric, Microsoft SSIS/SSAS, Azure Synapse, and others.
+ Ability to design, build, and manage data structures and pipelines for encompassing data transformation, data models, schemas, metadata, and workload management. Work with both IT and business users, integrating analytics and data science output into business processes and workflows.
+ Experience in working with large, heterogeneous datasets in building and optimizing data pipelines, pipeline architecture, and integrated datasets using data integration technologies, including ETL/ELT, data replication/CDC, message-oriented data movement, API design and development.
+ Physical Job Requirements
+ (The physical demands and work environment characteristics described here are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable qualified individuals with disabilities to perform the essential functions.)
+General office environment.
+The above job description is intended to describe the general content of and requirements for the performance of this job. It is not to be construed as an exhaustive statement of duties, responsibilities, or requirements.
+ Responsibilities
+ QUALIFICATIONS
+ About Us
+ TTX Company is a leading provider of railcars and related freight car management services to the North American rail industry. TTX’s pool of railcars is ideal for supporting shippers in the intermodal, automotive, paper & forest, metals, machinery, wind energy and other markets where flatcars, boxcars and gondolas are required.
+TTX’s generous Total Rewards package includes Paid Time Off, Health, Dental and Vision benefits, and 401(k) with company match. This position participates in Railroad Retirement.
+TTX Company is an Equal Employment Opportunity Employer.
+ Show more
+ Show less
+ Seniority level
+ Entry level
+ Employment type
+ Full-time
+ Job function
+ Information Technology
+ Industries
+ Rail Transportation
+ Referrals increase your chances of interviewing at TTX Company by 2x
+ See who you know
+ Get notified about new Data Engineer jobs in Charlotte, NC .
+ Sign in to create job alert
+ Similar jobs
+ Data Engineer II
+ Data Engineer II
+ Pacific Life
+ Charlotte, NC
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Sand Cherry
+ Charlotte, NC
+ 6 hours ago
+ Database Engineer 3 – (MongoDB)
+ Database Engineer 3 – (MongoDB)
+ Veracity Software Inc
+ Charlotte, NC
+ 6 days ago
+ Data Engineer
+ Data Engineer
+ CGS Federal (Contact Government Services)
+ Charlotte, NC
+ $112,597.33
+ -
+ $152,810.66
+ 1 month ago
+ Data Engineer (Latam)
+ Data Engineer (Latam)
+ Hyperlocology
+ Huntersville, NC
+ 7 months ago
+ Data engineer
+ Data engineer
+ Acuity Analytics
+ Charlotte, NC
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Mitchell Martin Inc.
+ Charlotte, NC
+ $65.00
+ -
+ $72.00
+ 2 days ago
+ Analytics Engineer (Hybrid)
+ Analytics Engineer (Hybrid)
+ Belk
+ Charlotte Metro
+ 2 days ago
+ Data Engineer
+ Data Engineer
+ Oliver James
+ Charlotte, NC
+ $120,000.00
+ -
+ $140,000.00
+ 9 hours ago
+ Data Engineer
+ Data Engineer
+ Harvey Nash
+ Charlotte, NC
+ $60.00
+ -
+ $65.00
+ 5 days ago
+ Software Engineer 4 – (Lead Virtual Developer)
+ Software Engineer 4 – (Lead Virtual Developer)
+ Veracity Software Inc
+ Charlotte, NC
+ 6 days ago
+ Data Engineer (AIA)
+ Data Engineer (AIA)
+ Cognizant
+ Charlotte, NC
+ 4 days ago
+ Database Engineer 4 – (Oracle)
+ Database Engineer 4 – (Oracle)
+ Veracity Software Inc
+ Charlotte, NC
+ 6 days ago
+ Data Engineer (866)
+ Data Engineer (866)
+ Sharp Decisions
+ Charlotte, NC
+ 3 days ago
+ Big Data Platform Engineer
+ Big Data Platform Engineer
+ Veracity Software Inc
+ Charlotte, NC
+ 5 months ago
+ Data Engineer
+ Data Engineer
+ Brooksource
+ Charlotte Metro
+ $55.00
+ -
+ $65.00
+ 4 days ago
+ Data Engineer
+ Data Engineer
+ Akkodis Group Nordics
+ Charlotte, NC
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Lorien
+ Charlotte Metro
+ $60.00
+ -
+ $70.00
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Synechron
+ Charlotte, NC
+ $100,000.00
+ -
+ $105,000.00
+ 3 weeks ago
+ Data Engineer
+ Data Engineer
+ Insight Global
+ Charlotte, NC
+ $55.00
+ -
+ $65.00
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Flow Control Group
+ Charlotte, NC
+ 5 days ago
+ Associate Data and AI Engineer
+ Associate Data and AI Engineer
+ The Hartford
+ Charlotte, NC
+ 5 days ago
+ Senior Data Engineer – PySpark & Python IRC290839
+ Senior Data Engineer – PySpark & Python IRC290839
+ GlobalLogic
+ Charlotte, NC
+ 1 week ago
+ Software Engineer - Python - Cloud - graduate level
+ Software Engineer - Python - Cloud - graduate level
+ Canonical
+ Charlotte, NC
+ 1 month ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Mid-Level Python Data Engineer
+ Mid-Level Python Data Engineer
+ Kforce Inc
+ Charlotte, NC
+ $50.00
+ -
+ $60.00
+ 1 week ago
+ Senior Data Engineer I
+ Senior Data Engineer I
+ Pacific Life
+ Charlotte, NC
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Motion Recruitment
+ Charlotte, NC
+ 1 week ago
+ Data Engineer - GCP
+ Data Engineer - GCP
+ Euclid Innovations
+ Charlotte, NC
+ 5 days ago
+ Senior Data Engineer / ETL Developer
+ Senior Data Engineer / ETL Developer
+ INSPYR Solutions
+ Charlotte, NC
+ 1 week ago
+ Data Engineer III
+ Data Engineer III
+ Ledgent Technology
+ Charlotte, NC
+ $75.00
+ -
+ $80.98
+ 1 week ago
+ Data Engineer (dbt, Snowflake)
+ Data Engineer (dbt, Snowflake)
+ Mitchell Martin Inc.
+ Charlotte, NC
+ $110,000.00
+ -
+ $125,000.00
+ 4 days ago
+ Data Engineer (dbt, Snowflake)
+ Data Engineer (dbt, Snowflake)
+ Mitchell Martin Inc.
+ Charlotte, NC
+ $110,000.00
+ -
+ $125,000.00
+ 4 days ago
+ Senior Data Engineer (AI/ML and AWS Cloud)
+ Senior Data Engineer (AI/ML and AWS Cloud)
+ Pantheon Data
+ Charlotte, NC
+ 4 weeks ago
+ Data Engineer (AWS, Azure, GCP)
+ Data Engineer (AWS, Azure, GCP)
+ CapTech
+ Charlotte, NC
+ 2 weeks ago
+ Similar Searches
+ Senior Data Engineer jobs
+ 78,076 open jobs
+ Big Data Developer jobs
+ 26,392 open jobs
+ Hadoop Developer jobs
+ 37,972 open jobs
+ ETL Developer jobs
+ 46,788 open jobs
+ Data Warehouse Engineer jobs
+ 39,476 open jobs
+ Analytical Engineer jobs
+ 7,971 open jobs
+ Data Architect jobs
+ 68,774 open jobs
+ Freelance Engineer jobs
+ 190 open jobs
+ Development Database Administrator jobs
+ 226,600 open jobs
+ ETL Specialist jobs
+ 219,897 open jobs
+ Database Software Engineer jobs
+ 224,263 open jobs
+ Engineer jobs
+ 555,845 open jobs
+ Business Intelligence Engineer jobs
+ 50,282 open jobs
+ Senior Data Warehouse Engineer jobs
+ 10,085 open jobs
+ Pipeline Engineer jobs
+ 39,469 open jobs
+ Teradata Developer jobs
+ 2,501 open jobs
+ Database Engineer jobs
+ 32,874 open jobs
+ Exhibit Coordinator jobs
+ 342 open jobs
+ Senior Solutions Developer jobs
+ 50,281 open jobs
+ SQL Developer jobs
+ 12,445 open jobs
+ Junior Engineer jobs
+ 52,722 open jobs
+ Assistant Produce Manager jobs
+ 3,091 open jobs
+ Data Modeler jobs
+ 263,457 open jobs
+ Data Analyst jobs
+ 329,009 open jobs
+ Senior Data Warehouse Architect jobs
+ 4,641 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Senior Data Engineer jobs
+ Big Data Developer jobs
+ Hadoop Developer jobs
+ ETL Developer jobs
+ Lakeland Care jobs
+ Data Warehouse Engineer jobs
+ Analytical Engineer jobs
+ Data Architect jobs
+ Freelance Engineer jobs
+ Development Database Administrator jobs
+ ETL Specialist jobs
+ Database Software Engineer jobs
+ Engineer jobs
+ Business Intelligence Engineer jobs
+ Senior Data Warehouse Engineer jobs
+ Pipeline Engineer jobs
+ Teradata Developer jobs
+ Database Engineer jobs
+ Exhibit Coordinator jobs
+ Senior Solutions Developer jobs
+ SQL Developer jobs
+ Junior Engineer jobs
+ Assistant Produce Manager jobs
+ Data Modeler jobs
+ Data Analyst jobs
+ Senior Data Warehouse Architect jobs
+ Senior Database Engineer jobs
+ Senior Peoplesoft Consultant jobs
+ ETL Consultant jobs
+ Scala jobs
+ Data Scientist jobs
+ Senior ETL Developer jobs
+ Data Warehouse Specialist jobs
+ Databricks jobs
+ Senior Data Architect jobs
+ Lead Data Architect jobs
+ Business Intelligence Developer jobs
+ The Toledo Clinic jobs
+ Scala Developer jobs
+ General Engineer jobs
+ Senior Business Intelligence Architect jobs
+ Senior System Test Engineer jobs
+ Microsoft Developer jobs
+ Aqua-Tots Swim School jobs
+ Data Warehouse Architect jobs
+ Software Configuration Engineer jobs
+ Data System Engineer jobs
+ Python Developer jobs
+ Data Science Specialist jobs
+ Machine Learning Engineer jobs
+ Scientist jobs
+ Data Warehouse Manager jobs
+ Diocese of Saint Petersburg jobs
+ Project Lead Developer jobs
+ Telecommunications Software Engineer jobs
+ Randall Reilly jobs
+ Processing Geophysicist jobs
+ Senior Database Developer jobs
+ Business Objects Consultant jobs
+ Middleware Engineer jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (Persian)
+ Suomi (Finnish)
+ Français (French)
+ हिंदी (Hindi)
+ Magyar (Hungarian)
+ Bahasa Indonesia (Indonesian)
+ Italiano (Italian)
+ עברית (Hebrew)
+ 日本語 (Japanese)
+ 한국어 (Korean)
+ मराठी (Mara

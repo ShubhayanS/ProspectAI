@@ -1,0 +1,317 @@
+Quizlet hiring Applied AI Engineer in Albany, New York Metropolitan Area | LinkedIn
+ Skip to main content
+ LinkedIn
+ Applied AI Engineer in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Applied AI Engineer
+ Quizlet
+ Albany, New York Metropolitan Area
+ Apply
+ Applied AI Engineer
+ Quizlet
+ Albany, New York Metropolitan Area
+ 9 hours ago
+ 124 applicants
+ See who Quizlet has hired for this role
+ Apply
+ Save
+ Report this job
+ About Quizlet
+ At Quizlet, our mission is to help every learner achieve their outcomes in the most effective and delightful way. We’re a $1B+ learning platform used by two-thirds of U.S. high school students and half of college students, powering over 1 billion learning interactions each week.
+We blend cognitive science with machine learning to personalize and enhance the learning experience for students, professionals, and lifelong learners alike. We’re energized by the potential to power more learners through multiple approaches and various tools.
+ Let’s Build the Future of Learning
+ Join us to design and deliver AI-powered learning tools that scale across the world and unlock human potential.
+ About The Team (Applied AI)
+ Our mission is to invent and deploy the next generation of intelligent, personalized, and adaptive learning experiences. We’re consolidating AI efforts across the company into a unified portfolio and are accountable for a disproportionate share of Quizlet’s growth and product differentiation. You’ll partner closely with Product, Data Science, and the AI & Data Platform to deliver an AI‑driven learning coach that’s recognized as best‑in‑class.
+ About The Role
+ We are looking for Applied Ai Engineers ranging from the Senior to Staff as well as Sr. Staff levels (note: leveling decisions made through the interview process).
+You’ll Be Working At The Forefront Of Our AI Strategy, Shaping Quizlet’s AI Development In One Of The Two Complementary Domains
+ Personalization & Ranking - retrieval and ranking systems that match learners with the right content, experiences, and monetization moments across surfaces (search, feed, notifications, ads).
+ Generative AI & Agentic Systems - LLM‑powered tutoring, content understanding/synthesis, and tools that boost learner outcomes and creator productivity.
+You will work on a variety of models and modeling systems (from Two‑Tower retrieval and multi‑task rankers to RAG/LLM pipelines), ensure robust evaluation, and responsible deployment
+We’re happy to share that this is an onsite position in either our Denver, San Francisco, Seattle, or NYC. To help foster team collaboration, we require that employees be in the office a minimum of three days per week: Monday, Wednesday, and Thursday and as needed by your manager or the company. We believe that this working environment facilitates increased work efficiency, team partnership, and supports growth as an employee and organization.
+ In This Role, You Will
+ Contribute to the technical roadmap for applied AI across personalization, ranking, search, recommendations, and GenAI/LLM systems; help connect modeling work to business metrics (engaged learners, conversion, retention, revenue)
+ Build components of end‑to‑end ML systems: candidate sourcing, embedding platforms & ANN retrieval, multi‑stage ranking (early/late), and value modeling with guardrails for fairness and integrity
+ Implement LLM‑based features: build RAG pipelines, apply instruction‑/preference‑tuning techniques (e.g., SFT/DPO), optimize prompts, and improve latency/cost‑aware inference; contribute to offline evals + human‑in‑the‑loop and online success metrics
+ Help develop "Learner 360" representations by working with behavior signals, explicit inputs, and conversational context to create robust embeddings reused across surfaces
+ Support evaluation infrastructure: contribute to the eval harness for both ranking and generative systems (offline metrics like NDCG/AUC/BLEU/BERTScore; quality/safety scorecards), and help close the loop with online A/B experiments
+ Ship reliable systems at scale: ensure training‑serving consistency, implement drift detection, follow canarying/rollback protocols, participate in on‑call rotation for model services, and maintain strong CI/CD for features & models
+ Collaborate with and learn from senior ML/SWE teammates; write high‑quality code and follow best practices for experimentation rigor and reproducibility
+ Work closely with Product, Design, Legal, and Data Science on objectives, tradeoffs, and responsible AI practices
+ Stay current with ML research (RecSys, LLMs, multimodal) and propose new methods that could improve learner outcomes
+ What You Bring To The Table
+ 6+ years of industry experience in applied ML/AI or ML‑heavy software engineering
+ BS/MS in CS, ML, or related quantitative field (or equivalent experience)
+ Experience building ranking/personalization or search systems (retrieval, Two‑Tower/dual encoders, multi‑task rankers) and contributing to online metric improvements (e.g., CTR, session depth, retention)
+ Hands‑on experience with LLM/GenAI systems: data curation, fine‑tuning (SFT/PEFT, preference optimization), prompt engineering, evaluation, and productionization considerations (latency/cost/safety)
+ Strong skills in Python/PyTorch, data and feature engineering, distributed training/inference on GPUs, and familiarity with modern MLOps (model registry, feature stores, monitoring, drift)
+ Solid experiment design (offline/online), metrics literacy, and ability to translate product goals into modeling solutions
+ Strong collaboration skills and eagerness to learn from senior engineers; some experience mentoring junior teammates is a plus
+ Bonus Points If You Have
+ EdTech or consumer mobile experience; conversational tutoring or learning science‑informed modeling
+ Publications/open‑source with RecSys/LLMs (e.g., RecSys, KDD, NeurIPS, ICLR, ACL), or contributions to safety/guardrails tooling
+ Experience building on a modern MLOps stack (feature mgmt, orchestration, streaming, online inference at scale)
+ Compensation, Benefits & Perks
+ Quizlet is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees. Salary transparency helps to mitigate unfair hiring practices when it comes to discrimination and pay gaps. Total compensation for this role is market competitive, including a starting base salary of $178,000 - $330,000 depending on location and experience, as well as company stock options
+ Collaborate with your manager and team to create a healthy work-life balance
+ 20 vacation days that we expect you to take!
+ Competitive health, dental, and vision insurance (100% employee and 75% dependent PPO, Dental, VSP Choice)
+ Employer-sponsored 401k plan with company match
+ Access to LinkedIn Learning and other resources to support professional growth
+ Paid Family Leave, FSA, HSA, Commuter benefits, and Wellness benefits
+ 40 hours of annual paid time off to participate in volunteer programs of choice
+ Why Join Quizlet?
+ 🌎 Massive reach: 60M+ users, 1B+ interactions per week
+🧠 Cutting-edge tech: Generative AI, adaptive learning, cognitive science
+📈 Strong momentum: Top-tier investors, sustainable business, real traction
+🎯 Mission-first: Work that makes a difference in people’s lives
+🤝 Inclusive culture: Committed to equity, diversity, and belonging
+ We strive to make everyone feel comfortable and welcome!
+ We work to create a holistic interview process, where both Quizlet and candidates have an opportunity to view what it would be like to work together, in exploring a mutually beneficial partnership.
+We provide a transparent setting that gives a comprehensive view of who we are!
+ In Closing
+ At Quizlet, we’re excited about passionate people joining our team—even if you don’t check every box on the requirements list. We value unique perspectives and believe everyone has something meaningful to contribute. Our culture is all about taking initiative, learning through challenges, and striving for high-quality work while staying curious and open to new ideas. We believe in honest, respectful communication, thoughtful collaboration, and creating a supportive space where everyone can grow and succeed together.”
+Quizlet’s success as an online learning community depends on a strong commitment to diversity, equity, and inclusion.
+As an equal opportunity employer and a tech company committed to societal change, we welcome applicants from all backgrounds. Women, people of color, members of the LGBTQ+ community, individuals with disabilities, and veterans are strongly encouraged to apply. Come join us!
+ To All Recruiters And Placement Agencies
+ At this time, Quizlet does not accept unsolicited agency resumes and/or profiles.
+Please do not forward unsolicited agency resumes to our website or to any Quizlet employee. Quizlet will not pay fees to any third-party agency or firm nor will it be responsible for any agency fees associated with unsolicited resumes. All unsolicited resumes received will be considered the property of Quizlet.
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+ Show more
+ Show less
+ Seniority level
+ Not Applicable
+ Employment type
+ Full-time
+ Job function
+ Engineering and Information Technology
+ Industries
+ Software Development
+ Referrals increase your chances of interviewing at Quizlet by 2x
+ See who you know
+ Get notified when a new job is posted.
+ Set alert
+ Sign in to set job alerts for “Artificial Intelligence Engineer” roles.
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Similar jobs
+ AI/ML Computational Science Specialist
+ AI/ML Computational Science Specialist
+ Accenture
+ Albany, New York Metropolitan Area
+ 3 weeks ago
+ Applied AI Engineer, Founding Team
+ Applied AI Engineer, Founding Team
+ Accenture
+ Albany, New York Metropolitan Area
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ CGS Federal (Contact Government Services)
+ Albany, NY
+ $112,597.33
+ -
+ $152,810.66
+ 1 month ago
+ AI/ML Computational Science Manager
+ AI/ML Computational Science Manager
+ Accenture
+ Albany, New York Metropolitan Area
+ 3 weeks ago
+ AI Native Software Engineer
+ AI Native Software Engineer
+ Accenture
+ Albany, New York Metropolitan Area
+ 1 week ago
+ Sr. Data Engineer
+ Sr. Data Engineer
+ CGS Federal (Contact Government Services)
+ Albany, NY
+ $144,768.00
+ -
+ $209,109.33
+ 1 month ago
+ Senior AI Engineer
+ Senior AI Engineer
+ Jahnel Group
+ Schenectady, NY
+ 1 month ago
+ Gameplay Programmer
+ Gameplay Programmer
+ Velan Studios, Inc.
+ Troy, NY
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Excelsior University
+ Albany, NY
+ 2 months ago
+ Python and Kubernetes Software Engineer - Data, AI/ML & Analytics
+ Python and Kubernetes Software Engineer - Data, AI/ML & Analytics
+ Canonical
+ Albany, NY
+ 1 year ago
+ Senior AI Agent Engineer
+ Senior AI Agent Engineer
+ GE Vernova
+ Niskayuna, NY
+ 1 week ago
+ AI Engineer / Data Scientist, AI Senior Associate
+ AI Engineer / Data Scientist, AI Senior Associate
+ PwC
+ Albany, NY
+ 5 days ago
+ AI and Data Mid-Market Sales Engineer
+ AI and Data Mid-Market Sales Engineer
+ Accenture
+ Albany, New York Metropolitan Area
+ 1 month ago
+ AWS Sales Engineer - Data & AI
+ AWS Sales Engineer - Data & AI
+ Accenture
+ Albany, New York Metropolitan Area
+ 1 month ago
+ PCP Pre Sales Engineer - Data & AI
+ PCP Pre Sales Engineer - Data & AI
+ Accenture
+ Albany, New York Metropolitan Area
+ 3 weeks ago
+ Senior Software Engineer (AI-Powered Dispatch)
+ Senior Software Engineer (AI-Powered Dispatch)
+ Jahnel Group
+ Schenectady, NY
+ 1 week ago
+ Azure Pre Sales Engineer - Data & AI
+ Azure Pre Sales Engineer - Data & AI
+ Accenture
+ Albany, New York Metropolitan Area
+ 1 month ago
+ Agentic DevOps Engineer
+ Agentic DevOps Engineer
+ Accenture
+ Albany, New York Metropolitan Area
+ 1 month ago
+ GCP Sales Engineer - Data & AI
+ GCP Sales Engineer - Data & AI
+ Accenture
+ Albany, New York Metropolitan Area
+ 1 month ago
+ Principal AI Software Engineer
+ Principal AI Software Engineer
+ GE Vernova
+ Niskayuna, NY
+ 2 weeks ago
+ AI Engineer - Senior Associate
+ AI Engineer - Senior Associate
+ PwC
+ Albany, NY
+ 2 days ago
+ Oracle Sales Engineer - Data & AI
+ Oracle Sales Engineer - Data & AI
+ Accenture
+ Albany, New York Metropolitan Area
+ 1 month ago
+ AI Engineer - Manager
+ AI Engineer - Manager
+ PwC
+ Albany, NY
+ 2 weeks ago
+ Data Engineer, Senior
+ Data Engineer, Senior
+ Naval Nuclear Laboratory (FMP)
+ Niskayuna, NY
+ 2 weeks ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Data Engineer - Senior Associate
+ Data Engineer - Senior Associate
+ PwC
+ Albany, NY
+ 2 weeks ago
+ Databricks Data Engineer - Senior - Consulting - Location Open
+ Databricks Data Engineer - Senior - Consulting - Location Open
+ EY
+ Albany, NY
+ 2 weeks ago
+ Senior Staff AI Engineer
+ Senior Staff AI Engineer
+ GE Vernova
+ Niskayuna, NY
+ 2 weeks ago
+ AI & GenAI Data Scientist - EUR- Director
+ AI & GenAI Data Scientist - EUR- Director
+ PwC
+ Albany, NY
+ 5 days ago
+ CTIO-AI Engineer-Sr Associate
+ CTIO-AI Engineer-Sr Associate
+ PwC
+ Albany, NY
+ 1 week ago
+ Instrumentation & Controls (I&C) Engineer - Intermediate (Data Centers)
+ Instrumentation & Controls (I&C) Engineer - Intermediate (Data Centers)
+ Jacobs
+ Albany, NY
+ $69,500.00
+ -
+ $95,500.00
+ 2 weeks ago
+ Databricks Data Engineer - Manager - Consulting - Miami
+ Databricks Data Engineer - Manager - Consulting - Miami
+ EY
+ Albany, NY
+ 2 weeks ago
+ ERP AI Engineer - Senior Associate
+ ERP AI Engineer - Senior Associate
+ PwC
+ Albany, NY
+ 2 weeks ago
+ Early Career Mechanical Engineer (Mission Critical/Data Center)
+ Early Career Mechanical Engineer (Mission Critical/Data Center)
+ WSP in the U.S.
+ Troy, NY
+ 1 week ago
+ Similar Searches
+ Senior Client Account Manager jobs
+ 3,560 open jobs
+ Dean of Instruction jobs
+ 1,155 open jobs
+ Audience Development Manager jobs
+ 3,082 open jobs
+ Mathematics Coach jobs
+ 8,318 open jobs
+ Senior Technical Associate jobs
+ 41,004 open jobs
+ Commercial Lines Underwriter jobs
+ 1,990 open jobs
+ Consumer Product Manager jobs
+ 2,939 open jobs
+ Fine Artist jobs
+ 40,530 open jobs
+ Curriculum Writer jobs
+ 37,728 open jobs
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More sear

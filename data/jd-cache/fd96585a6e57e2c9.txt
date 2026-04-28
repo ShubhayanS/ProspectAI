@@ -1,0 +1,510 @@
+Hippocratic AI hiring AI Engineer in Palo Alto, CA | LinkedIn
+ Skip to main content
+ LinkedIn
+ AI Engineer in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ AI Engineer
+ Hippocratic AI
+ Palo Alto, CA
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the AI Engineer role at Hippocratic AI
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ AI Engineer
+ Hippocratic AI
+ Palo Alto, CA
+ 9 hours ago
+ Over 200 applicants
+ See who Hippocratic AI has hired for this role
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the AI Engineer role at Hippocratic AI
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Save
+ Report this job
+ Use AI to assess how you fit
+ Get AI-powered advice on this job and more exclusive features.
+ Am I a good fit for this job?
+ Tailor my resume
+ Sign in to access AI-powered advices
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to evaluate your skills
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to tailor your resume
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ About Us
+ Hippocratic AI is the leading generative AI company in healthcare. We have the only system that can have safe, autonomous, clinical conversations with patients. We have trained our own LLMs as part of our Polaris constellation, resulting in a system with over 99.9% accuracy.
+ Why Join Our Team
+ Reinvent healthcare with AI that puts safety first. We’re building the world’s first healthcare‑only, safety‑focused LLM — a breakthrough platform designed to transform patient outcomes at a global scale. This is category creation.
+ Work with the people shaping the future. Hippocratic AI was co‑founded by CEO Munjal Shah and a team of physicians, hospital leaders, AI pioneers, and researchers from institutions like El Camino Health, Johns Hopkins, Washington University in St. Louis, Stanford, Google, Meta, Microsoft, and NVIDIA.
+ Backed by the world’s leading healthcare and AI investors. We recently raised a $126M Series C at a $3.5B valuation, led by Avenir Growth, bringing total funding to $404M with participation from CapitalG, General Catalyst, a16z, Kleiner Perkins, Premji Invest, UHS, Cincinnati Children’s, WellSpan Health, John Doerr, Rick Klausner, and others.
+ Build alongside the best in healthcare and AI. Join experts who’ve spent their careers improving care, advancing science, and building world‑changing technologies — ensuring our platform is powerful, trusted, and truly transformative.
+ Location Requirement
+ We believe the best ideas happen together. To support fast collaboration and a strong team culture, this role is expected to be in our Palo Alto office five days a week, unless otherwise specified.
+ About The Role
+ As an AI Engineer at Hippocratic AI , you’ll play a pivotal role in shaping the future of voice-based generative AI in healthcare . You’ll design and build the intelligent systems that power our clinically safe healthcare agents , working at the intersection of large language models, real-time voice, and human-centered product design.
+This is a deeply hands-on and cross-functional role , partnering closely with AI researchers, product managers, and clinical experts to bring advanced language and speech models into production. From building scalable RAG and multi-agent pipelines to conversational interactions, your work will directly influence how patients and providers safely interact with generative AI at scale.
+We’re looking for experienced engineers who are passionate about AI in the real world —people who love taking cutting-edge research, turning it into robust products, and advancing the frontier of what’s possible in safe, agentic healthcare systems .
+What You'll Do:
+ Design, build, and optimize production-grade AI pipelines that power our voice-based generative healthcare agents—from retrieval-augmented generation (RAG) to multi-step reasoning systems.
+ Collaborate cross-functionally with product, clinical, and engineering teams to translate healthcare workflows into safe, scalable, and human-centered AI experiences.
+ Prototype and deploy zero-to-one features using state-of-the-art LLMs, retrieval systems, and streaming architectures—balancing innovation with reliability.
+ Develop and refine AI-native workflows that support real-time, conversational, and long-running interactions across diverse healthcare contexts.
+ Drive continuous improvement in model evaluation, safety testing, and observability, ensuring every agent interaction meets clinical safety standards
+ What You Bring
+ Must Have:
+ 3+ years of professional experience in software, ML, or AI engineering.
+ Proven track record building and shipping AI- or ML-powered products in production environments.
+ Strong programming skills in Python with experience in distributed systems, APIs, and data pipelines.
+ Deep understanding of prompt engineering, vector databases, and retrieval systems (RAG), voice agents or willingness to learn rapidly.
+ Experience with cloud environments (AWS/GCP/Azure) and modern DevOps practices (Terraform, CI/CD, monitoring).
+ Excellent communication, cross-functional collaboration, and an ability to move fast in high-impact domains.
+ Nice-to-Have:
+ Experience building or deploying LLM-based or multi-agent systems at scale.
+ Hands-on work with speech recognition, text-to-speech, or streaming architectures for real-time AI experiences.
+ Prior exposure to healthcare, safety-critical domains, or regulated product development.
+ If you’re an AI engineer who thrives at the intersection of cutting-edge research and real-world product impact , we’d love to hear from you.
+Join Hippocratic AI and help shape the future of clinically safe, voice-enabled AI systems that are already transforming patient care at scale.
+ Please be aware of recruitment scams impersonating Hippocratic AI. All recruiting communication will come from @ hippocraticai.com email addresses. We will never request payment or sensitive personal information during the hiring process.
+ Show more
+ Show less
+ Seniority level
+ Mid-Senior level
+ Employment type
+ Full-time
+ Job function
+ Engineering and Information Technology
+ Industries
+ Hospitals and Health Care
+ Referrals increase your chances of interviewing at Hippocratic AI by 2x
+ See who you know
+ Get notified when a new job is posted.
+ Set alert
+ Sign in to set job alerts for “Artificial Intelligence Engineer” roles.
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Similar jobs
+ Machine Learning Engineer Intern
+ Machine Learning Engineer Intern
+ Tinder
+ Palo Alto, CA
+ $47.00
+ -
+ $47.00
+ 2 weeks ago
+ Software Engineer, AI Platform - New Grad
+ Software Engineer, AI Platform - New Grad
+ Nuro
+ Mountain View, CA
+ 2 weeks ago
+ Machine Learning Engineer - Perception
+ Machine Learning Engineer - Perception
+ Aeva
+ Mountain View, CA
+ $164,333.00
+ -
+ $222,365.00
+ 14 hours ago
+ ML Engineer
+ ML Engineer
+ Catalyst Labs
+ Menlo Park, CA
+ 2 weeks ago
+ ML Engineer
+ ML Engineer
+ Catalyst Labs
+ Palo Alto, CA
+ 2 weeks ago
+ ML Engineer
+ ML Engineer
+ Catalyst Labs
+ Sunnyvale, CA
+ 2 weeks ago
+ Machine Learning Engineer II
+ Machine Learning Engineer II
+ Uber
+ Sunnyvale, CA
+ 2 weeks ago
+ ML Engineer
+ ML Engineer
+ Catalyst Labs
+ Mountain View, CA
+ 2 weeks ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Aquabyte
+ San Francisco Bay Area
+ $130,000.00
+ -
+ $170,000.00
+ 4 months ago
+ ML Engineer
+ ML Engineer
+ Catalyst Labs
+ Cupertino, CA
+ 2 weeks ago
+ ML Engineer
+ ML Engineer
+ Catalyst Labs
+ Santa Clara, CA
+ 2 weeks ago
+ Machine Learning/AI Engineer
+ Machine Learning/AI Engineer
+ Rivian
+ Palo Alto, CA
+ 4 days ago
+ ML Engineer
+ ML Engineer
+ Catalyst Labs
+ San Jose, CA
+ 2 weeks ago
+ AI/ML Engineer
+ AI/ML Engineer
+ Lam Research
+ Fremont, CA
+ 3 days ago
+ AI/ML Engineer
+ AI/ML Engineer
+ Brain Co.
+ San Francisco Bay Area
+ 2 weeks ago
+ Applied AI Engineer
+ Applied AI Engineer
+ Catalyst Labs
+ Menlo Park, CA
+ 2 weeks ago
+ ML Research Engineer, Interpretable AI for End-to-End Automated Driving
+ ML Research Engineer, Interpretable AI for End-to-End Automated Driving
+ Toyota Research Institute
+ Los Altos, CA
+ 1 hour ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Adobe
+ San Jose, CA
+ 1 week ago
+ Applied AI Engineer
+ Applied AI Engineer
+ xAI
+ Palo Alto, CA
+ 2 weeks ago
+ Data Scientist, Analytics
+ Data Scientist, Analytics
+ Discord
+ San Francisco Bay Area
+ 2 weeks ago
+ Software Engineer, Machine Learning
+ Software Engineer, Machine Learning
+ Meta
+ Sunnyvale, CA
+ $154,003.00
+ -
+ $217,000.00
+ 1 week ago
+ Data Engineer, Analytics
+ Data Engineer, Analytics
+ Discord
+ San Francisco Bay Area
+ 1 month ago
+ Software Engineer, Machine Learning
+ Software Engineer, Machine Learning
+ Meta
+ Menlo Park, CA
+ $121,992.00
+ -
+ $181,000.00
+ 1 week ago
+ Software Engineer, Machine Learning
+ Software Engineer, Machine Learning
+ Meta
+ Menlo Park, CA
+ $154,003.00
+ -
+ $217,000.00
+ 1 week ago
+ AI Engineer - AI Department
+ AI Engineer - AI Department
+ Petlibro
+ San Jose, CA
+ $140,000.00
+ -
+ $230,000.00
+ 3 weeks ago
+ Software Engineer, Machine Learning
+ Software Engineer, Machine Learning
+ Meta
+ San Mateo, CA
+ $121,992.00
+ -
+ $181,000.00
+ 1 week ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ UnifyID
+ Redwood City, CA
+ 10 months ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ AI Research Engineer
+ AI Research Engineer
+ Creatify AI
+ Mountain View, CA
+ $190,000.00
+ -
+ $300,000.00
+ 6 months ago
+ Software Engineer, Machine Learning
+ Software Engineer, Machine Learning
+ Meta
+ Sunnyvale, CA
+ $121,992.00
+ -
+ $181,000.00
+ 1 week ago
+ Machine Learning Engineer, AI
+ Machine Learning Engineer, AI
+ Biohub
+ Redwood City, CA
+ 2 weeks ago
+ Applied AI / ML Engineer
+ Applied AI / ML Engineer
+ Catalyst Labs
+ Palo Alto, CA
+ 2 weeks ago
+ Software Engineer, Machine Learning
+ Software Engineer, Machine Learning
+ Meta
+ Foster City, CA
+ $121,992.00
+ -
+ $181,000.00
+ 1 week ago
+ New Grads 2026 - Data Engineer
+ New Grads 2026 - Data Engineer
+ WeRide
+ San Jose, CA
+ $120,000.00
+ -
+ $165,000.00
+ 6 months ago
+ Machine Learning Engineer (Tapestry)
+ Machine Learning Engineer (Tapestry)
+ X, The Moonshot Factory
+ Mountain View, CA
+ 4 days ago
+ Software Engineer - AI
+ Software Engineer - AI
+ Maxima
+ San Mateo, CA
+ 5 months ago
+ AI Software Engineer
+ AI Software Engineer
+ Gallatin AI, Inc.
+ Palo Alto, CA
+ $80,000.00
+ -
+ $210,000.00
+ 5 months ago
+ AI Research Engineer
+ AI Research Engineer
+ Code Metal
+ Palo Alto, CA
+ 5 months ago
+ Similar Searches
+ Medical Case Manager jobs
+ 16,680 open jobs
+ Research Program Coordinator jobs
+ 7,316 open jobs
+ Senior Mechanical Design Engineer jobs
+ 5,749 open jobs
+ Vice President Legal jobs
+ 5,441 open jobs
+ Customer Account Executive jobs
+ 73,915 open jobs
+ Director Quality Engineering jobs
+ 4,641 open jobs
+ Clinical System Analyst jobs
+ 975 open jobs
+ Head of Corporate Development jobs
+ 2,663 open jobs
+ Adjunct Faculty Instructor jobs
+ 3,486 open jobs
+ National Strategic Account Manager jobs
+ 2,700 open jobs
+ Mental Health Consultant jobs
+ 909 open jobs
+ Medical Director jobs
+ 52,044 open jobs
+ Clinical Advisor jobs
+ 3,886 open jobs
+ Deputy General Counsel jobs
+ 4,231 open jobs
+ Medical Underwriter jobs
+ 1,397 open jobs
+ Clinical Fellow jobs
+ 11,684 open jobs
+ Clinical Consultant jobs
+ 17,652 open jobs
+ Lead Nurse jobs
+ 345,475 open jobs
+ Chief Compliance Officer jobs
+ 5,194 open jobs
+ Senior Nurse jobs
+ 229,239 open jobs
+ Global Project Director jobs
+ 4,299 open jobs
+ Senior Research Technologist jobs
+ 1,640 open jobs
+ Vice President Strategic Partnerships jobs
+ 2,166 open jobs
+ Customer Trainer jobs
+ 67,252 open jobs
+ Health Officer jobs
+ 10,687 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Identity Automation jobs
+ Medical Case Manager jobs
+ Research Program Coordinator jobs
+ Senior Mechanical Design Engineer jobs
+ Vice President Legal jobs
+ Customer Account Executive jobs
+ Big Health jobs
+ Director Quality Engineering jobs
+ AHIP jobs
+ Clinical System Analyst jobs
+ Head of Corporate Development jobs
+ High5 jobs
+ Adjunct Faculty Instructor jobs
+ University of Kentucky jobs
+ PMMC jobs
+ People.ai jobs
+ National Strategic Account Manager jobs
+ Primer.ai jobs
+ Joint Academy jobs
+ Hyster-Yale Materials Handling jobs
+ Mental Health Consultant jobs
+ Richard, Wayne & Roberts jobs
+ Belong jobs
+ H1 jobs
+ Medical Director jobs
+ Clinical Advisor jobs
+ Deputy General Counsel jobs
+ Medical Underwriter jobs
+ Clinical Fellow jobs
+ Clinical Consultant jobs
+ Lead Nurse jobs
+ Chief Compliance Officer jobs
+ Clutch jobs
+ ImageTrend jobs
+ Senior Nurse jobs
+ High Companies jobs
+ Global Project Director jobs
+ Senior Research Technologist jobs
+ Vice President Strategic Partnerships jobs
+ Customer Trainer jobs
+ American Society of Anesthesiologists® jobs
+ Griffith Company jobs
+ Health Officer jobs
+ Interim Controller jobs
+ New York State Department of Health jobs
+ Corsearch jobs
+ Medical Solutions jobs
+ Associate Recruiter jobs
+ Right at Home jobs
+ Health Director jobs
+ GOAT Group jobs
+ Director of Bioinformatics jobs
+ Chief Medical Officer jobs
+ Senior Project Architect jobs
+ Scientific Director jobs
+ Senior Client Manager jobs
+ symplr jobs
+ CHI jobs
+ Recruiting Operations Manager jobs
+ Viz.ai jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (P

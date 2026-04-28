@@ -1,0 +1,458 @@
+Lancer Worldwide hiring Data Analyst in San Antonio, TX | LinkedIn
+ Skip to main content
+ LinkedIn
+ Data Analyst in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Data Analyst
+ Lancer Worldwide
+ San Antonio, TX
+ Apply
+ Data Analyst
+ Lancer Worldwide
+ San Antonio, TX
+ 8 hours ago
+ Over 200 applicants
+ See who Lancer Worldwide has hired for this role
+ Apply
+ Save
+ Report this job
+ Use AI to assess how you fit
+ Get AI-powered advice on this job and more exclusive features.
+ Am I a good fit for this job?
+ Tailor my resume
+ Sign in to access AI-powered advices
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to evaluate your skills
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to tailor your resume
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Direct message the job poster from Lancer Worldwide
+ Samantha Lopez
+ Samantha Lopez
+ I don’t usually stalk profiles but when I do I usually have a career opportunity for you! Want to connect?
+ Our Company
+ Lancer Worldwide, a Hoshizaki Company, is an award-winning global leader in beverage dispensing. Through innovation and a commitment to dedication in action, we create products that benefit our customers worldwide, and give them a distinct advantage in the marketplace. We offer our teammates the opportunity to grow personally and professionally, to contribute to the success of a dynamic organization, and to serve others in a manner that exceeds their expectations. We welcome talented, passionate, and highly motivated individuals to join our team.
+ Summary
+ The Data Analyst will design, build, and govern Power BI semantic models powered by Microsoft Fabric, leveraging OneLake as the centralized data foundation for trusted, high-performing analytics. Working within the Information Technology department and partnering closely with the Data Engineer, this role translates business requirements into curated Lakehouse/warehouse data, measures, and dashboards that deliver consistent, actionable insights. The ideal candidate combines strong data modeling and Power BI expertise with a customer-focused mindset, ensuring analytics solutions are accurate, secure, and scalable.
+ Essential Functions
+ • Collaborate with BI team to execute a comprehensive BI strategy aligned with business goals.
+ • Develop and maintain Power BI Semantic models, reports, and dashboards, ensuring performance and usability.
+ • Lead the implementation of data governance, security, and compliance practices across BI systems.
+ • Drive the adoption of DevOps and CI/CD practices for Power Bi data analytic workflows.
+ • Ensure data quality, lineage, and documentation across all data assets.
+ • Support data migration, transformation, and integration efforts across legacy and modern systems.
+ • Collaborate with business stakeholders to gather requirements and insights and translate them into scalable BI solutions.
+ • Provide technical leadership and mentorship to team members and cross-functional collaborators.
+ • Participate in strategic planning for BI initiatives and contribute to the overall data strategy.
+ • Collaborate with Data Analysts outside of the IT department to accomplish corporate reporting goals.
+ • Provide off-hours support and assist with special projects as needed.
+ Knowledge, Skills, and Abilities
+ Technical Expertise:
+ • Proficiency in Azure Synapse Analytics and Microsoft Fabric
+ • Strong skills and experience with Power BI Semantic Model and Dashboard development.
+ • Strong skills and experience with T-SQL, DAX, MDX, and Python.
+ • Familiarity with Delta Lake, Parquet, and data lakehouse architecture.
+ Strategic Thinking:
+ • Ability to design BI solutions aligned with business goals and long-term scalability.
+ • Experience defining and implementing BI governance frameworks.
+ Collaboration & Communication:
+ • Strong interpersonal and communication skills to work with technical and non-technical stakeholders, including
+ Operations, Engineering, Sales, and Accounting.
+ • Spanish proficiency preferred.
+ Problem-Solving & Initiative:
+ • Self-starter with the ability to troubleshoot, document, and resolve data issues independently.
+ • Passion for continuous learning and innovation in data technologies.
+ Project & Time Management:
+ • Ability to manage multiple priorities and deliver high-quality work under tight deadlines.
+ • Experience leading or contributing to Agile/Scrum-based projects is a plus.
+ Education and Experience
+ • Bachelor’s degree in Business, Computer Science, or a related field.
+ • Minimum 3 years of experience with advanced data modeling and BI software (Power BI).
+ • Proficiency in MDX, DAX.
+ • Experience in Python, SQL, and JSON API integrations preferred.
+ • Experience with Microsoft Azure tools (Synapse, Fabric, SSIS).
+ • Strong cross-functional communication skills (Operations, Engineering, Sales, Accounting).
+ • Spanish proficiency preferred.
+ Lancer Worldwide is unable to sponsor applicants for employment-based visas for this position. All candidates must be legally authorized to work in the United States at the time of application and throughout employment, without the need for employer-sponsored visa status now or in the future.
+ Notice To Third Party Agencies
+ Please note that LANCER does not accept unsolicited resumes from recruiters or employment agencies. In the absence of a signed Recruitment Fee Agreement, LANCER will not consider or agree to payment of any referral compensation or recruiter fee. In the event a recruiter or agency submits a resume or candidate without a previously signed agreement, LANCER explicitly reserves the right to pursue and hire those candidate(s) without any financial obligation to the recruiter or agency. Any unsolicited resumes, including those submitted to hiring managers, are deemed to be the property of LANCER.
+ EEO Statement
+ Lancer provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws. This policy applies to all terms and conditions of employment, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation and training.
+ Show more
+ Show less
+ Seniority level
+ Entry level
+ Employment type
+ Full-time
+ Job function
+ Information Technology
+ Industries
+ Food and Beverage Services
+ Referrals increase your chances of interviewing at Lancer Worldwide by 2x
+ See who you know
+ Featured Benefits
+ Inferred from the description for this job
+ Medical insurance
+ Vision insurance
+ Dental insurance
+ 401(k)
+ Tuition assistance
+ Get notified when a new job is posted.
+ Set alert
+ Sign in to set job alerts for “Data Analyst” roles.
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Similar jobs
+ Data Analyst
+ Data Analyst
+ Analytica
+ San Antonio, TX
+ 3 weeks ago
+ Data Analyst
+ Data Analyst
+ Cymertek Corporation
+ San Antonio, TX
+ 5 months ago
+ Data Analyst
+ Data Analyst
+ Zantech
+ San Antonio, TX
+ 1 month ago
+ Data Analyst
+ Data Analyst
+ Booz Allen Hamilton
+ San Antonio, TX
+ 1 week ago
+ Data Analyst
+ Data Analyst
+ TalentAlly
+ San Antonio, Texas Metropolitan Area
+ 11 hours ago
+ Analyst, Business Analytics
+ Analyst, Business Analytics
+ Petco
+ San Antonio, Texas Metropolitan Area
+ 2 days ago
+ Manager, Data Science - BI Analytics
+ Manager, Data Science - BI Analytics
+ Petco
+ San Antonio, Texas Metropolitan Area
+ 2 weeks ago
+ Data Analyst/Data Coordinator
+ Data Analyst/Data Coordinator
+ MillenniumSoft Inc
+ San Antonio, TX
+ 1 year ago
+ Analyst - Data Coordinator
+ Analyst - Data Coordinator
+ MillenniumSoft Inc
+ San Antonio, TX
+ 1 year ago
+ Sr Data Analyst
+ Sr Data Analyst
+ CBRE
+ San Antonio, TX
+ 1 week ago
+ Data Technician
+ Data Technician
+ T3i, Inc.
+ San Antonio, TX
+ 1 month ago
+ Data Analyst/FM Product Consultant
+ Data Analyst/FM Product Consultant
+ Guidehouse
+ San Antonio, TX
+ 4 days ago
+ Quality and Patient Safety Hospital Data Analyst (remote eligible)
+ Quality and Patient Safety Hospital Data Analyst (remote eligible)
+ UT Health San Antonio
+ San Antonio, TX
+ 4 days ago
+ Online Data Analyst
+ Online Data Analyst
+ TELUS Digital AI Data Solutions
+ San Antonio, TX
+ 3 weeks ago
+ Analytic Editor
+ Analytic Editor
+ Cymertek Corporation
+ San Antonio, TX
+ 5 months ago
+ Vendor Data Analyst (Entry Level With Some Experience SAP, W8 &W9) – Urgent Need
+ Vendor Data Analyst (Entry Level With Some Experience SAP, W8 &W9) – Urgent Need
+ MillenniumSoft Inc
+ San Antonio, TX
+ 7 months ago
+ Financial Data Analyst
+ Financial Data Analyst
+ Cherokee Federal
+ San Antonio, TX
+ 4 days ago
+ Online Data Analyst Spanish Speakers (US)
+ Online Data Analyst Spanish Speakers (US)
+ TELUS Digital
+ San Antonio, TX
+ 1 week ago
+ Business Systems Analyst 1
+ Business Systems Analyst 1
+ HOLT Group
+ San Antonio, TX
+ 1 week ago
+ United States Residents - Survey Participants - San Antonio, USA
+ United States Residents - Survey Participants - San Antonio, USA
+ Prolific
+ San Antonio, TX
+ 4 days ago
+ Data Engineer - Remote
+ Data Engineer - Remote
+ YO IT Consulting
+ San Antonio, TX
+ 1 week ago
+ GIS Analyst
+ GIS Analyst
+ Sunoco LP
+ San Antonio, TX
+ 2 days ago
+ Population Health Informaticist
+ Population Health Informaticist
+ Alignerr
+ San Antonio, TX
+ $35.00
+ -
+ $75.00
+ 4 days ago
+ Analyst / Systems Engineer
+ Analyst / Systems Engineer
+ Cymertek Corporation
+ San Antonio, TX
+ 5 months ago
+ Data Engineer I
+ Data Engineer I
+ Alterman, Inc.
+ Live Oak, TX
+ 3 weeks ago
+ Data Engineer
+ Data Engineer
+ Booz Allen Hamilton
+ San Antonio, TX
+ 3 weeks ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Data Scientist
+ Data Scientist
+ Cymertek Corporation
+ San Antonio, TX
+ 5 months ago
+ Business Systems Analyst - IT Corporate Functions
+ Business Systems Analyst - IT Corporate Functions
+ Marathon Petroleum Corporation
+ San Antonio, TX
+ 9 hours ago
+ Associate Campaign Insights Analyst (Remote)
+ Associate Campaign Insights Analyst (Remote)
+ Vericast
+ San Antonio, TX
+ 3 days ago
+ Data Analyst IV - Marketing Analytics & Digital Insights
+ Data Analyst IV - Marketing Analytics & Digital Insights
+ Vericast
+ San Antonio, TX
+ 2 weeks ago
+ Data Analyst Director
+ Data Analyst Director
+ Community Bible Church San Antonio
+ San Antonio, TX
+ 10 hours ago
+ Data Management Analyst - Entry Level (Must Have Workday Exp)
+ Data Management Analyst - Entry Level (Must Have Workday Exp)
+ MillenniumSoft Inc
+ San Antonio, TX
+ 1 year ago
+ Data Scientist
+ Data Scientist
+ Cymertek Corporation
+ San Antonio, TX
+ 5 months ago
+ AI Trainer - Freelance Data Annotator
+ AI Trainer - Freelance Data Annotator
+ Toloka Annotators
+ San Antonio, TX
+ 9 hours ago
+ Trauma Data Abstractor
+ Trauma Data Abstractor
+ HCA Healthcare
+ San Antonio, TX
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Guidehouse
+ San Antonio, TX
+ 9 hours ago
+ Similar Searches
+ Analyst jobs
+ 694,057 open jobs
+ Data Science Specialist jobs
+ 2,441 open jobs
+ Data Scientist jobs
+ 264,158 open jobs
+ Business Intelligence Intern jobs
+ 156 open jobs
+ Data Assistant jobs
+ 78,859 open jobs
+ Clinical Data Analyst jobs
+ 3,073 open jobs
+ Business Intelligence Analyst jobs
+ 43,282 open jobs
+ Business Intelligence Developer jobs
+ 25,542 open jobs
+ Junior Scientist jobs
+ 10,103 open jobs
+ Data Engineer jobs
+ 192,126 open jobs
+ Scientist jobs
+ 48,969 open jobs
+ Web Marketing Analyst jobs
+ 890 open jobs
+ Senior Data Analyst jobs
+ 35,445 open jobs
+ Business Data Analyst jobs
+ 65,569 open jobs
+ Analyst Internship jobs
+ 935 open jobs
+ Business Analyst Intern jobs
+ 19,467 open jobs
+ Marketing Data Analyst jobs
+ 16,883 open jobs
+ Business Intelligence Specialist jobs
+ 28,322 open jobs
+ Senior Integration Analyst jobs
+ 1,670 open jobs
+ SQL Developer jobs
+ 12,445 open jobs
+ Business Analyst jobs
+ 95,218 open jobs
+ Financial Services Officer jobs
+ 55,206 open jobs
+ Financial Data Analyst jobs
+ 47,557 open jobs
+ Staff Chemist jobs
+ 425 open jobs
+ Healthcare Analyst jobs
+ 35,645 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Analyst jobs
+ Skagit County jobs
+ Data Science Specialist jobs
+ Data Scientist jobs
+ Business Intelligence Intern jobs
+ Startups.com jobs
+ Data Assistant jobs
+ Clinical Data Analyst jobs
+ Business Intelligence Analyst jobs
+ Business Intelligence Developer jobs
+ Junior Scientist jobs
+ Data Engineer jobs
+ Boerne ISD jobs
+ Scientist jobs
+ Web Marketing Analyst jobs
+ Senior Data Analyst jobs
+ Business Data Analyst jobs
+ Analyst Internship jobs
+ Business Analyst Intern jobs
+ Marketing Data Analyst jobs
+ Business Intelligence Specialist jobs
+ Senior Integration Analyst jobs
+ SQL Developer jobs
+ Business Analyst jobs
+ Financial Services Officer jobs
+ Financial Data Analyst jobs
+ Staff Chemist jobs
+ reacHIRE jobs
+ Healthcare Analyst jobs
+ Data Reporting Analyst jobs
+ Data Specialist jobs
+ Data Research Analyst jobs
+ Peoplesoft Financial Consultant jobs
+ Data Quality Analyst jobs
+ Data Conversion Specialist jobs
+ Director of Student Financial Services jobs
+ Lead Data Analyst jobs
+ Providence Health Plan jobs
+ Samaritan Hospital jobs
+ Mail Administrator jobs
+ Insurance Counselor jobs
+ Bureau of Economic Analysis jobs
+ Business Intelligence Engineer jobs
+ Development Database Administrator jobs
+ Biostatistician jobs
+ Statistical Analyst jobs
+ Data Associate jobs
+ Graduate Analyst jobs
+ Statistician jobs
+ Optima Health jobs
+ Payroll Tax Analyst jobs
+ Data System Analyst jobs
+ Data Processing Specialist jobs
+ Junior Business Analyst jobs
+ Junior Analyst jobs
+ Business Intelligence Consultant jobs
+ Report Analyst jobs
+ Data Consultant jobs
+ Web Analyst jobs
+ Data Mining Specialist jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California P

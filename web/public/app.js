@@ -65,10 +65,18 @@ function replaceIcons() {
   }
 }
 
-function parseDateValue(value) {
+function dateFromValue(value) {
   if (!value) return 0;
-  const t = Date.parse(value);
-  return Number.isNaN(t) ? 0 : t;
+  const s = String(value).trim();
+  const m = s.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (m) return new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3]));
+  const d = new Date(s);
+  return Number.isNaN(d.getTime()) ? null : d;
+}
+
+function parseDateValue(value) {
+  const d = dateFromValue(value);
+  return d ? d.getTime() : 0;
 }
 
 function parseScoreValue(value) {
@@ -93,8 +101,38 @@ function truncate(s, n = 50) {
 function fmtDate(s) {
   if (!s) return '—';
   try {
-    return new Date(s).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+    const d = dateFromValue(s);
+    return d ? d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : s;
   } catch { return s; }
+}
+
+function fmtTableDate(s) {
+  if (!s) return '—';
+  const d = dateFromValue(s);
+  if (!d) return s;
+  const opts = { month: 'short', day: 'numeric' };
+  if (d.getFullYear() !== new Date().getFullYear()) opts.year = 'numeric';
+  return d.toLocaleDateString('en-US', opts);
+}
+
+const _resumeDownloads = new Map();
+
+function resumeKey({ url, company, title } = {}) {
+  return (url || `${company || ''}|${title || ''}`).trim().toLowerCase();
+}
+
+function renderResumeAction({ url = '', company = '', title = '' } = {}, small = true) {
+  const key = resumeKey({ url, company, title });
+  const href = _resumeDownloads.get(key);
+  const sizeClass = small ? ' btn-sm' : '';
+  if (href) {
+    return `<a class="btn${sizeClass} btn-secondary btn-resume" href="${escHtml(href)}" target="_blank" download>
+      <i data-feather="download"></i> Download
+    </a>`;
+  }
+  return `<button class="btn${sizeClass} btn-secondary btn-resume" data-resume-url="${escHtml(url)}" data-resume-company="${escHtml(company)}" data-resume-title="${escHtml(title)}">
+    <i data-feather="file-plus"></i> Tailor
+  </button>`;
 }
 
 // ── Score badge ──────────────────────────────────────────────────────────────
@@ -250,10 +288,10 @@ async function pageDashboard(el) {
       </div>
       <div class="flex gap-2">
         <button class="btn btn-secondary" onclick="openMatcherModal()">
-          <i data-feather="cpu"></i> Run Matcher
+          <i data-feather="cpu"></i> Score Today
         </button>
         <button class="btn btn-primary" onclick="navigate('scanner')">
-          <i data-feather="radio"></i> Run Scanner
+          <i data-feather="search"></i> Find Jobs
         </button>
       </div>
     </div>
@@ -383,7 +421,7 @@ async function pageJobs(el) {
     <div class="page-hd">
       <div class="page-hd-text">
         <h1>All Jobs</h1>
-        <p>All jobs captured from portal scans</p>
+        <p>Fresh roles collected from your searches</p>
       </div>
     </div>
     <div class="toolbar mb-4">
@@ -403,17 +441,16 @@ async function pageJobs(el) {
         <option value="unscored"${_jobScoreFilter==='unscored'?' selected':''}>Unscored</option>
       </select>
       <select class="toolbar-filter" id="job-scanned-filter">
-        <option value="all">All Scanned Dates</option>
-        <option value="1d"${_jobScannedFilter==='1d'?' selected':''}>Scanned 24h</option>
-        <option value="7d"${_jobScannedFilter==='7d'?' selected':''}>Scanned 7d</option>
-        <option value="30d"${_jobScannedFilter==='30d'?' selected':''}>Scanned 30d</option>
-        <option value="90d"${_jobScannedFilter==='90d'?' selected':''}>Scanned 90d</option>
+        <option value="all">All Posted Dates</option>
+        <option value="1d"${_jobScannedFilter==='1d'?' selected':''}>Posted 24h</option>
+        <option value="7d"${_jobScannedFilter==='7d'?' selected':''}>Posted 7d</option>
+        <option value="30d"${_jobScannedFilter==='30d'?' selected':''}>Posted 30d</option>
+        <option value="90d"${_jobScannedFilter==='90d'?' selected':''}>Posted 90d</option>
       </select>
       <select class="toolbar-filter" id="job-sort-field">
         <option value="recommended"${_jobSortField==='recommended'?' selected':''}>Recommended</option>
         <option value="posted_at"${_jobSortField==='posted_at'?' selected':''}>Posted Date</option>
         <option value="score"${_jobSortField==='score'?' selected':''}>Score</option>
-        <option value="first_seen"${_jobSortField==='first_seen'?' selected':''}>Scanned On</option>
       </select>
       <button class="icon-btn" id="job-sort-dir" title="Toggle sort direction">
         <i data-feather="${_jobSortDir === 'desc' ? 'arrow-down' : 'arrow-up'}"></i>
@@ -479,7 +516,7 @@ async function loadJobs() {
     if (_jobScoreFilter === 'unscored' && score != null) return false;
     if (_jobScoreFilter === '4plus' && !(score >= 4)) return false;
     if (_jobScoreFilter === '3plus' && !(score >= 3)) return false;
-    return filterByDateWindow(j.first_seen, _jobScannedFilter);
+    return filterByDateWindow(j.posted_at || j.first_seen, _jobScannedFilter);
   });
 
   const compare = (a, b, field) => {
@@ -513,26 +550,37 @@ async function loadJobs() {
   card.innerHTML = `
     <div class="row-count">${total} result${total!==1?'s':''}</div>
     <div class="tbl-wrap">
-      <table>
+      <table class="data-table jobs-table">
+        <colgroup>
+          <col class="col-job">
+          <col class="col-date">
+          <col class="col-score">
+          <col class="col-status">
+          <col class="col-resume">
+          <col class="col-action">
+        </colgroup>
         <thead>
           <tr>
-            <th>Company</th><th>Title</th><th>Portal</th>
-            <th>Posted</th><th>Scanned On</th>
+            <th>Job</th>
+            <th>Posted</th>
             <th class="th-sortable" onclick="toggleScoreSort()" title="Sort by score">
               Score ${_jobSortField === 'score' ? (_jobSortDir === 'desc' ? '↓' : '↑') : '<span style="opacity:.35">↕</span>'}
             </th>
-            <th>Status</th><th></th>
+            <th>Status</th><th>Resume</th><th>Action</th>
           </tr>
         </thead>
         <tbody>
           ${jobs.map(j => `
             <tr>
-              <td class="fw-600">${escHtml(j.company||'—')}</td>
-              <td class="truncate" style="max-width:240px" title="${escHtml(j.title||'')}">${escHtml(truncate(j.title||'—',45))}</td>
-              <td class="dim text-sm">${escHtml(j.portal||'—')}</td>
-              <td class="dim text-sm">${escHtml(j.posted_at ? fmtDate(j.posted_at) : '—')}</td>
-              <td class="dim text-sm">${escHtml(j.first_seen||'—')}</td>
-              <td>${j.score ? scoreBadge(j.score + '/5') : '<span class="badge badge-gray">—</span>'}</td>
+              <td class="job-cell">
+                <div class="job-title" title="${escHtml(j.title||'')}">${escHtml(j.title||'—')}</div>
+                <div class="job-meta">
+                  <span class="job-company">${escHtml(j.company||'—')}</span>
+                  <span>${escHtml(j.portal||'—')}</span>
+                </div>
+              </td>
+              <td class="date-cell" title="${escHtml(j.posted_at ? fmtDate(j.posted_at) : '')}">${escHtml(fmtTableDate(j.posted_at))}</td>
+              <td class="score-cell">${j.score ? scoreBadge(j.score + '/5') : '<span class="badge badge-gray">—</span>'}</td>
               <td>
                 <select class="status-select" data-url="${escHtml(j.url)}"
                   data-company="${escHtml(j.company||'')}" data-title="${escHtml(j.title||'')}"
@@ -543,8 +591,11 @@ async function loadJobs() {
                   ).join('')}
                 </select>
               </td>
-              <td>
-                ${j.url?.startsWith('http') ? `<a href="${escHtml(j.url)}" target="_blank" class="btn btn-apply"><i data-feather="external-link"></i> Apply</a>` : ''}
+              <td class="resume-cell">
+                ${renderResumeAction({ url: j.url || '', company: j.company || '', title: j.title || '' })}
+              </td>
+              <td class="action-cell">
+                ${j.url?.startsWith('http') ? `<a href="${escHtml(j.url)}" target="_blank" class="btn btn-apply"><i data-feather="external-link"></i> Open</a>` : ''}
               </td>
             </tr>`).join('')}
         </tbody>
@@ -573,7 +624,7 @@ async function pageApplications(el) {
     <div class="page-hd">
       <div class="page-hd-text">
         <h1>My Applications</h1>
-        <p>${_appsData.length} total · scores, reports, and resumes come from the unified jobs view</p>
+        <p>${_appsData.length} total · decisions, resumes, and analysis in one place</p>
       </div>
     </div>
     <div class="toolbar mb-4">
@@ -643,11 +694,19 @@ function renderAppsTable(apps, filter) {
   return `
     <div class="row-count">${rows.length} result${rows.length!==1?'s':''}</div>
     <div class="tbl-wrap">
-      <table>
+      <table class="data-table apps-table">
+        <colgroup>
+          <col class="col-job">
+          <col class="col-date">
+          <col class="col-score">
+          <col class="col-status">
+          <col class="col-resume">
+          <col class="col-report">
+          <col class="col-notes">
+        </colgroup>
         <thead>
           <tr>
-            <th>#</th><th>Date</th><th>Company</th><th>Role</th>
-            <th>Score</th><th>Status</th><th>Resume</th><th>Report</th><th>Notes</th>
+            <th>Job</th><th>Date</th><th>Score</th><th>Status</th><th>Resume</th><th>Report</th><th>Notes</th>
           </tr>
         </thead>
         <tbody>
@@ -662,12 +721,15 @@ function renderAppsTable(apps, filter) {
             const score      = a.score_display || a['Score'] || '';
             return `
             <tr>
-              <td class="dim mono">${rowNum}</td>
-              <td class="dim text-sm">${escHtml(date)}</td>
-              <td class="fw-600">${escHtml(company||'—')}</td>
-              <td class="truncate" style="max-width:220px;${reportFile ? 'cursor:pointer' : ''}" title="${escHtml(title)}"
-                ${reportFile ? `data-report-file="${escHtml(reportFile)}"` : ''}>${escHtml(truncate(title||'—',42))}</td>
-              <td>${scoreBadge(score)}</td>
+              <td class="job-cell ${reportFile ? 'clickable' : ''}" ${reportFile ? `data-report-file="${escHtml(reportFile)}"` : ''}>
+                <div class="job-title" title="${escHtml(title)}">${escHtml(title||'—')}</div>
+                <div class="job-meta">
+                  <span class="job-company">${escHtml(company||'—')}</span>
+                  <span>#${rowNum}</span>
+                </div>
+              </td>
+              <td class="date-cell" title="${escHtml(date)}">${escHtml(fmtTableDate(date))}</td>
+              <td class="score-cell">${scoreBadge(score)}</td>
               <td>
                 <select class="status-select" data-row="${escHtml(a.application_num || a['#'] || '')}" data-url="${escHtml(a.url || '')}" onchange="updateStatus(this)">
                   ${APP_STATUSES.map(s =>
@@ -676,9 +738,7 @@ function renderAppsTable(apps, filter) {
                 </select>
               </td>
               <td>
-                <button class="btn btn-sm btn-secondary" data-resume-url="${escHtml(a.url || '')}" data-resume-company="${escHtml(company)}" data-resume-title="${escHtml(title)}">
-                  <i data-feather="download"></i> Generate
-                </button>
+                ${renderResumeAction({ url: a.url || '', company, title })}
               </td>
               <td>${reportFile
                 ? `<button class="btn btn-sm btn-secondary" data-report-file="${escHtml(reportFile)}">
@@ -689,7 +749,7 @@ function renderAppsTable(apps, filter) {
                        <i data-feather="file-text"></i> Score
                      </button>`
                   : '—'}</td>
-              <td class="dim text-sm" style="max-width:160px" title="${escHtml(a.notes || a['Notes'] || '')}">${escHtml(truncate(a.notes || a['Notes'] || '',36))}</td>
+              <td class="notes-cell" title="${escHtml(a.notes || a['Notes'] || '')}">${escHtml(truncate(a.notes || a['Notes'] || '',42))}</td>
             </tr>`;
           }).join('')}
         </tbody>
@@ -860,7 +920,7 @@ function openScoredJob(url, companyHint = '', titleHint = '') {
       <p>No exact full markdown report is linked to this job row yet.</p>
       <p>
         <button class="btn btn-primary" data-resume-url="${escHtml(job.url || '')}" data-resume-company="${escHtml(company)}" data-resume-title="${escHtml(title)}">
-          <i data-feather="download"></i> Generate Resume
+          <i data-feather="file-plus"></i> Tailor Resume
         </button>
       </p>
     </div>
@@ -868,8 +928,15 @@ function openScoredJob(url, companyHint = '', titleHint = '') {
   replaceIcons();
 }
 
-async function generateResume({ url, company, title }) {
-  openModal('Generating resume…', `<div class="loader"><div class="spin"></div></div>`, null);
+async function generateResume({ url, company, title }, triggerEl = null) {
+  if (triggerEl) {
+    triggerEl.disabled = true;
+    triggerEl.innerHTML = '<span class="spin tiny-spin"></span> Working';
+  }
+  openModal('Tailoring resume…', `
+    <div class="loader"><div class="spin"></div></div>
+    <p class="text-dim text-sm" style="margin-top:12px">Using your base resume and this job posting to create an ATS-friendly PDF.</p>
+  `, null);
   try {
     const r = await fetch('/api/jobs/resume', {
       method: 'POST',
@@ -877,17 +944,30 @@ async function generateResume({ url, company, title }) {
       body: JSON.stringify({ url, company, title }),
     });
     const data = await r.json();
-    if (!r.ok || !data.ok) throw new Error(data.output || data.error || 'Resume generation failed');
-    openModal('Resume generated', `
+    if (!r.ok || !data.ok) throw new Error(data.output || data.error || 'Resume tailoring failed');
+    const key = resumeKey({ url, company, title });
+    _resumeDownloads.set(key, data.url);
+    if (triggerEl) {
+      triggerEl.outerHTML = renderResumeAction({ url, company, title });
+    }
+    openModal('Resume ready', `
       <div class="md">
         <p><strong>${escHtml(data.job?.company || company || 'Job')}</strong> — ${escHtml(data.job?.title || title || '')}</p>
-        <p><a class="btn btn-primary" href="${escHtml(data.url)}" target="_blank"><i data-feather="external-link"></i> Open Resume PDF</a></p>
+        <p><a class="btn btn-primary" href="${escHtml(data.url)}" target="_blank" download><i data-feather="download"></i> Download Resume PDF</a></p>
         <iframe src="${escHtml(data.url)}" title="Generated resume" style="width:100%;height:70vh;border:1px solid var(--border);border-radius:8px;background:#fff"></iframe>
       </div>
     `, data.url);
     replaceIcons();
   } catch (error) {
-    openModal('Resume failed', `<p style="color:var(--red)">${escHtml(error.message)}</p>`, null);
+    if (triggerEl) {
+      triggerEl.disabled = false;
+      triggerEl.innerHTML = '<i data-feather="file-plus"></i> Tailor';
+      replaceIcons();
+    }
+    openModal('Resume tailoring failed', `
+      <p style="color:var(--red)">${escHtml(error.message)}</p>
+      <p class="text-dim text-sm">This action requires Claude. If you hit the Claude limit, try again after the limit resets.</p>
+    `, null);
   }
 }
 
@@ -900,8 +980,8 @@ function pageScanner(el) {
   el.innerHTML = `
     <div class="page-hd">
       <div class="page-hd-text">
-        <h1>Portal Scanner</h1>
-        <p>Scan Greenhouse · Ashby · Lever · LinkedIn — zero Claude tokens</p>
+        <h1>Find Jobs</h1>
+        <p>Search configured sources and add fresh roles to your workspace</p>
       </div>
     </div>
 
@@ -943,7 +1023,7 @@ function pageScanner(el) {
 
         <div class="scan-bar">
           <button class="btn btn-primary" id="s-run" onclick="startScan()">
-            <i data-feather="play"></i> Run Scan
+            <i data-feather="play"></i> Find Jobs
           </button>
           <button class="btn btn-secondary" id="s-stop" onclick="stopScan()" style="display:none">
             <i data-feather="square"></i> Stop
@@ -955,13 +1035,13 @@ function pageScanner(el) {
 
     <div class="card">
       <div class="card-hd">
-        <h2>Scan Output</h2>
+        <h2>Search Log</h2>
         <button class="btn btn-sm btn-secondary" onclick="clearTerm()">
           <i data-feather="trash-2"></i> Clear
         </button>
       </div>
       <div style="padding:0">
-        <div class="terminal" id="s-term">Ready — press <span class="t-hi">Run Scan</span> to start.\n</div>
+        <div class="terminal" id="s-term">Ready — press <span class="t-hi">Find Jobs</span> to start.\n</div>
       </div>
     </div>
   `;
@@ -979,7 +1059,7 @@ function startScan() {
 
   qs('#s-run').style.display  = 'none';
   qs('#s-stop').style.display = 'flex';
-  qs('#s-status').textContent = 'Scanning…';
+  qs('#s-status').textContent = 'Searching…';
 
   const p = new URLSearchParams({ since, dryRun: dry, verbose });
   if (company) p.set('company', company);
@@ -992,7 +1072,7 @@ function startScan() {
       .replace(/(·\s+.+\(0\s+new\))/g, '<span class="t-dim">$1</span>')
       .replace(/(━+)/g, '<span class="t-dim">$1</span>')
       .replace(/(New offers added:\s*\d+)/g, '<span class="t-ok">$1</span>')
-      .replace(/(Portal Scan)/g, '<span class="t-hi">$1</span>')
+      .replace(/(Portal Scan|Job Search)/g, '<span class="t-hi">$1</span>')
       .replace(/(Error|error|Failed|failed)/g, '<span class="t-err">$1</span>');
   }
 
@@ -1022,7 +1102,7 @@ function startScan() {
     qs('#s-status').textContent = code === 0 ? 'Done ✓' : `Exited (${code})`;
     const div = document.createElement('div');
     div.className = code === 0 ? 't-ok' : 't-err';
-    div.textContent = code === 0 ? '\n✓ Scan complete.' : `\n✗ Failed (exit ${code})`;
+    div.textContent = code === 0 ? '\nSearch complete.' : `\nFailed (exit ${code})`;
     term.appendChild(div);
     term.scrollTop = term.scrollHeight;
     replaceIcons();
@@ -1035,7 +1115,7 @@ function stopScan() {
   if (term) {
     const div = document.createElement('div');
     div.className = 't-warn';
-    div.textContent = '\n⚠ Stopped by user.';
+    div.textContent = '\nStopped by user.';
     term.appendChild(div);
   }
   qs('#s-run').style.display  = 'flex';
@@ -1055,39 +1135,35 @@ function clearTerm() {
 let _matchStream = null;
 
 function openMatcherModal() {
-  openModal('Run Matcher', `
+  openModal("Score Today's Jobs", `
     <div style="margin-bottom:12px;color:var(--text-2);font-size:13px">
-      Uses Claude to score today's jobs and backfill missing reports.
-      Results save immediately as each job finishes; Stop ends the active Claude call.
+      Scores today's unreviewed jobs and creates the full analysis report for each one.
+      Results save immediately as each job finishes.
     </div>
     <div class="opt-group" style="max-width:220px;margin-bottom:14px">
-      <label class="opt-label">Optional max Claude calls</label>
+      <label class="opt-label">Optional max reviews</label>
       <input class="opt-input" id="m-limit" type="number" min="1" max="500" placeholder="All today's jobs">
     </div>
     <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px">
       <button class="btn btn-primary" id="m-run" onclick="startMatcher()">
-        <i data-feather="cpu"></i> Start Scoring
+        <i data-feather="cpu"></i> Start Review
       </button>
       <button class="btn btn-secondary" id="m-stop" onclick="stopMatcher()" style="display:none">
         <i data-feather="square"></i> Stop
       </button>
     </div>
-    <div class="terminal" id="m-term" style="min-height:200px">Ready — press Start Scoring.\n</div>
+    <div class="terminal" id="m-term" style="min-height:200px">Ready — press Start Review.\n</div>
   `);
 }
 
 function startMatcher() {
   if (_matchStream) return;
   const term = qs('#m-term');
-  const rawLimit = parseInt(qs('#m-limit')?.value || '', 10);
-  const limitParam = Number.isFinite(rawLimit) && rawLimit > 0
-    ? `?limit=${encodeURIComponent(Math.min(500, rawLimit))}`
-    : '';
   term.innerHTML = '';
   qs('#m-run').style.display  = 'none';
   qs('#m-stop').style.display = 'flex';
 
-  _matchStream = new EventSource(`/api/match/stream${limitParam}`);
+  _matchStream = new EventSource('/api/match/stream?all=true');
 
   _matchStream.addEventListener('line', e => {
     const { text } = JSON.parse(e.data);
@@ -1116,7 +1192,7 @@ function startMatcher() {
     qs('#m-stop').style.display = 'none';
     const div = document.createElement('div');
     div.className = code === 0 ? 't-ok' : 't-err';
-    div.textContent = code === 0 ? '\n✓ Done. Refresh Jobs to see all scores.' : `\n✗ Failed (exit ${code})`;
+    div.textContent = code === 0 ? '\nDone. Refresh All Jobs to see every score.' : `\nFailed (exit ${code})`;
     term.appendChild(div);
     term.scrollTop = term.scrollHeight;
     replaceIcons();
@@ -1130,7 +1206,7 @@ function stopMatcher() {
   if (term) {
     const div = document.createElement('div');
     div.className = 't-warn';
-    div.textContent = '\n⚠ Stopped. Scores saved so far are in Jobs table.';
+    div.textContent = '\nStopped. Completed reviews are saved in All Jobs.';
     term.appendChild(div);
   }
   if (qs('#m-run')) qs('#m-run').style.display = 'flex';
@@ -1144,8 +1220,8 @@ function pageEvaluator(el) {
   el.innerHTML = `
     <div class="page-hd">
       <div class="page-hd-text">
-        <h1>Job Evaluator</h1>
-        <p>Paste a JD → Claude scores it using your profile + evaluate.md</p>
+        <h1>Analyze Job Description</h1>
+        <p>Paste a posting and get a fit score, gaps, and application notes</p>
       </div>
     </div>
 
@@ -1155,7 +1231,7 @@ function pageEvaluator(el) {
         <textarea id="eval-jd" style="width:100%;min-height:200px;padding:10px 12px;border-radius:var(--r-md);border:1px solid var(--border-med);background:var(--surface-2);color:var(--text-1);font-size:13px;font-family:inherit;resize:vertical;outline:none" placeholder="Paste the full job description here — title, responsibilities, requirements, company info…"></textarea>
         <div class="scan-bar" style="margin-top:12px">
           <button class="btn btn-primary" id="e-run" onclick="startEval()">
-            <i data-feather="zap"></i> Evaluate with Claude
+            <i data-feather="zap"></i> Analyze JD
           </button>
           <button class="btn btn-secondary" id="e-stop" onclick="stopEval()" style="display:none">
             <i data-feather="square"></i> Stop
@@ -1308,6 +1384,305 @@ function buildCvMd(name, preamble, sections) {
   return parts.join('\n') + '\n';
 }
 
+function parseContactLine(preamble = '') {
+  const line = String(preamble || '').split('\n').find(l => l.trim()) || '';
+  const parts = line.split(/\s*[·•]\s*/).map(part => part.trim()).filter(Boolean);
+  const out = { location: '', phone: '', email: '', linkedin: '', extra: [] };
+  for (const part of parts) {
+    if (!out.email && /@/.test(part)) out.email = part;
+    else if (!out.phone && /(?:\+?\d[\d\s().-]{6,})/.test(part)) out.phone = part;
+    else if (!out.linkedin && /linkedin/i.test(part)) out.linkedin = part;
+    else if (!out.location) out.location = part;
+    else out.extra.push(part);
+  }
+  return out;
+}
+
+function buildContactLineFromFields(fallback = '') {
+  const values = [
+    qs('#cv-contact-location')?.value.trim(),
+    qs('#cv-contact-phone')?.value.trim(),
+    qs('#cv-contact-email')?.value.trim(),
+    qs('#cv-contact-linkedin')?.value.trim(),
+    qs('#cv-contact-extra')?.value.trim(),
+  ].filter(Boolean);
+  return values.length ? values.join(' · ') : fallback;
+}
+
+function isBulletLine(line) {
+  return /^\s*(?:[-*•]|\u2013|\u2014)\s+/.test(line);
+}
+
+function splitCvSectionBlocks(section) {
+  const title = String(section.title || '').toLowerCase();
+  const content = String(section.content || '').trim();
+  if (!content) return [''];
+
+  if (/skill|certification|award|coursework|summary|competenc/.test(title)) return [content];
+
+  const blankBlocks = content
+    .split(/\n\s*\n+/)
+    .map(block => block.trim())
+    .filter(Boolean);
+  if (blankBlocks.length > 1) return blankBlocks;
+
+  const lines = content.split('\n').map(line => line.trim().replace(/[ \t]{2,}/g, ' ')).filter(Boolean);
+  if (lines.length <= 4) return [content];
+
+  if (/education/.test(title) && !lines.some(isBulletLine)) {
+    const grouped = [];
+    for (let i = 0; i < lines.length; i += 2) {
+      grouped.push(lines.slice(i, i + 2).join('\n'));
+    }
+    return grouped;
+  }
+
+  const blocks = [];
+  let current = [];
+  let sawBullet = false;
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    const bullet = isBulletLine(line);
+    const lowerOrWrapped = /^[a-z0-9(]/.test(line) || line.length > 82;
+    const looksLikeNewEntry =
+      current.length > 0 &&
+      !bullet &&
+      !lowerOrWrapped &&
+      (sawBullet || /education/.test(title));
+
+    if (looksLikeNewEntry) {
+      blocks.push(current.join('\n').trim());
+      current = [];
+      sawBullet = false;
+    }
+
+    current.push(line);
+    if (bullet) sawBullet = true;
+  }
+
+  if (current.length) blocks.push(current.join('\n').trim());
+  return blocks.length ? blocks : [content];
+}
+
+function sectionIcon(title = '') {
+  const t = title.toLowerCase();
+  if (/education/.test(t)) return 'book-open';
+  if (/experience|work|employment/.test(t)) return 'briefcase';
+  if (/project/.test(t)) return 'layers';
+  if (/skill|technical/.test(t)) return 'tool';
+  if (/certification|award|coursework/.test(t)) return 'award';
+  if (/summary|profile/.test(t)) return 'align-left';
+  return 'file-text';
+}
+
+function blockTitle(sectionTitle, index, total) {
+  if (total <= 1) return 'Details';
+  const t = String(sectionTitle || '').toLowerCase();
+  if (/education/.test(t)) return `School ${index + 1}`;
+  if (/experience|work|employment/.test(t)) return `Role ${index + 1}`;
+  if (/project/.test(t)) return `Project ${index + 1}`;
+  return `Entry ${index + 1}`;
+}
+
+function textareaRows(value, min = 5, max = 12) {
+  const lines = String(value || '').split('\n').length;
+  return Math.max(min, Math.min(max, lines + 1));
+}
+
+function cleanResumeLine(value) {
+  return String(value || '').trim().replace(/[ \t]{2,}/g, ' ');
+}
+
+function splitPlaceLine(value) {
+  const line = cleanResumeLine(value);
+  const match = line.match(/^(.+)\s+([A-Z][A-Za-z .'-]+,\s*(?:[A-Z]{2}|[A-Za-z .'-]+))$/);
+  return match
+    ? { name: match[1].trim(), location: match[2].trim() }
+    : { name: line, location: '' };
+}
+
+function splitDateTail(value) {
+  const line = cleanResumeLine(value);
+  const datePattern = '(?:Expected\\s+)?(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\\s+\\d{4}(?:\\s*[–-]\\s*(?:(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\\s+\\d{4}|Present))?';
+  const match = line.match(new RegExp(`^(.*?)\\s+(${datePattern})$`, 'i'));
+  return match
+    ? { text: match[1].trim(), dates: match[2].trim() }
+    : { text: line, dates: '' };
+}
+
+function splitGpa(value) {
+  const line = cleanResumeLine(value);
+  const match = line.match(/^(.*?)(?:\s+[–-]\s*)?GPA:\s*([\d.]+)$/i);
+  return match
+    ? { degree: match[1].trim(), gpa: match[2].trim() }
+    : { degree: line, gpa: '' };
+}
+
+function normalizeBulletText(lines) {
+  const bullets = [];
+  for (const raw of lines) {
+    const line = cleanResumeLine(raw).replace(/^[–—•*-]\s*/, '').trim();
+    if (!line) continue;
+    if (isBulletLine(raw) || !bullets.length) bullets.push(line);
+    else bullets[bullets.length - 1] += ` ${line}`;
+  }
+  return bullets.join('\n');
+}
+
+function parseEducationEntry(block) {
+  const lines = String(block || '').split('\n').map(cleanResumeLine).filter(Boolean);
+  const schoolLine = splitPlaceLine(lines[0] || '');
+  const degreeDate = splitDateTail(lines.slice(1).join(' '));
+  const degreeGpa = splitGpa(degreeDate.text);
+  return {
+    type: 'education',
+    fields: [
+      ['school', 'School', schoolLine.name, 'input'],
+      ['location', 'Location', schoolLine.location, 'input'],
+      ['degree', 'Degree / Program', degreeGpa.degree, 'input'],
+      ['gpa', 'GPA', degreeGpa.gpa, 'input'],
+      ['date', 'Graduation / Dates', degreeDate.dates, 'input'],
+    ],
+  };
+}
+
+function parseRoleEntry(block) {
+  const lines = String(block || '').split('\n').map(cleanResumeLine).filter(Boolean);
+  const companyLine = splitPlaceLine(lines[0] || '');
+  const roleDate = splitDateTail(lines[1] || '');
+  return {
+    type: 'role',
+    fields: [
+      ['company', 'Company', companyLine.name, 'input'],
+      ['location', 'Location', companyLine.location, 'input'],
+      ['title', 'Title', roleDate.text, 'input'],
+      ['dates', 'Dates', roleDate.dates, 'input'],
+      ['bullets', 'Achievements / Responsibilities', normalizeBulletText(lines.slice(2)), 'textarea'],
+    ],
+  };
+}
+
+function parseProjectEntry(block) {
+  const lines = String(block || '').split('\n').map(cleanResumeLine).filter(Boolean);
+  const [name = '', focus = ''] = (lines[0] || '').split(/\s+[–—-]\s+/, 2);
+  return {
+    type: 'project',
+    fields: [
+      ['name', 'Project Name', name, 'input'],
+      ['focus', 'Methods / Focus', focus, 'input'],
+      ['bullets', 'Details / Impact', normalizeBulletText(lines.slice(1)), 'textarea'],
+    ],
+  };
+}
+
+function parseDetailsEntry(block) {
+  const lines = String(block || '').split('\n').map(cleanResumeLine).filter(Boolean);
+  const colonLines = lines.filter(line => line.includes(':'));
+  if (colonLines.length >= 2) {
+    return {
+      type: 'details',
+      fields: colonLines.map((line, index) => {
+        const [label, ...rest] = line.split(':');
+        return [`detail_${index}`, label.trim(), rest.join(':').trim(), 'textarea'];
+      }),
+    };
+  }
+  return {
+    type: 'details',
+    fields: [['details', 'Details', lines.join('\n'), 'textarea']],
+  };
+}
+
+function parseResumeEntry(sectionTitle, block) {
+  const title = String(sectionTitle || '').toLowerCase();
+  if (/education/.test(title)) return parseEducationEntry(block);
+  if (/experience|work|employment/.test(title)) return parseRoleEntry(block);
+  if (/project/.test(title)) return parseProjectEntry(block);
+  return parseDetailsEntry(block);
+}
+
+function renderResumeEntry(sectionTitle, block, secIndex, blockIndex, totalBlocks) {
+  const entry = parseResumeEntry(sectionTitle, block);
+  return `
+    <div class="resume-entry" data-entry-type="${entry.type}">
+      <div class="resume-entry-title">${escHtml(blockTitle(sectionTitle, blockIndex, totalBlocks))}</div>
+      <div class="resume-field-grid">
+        ${entry.fields.map(([key, label, value, kind]) => {
+          const common = `class="resume-input cv-field cv-structured-field" data-sec="${secIndex}" data-block="${blockIndex}" data-type="${entry.type}" data-field="${escHtml(key)}"`;
+          return `
+            <label class="resume-field${kind === 'textarea' ? ' wide' : ''}">
+              <span>${escHtml(label)}</span>
+              ${kind === 'textarea'
+                ? `<textarea ${common} rows="${textareaRows(value, 3, 8)}">${escHtml(value)}</textarea>`
+                : `<input ${common} value="${escHtml(value)}">`}
+            </label>`;
+        }).join('')}
+      </div>
+    </div>
+  `;
+}
+
+function valueFromResumeFields(secIndex, blockIndex, key) {
+  return qs(`.cv-structured-field[data-sec="${secIndex}"][data-block="${blockIndex}"][data-field="${key}"]`)?.value.trim() || '';
+}
+
+function bulletLines(value) {
+  return String(value || '')
+    .split('\n')
+    .map(line => line.trim().replace(/^[–—•*-]\s*/, ''))
+    .filter(Boolean)
+    .map(line => `– ${line}`);
+}
+
+function composeResumeEntry(secIndex, blockIndex) {
+  const first = qs(`.cv-structured-field[data-sec="${secIndex}"][data-block="${blockIndex}"]`);
+  if (!first) return '';
+  const type = first.getAttribute('data-type');
+
+  if (type === 'education') {
+    const school = valueFromResumeFields(secIndex, blockIndex, 'school');
+    const location = valueFromResumeFields(secIndex, blockIndex, 'location');
+    const degree = valueFromResumeFields(secIndex, blockIndex, 'degree');
+    const gpa = valueFromResumeFields(secIndex, blockIndex, 'gpa');
+    const date = valueFromResumeFields(secIndex, blockIndex, 'date');
+    const degreeLine = [degree, gpa ? `GPA: ${gpa}` : '', date].filter(Boolean).join(' ');
+    return [[school, location].filter(Boolean).join(' '), degreeLine].filter(Boolean).join('\n');
+  }
+
+  if (type === 'role') {
+    const company = valueFromResumeFields(secIndex, blockIndex, 'company');
+    const location = valueFromResumeFields(secIndex, blockIndex, 'location');
+    const title = valueFromResumeFields(secIndex, blockIndex, 'title');
+    const dates = valueFromResumeFields(secIndex, blockIndex, 'dates');
+    const bullets = bulletLines(valueFromResumeFields(secIndex, blockIndex, 'bullets'));
+    return [
+      [company, location].filter(Boolean).join(' '),
+      [title, dates].filter(Boolean).join(' '),
+      ...bullets,
+    ].filter(Boolean).join('\n');
+  }
+
+  if (type === 'project') {
+    const name = valueFromResumeFields(secIndex, blockIndex, 'name');
+    const focus = valueFromResumeFields(secIndex, blockIndex, 'focus');
+    const bullets = bulletLines(valueFromResumeFields(secIndex, blockIndex, 'bullets'));
+    return [
+      [name, focus].filter(Boolean).join(' – '),
+      ...bullets,
+    ].filter(Boolean).join('\n');
+  }
+
+  const fields = qsa(`.cv-structured-field[data-sec="${secIndex}"][data-block="${blockIndex}"]`);
+  if (fields.length > 1) {
+    return fields.map(field => {
+      const label = field.closest('.resume-field')?.querySelector('span')?.textContent || 'Details';
+      return `${label}: ${field.value.trim()}`;
+    }).filter(Boolean).join('\n');
+  }
+  return fields[0]?.value.trim() || '';
+}
+
 async function pageProfile(el) {
   const [profileYaml, profileData, cvContent, templateHtml, templateData] = await Promise.all([
     fetch('/api/profile').then(r => r.text()),
@@ -1321,6 +1696,7 @@ async function pageProfile(el) {
   _selectedTemplateId = templateData.active || _templateOptions[0]?.id || null;
 
   const cv = parseCvMd(cvContent);
+  const contact = parseContactLine(cv.preamble);
 
   el.innerHTML = `
     <div class="page-hd">
@@ -1374,23 +1750,49 @@ async function pageProfile(el) {
               <label class="info-label"><i data-feather="user"></i> Full Name</label>
               <input class="info-input cv-field" id="cv-name" value="${escHtml(cv.name)}" placeholder="Your name">
             </div>
+            <div class="info-field">
+              <label class="info-label"><i data-feather="map-pin"></i> Location</label>
+              <input class="info-input cv-field" id="cv-contact-location" value="${escHtml(contact.location)}" placeholder="Philadelphia, PA">
+            </div>
+            <div class="info-field">
+              <label class="info-label"><i data-feather="phone"></i> Phone</label>
+              <input class="info-input cv-field" id="cv-contact-phone" value="${escHtml(contact.phone)}" placeholder="(555) 555-5555">
+            </div>
+            <div class="info-field">
+              <label class="info-label"><i data-feather="mail"></i> Email</label>
+              <input class="info-input cv-field" id="cv-contact-email" value="${escHtml(contact.email)}" placeholder="email@example.com">
+            </div>
+            <div class="info-field">
+              <label class="info-label"><i data-feather="linkedin"></i> LinkedIn</label>
+              <input class="info-input cv-field" id="cv-contact-linkedin" value="${escHtml(contact.linkedin)}" placeholder="linkedin.com/in/you">
+            </div>
             <div class="info-field" style="grid-column:1/-1">
-              <label class="info-label"><i data-feather="link"></i> Contact Line</label>
-              <input class="info-input cv-field" id="cv-preamble" value="${escHtml(cv.preamble.split('\n').find(l => l.trim()) || '')}" placeholder="City · Phone · email@example.com · linkedin.com/in/you">
+              <label class="info-label"><i data-feather="plus-circle"></i> Extra Contact Items</label>
+              <input class="info-input cv-field" id="cv-contact-extra" value="${escHtml(contact.extra.join(' · '))}" placeholder="Portfolio · GitHub">
             </div>
           </div>
         </div>
       </div>
 
-      ${cv.sections.map((s, i) => `
-        <div class="card mb-4">
-          <div class="card-hd">
-            <h2>${escHtml(s.title)}</h2>
-          </div>
-          <div class="card-body" style="padding:0">
-            <textarea class="cv-editor cv-field" id="cv-sec-${i}" data-sec="${i}" style="min-height:120px;border-radius:0 0 var(--r-lg) var(--r-lg);border:0">${escHtml(s.content)}</textarea>
-          </div>
-        </div>`).join('')}
+      <div class="resume-section-grid">
+        ${cv.sections.map((s, i) => {
+          const blocks = splitCvSectionBlocks(s);
+          return `
+          <div class="resume-edit-card card mb-4">
+            <div class="card-hd resume-edit-head">
+              <div>
+                <h2><i data-feather="${sectionIcon(s.title)}"></i> ${escHtml(s.title)}</h2>
+                <p>${blocks.length} editable ${blocks.length === 1 ? 'block' : 'blocks'}</p>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="resume-entry-list">
+                ${blocks.map((block, blockIndex) => renderResumeEntry(s.title, block, i, blockIndex, blocks.length)).join('')}
+              </div>
+            </div>
+          </div>`;
+        }).join('')}
+      </div>
     </div>
 
     <!-- MY PREFERENCES TAB (profile.yml) -->
@@ -1458,10 +1860,14 @@ async function saveCvFields() {
   const cv = parseCvMd(rawCv);
 
   const name = qs('#cv-name')?.value ?? cv.name;
-  const preamble = qs('#cv-preamble')?.value ?? cv.preamble;
+  const preamble = buildContactLineFromFields(cv.preamble);
   const sections = cv.sections.map((s, i) => ({
     title: s.title,
-    content: qs(`#cv-sec-${i}`)?.value ?? s.content,
+    content: [...new Set(qsa(`.cv-structured-field[data-sec="${i}"]`).map(el => el.getAttribute('data-block')))]
+      .sort((a, b) => Number(a) - Number(b))
+      .map(blockIndex => composeResumeEntry(i, blockIndex))
+      .filter(Boolean)
+      .join('\n\n') || s.content,
   }));
 
   const md = buildCvMd(name, preamble, sections);
@@ -1844,7 +2250,7 @@ document.addEventListener('click', event => {
       url: resumeBtn.getAttribute('data-resume-url') || '',
       company: resumeBtn.getAttribute('data-resume-company') || '',
       title: resumeBtn.getAttribute('data-resume-title') || '',
-    });
+    }, resumeBtn);
     return;
   }
 

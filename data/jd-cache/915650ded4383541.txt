@@ -1,0 +1,467 @@
+Pierre Fabre Laboratories hiring Data Engineer in Secaucus, NJ | LinkedIn
+ Skip to main content
+ LinkedIn
+ Data Engineer in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Data Engineer
+ Pierre Fabre Laboratories
+ Secaucus, NJ
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Data Engineer role at Pierre Fabre Laboratories
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Data Engineer
+ Pierre Fabre Laboratories
+ Secaucus, NJ
+ 10 hours ago
+ Over 200 applicants
+ See who Pierre Fabre Laboratories has hired for this role
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Data Engineer role at Pierre Fabre Laboratories
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Save
+ Report this job
+ Use AI to assess how you fit
+ Get AI-powered advice on this job and more exclusive features.
+ Am I a good fit for this job?
+ Tailor my resume
+ Sign in to access AI-powered advices
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to evaluate your skills
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to tailor your resume
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Pierre Fabre Laboratories provided pay range
+ This range is provided by Pierre Fabre Laboratories. Your actual pay will be based on your skills and experience — talk with your recruiter to learn more.
+ Base pay range
+ $90,000.00/yr - $115,000.00/yr
+ Direct message the job poster from Pierre Fabre Laboratories
+ Patrick DelleDonna
+ Patrick DelleDonna
+ Senior Talent Acquisition Professional | Expertise in Executive Search and Recruitment Across all Corporate Functions in Pharmaceutical/Biotech…
+ Pierre Fabre is the 2nd largest dermo-cosmetics laboratory in the world and the 2nd largest private French pharmaceutical group. We are a leading multinational specialty healthcare company that researches, develops, manufacturers and commercializes pharmaceuticals and OTCs.
+ Pierre Fabre designs and develop innovative solutions that contribute to the well-being of all, from health to beauty. We achieve this by cooperating with health care professionals, by drawing relentless inspiration from nature, and by placing pharmaceutical ethics at the very heart of our operations.
+ Join Pierre Fabre USA to make a real impact in people's lives. Beyond being employees, we act as entrepreneurs, and our work is a pursuit of purpose and performance.
+ Your purposeful career begins here.
+ ***Please note: Applicants must be authorized to work for any employer in the U.S., as this position is not eligible for sponsorship or transfer of visa. This role is based in our US Headquarters located in Secaucus, NJ and requires in-office presence three days per week. Relocation assistance is not available. We kindly ask that candidates ensure they meet these criteria before applying.
+ Summary:
+ At Pierre Fabre, we believe data is a strategic asset, and we're seeking a Data Engineer to help unlock its full potential.
+ In this role, you will design and implement scalable, high-performance data architectures that align with business objectives. You will oversee data platforms, integration, security, and modernization, ensuring efficiency and innovation across the organization. Additionally, you will collaborate with the Head of Data to drive Master Data Management (MDM) frameworks and establish robust data governance practices.
+ Essential Functions:
+ Data Platform & Architecture
+ Design and implement a scalable, high-performance data architecture aligned with business objectives.
+ Integrate disparate data sources into a unified, reliable single source of truth.
+ Cascade global strategy locally while pushing the boundaries of the data and tech stack.
+ Enable seamless data flow between systems through robust data transformation and integration strategies.
+ Modernize legacy data systems to enhance efficiency and drive innovation.
+ Data Governance & Master Data Management (MDM)
+ Collaborate with the Head of Data to develop and implement a comprehensive MDM framework ensuring data integrity and governance.
+ Establish and enforce best practices in data governance, working closely with global and regional teams.
+ Technology & Efficiency
+ Drive system performance optimization and cost efficiency across data infrastructure.
+ Continuously evaluate emerging technologies, mitigating potential disruptions while capitalizing on new opportunities for innovation.
+ Collaboration and Thought Leadership:
+ Advance a culture of excellence through collaboration, data ownership, and quality standards.
+ Collaborate with local and global teams to share and implement best practices.
+ Mentor and upskill team members, cultivate a data-driven culture, and ensure the organization leverages its information assets with integrity and strategic insight.
+ Competencies:
+ Deep expertise in data architecture, MDM, analytics platforms, and tools.
+ Proven ability to translate business needs into technical solutions.
+ SQL language coding and Python or other programing languages are a plus.
+ Knowledge of PowerBI or Tableau or comparable BI platform is a plus.
+ Strong project management skills, managing multiple data sources and deadlines.
+ Ability to architect and develop scalable data solutions, staying ahead of industry trends.
+ Strong communication and collaboration skills with cross-functional teams.
+ Requirements – Education + Experience:
+ Bachelor’s or Master’s degree in Computer Science, Information Systems, Business or a related field.
+ 1-4 years of experience in IT, Data Engineering, or related fields.
+ 1-4 years in data warehousing, ETL/ELT processes, and data modeling.
+ 1-4 years of coding experience in SQL, Python, R, or similar languages.
+ Experience working with Tableau and BI tools.
+ Hands-on experience with cloud platforms (Snowflake, Denodo, Amazon Marketing Cloud, GCP)
+ Knowledge of data modeling principles, schema design, and dimensional modeling.
+ A positive, adaptable attitude to thrive in a dynamic, multicultural environment.
+ Work Environment / physical demands / position type and expected hours of work:
+ This position based in Secaucus, NJ, and offers a hybrid work arrangement with two remote days each week.
+ This job operates in a clerical, office setting. This role routinely uses standard office equipment such as computers, phones, photocopiers, filing cabinets and fax machines.
+ This is a largely sedentary role; however, some filing is required, which would require the ability to lift files, open filing cabinets and bend or stand on a stool as necessary.
+ The normal working hours of the office are from 8:30 a.m. – 5:00 p.m. Monday through Friday.
+ Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.
+ Compensation and Benefits:
+ Salary Range: $90,000 – $115,000
+ This range represents the base annual full-time salary for all positions within the applicable job grade. The actual salary offer will depend on a range of factors including experience, education, location, and other relevant qualifications. This position is also eligible for a Pierre Fabre bonus, commission, or incentive program in addition to the base pay.
+ Employees will be eligible to participate in a comprehensive benefits package that includes medical, dental, and vision coverage, voluntary benefits, a 401(k) retirement plan, a generous PTO policy, paid company holidays, and paid parental leave. Additional offerings include employee discounts on our products, professional development opportunities, and access to mental health and wellness programs.
+ Pierre Fabre
+ True to My Nature
+ https://www.pierre-fabre.com/en-us
+ Pierre Fabre is an equal employment opportunity employer and does not discriminate against any applicant because of race, creed, color, age, national origin, ancestry, religion, gender, sexual orientation, gender expression and identity, disability, genetic information, veteran status, military status, application for military service or any other class protected by state or federal law.
+ Show more
+ Show less
+ Seniority level
+ Associate
+ Employment type
+ Full-time
+ Job function
+ Information Technology
+ Industries
+ Pharmaceutical Manufacturing and Personal Care Product Manufacturing
+ Referrals increase your chances of interviewing at Pierre Fabre Laboratories by 2x
+ See who you know
+ Featured Benefits
+ Inferred from the description for this job
+ Medical insurance
+ Vision insurance
+ Dental insurance
+ 401(k)
+ Paid paternity leave
+ Paid maternity leave
+ Get notified about new Data Engineer jobs in Secaucus, NJ .
+ Sign in to create job alert
+ Similar jobs
+ Software Engineer (New Grads)
+ Software Engineer (New Grads)
+ Giga
+ New York, NY
+ $160,000.00
+ -
+ $250,000.00
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ BDG
+ New York, NY
+ 11 months ago
+ Analytics Engineer
+ Analytics Engineer
+ SeatGeek
+ New York, NY
+ 2 weeks ago
+ New Grad Software Engineer
+ New Grad Software Engineer
+ Authentic
+ New York, NY
+ 2 months ago
+ Software Engineer, Fullstack, Early Career
+ Software Engineer, Fullstack, Early Career
+ Notion
+ New York, NY
+ 1 month ago
+ Data Visualization Engineer
+ Data Visualization Engineer
+ Major League Baseball (MLB)
+ New York, NY
+ 1 week ago
+ Jr. Data Engineer
+ Jr. Data Engineer
+ Northside Center for Child Development
+ New York, NY
+ 8 months ago
+ Data Engineer II
+ Data Engineer II
+ American Express
+ New York, NY
+ $89,250.00
+ -
+ $150,250.00
+ 4 days ago
+ Data Engineer
+ Data Engineer
+ Tapestry
+ New York, NY
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Kaizen
+ New York, NY
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ MedReview Inc.
+ New York, NY
+ 2 months ago
+ Data Engineer
+ Data Engineer
+ Imprint
+ New York, NY
+ $140,000.00
+ -
+ $180,000.00
+ 5 months ago
+ Data Analytics Engineer
+ Data Analytics Engineer
+ Pelago
+ New York, NY
+ 2 weeks ago
+ Data & Analytics Engineer
+ Data & Analytics Engineer
+ Tandem
+ New York, NY
+ $150,000.00
+ -
+ $200,000.00
+ 5 months ago
+ Analytics Engineer (New Grad)
+ Analytics Engineer (New Grad)
+ PermitFlow
+ New York, NY
+ $90,000.00
+ -
+ $125,000.00
+ 1 month ago
+ Data Engineer I
+ Data Engineer I
+ Epicured
+ Glen Cove, NY
+ 1 month ago
+ Data Engineer, Product Analytics
+ Data Engineer, Product Analytics
+ Meta
+ New York, NY
+ $177,000.00
+ -
+ $247,000.00
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Slang AI
+ New York, NY
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Prizeout
+ New York, NY
+ 5 months ago
+ Data and Analytics Engineer
+ Data and Analytics Engineer
+ Resonance
+ New York, NY
+ 1 month ago
+ Data Engineer
+ Data Engineer
+ Figma
+ New York, NY
+ 6 days ago
+ Data Engineer, Analytics (Technical Leadership)
+ Data Engineer, Analytics (Technical Leadership)
+ Meta
+ New York, NY
+ $210,000.00
+ -
+ $281,000.00
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Delmar Nord
+ New York, NY
+ 4 days ago
+ Data Engineer Intern
+ Data Engineer Intern
+ Cornspring
+ New York, NY
+ 6 days ago
+ Data Engineer
+ Data Engineer
+ City of New York
+ Manhattan, NY
+ 2 days ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Data Engineer
+ Data Engineer
+ Sunset
+ New York, NY
+ $180,000.00
+ -
+ $280,000.00
+ 2 weeks ago
+ Data Engineer - New York
+ Data Engineer - New York
+ Ducera Partners LLC
+ New York, NY
+ 1 month ago
+ Data Engineer
+ Data Engineer
+ Chord
+ New York, NY
+ 2 months ago
+ Data Engineer
+ Data Engineer
+ SimpleClosure
+ New York, NY
+ 3 months ago
+ Data Engineer
+ Data Engineer
+ Kumon North America, Inc.
+ Rutherford, NJ
+ $67,000.00
+ -
+ $97,000.00
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Cohere
+ New York, NY
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ G-III Apparel Group
+ New York, NY
+ $120,000.00
+ -
+ $135,000.00
+ 2 weeks ago
+ Junior Data Engineer
+ Junior Data Engineer
+ Bombas
+ New York, NY
+ 6 days ago
+ Senior Data Engineer
+ Senior Data Engineer
+ StubHub
+ New York, NY
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Pivotal Health
+ New York, NY
+ $160,000.00
+ -
+ $180,000.00
+ 3 days ago
+ Similar Searches
+ Senior Data Engineer jobs
+ 78,076 open jobs
+ Big Data Developer jobs
+ 26,392 open jobs
+ Hadoop Developer jobs
+ 37,972 open jobs
+ ETL Developer jobs
+ 46,788 open jobs
+ Data Warehouse Engineer jobs
+ 39,476 open jobs
+ Analytical Engineer jobs
+ 7,971 open jobs
+ Data Architect jobs
+ 68,774 open jobs
+ Freelance Engineer jobs
+ 190 open jobs
+ Development Database Administrator jobs
+ 226,600 open jobs
+ ETL Specialist jobs
+ 219,897 open jobs
+ Database Software Engineer jobs
+ 224,263 open jobs
+ Engineer jobs
+ 555,845 open jobs
+ Business Intelligence Engineer jobs
+ 50,282 open jobs
+ Senior Data Warehouse Engineer jobs
+ 10,085 open jobs
+ Pipeline Engineer jobs
+ 39,469 open jobs
+ Teradata Developer jobs
+ 2,501 open jobs
+ Database Engineer jobs
+ 32,874 open jobs
+ Exhibit Coordinator jobs
+ 342 open jobs
+ Senior Solutions Developer jobs
+ 50,281 open jobs
+ SQL Developer jobs
+ 12,445 open jobs
+ Junior Engineer jobs
+ 52,722 open jobs
+ Assistant Produce Manager jobs
+ 3,091 open jobs
+ Data Modeler jobs
+ 263,457 open jobs
+ Data Analyst jobs
+ 329,009 open jobs
+ Senior Data Warehouse Architect jobs
+ 4,641 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Senior Data Engineer jobs
+ Big Data Developer jobs
+ Hadoop Developer jobs
+ ETL Developer jobs
+ Lakeland Care jobs
+ Data Warehouse Engineer jobs
+ Analytical Engineer jobs
+ Data Architect jobs
+ Freelance Engineer jobs
+ Development Database Administrator jobs
+ ETL Specialist jobs
+ Database Software Engineer jobs
+ Engineer jobs
+ Business Intelligence Engineer jobs
+ Senior Data Warehouse Engineer jobs
+ Pipeline Engineer jobs
+ Teradata Developer jobs
+ Database Engineer jobs
+ Exhibit Coordinator jobs
+ Senior Solutions Developer jobs
+ SQL Developer jobs
+ Junior Engineer jobs
+ Assistant Produce Manager jobs
+ Data Modeler jobs
+ Data Analyst jobs
+ Senior Data Wareh

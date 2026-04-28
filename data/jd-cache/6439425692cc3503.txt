@@ -1,0 +1,469 @@
+StellarMettle Placements hiring Analytics Engineer in Duluth, GA | LinkedIn
+ Agree & Join LinkedIn
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Skip to main content
+ LinkedIn
+ Analytics Engineer in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Analytics Engineer
+ StellarMettle Placements
+ Duluth, GA
+ Apply
+ Analytics Engineer
+ StellarMettle Placements
+ Duluth, GA
+ 9 hours ago
+ 141 applicants
+ See who StellarMettle Placements has hired for this role
+ Apply
+ Save
+ Report this job
+ Use AI to assess how you fit
+ Get AI-powered advice on this job and more exclusive features.
+ Am I a good fit for this job?
+ Tailor my resume
+ Sign in to access AI-powered advices
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to evaluate your skills
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to tailor your resume
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Direct message the job poster from StellarMettle Placements
+ Javier Agosto
+ Javier Agosto
+ Founding Partner @ StellarMettle Placements | Entrepreneur | Career Coach | IT Enthusiast
+ StellarMettle Placements is looking for an Analytics Engineer to build scalable, high-quality data models that power Sales and Revenue insights. This role sits at the intersection of data engineering and business intelligence, partnering closely with Sales Ops and GTM leadership to deliver trusted, actionable analytics.
+ RESPONSIBILITIES:
+ Design and build performant analytical datasets using advanced SQL and modern modeling practices
+ Develop and maintain data models in DBT, including testing, documentation, and lineage
+ Optimize data workflows within Snowflake, balancing performance and cost efficiency
+ Translate Sales/Revenue business requirements into scalable data products and dashboards
+ Support CI/CD-driven analytics development (version control, code reviews, deployment pipelines)
+ Deliver executive-ready reporting for pipeline, forecasting, quota attainment, and revenue performance
+ REQUIRED EXPERIENCE:
+ 5+ years in Analytics Engineering, Data Engineering, or advanced BI within a modern data stack
+ Advanced SQL expertise with strong data modeling fundamentals (star/snowflake schemas, fact/dimension design, incremental models, medallion architecture)
+ Hands-on experience with DBT (or equivalent transformation frameworks)
+ Experience with Snowflake or similar cloud data warehouses (performance tuning, cost optimization)
+ Proven ability to partner with business stakeholders and deliver trusted analytical assets
+ Experience working in CI/CD-enabled data environments
+ Experience supporting Sales Ops, RevOps, or Commercial Analytics teams
+ Experience modeling CRM data (e.g., Salesforce)
+ Show more
+ Show less
+ Seniority level
+ Mid-Senior level
+ Employment type
+ Full-time
+ Job function
+ Information Technology
+ Industries
+ Information Services
+ Referrals increase your chances of interviewing at StellarMettle Placements by 2x
+ See who you know
+ Get notified about new Data Engineer jobs in Duluth, GA .
+ Sign in to create job alert
+ Similar jobs
+ Junior Data Engineer
+ Junior Data Engineer
+ Medlytix
+ Roswell, GA
+ 1 day ago
+ Data Engineer I (ETL, PySpark, SQL)
+ Data Engineer I (ETL, PySpark, SQL)
+ Travelers
+ Atlanta, GA
+ 5 days ago
+ Data Engineer
+ Data Engineer
+ Honeywell
+ Atlanta, GA
+ 2 days ago
+ Junior AI/ML Engineer (Data & Cloud Platforms)
+ Junior AI/ML Engineer (Data & Cloud Platforms)
+ Mod Op
+ Atlanta, GA
+ 2 weeks ago
+ Data Engineer I (AWS, Databricks, PySpark)
+ Data Engineer I (AWS, Databricks, PySpark)
+ Travelers
+ Atlanta, GA
+ 1 week ago
+ Data Engineer JN -042026-174359
+ Data Engineer JN -042026-174359
+ Goodwin Recruiting
+ Atlanta, GA
+ 2 weeks ago
+ Data Engineer (Python & SQL)
+ Data Engineer (Python & SQL)
+ Holistic Partners, Inc
+ Atlanta, GA
+ 11 hours ago
+ Software Engineer (Multiple Levels) - Machine Learning Infrastructure, Slack
+ Software Engineer (Multiple Levels) - Machine Learning Infrastructure, Slack
+ Slack
+ Atlanta, GA
+ 4 days ago
+ Senior Data Engineer
+ Senior Data Engineer
+ CNN
+ Atlanta, GA
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ FanDuel
+ Atlanta, GA
+ 5 days ago
+ Data Engineer
+ Data Engineer
+ Equifax
+ Atlanta, GA
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Block+Tackle
+ Atlanta Metropolitan Area
+ 1 month ago
+ AI Agent Software Engineer Intern
+ AI Agent Software Engineer Intern
+ Cantaloupe Inc
+ Atlanta, GA
+ 2 weeks ago
+ Associate Data Engineer
+ Associate Data Engineer
+ Cargill
+ Atlanta, GA
+ 3 days ago
+ Data Engineer
+ Data Engineer
+ Equifax
+ Alpharetta, GA
+ 2 days ago
+ Python Data Engineer
+ Python Data Engineer
+ Capgemini
+ Atlanta, GA
+ 1 week ago
+ SQL developer
+ SQL developer
+ OVA.Work
+ Alpharetta, GA
+ 6 months ago
+ GCP Data Engineer
+ GCP Data Engineer
+ MethodHub
+ Atlanta, GA
+ 6 days ago
+ Bigdata Engineer
+ Bigdata Engineer
+ OVA.Work
+ Alpharetta, GA
+ 6 months ago
+ Senior Analytics Engineer
+ Senior Analytics Engineer
+ Victory Live
+ Atlanta, GA
+ 1 week ago
+ Senior Data Engineer – Engineering Analytics
+ Senior Data Engineer – Engineering Analytics
+ Delta Air Lines
+ Atlanta, GA
+ 1 week ago
+ Senior Data Engineer
+ Senior Data Engineer
+ Solomon Page
+ Atlanta, GA
+ 9 hours ago
+ Data Engineer
+ Data Engineer
+ CGS Federal (Contact Government Services)
+ Atlanta, GA
+ $112,597.33
+ -
+ $152,810.66
+ 1 month ago
+ Senior Data Engineer
+ Senior Data Engineer
+ Neighborly Software
+ Atlanta Metropolitan Area
+ 3 days ago
+ Data Engineer/Sr Data Engineer (NOT OPEN TO VISA HOLDERS)
+ Data Engineer/Sr Data Engineer (NOT OPEN TO VISA HOLDERS)
+ Georgia Pacific
+ Atlanta, GA
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Insight Global
+ Tucker, GA
+ $50.00
+ -
+ $60.00
+ 2 weeks ago
+ Data Engineer, CDC
+ Data Engineer, CDC
+ DRT Strategies
+ Atlanta, GA
+ $90,000.00
+ -
+ $120,000.00
+ 1 month ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Data Engineer
+ Data Engineer
+ Attractivate Consulting Solutions
+ Atlanta, GA
+ 1 week ago
+ Data Engineer - Remote
+ Data Engineer - Remote
+ YO IT Consulting
+ Atlanta, GA
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Capgemini
+ Atlanta, GA
+ 2 hours ago
+ Data Engineer
+ Data Engineer
+ Aderant
+ Atlanta, GA
+ 2 days ago
+ Analytics Engineer
+ Analytics Engineer
+ Cox Automotive Inc.
+ Atlanta, GA
+ 2 weeks ago
+ Software Engineer (SWE/SWE II), AI Platform- Slack
+ Software Engineer (SWE/SWE II), AI Platform- Slack
+ Slack
+ Atlanta, GA
+ 4 days ago
+ Software Engineer I
+ Software Engineer I
+ Manheim Dallas-Fort Worth
+ Atlanta, GA
+ 7 hours ago
+ Data Engineer - API
+ Data Engineer - API
+ Capgemini
+ Atlanta Metropolitan Area
+ 1 week ago
+ Data Science Engineer
+ Data Science Engineer
+ OVA.Work
+ Alpharetta, GA
+ 2 months ago
+ Software Engineer
+ Software Engineer
+ TalentBridge
+ Atlanta, GA
+ 6 days ago
+ Similar Searches
+ Senior Data Engineer jobs
+ 78,076 open jobs
+ Big Data Developer jobs
+ 26,392 open jobs
+ Hadoop Developer jobs
+ 37,972 open jobs
+ ETL Developer jobs
+ 46,788 open jobs
+ Data Warehouse Engineer jobs
+ 39,476 open jobs
+ Analytical Engineer jobs
+ 7,971 open jobs
+ Data Architect jobs
+ 68,774 open jobs
+ Freelance Engineer jobs
+ 190 open jobs
+ Development Database Administrator jobs
+ 226,600 open jobs
+ ETL Specialist jobs
+ 219,897 open jobs
+ Database Software Engineer jobs
+ 224,263 open jobs
+ Engineer jobs
+ 555,845 open jobs
+ Business Intelligence Engineer jobs
+ 50,282 open jobs
+ Senior Data Warehouse Engineer jobs
+ 10,085 open jobs
+ Pipeline Engineer jobs
+ 39,469 open jobs
+ Teradata Developer jobs
+ 2,501 open jobs
+ Database Engineer jobs
+ 32,874 open jobs
+ Exhibit Coordinator jobs
+ 342 open jobs
+ Senior Solutions Developer jobs
+ 50,281 open jobs
+ SQL Developer jobs
+ 12,445 open jobs
+ Junior Engineer jobs
+ 52,722 open jobs
+ Assistant Produce Manager jobs
+ 3,091 open jobs
+ Data Modeler jobs
+ 263,457 open jobs
+ Data Analyst jobs
+ 329,009 open jobs
+ Senior Data Warehouse Architect jobs
+ 4,641 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Senior Data Engineer jobs
+ Big Data Developer jobs
+ Hadoop Developer jobs
+ ETL Developer jobs
+ Lakeland Care jobs
+ Data Warehouse Engineer jobs
+ Analytical Engineer jobs
+ Data Architect jobs
+ Freelance Engineer jobs
+ Development Database Administrator jobs
+ ETL Specialist jobs
+ Database Software Engineer jobs
+ Engineer jobs
+ Business Intelligence Engineer jobs
+ Senior Data Warehouse Engineer jobs
+ Pipeline Engineer jobs
+ Teradata Developer jobs
+ Database Engineer jobs
+ Exhibit Coordinator jobs
+ Senior Solutions Developer jobs
+ SQL Developer jobs
+ Junior Engineer jobs
+ Assistant Produce Manager jobs
+ Data Modeler jobs
+ Data Analyst jobs
+ Senior Data Warehouse Architect jobs
+ Senior Database Engineer jobs
+ Senior Peoplesoft Consultant jobs
+ ETL Consultant jobs
+ Scala jobs
+ Data Scientist jobs
+ Senior ETL Developer jobs
+ Data Warehouse Specialist jobs
+ Databricks jobs
+ Senior Data Architect jobs
+ Lead Data Architect jobs
+ Business Intelligence Developer jobs
+ The Toledo Clinic jobs
+ Scala Developer jobs
+ General Engineer jobs
+ Senior Business Intelligence Architect jobs
+ Senior System Test Engineer jobs
+ Microsoft Developer jobs
+ Aqua-Tots Swim School jobs
+ Data Warehouse Architect jobs
+ Software Configuration Engineer jobs
+ Data System Engineer jobs
+ Python Developer jobs
+ Data Science Specialist jobs
+ Machine Learning Engineer jobs
+ Scientist jobs
+ Data Warehouse Manager jobs
+ Diocese of Saint Petersburg jobs
+ Project Lead Developer jobs
+ Telecommunications Software Engineer jobs
+ Randall Reilly jobs
+ Processing Geophysicist jobs
+ Senior Database Developer jobs
+ Business Objects Consultant jobs
+ Middleware Engineer jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (Persian)
+ Suomi (Finnish)
+ Français (French)
+ हिंदी (Hindi)
+ Magyar (Hungarian)
+ Bahasa Indonesia (Indonesian)
+ Italiano (Italian)
+ עברית (Hebrew)
+ 日本語 (Japanese)
+ 한국어 (Korean)
+ मराठी (Marathi)
+ Bahasa Malaysia (Malay)
+ Nederlands (Dutch)
+ Norsk (Norwegian)
+ ਪੰਜਾਬੀ (Punjabi)
+ Polski (Polish)
+ Português (Portuguese)
+ Română (Romanian)
+ Русский (Russian)
+ Svenska (Swedish)
+ తెలుగు (Telugu)
+ ภาษาไทย (Thai)
+ Tagalog (Tagalog)
+ Türkçe (Turkish)
+ Українська (Ukrainian)
+ Tiếng Việt (Vietnamese)
+ 简体中文 (Chinese (Simplified))
+ 正體中文 (Chinese (Traditional))
+ Language
+ You’re signed out
+ Sign in for the full experience.
+ Sign in
+ Join now

@@ -1,0 +1,380 @@
+Jobright.ai hiring AI Engineer, Entry Level in United States | LinkedIn
+ Skip to main content
+ LinkedIn
+ AI Engineer, Entry Level in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ AI Engineer, Entry Level
+ Jobright.ai
+ United States
+ AI Engineer, Entry Level
+ Jobright.ai
+ United States
+ 10 hours ago
+ Be among the first 25 applicants
+ See who Jobright.ai has hired for this role
+ No longer accepting applications
+ Report this job
+ Use AI to assess how you fit
+ Get AI-powered advice on this job and more exclusive features.
+ Am I a good fit for this job?
+ Tailor my resume
+ Sign in to access AI-powered advices
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to evaluate your skills
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to tailor your resume
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Jobright is your personal AI job search agent that transforms the job search process into a fast, expert-guided journey. They are seeking an AI Engineer to build and scale business-facing AI agents, managing the entire lifecycle from prototype to production.
+ Why Join Us
+ Build real, production AI agents used by real users
+ High ownership and impact
+ Work at the intersection of AI, agents, and product
+ Shape how people experience AI-driven job search
+ Responsibilities
+ Build and refine autonomous AI agents that interact with complex environments to solve real-world user problems
+ Develop and optimize sophisticated prompt engineering workflows and multi-agent orchestration frameworks to enhance product capabilities
+ Integrate Large Language Models (LLMs) into the Jobright application, ensuring high-quality, low-latency, and reliable AI responses
+ Work at the intersection of product and engineering to transform user requirements into functional AI-driven features
+ Implement Retrieval-Augmented Generation (RAG) systems and fine-tune models to improve the accuracy and context-awareness of our agents
+ Qualification
+ Required
+ Recent graduate or entry-level professional (0–2 years of experience) with a degree in Computer Science, AI, or a related technical field
+ Strong proficiency in Python and experience working with LLM APIs (such as OpenAI, Anthropic, or open-source models via Hugging Face)
+ Practical understanding of agentic workflows, prompt chaining, and the latest trends in generative AI
+ Solid software engineering foundations, including a strong grasp of APIs, asynchronous programming, and version control (Git)
+ Must live in and be authorized to work in the United States
+ Preferred
+ Previous internship or personal project experience building AI-powered applications, chatbots, or autonomous agents
+ Familiarity with agent frameworks such as LangChain, AutoGPT, or CrewAI
+ Experience with vector databases and semantic search implementation
+ Basic understanding of front-end or full-stack integration to help bridge the gap between AI logic and user interfaces
+ Show more
+ Show less
+ Seniority level
+ Entry level
+ Employment type
+ Full-time
+ Job function
+ Engineering
+ Industries
+ Software Development
+ Referrals increase your chances of interviewing at Jobright.ai by 2x
+ See who you know
+ Featured Benefits
+ Inferred from the description for this job
+ Medical insurance
+ Vision insurance
+ Dental insurance
+ 401(k)
+ Get notified when a new job is posted.
+ Set alert
+ Sign in to set job alerts for “Artificial Intelligence Engineer” roles.
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Similar jobs
+ Data Engineer (L5)
+ Data Engineer (L5)
+ Netflix
+ United States
+ 3 weeks ago
+ Data Scientist (Stata) | Remote
+ Data Scientist (Stata) | Remote
+ Crossing Hurdles
+ United States
+ $20.00
+ -
+ $100.00
+ 6 days ago
+ Full-Stack Engineer 5 – AI Insights & Visualizations, AI Platform
+ Full-Stack Engineer 5 – AI Insights & Visualizations, AI Platform
+ Netflix
+ United States
+ 3 weeks ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Twilio
+ United States
+ 3 days ago
+ AI/ML Engineer
+ AI/ML Engineer
+ Hilo Aviation, Inc.
+ United States
+ 8 hours ago
+ Software Engineer L4/L5, Model Serving Systems, Machine Learning Platform
+ Software Engineer L4/L5, Model Serving Systems, Machine Learning Platform
+ Netflix
+ United States
+ 4 days ago
+ Data Engineer (L5) - Ads
+ Data Engineer (L5) - Ads
+ Netflix
+ United States
+ 15 hours ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ SnapCode Inc
+ United States
+ 4 months ago
+ ML Engineer - Computer Vision (Remote Position)
+ ML Engineer - Computer Vision (Remote Position)
+ Entefy
+ United States
+ 5 months ago
+ ML Engineer, RL & Autonomous Discovery
+ ML Engineer, RL & Autonomous Discovery
+ Terray Therapeutics
+ United States
+ 1 week ago
+ Software Engineer, Machine Learning
+ Software Engineer, Machine Learning
+ Meta
+ United States
+ $154,003.00
+ -
+ $217,000.00
+ 1 week ago
+ Machine Learning Developer (Freelance)
+ Machine Learning Developer (Freelance)
+ Mindrift
+ United States
+ 16 hours ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Outschool
+ United States
+ 5 months ago
+ Machine Learning Developer (Freelance)
+ Machine Learning Developer (Freelance)
+ Mindrift
+ Florida, United States
+ 16 hours ago
+ Machine Learning Engineer / Data Scientist
+ Machine Learning Engineer / Data Scientist
+ Fusemachines
+ New York, NY
+ 3 months ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Shipt
+ United States
+ 1 week ago
+ Machine Learning Developer (Freelance)
+ Machine Learning Developer (Freelance)
+ Mindrift
+ New York, United States
+ 16 hours ago
+ Research Engineer 4/5 – AI for Member Systems
+ Research Engineer 4/5 – AI for Member Systems
+ Netflix
+ United States
+ 1 week ago
+ Machine Learning Developer (Freelance)
+ Machine Learning Developer (Freelance)
+ Mindrift
+ Colorado, United States
+ 16 hours ago
+ AI Engineer/ML Engineer - Senior Developers - AI Training - USA
+ AI Engineer/ML Engineer - Senior Developers - AI Training - USA
+ Prolific
+ New York, NY
+ 4 days ago
+ Data Platform Engineer (26-27)
+ Data Platform Engineer (26-27)
+ IDEA Public Schools
+ Hidalgo County, TX
+ 1 week ago
+ Applied AI Engineer
+ Applied AI Engineer
+ Foley
+ United States
+ 2 weeks ago
+ Machine Learning Developer (Freelance)
+ Machine Learning Developer (Freelance)
+ Mindrift
+ Michigan, United States
+ 16 hours ago
+ Machine Learning (ML) Engineer
+ Machine Learning (ML) Engineer
+ Vectara
+ San Francisco, CA
+ 1 month ago
+ Data Platform Engineer (26-27)
+ Data Platform Engineer (26-27)
+ IDEA Public Schools
+ Hidalgo County, TX
+ 1 week ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Data Scientist
+ Data Scientist
+ Cint
+ United States
+ 1 week ago
+ Data Analytics Engineer
+ Data Analytics Engineer
+ Ancient Nutrition
+ United States
+ $85.00
+ -
+ $100.00
+ 2 weeks ago
+ Software Engineer L4/L5 Training Platform, Machine Learning Platform
+ Software Engineer L4/L5 Training Platform, Machine Learning Platform
+ Netflix
+ United States
+ 4 days ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Aquabyte
+ Pittsburgh, PA
+ $110,000.00
+ -
+ $165,000.00
+ 4 months ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Twilio
+ United States
+ 2 weeks ago
+ Data Scientist (L5) - Content Understanding
+ Data Scientist (L5) - Content Understanding
+ Netflix
+ United States
+ 2 weeks ago
+ Freelance Data Science Engineer (Python & SQL)
+ Freelance Data Science Engineer (Python & SQL)
+ Mindrift
+ Kentucky, United States
+ 2 days ago
+ AI Analytics and Visualization Engineer
+ AI Analytics and Visualization Engineer
+ NVIDIA
+ California, United States
+ 2 weeks ago
+ AI Engineer
+ AI Engineer
+ Reflow
+ California, United States
+ 4 days ago
+ Machine Learning Engineer - Computer Vision
+ Machine Learning Engineer - Computer Vision
+ CompanyCam
+ Austin, TX
+ 5 hours ago
+ Similar Searches
+ Machinist jobs
+ 20,304 open jobs
+ Specialist jobs
+ 768,666 open jobs
+ Technician jobs
+ 413,710 open jobs
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Machinist jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (Persian)
+ Suomi (Finnish)
+ Français (French)
+ हिंदी (Hindi)
+ Magyar (Hungarian)
+ Bahasa Indonesia (Indonesian)
+ Italiano (Italian)
+ עברית (Hebrew)
+ 日本語 (Japanese)
+ 한국어 (Korean)
+ मराठी (Marathi)
+ Bahasa Malaysia (Malay)
+ Nederlands (Dutch)
+ Norsk (Norwegian)
+ ਪੰਜਾਬੀ (Punjabi)
+ Polski (Polish)
+ Português (Portuguese)
+ Română (Romanian)
+ Русский (Russian)
+ Svenska (Swedish)
+ తెలుగు (Telugu)
+ ภาษาไทย (Thai)
+ Tagalog (Tagalog)
+ Türkçe (Turkish)
+ Українська (Ukrainian)
+ Tiếng Việt (Vietnamese)
+ 简体中文 (Chinese (Simplified))
+ 正體中文 (Chinese (Traditional))
+ Language
+ Agree & Join LinkedIn
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Join now to see who you already know at Jobright.ai
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .

@@ -1,0 +1,425 @@
+General Motors hiring ML / AI Software Engineer - C++ Metrics Frameworks in San Francisco, CA | LinkedIn
+ Skip to main content
+ LinkedIn
+ ML / AI Software Engineer - C++ Metrics Frameworks in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ ML / AI Software Engineer - C++ Metrics Frameworks
+ General Motors
+ San Francisco, CA
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the ML / AI Software Engineer - C++ Metrics Frameworks role at General Motors
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ ML / AI Software Engineer - C++ Metrics Frameworks
+ General Motors
+ San Francisco, CA
+ 13 hours ago
+ Over 200 applicants
+ See who General Motors has hired for this role
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the ML / AI Software Engineer - C++ Metrics Frameworks role at General Motors
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Save
+ Report this job
+ Job Description
+ Role: As an AI/ML Engineer on the Metrics Frameworks team, part of the Simulation, Evaluation, and Data organization, you will be an individual contributor focused on developing and optimizing infrastructure to accelerate autonomous vehicle development, testing, and deployment by creating specialized analytics frameworks and tools. We are seeking experienced software engineers to build analytical frameworks and tools that empower internal users to construct quantitative analysis pipelines and develop metrics. These metrics will support and accelerate feature design, prioritization, and development, as well as evaluate the impact of recently released features. Our analytics framework equally supports road event monitoring, data mining and training, and simulation metrics.
+ About the Organization: The Simulation, Evaluation, and Data organization is dedicated to advancing the development of autonomous vehicles through cutting-edge simulation technologies. The Metrics Frameworks team within this organization focuses on creating, maintaining, and evolving the analytics framework that supports GM's goal of safe, high-performing, and scalable driverless technology. The team delivers robust and scalable tools that facilitate data-driven decision-making throughout the AV feature development lifecycle. We collaborate closely with Simulation Evaluation, Embodied AI, and System and Test Engineering teams to enhance productivity across the organization by developing automation tools and shared libraries for all engineering teams. We are accountable for the performance, reliability, and scalability OKRs of the analytics framework. This includes, but is not limited to, developing customized analytics workflows, improving operational telemetry and dashboards to track relevant KPIs for prioritization, and identifying, designing, and implementing solutions to achieve key results.
+#GM-AV-1
+ What You’ll Do:
+ Create tooling that can receive signals from various sources (Simulation, Road, etc) and allow users to easily build quantitative analysis pipelines to extract usable insights.
+ Accelerate team’s effectiveness and efficiency by designing and implementing scalable automation tools for test creation, data collection and analysis, debugging, and performance monitoring.
+ Design and implement extensible and well-tested shared libraries that will be used by many engineers across the organization.
+ Collaborate with other frameworks and data infra teams to build and deploy tools to improve productivity.
+ Work closely with autonomous vehicle engineering to enable rapid development and model feedback.
+ Maintain a high technical standard for code quality on the team, through architectural design and code reviews.
+ Your Skills & Abilities:
+ Experience developing scalable software solutions that will be used by many developers
+ Experience writing Python and C++ in a production environment (unit testing, code review, algorithm performance and tradeoffs, etc.)
+ Experience developing automation scripts (Python and Bash scripts)
+ BS in Computer Science, Electrical Engineering, Mechanical Engineering, or Aerospace Engineering
+ 5+ years of industry experience
+ Strong organizational and communication skills
+ What Will Give You A Competitive Edge:
+ Experience with SQL and related tools/tech (Big Query, DuckDB, etc)
+ Experience with time-series data analysis and online performance monitoring tools
+ Experience building high performance framework / infrastructure and performance optimization in C++/Python
+ Familiarity with ROS, Pandas, Python bindings for C++, and plotting/visualization libraries
+ Familiarity with Data orchestration and transformation tools like AirTable, AirFlow, DBT, etc
+ Compensation : The salary range for this role is ($129,000 and $198,400). The actual base salary a successful candidate will be offered within this range will vary based on factors relevant to the position.
+Hybrid: This role is categorized as hybrid. This means the successful candidate is expected to report to the Mountain View, San Francisco, Warren or Milford Technical Center three times per week, at minimum.
+GM does not provide immigration-related sponsorship for this role. Do not apply for this role if you will need GM immigration sponsorship now or in the future. This includes direct company sponsorship, entry of GM as the immigration employer of record on a government form, and any work authorization requiring a written submission or other immigration support from the company (e.g., H1-B, OPT, STEM OPT, CPT, TN, J-1, etc). This role is categorized as hybrid. This means the selected candidate is expected to report to a specific location at least 3 times a week {or other frequency dictated by their manager}.
+ About GM
+ Our vision is a world with Zero Crashes, Zero Emissions and Zero Congestion and we embrace the responsibility to lead the change that will make our world better, safer and more equitable for all.
+ Why Join Us
+ We believe we all must make a choice every day – individually and collectively – to drive meaningful change through our words, our deeds and our culture. Every day, we want every employee to feel they belong to one General Motors team.
+ Benefits Overview
+ From day one, we're looking out for your well-being–at work and at home–so you can focus on realizing your ambitions. Learn how GM supports a rewarding career that rewards you personally by visiting Total Rewards resources .
+ Non-Discrimination and Equal Employment Opportunities (U.S.)
+ General Motors is committed to being a workplace that is not only free of unlawful discrimination, but one that genuinely fosters inclusion and belonging. We strongly believe that providing an inclusive workplace creates an environment in which our employees can thrive and develop better products for our customers.
+All employment decisions are made on a non-discriminatory basis without regard to sex, race, color, national origin, citizenship status, religion, age, disability, pregnancy or maternity status, sexual orientation, gender identity, status as a veteran or protected veteran, or any other similarly protected status in accordance with federal, state and local laws.
+We encourage interested candidates to review the key responsibilities and qualifications for each role and apply for any positions that match their skills and capabilities. Applicants in the recruitment process may be required, where applicable, to successfully complete a role-related assessment(s) and/or a pre-employment screening prior to beginning employment. To learn more, visit How we Hire .
+ Accommodations
+ General Motors offers opportunities to all job seekers including individuals with disabilities. If you need a reasonable accommodation to assist with your job search or application for employment, email us or call us at 1-800-865-7580. In your email, please include a description of the specific accommodation you are requesting as well as the job title and requisition number of the position for which you are applying.
+ Show more
+ Show less
+ Seniority level
+ Not Applicable
+ Employment type
+ Full-time
+ Job function
+ Engineering and Information Technology
+ Industries
+ Motor Vehicle Manufacturing, Appliances, Electrical, and Electronics Manufacturing, and IT Services and IT Consulting
+ Referrals increase your chances of interviewing at General Motors by 2x
+ See who you know
+ Get notified about new Artificial Intelligence Engineer jobs in San Francisco, CA .
+ Sign in to create job alert
+ Similar jobs
+ Data Scientist
+ Data Scientist
+ Samba TV
+ San Francisco, CA
+ $150,000.00
+ -
+ $185,000.00
+ 1 week ago
+ Applied AI/ML Engineer
+ Applied AI/ML Engineer
+ Replica
+ San Francisco, CA
+ 7 months ago
+ AI Product Engineer
+ AI Product Engineer
+ Samba TV
+ San Francisco, CA
+ $150,000.00
+ -
+ $200,000.00
+ 2 weeks ago
+ ML Engineer
+ ML Engineer
+ Catalyst Labs
+ San Francisco, CA
+ 2 weeks ago
+ ML Engineer
+ ML Engineer
+ Catalyst Labs
+ San Francisco, CA
+ 2 weeks ago
+ ML Engineer (Infra & Distributed training)
+ ML Engineer (Infra & Distributed training)
+ techire ai
+ San Francisco, CA
+ $250,000.00
+ -
+ $400,000.00
+ 1 week ago
+ ML Engineer
+ ML Engineer
+ Wispr Flow
+ San Francisco, CA
+ $130,000.00
+ -
+ $240,000.00
+ 6 months ago
+ ML Engineer - Personalization & Recommendation Systems
+ ML Engineer - Personalization & Recommendation Systems
+ krea.ai
+ San Francisco, CA
+ 4 months ago
+ Machine Learning Engineer, Lyft Business
+ Machine Learning Engineer, Lyft Business
+ Lyft
+ San Francisco, CA
+ 4 days ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Blank Bio (YC S25)
+ San Francisco, CA
+ $150,000.00
+ -
+ $200,000.00
+ 6 months ago
+ AI Research Engineer
+ AI Research Engineer
+ Poly
+ San Francisco, CA
+ $150,000.00
+ -
+ $350,000.00
+ 1 year ago
+ Machine Learning Engineer II, Pricing
+ Machine Learning Engineer II, Pricing
+ Uber
+ San Francisco, CA
+ 2 weeks ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ krea.ai
+ San Francisco, CA
+ 4 months ago
+ AI/ML Engineer
+ AI/ML Engineer
+ Careerswift
+ San Francisco, CA
+ 2 weeks ago
+ Applied AI / ML Engineer
+ Applied AI / ML Engineer
+ Catalyst Labs
+ San Francisco, CA
+ 2 weeks ago
+ AI/ML Applied Engineer
+ AI/ML Applied Engineer
+ Karumi (YC F25)
+ San Francisco, CA
+ $120.00
+ -
+ $170.00
+ 4 months ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Orchard
+ San Francisco, CA
+ $135,000.00
+ -
+ $210,000.00
+ 3 weeks ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Osmosis (YC W25)
+ San Francisco, CA
+ $180,000.00
+ -
+ $250,000.00
+ 3 months ago
+ Machine Learning Engineer / Scientist
+ Machine Learning Engineer / Scientist
+ Until
+ San Francisco, CA
+ $140,000.00
+ -
+ $240,000.00
+ 5 months ago
+ Applied AI Engineer
+ Applied AI Engineer
+ SafetyKit
+ San Francisco, CA
+ 6 months ago
+ Applied AI Engineer
+ Applied AI Engineer
+ Automat
+ San Francisco, CA
+ $175,000.00
+ -
+ $220,000.00
+ 10 months ago
+ Machine Learning Engineer I
+ Machine Learning Engineer I
+ Handshake
+ San Francisco, CA
+ $151,000.00
+ -
+ $189,000.00
+ 3 weeks ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ OSARO
+ San Francisco, CA
+ $140,000.00
+ -
+ $180,000.00
+ 1 year ago
+ AI Engineer
+ AI Engineer
+ Chima
+ San Francisco, CA
+ $100,000.00
+ -
+ $300,000.00
+ 1 year ago
+ AI Research Engineer
+ AI Research Engineer
+ The Path
+ San Francisco, CA
+ 4 months ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Onyx AI
+ San Francisco, CA
+ $150,000.00
+ -
+ $250,000.00
+ 10 months ago
+ ML/AI Research Engineer — Agentic AI Lab (Founding Team)
+ ML/AI Research Engineer — Agentic AI Lab (Founding Team)
+ Fabrion
+ San Francisco, CA
+ 6 months ago
+ ML/AI Engineer
+ ML/AI Engineer
+ Ludo Robotics
+ San Francisco, CA
+ 2 weeks ago
+ Software Engineer, Machine Learning
+ Software Engineer, Machine Learning
+ Meta
+ San Mateo, CA
+ $121,992.00
+ -
+ $181,000.00
+ 1 week ago
+ Software Engineer - Applied AI
+ Software Engineer - Applied AI
+ WorkOS
+ San Francisco, CA
+ $175,000.00
+ -
+ $275,000.00
+ 1 month ago
+ AI Engineer
+ AI Engineer
+ Goodfin
+ San Francisco, CA
+ $130,000.00
+ -
+ $180,000.00
+ 2 months ago
+ AI Engineer
+ AI Engineer
+ Coval
+ San Francisco, CA
+ $100,000.00
+ -
+ $200,000.00
+ 2 weeks ago
+ Applied AI Engineer
+ Applied AI Engineer
+ Zania
+ San Francisco, CA
+ $180,000.00
+ -
+ $250,000.00
+ 6 months ago
+ AI Engineer
+ AI Engineer
+ Arnata
+ San Francisco, CA
+ $150,000.00
+ -
+ $250,000.00
+ 5 months ago
+ Machine Learning Engineer, Physical AI
+ Machine Learning Engineer, Physical AI
+ Encord
+ San Francisco, CA
+ 2 weeks ago
+ Similar Searches
+ Managed Care Coordinator jobs
+ 7,360 open jobs
+ General Manager jobs
+ 480,589 open jobs
+ Design Release Engineer jobs
+ 10,485 open jobs
+ Director of Staff Development jobs
+ 14,027 open jobs
+ Warranty Analyst jobs
+ 879 open jobs
+ Senior Staff Writer jobs
+ 319 open jobs
+ District Service Manager jobs
+ 10,549 open jobs
+ Executive Director Information Technology jobs
+ 209 open jobs
+ Surgery Resident jobs
+ 837 open jobs
+ Diagnostician jobs
+ 295 open jobs
+ Chief Software Engineer jobs
+ 45,078 open jobs
+ Software Release Engineer jobs
+ 2,264 open jobs
+ Automotive Designer jobs
+ 7,914 open jobs
+ Direct Hire Recruiter jobs
+ 6,668 open jobs
+ Senior Manager Internal Communications jobs
+ 2,652 open jobs
+ Director Automotive jobs
+ 52,114 open jobs
+ Staff Hardware Engineer jobs
+ 2,132 open jobs
+ Assistant Baseball Coach jobs
+ 681 open jobs
+ Audit Assurance jobs
+ 36,771 open jobs
+ Area Marketing Manager jobs
+ 7,378 open jobs
+ Senior Embedded Software Engineer jobs
+ 42,738 open jobs
+ Carrier Sales Manager jobs
+ 4,080 open jobs
+ Program Controller jobs
+ 2,632 open jobs
+ Vehicle Engineer jobs
+ 27,813 open jobs
+ Produce Associate jobs
+ 15,364 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Winston-Salem State University jobs
+ Cadillac jobs
+ American Public Works Association jobs
+ PTG jobs
+ Ford Motor Company jobs
+ Managed Care Coordinator jobs
+ GM Financial jobs
+ General Manager jobs
+ North Mississippi Medical Center jobs
+ Design Release Engineer jobs
+ Director of Staff Development jobs
+ Warranty Analyst jobs
+ Washtenaw County jobs
+ Senior Staff Writer jobs
+ Nissan Motor Corporation jobs
+ District Service Manager jobs
+ Performance Honda jobs
+ Executive Director Information Technology jobs
+ Sea Ray Boats jobs
+ Mazda North American Operations jobs
+ Surgery Resident jobs

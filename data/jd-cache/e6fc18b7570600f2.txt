@@ -1,0 +1,405 @@
+Superhuman hiring Data Scientist in New York, NY | LinkedIn
+ Skip to main content
+ LinkedIn
+ Data Scientist in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Data Scientist
+ Superhuman
+ New York, NY
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Data Scientist role at Superhuman
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Data Scientist
+ Superhuman
+ New York, NY
+ 6 hours ago
+ 48 applicants
+ See who Superhuman has hired for this role
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Data Scientist role at Superhuman
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Save
+ Report this job
+ Superhuman provided pay range
+ This range is provided by Superhuman. Your actual pay will be based on your skills and experience — talk with your recruiter to learn more.
+ Base pay range
+ $225,000.00/yr - $275,000.00/yr
+ Superhuman offers a dynamic hybrid working model for this role. This flexible approach gives team members the best of both worlds: plenty of focus time along with in-person collaboration that helps foster trust, innovation, and a strong team culture.
+ Superhuman team members for our data scientist roles must be based in San Francisco, Seattle, or New York City.
+ About Superhuman
+ Grammarly is now part of Superhuman, the AI productivity platform on a mission to unlock the superhuman potential in everyone. The Superhuman suite of apps and agents brings AI wherever people work, integrating with over 1 million applications and websites. The company’s products include Grammarly’s writing assistance, Coda’s collaborative workspaces, Mail’s inbox management, and Go, the proactive AI assistant that understands context and delivers help automatically. Founded in 2009, Superhuman empowers over 40 million people, 50,000 organizations, and 3,000 educational institutions worldwide to eliminate busywork and focus on what matters. Learn more at superhuman.com and about our values here.
+The Opportunity
+To achieve our ambitious goals, we’re looking for experienced Data Scientists to join our Product and Growth Data Science teams. At Superhuman, Data teams are trusted subject matter experts who uncover new insights to inform marketing, product, and growth strategies that drive outcomes at the highest levels of the company. We have large datasets and are seeking individuals with excellent technical and analytical skills who can break down complex business problems and provide solutions with high visibility and impact for the company.
+ Growth Data Scientists partner closely with our product, engineering, growth, and/or lifecycle marketing stakeholders. They are responsible for designing and overseeing product experiments, as well as conducting complex analyses to inform product strategy through advanced analytics and machine learning. The ideal candidate will have a strong track record of delivering impactful analytical projects within the Growth domain and partnering with cross-functional peers to guide and influence decision-making.
+ Product Data Scientists are responsible for evaluating the quality of the Superhuman products, end-to-end, from the usefulness and accuracy of our text suggestions to the stickiness of new AI features and user experiences and interfaces. Product Data Scientists serve as trusted experts for our team of product managers and product leaders to help drive product strategy based on data. They work with the PMs, engineering managers, software engineers, designers, ML engineers, and UX researchers who build new features and improve existing ones to ensure that our product development efforts are data-driven and that we are experimenting rapidly and effectively. This role provides an opportunity for ownership over important parts of the Superhuman product experience and broad cross-functional collaboration opportunities with our growth, ML/AI, and enterprise data science teams.
+ Superhuman’s engineers and researchers have the freedom to innovate and uncover breakthroughs—and, in turn, influence our product roadmap. The complexity of our technical challenges is growing rapidly as we scale our interfaces, algorithms, and infrastructure.
+ As a Data Scientist, You Will
+ Partner closely with growth product, engineering, design, growth, and lifecycle marketing teams.
+ Build new metrics that deliver insights and expand our understanding of our users.
+ Mine large datasets to uncover patterns across our users’ behaviors, enabling new marketing touchpoints.
+ Design and run experiments to improve the user experience across our user lifecycle.
+ Optimize marketing across our email, in-product, and push channels to ensure we send relevant, timely, personalized touchpoints to our users.
+ Guide your stakeholders’ decisions and roadmaps with informative, evidence-based decision-making.
+ Take on a broad and challenging scope of work in a rapidly evolving company.
+ Drive impact through statistical methodologies, algorithms, and measurement frameworks.
+ Collaborate with other data scientists to continue improving the methodologies and practices used across the team, leveraging the latest technological developments in the industry.
+ Develop causal inference and machine learning models that deepen user insights and drive engagement, retention, and feature adoption.
+ Qualifications
+ 5+ years of relevant work experience with a proven track record of applying data science methods that drive impact.
+ Fluency in Python and SQL with strong data exploration and manipulation skills.
+ Has a firm grasp on how to best dig into and analyze datasets that influence the product roadmap.
+ Strong understanding of statistical methods, including causal inference, to support data-driven decision-making.
+ Is well-versed in hypothesis A/B testing as well as exploratory methods, and can translate business questions into sound experimental frameworks and measurement plans.
+ Experience building causal inference models in the product or growth domain.
+ Has a self-starting growth mindset and strong communication skills, translating technical insights into impactful business recommendations.
+ Is a creative problem-solver who simplifies problems to their core elements.
+ Has a demonstrated ability to work independently with minimal guidance, proactively manages tasks and priorities across multiple projects, analyzes and executes work efficiently, collaborates effectively with cross-functional teams, and thrives in fast-paced, results-driven environments.
+ Ability to collaborate in person in the San Francisco hub.
+ Compensation And Benefits
+ Superhuman offers all team members competitive pay along with a benefits package encompassing the following and more:
+ Excellent health care (including a wide range of medical, dental, vision, mental health, and fertility benefits)
+ Disability and life insurance options
+ 401(k) matching
+ Paid parental leave
+ 20 days of paid time off per year, 12 days of paid holidays per year, two floating holidays per year, and flexible sick time
+ Generous stipends (including those for caregiving, pet care, wellness, your home office, and more)
+ Annual professional development budget and opportunities
+ Superhuman takes a market-based approach to compensation, which means base pay may vary depending on your location. Our US locations are categorized into two compensation zones based on proximity to our hub locations.
+Base pay may vary considerably depending on job-related knowledge, skills, and experience. The expected salary ranges for this position are outlined below by compensation zone and may be modified in the future.
+ US Zone 1
+ $195,000 to $275,000
+We encourage you to apply
+At Superhuman, we value our differences, and we encourage all to apply—especially those whose identities are traditionally underrepresented in tech organizations. We do not discriminate on the basis of race, religion, color, gender expression or identity, sexual orientation, ancestry, national origin, citizenship, age, marital status, veteran status, disability status, political belief, or any other characteristic protected by law. Superhuman is an equal opportunity employer and a participant in the US federal E-Verify program (US). We also abide by the Employment Equity Act (Canada).
+Compensation Range: $225K - $275K
+ Show more
+ Show less
+ Seniority level
+ Mid-Senior level
+ Employment type
+ Full-time
+ Job function
+ Engineering and Information Technology
+ Industries
+ Software Development
+ Referrals increase your chances of interviewing at Superhuman by 2x
+ See who you know
+ Get notified about new Data Scientist jobs in New York, NY .
+ Sign in to create job alert
+ Similar jobs
+ Data Scientist, Customer Support Analytics
+ Data Scientist, Customer Support Analytics
+ Etsy
+ Brooklyn, NY
+ 2 days ago
+ Data Scientist
+ Data Scientist
+ Roku
+ New York, NY
+ $135,000.00
+ -
+ $153,000.00
+ 3 weeks ago
+ Data Scientist
+ Data Scientist
+ Andiamo
+ New York, NY
+ 1 week ago
+ Machine Learning Engineer / Data Scientist
+ Machine Learning Engineer / Data Scientist
+ Fusemachines
+ New York, NY
+ 3 months ago
+ Data Scientist
+ Data Scientist
+ Attune
+ New York, NY
+ 2 weeks ago
+ Data Scientist, All Levels
+ Data Scientist, All Levels
+ Ramp
+ New York, NY
+ $137,120.00
+ -
+ $297,330.00
+ 2 weeks ago
+ Data Scientist, Product Analytics
+ Data Scientist, Product Analytics
+ Meta
+ New York, NY
+ $177,000.00
+ -
+ $247,000.00
+ 1 week ago
+ Data Scientist, Product Analytics
+ Data Scientist, Product Analytics
+ Meta
+ New York, NY
+ $147,000.00
+ -
+ $208,000.00
+ 1 week ago
+ Data Scientist
+ Data Scientist
+ Fusemachines
+ New York, NY
+ 1 month ago
+ Data Scientist
+ Data Scientist
+ Stott and May
+ New York, NY
+ $80.00
+ -
+ $110.00
+ 12 hours ago
+ Data Scientist Intern
+ Data Scientist Intern
+ GoodRx
+ Kings County, NY
+ 2 days ago
+ Data Scientist, Research
+ Data Scientist, Research
+ Dstillery
+ New York, NY
+ 3 months ago
+ Research Data Scientist, Developer AI
+ Research Data Scientist, Developer AI
+ Google
+ New York, NY
+ 18 hours ago
+ Data Scientist
+ Data Scientist
+ Junction
+ New York, NY
+ $180,000.00
+ -
+ $220,000.00
+ 5 days ago
+ AI Data Scientist (Quant Fund)
+ AI Data Scientist (Quant Fund)
+ Stabile Search
+ New York City Metropolitan Area
+ $400,000.00
+ -
+ $600,000.00
+ 6 days ago
+ Scientist II, Uber Direct
+ Scientist II, Uber Direct
+ Uber
+ New York, NY
+ 1 week ago
+ Data Scientist - Growth Analytics (Performance Marketing)
+ Data Scientist - Growth Analytics (Performance Marketing)
+ Spotify
+ New York, NY
+ 3 weeks ago
+ Data Scientist, Subscriptions
+ Data Scientist, Subscriptions
+ Spotify
+ New York, NY
+ 2 weeks ago
+ Data Scientist
+ Data Scientist
+ City of New York
+ New York, NY
+ 1 month ago
+ Data Scientist
+ Data Scientist
+ Arlo
+ New York, NY
+ 19 hours ago
+ Data Scientist, Product
+ Data Scientist, Product
+ Robinhood
+ New York, NY
+ 1 week ago
+ Data Scientist, Algorithms, Optimization - Fulfillment
+ Data Scientist, Algorithms, Optimization - Fulfillment
+ Lyft
+ New York, NY
+ 1 week ago
+ Data Scientist - Data-Driven Global Investment Firm
+ Data Scientist - Data-Driven Global Investment Firm
+ Andiamo
+ New York, NY
+ 1 week ago
+ Applied Scientist, Data Science
+ Applied Scientist, Data Science
+ Prior Labs
+ New York, NY
+ 11 hours ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Data Scientist, New Grad
+ Data Scientist, New Grad
+ SentiLink
+ New York, NY
+ 5 days ago
+ Data Scientist, Algorithms - Lyft Ads
+ Data Scientist, Algorithms - Lyft Ads
+ Lyft
+ New York, NY
+ 1 week ago
+ Data Scientist - Fraud Risk
+ Data Scientist - Fraud Risk
+ Rain
+ New York, NY
+ $180,000.00
+ -
+ $245,000.00
+ 3 months ago
+ Data Scientist, Products & Applied Research
+ Data Scientist, Products & Applied Research
+ Meta
+ New York, NY
+ $177,000.00
+ -
+ $247,000.00
+ 1 week ago
+ Senior Data Scientist
+ Senior Data Scientist
+ Roku
+ New York, NY
+ 1 week ago
+ Senior Data Scientist – Analytics and AI Data
+ Senior Data Scientist – Analytics and AI Data
+ Louis Vuitton
+ New York, NY
+ 7 hours ago
+ Data Scientist
+ Data Scientist
+ M Science
+ New York City Metropolitan Area
+ $90,000.00
+ -
+ $175,000.00
+ 6 days ago
+ Sector Data Scientist
+ Sector Data Scientist
+ Thurn Partners
+ New York, NY
+ 11 hours ago
+ Data Scientist, Analytics (Technical Leadership)
+ Data Scientist, Analytics (Technical Leadership)
+ Meta
+ New York, NY
+ $210,000.00
+ -
+ $281,000.00
+ 1 week ago
+ Data Scientist, Supply and Operations Technology, Lyft Urban Solutions
+ Data Scientist, Supply and Operations Technology, Lyft Urban Solutions
+ Lyft
+ New York, NY
+ 2 weeks ago
+ Similar Searches
+ Scientist jobs
+ 48,969 open jobs
+ Data Science Specialist jobs
+ 2,441 open jobs
+ Junior Scientist jobs
+ 10,103 open jobs
+ Lead Scientist jobs
+ 14,164 open jobs
+ Senior Scientist jobs
+ 19,214 open jobs
+ Machine Learning Engineer jobs
+ 148,937 open jobs
+ Data Warehouse Project Manager jobs
+ 10,365 open jobs
+ Science Manager jobs
+ 15,298 open jobs
+ Senior Staff Scientist jobs
+ 6,754 open jobs
+ Staff Geophysicist jobs
+ 106 open jobs
+ Data Analyst jobs
+ 329,009 open jobs
+ Assistant City Engineer jobs
+ 18,090 open jobs
+ Principal Geophysicist jobs
+ 64 open jobs
+ Senior Information Developer jobs
+ 1,040 open jobs
+ Director Data Science jobs
+ 4,457 open jobs
+ Pathology Resident jobs
+ 609 open jobs
+ Statistician jobs
+ 20,674 open jobs
+ Biostatistician jobs
+ 21,103 open jobs
+ Regional Risk Manager jobs
+ 3,488 open jobs
+ Data Mining Specialist jobs
+ 24,616 open jobs
+ Bioinformatician jobs
+ 18,406 open jobs
+ Algorithm Developer jobs
+ 1,195 open jobs
+ Senior Integration Specialist jobs
+ 49,775 open jobs
+ Statistical Researcher jobs
+ 1,534 open jobs
+ Principal Scientist jobs
+ 11,010 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Century Park Associates jobs
+ Scientist jobs
+ Data Science Specialist jobs
+ Junior Scientist jobs
+ Lead Scientist jobs
+ Senior Scientist jobs
+ Machine Learning Engineer jobs
+ Total Education Solutions jobs
+ Data Warehouse Project Manager jobs
+ Science Manager jobs
+ Security Alliance jobs
+ Senior Staff Scientist jobs
+ Staff Geophysicist jobs
+ Data Analyst jobs
+ Assistant City Engineer jobs
+ Principal Geophysicist jobs
+ Telamon Corporation jobs
+ Senior Information Developer jobs
+ Director Data Science jobs
+ Bureau of Economic Analysis jobs
+ Pathology Resident jobs
+ Statistician jobs
+ Biostatistician jobs
+ Regional 

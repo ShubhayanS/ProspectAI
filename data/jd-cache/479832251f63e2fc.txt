@@ -1,0 +1,463 @@
+Jobs via Dice hiring Jr Data Engineer in United States | LinkedIn
+ Skip to main content
+ LinkedIn
+ Jr Data Engineer in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Jr Data Engineer
+ Jobs via Dice
+ United States
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Jr Data Engineer role at Jobs via Dice
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Jr Data Engineer
+ Jobs via Dice
+ United States
+ 12 hours ago
+ 112 applicants
+ See who Jobs via Dice has hired for this role
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Jr Data Engineer role at Jobs via Dice
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Save
+ Report this job
+ Dice is the leading career destination for tech experts at every stage of their careers. Our client, Rose IT Corp., is seeking the following. Apply via Dice today!
+ Role Overview
+ A Junior Data Engineer is responsible for building, maintaining, and optimizing data pipelines and data infrastructure. This role focuses on collecting, transforming, and storing data to support analytics, reporting, and business intelligence.
+ Key Responsibilities
+ Develop and maintain data pipelines for data ingestion and processing
+ Extract, transform, and load (ETL) data from multiple sources
+ Design and manage data storage solutions (data warehouses, data lakes)
+ Write efficient SQL queries for data extraction and transformation
+ Ensure data quality, integrity, and consistency across systems
+ Monitor and troubleshoot data pipeline issues
+ Collaborate with data analysts and data scientists to meet data needs
+ Optimize data workflows for performance and scalability
+ Implement data validation and error-handling mechanisms
+ Document data processes and pipeline architectures
+ Required Skills
+ Strong knowledge of SQL for data querying and transformation
+ Proficiency in Python or Java for data processing
+ Understanding of ETL processes and data pipelines
+ Familiarity with databases (MySQL, PostgreSQL)
+ Basic knowledge of data warehousing concepts
+ Understanding of data structures and algorithms
+ Problem-solving and debugging skills
+ Preferred Skills
+ Experience with big data tools (Apache Spark, Hadoop)
+ Familiarity with cloud platforms (AWS, Azure, Google Cloud Platform)
+ Knowledge of data warehouse tools (Amazon Redshift, Google BigQuery, Snowflake)
+ Exposure to streaming technologies (Kafka)
+ Understanding of workflow orchestration tools (Apache Airflow)
+ Basic knowledge of Docker and CI/CD pipelines
+ Tools & Technologies
+ Languages: SQL, Python, Java
+ Tools: Apache Spark, Airflow, Kafka
+ Databases: MySQL, PostgreSQL
+ Data Warehouses: Redshift, BigQuery, Snowflake
+ Platforms: Linux, AWS/Azure/Google Cloud Platform
+ Show more
+ Show less
+ Seniority level
+ Entry level
+ Employment type
+ Full-time
+ Job function
+ Information Technology
+ Industries
+ Software Development
+ Referrals increase your chances of interviewing at Jobs via Dice by 2x
+ See who you know
+ Get notified about new Data Engineer jobs in United States .
+ Sign in to create job alert
+ Similar jobs
+ Data Engineer (L5)
+ Data Engineer (L5)
+ Netflix
+ United States
+ 3 weeks ago
+ Data Engineer (L5) - Ads
+ Data Engineer (L5) - Ads
+ Netflix
+ United States
+ 15 hours ago
+ Data Engineer
+ Data Engineer
+ Gopuff
+ United States
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Health-E Commerce
+ United States
+ 1 month ago
+ Junior Analytics Engineer
+ Junior Analytics Engineer
+ Mayne Pharma
+ United States
+ 1 week ago
+ Security Analytics Engineer (L4)
+ Security Analytics Engineer (L4)
+ Netflix
+ United States
+ 1 week ago
+ Data Analyst (Stata) | Remote
+ Data Analyst (Stata) | Remote
+ Crossing Hurdles
+ United States
+ $20.00
+ -
+ $100.00
+ 6 days ago
+ Data Engineer
+ Data Engineer
+ MedReview Inc.
+ New York, NY
+ 2 months ago
+ Software Engineer L4/L5, Model Serving Systems, Machine Learning Platform
+ Software Engineer L4/L5, Model Serving Systems, Machine Learning Platform
+ Netflix
+ United States
+ 4 days ago
+ Data Engineer 5 - Privacy
+ Data Engineer 5 - Privacy
+ Netflix
+ United States
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Temu
+ United States
+ 4 days ago
+ Data Analytics Engineer
+ Data Analytics Engineer
+ Ancient Nutrition
+ United States
+ $85.00
+ -
+ $100.00
+ 2 weeks ago
+ Graduate Software Engineer
+ Graduate Software Engineer
+ Fuze Health
+ United States
+ $76,240.00
+ -
+ $95,300.00
+ 2 weeks ago
+ Software Engineer (L4) - Personalization
+ Software Engineer (L4) - Personalization
+ Netflix
+ United States
+ 3 days ago
+ Data Engineer
+ Data Engineer
+ Arbor
+ Austin, TX
+ 1 month ago
+ Data Engineer
+ Data Engineer
+ Arbor
+ Philadelphia, PA
+ 1 month ago
+ Data Platform Engineer (26-27)
+ Data Platform Engineer (26-27)
+ IDEA Public Schools
+ Hidalgo County, TX
+ 1 week ago
+ Senior Data Engineer
+ Senior Data Engineer
+ Health-E Commerce
+ United States
+ 2 weeks ago
+ Data Platform Engineer (26-27)
+ Data Platform Engineer (26-27)
+ IDEA Public Schools
+ Hidalgo County, TX
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Edmunds
+ United States
+ 2 weeks ago
+ Analytics Engineer
+ Analytics Engineer
+ SeatGeek
+ United States
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Arbor
+ Washington, DC
+ 1 month ago
+ Data Engineer
+ Data Engineer
+ Cohere
+ San Francisco, CA
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Avenue Code
+ United States
+ 2 weeks ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Data Engineer
+ Data Engineer
+ Cohere
+ New York, NY
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Figma
+ San Francisco, CA
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Analytica
+ Washington, DC
+ 6 months ago
+ Data Engineer II
+ Data Engineer II
+ Samsara
+ United States
+ $101,745.00
+ -
+ $153,900.00
+ 3 days ago
+ Data Engineer
+ Data Engineer
+ Arbor
+ Boston, MA
+ 1 month ago
+ Data Engineer
+ Data Engineer
+ Figma
+ New York, NY
+ 6 days ago
+ Data Engineer
+ Data Engineer
+ Elios
+ United States
+ 6 days ago
+ Data Engineer
+ Data Engineer
+ IntePros
+ Phoenix, AZ
+ 1 day ago
+ Data Engineer ($130k - $170k)
+ Data Engineer ($130k - $170k)
+ Tenth Revolution Group
+ United States
+ $150,000.00
+ -
+ $170,000.00
+ 3 days ago
+ Similar Searches
+ Healthcare Recruiter jobs
+ 27,410 open jobs
+ Senior Data Engineer jobs
+ 78,076 open jobs
+ Data Engineer jobs
+ 192,126 open jobs
+ Salesforce Administrator jobs
+ 7,827 open jobs
+ Linguist jobs
+ 1,643 open jobs
+ Data Architect jobs
+ 68,774 open jobs
+ Engineer jobs
+ 555,845 open jobs
+ Intelligence Analyst jobs
+ 23,918 open jobs
+ Analyst jobs
+ 694,057 open jobs
+ Assistant jobs
+ 711,811 open jobs
+ Scientist jobs
+ 48,969 open jobs
+ Machine Learning Engineer jobs
+ 148,937 open jobs
+ Developer jobs
+ 258,935 open jobs
+ Java Software Engineer jobs
+ 36,180 open jobs
+ Quality Assurance Automation Engineer jobs
+ 6,313 open jobs
+ Recruiter jobs
+ 243,016 open jobs
+ Hadoop Developer jobs
+ 37,972 open jobs
+ Intern jobs
+ 71,196 open jobs
+ Technical Recruiter jobs
+ 8,617 open jobs
+ Web Manager jobs
+ 19,020 open jobs
+ Python Developer jobs
+ 46,642 open jobs
+ Dotnet Developer jobs
+ 28,038 open jobs
+ System Analyst jobs
+ 292,633 open jobs
+ Tester jobs
+ 23,600 open jobs
+ Engineering Specialist jobs
+ 56,946 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Healthcare Recruiter jobs
+ Signature Consultants jobs
+ Senior Data Engineer jobs
+ Data Engineer jobs
+ Salesforce Administrator jobs
+ Planet Technology jobs
+ The Select Group jobs
+ Linguist jobs
+ Data Architect jobs
+ NTT DATA North America jobs
+ Brillio jobs
+ Aerotek jobs
+ Grammarly jobs
+ The Judge Group jobs
+ Brooksource jobs
+ NTT DATA jobs
+ Beacon Hill jobs
+ Engineer jobs
+ Experis jobs
+ Jobot jobs
+ Kforce Inc jobs
+ Intelligence Analyst jobs
+ Transcom jobs
+ Adobe jobs
+ Analyst jobs
+ TEKsystems jobs
+ Hewlett Packard Enterprise jobs
+ Insight jobs
+ Assistant jobs
+ HTC Global Services jobs
+ Uber jobs
+ Scientist jobs
+ Freddie Mac jobs
+ Photon jobs
+ Teradata jobs
+ Hays jobs
+ Machine Learning Engineer jobs
+ Developer jobs
+ MuleSoft jobs
+ Java Software Engineer jobs
+ Quality Assurance Automation Engineer jobs
+ Amazon jobs
+ Recruiter jobs
+ Hadoop Developer jobs
+ CGI jobs
+ Intern jobs
+ Technical Recruiter jobs
+ Web Manager jobs
+ Python Developer jobs
+ VMware jobs
+ SS&C Technologies jobs
+ Applied Materials jobs
+ Dotnet Developer jobs
+ System Analyst jobs
+ Tester jobs
+ Engineering Specialist jobs
+ Consultant jobs
+ Google jobs
+ Micron Technology jobs
+ Visa jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (Persian)
+ Suomi (Finnish)
+ Français (French)
+ हिंदी (Hindi)
+ Magyar (Hungarian)
+ Bahasa Indonesia (Indonesian)
+ Italiano (Italian)
+ עברית (Hebrew)
+ 日本語 (Japanese)
+ 한국어 (Korean)
+ मराठी (Marathi)
+ Bahasa Malaysia (Malay)
+ Nederlands (Dutch)
+ Norsk (Norwegian)
+ ਪੰਜਾਬੀ (Punjabi)
+ Polski (Polish)
+ Português (Portuguese)
+ Română (Romanian)
+ Русский (Russian)
+ Svenska (Swedish)
+ తెలుగు (Telugu)
+ ภาษาไทย (Thai)
+ Tagalog (Tagalog)
+ Türkçe (Turkish)
+ Українська (Ukrainian)
+ Tiếng Việt (Vietnamese)
+ 简体中文 (Chinese (Simplified))
+ 正體中文 (Chinese (Traditional))
+ Language
+ Agree & Join LinkedIn
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Join now to see who you already know at Jobs via Dice
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .

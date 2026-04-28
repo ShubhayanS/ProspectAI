@@ -1,0 +1,495 @@
+Capgemini hiring Data Engineer in New York, United States | LinkedIn
+ Skip to main content
+ LinkedIn
+ Data Engineer in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Data Engineer
+ Capgemini
+ New York, United States
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Data Engineer role at Capgemini
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Data Engineer
+ Capgemini
+ New York, United States
+ 8 hours ago
+ 79 applicants
+ See who Capgemini has hired for this role
+ Apply
+ Join or sign in to find your next job
+ Join to apply for the Data Engineer role at Capgemini
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Save
+ Report this job
+ Use AI to assess how you fit
+ Get AI-powered advice on this job and more exclusive features.
+ Am I a good fit for this job?
+ Tailor my resume
+ Sign in to access AI-powered advices
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to evaluate your skills
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to tailor your resume
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Choosing Capgemini means choosing a company where you will be empowered to shape your career in the way you’d like, where you’ll be supported and inspired by a collaborative community of colleagues around the world, and where you’ll be able to reimagine what’s possible. Join us and help the world’s leading organizations unlock the value of technology and build a more sustainable, more inclusive world.
+ Client Location: Charlotte, NC
+ Job Description
+ Total years of data engineering experience 5 to 7 years with relevant GCP experience of 1years
+Experience in Data Engineering ETL Pipelines Batch and Streaming along withSQL Python PySpark UnixLinux and Data Warehousing concepts
+Experience in GCP native services like BigQuery Composer GCS Dataflow etc
+Experience in Data Migration along with Data Quality and Data Governance
+Experience of working in an Agile Scrum KANBAN Environment
+Participate proactively in standup meetings scrum ceremonies grooming sessions team retrospectives and suggest improvements
+Articulate and facilitate conversations with business owners and delivery teams
+Detailed understanding of Continuous Integration and Continuous Deployment Test Automation and Deployments
+Document and prioritize data and pipeline defects working closely with defect management teams for resolution
+Status reporting Project Risk Issue Management Business stakeholder reviews approvals of deliverables
+The base compensation range for this role in the posted location is:$90000 - $96000
+Capgemini provides compensation range information in accordance with applicable national, state, provincial, and local pay transparency laws. The base compensation range listed for this position reflects the minimum and maximum target compensation Capgemini, in good faith, believes it may pay for the role at the time of this posting. This range may be subject to change as permitted by law.
+The actual compensation offered to any candidate may fall outside of the posted range and will be determined based on multiple factors legally permitted in the applicable jurisdiction.
+These may include, but are not limited to: Geographic location, Education and qualifications, Certifications and licenses, Relevant experience and skills, Seniority and performance, Market and business consideration, Internal pay equity.
+It is not typical for candidates to be hired at or near the top of the posted compensation range.
+In addition to base salary, this role may be eligible for additional compensation such as variable incentives, bonuses, or commissions, depending on the position and applicable laws.
+ Benefits
+ Capgemini offers a comprehensive, non-negotiable benefits package to all regular, full-time employees. In the U.S. and Canada, available benefits are determined by local policy and eligibility and may include:
+ Paid time off based on employee grade (A-F), defined by policy: Vacation: 12-25 days, depending on grade, Company paid holidays, Personal Days, Sick Leave
+ Medical, dental, and vision coverage (or provincial healthcare coordination in Canada)
+ Retirement savings plans (e.g., 401(k) in the U.S., RRSP in Canada)
+ Life and disability insurance
+ Employee assistance programs
+ Other benefits as provided by local policy and eligibility
+ Important Notice: Compensation (including bonuses, commissions, or other forms of incentive pay) is not considered earned, vested, or payable until it becomes due under the terms of applicable plans or agreements and is subject to Capgemini’s discretion, consistent with applicable laws. The Company reserves the right to amend or withdraw compensation programs at any time, within the limits of applicable legislation.
+ Disclaimers
+ Capgemini is an Equal Opportunity Employer encouraging inclusion in the workplace. Capgemini also participates in the Partnership Accreditation in Indigenous Relations (PAIR) program which supports meaningful engagement with Indigenous communities across Canada by promoting fairness, accessibility, inclusion and respect. We value the rich cultural heritage and contributions of Indigenous Peoples and actively work to create a welcoming and respectful environment. All qualified applicants will receive consideration for employment without regard to race, national origin, gender identity/expression, age, religion, disability, sexual orientation, genetics, veteran status, marital status or any other characteristic protected by law.
+This is a general description of the Duties, Responsibilities and Qualifications required for this position. Physical, mental, sensory or environmental demands may be referenced in an attempt to communicate the manner in which this position traditionally is performed. Whenever necessary to provide individuals with disabilities an equal employment opportunity, Capgemini will consider reasonable accommodations that might involve varying job requirements and/or changing the way this job is performed, provided that such accommodation does not pose an undue hardship. Capgemini is committed to providing reasonable accommodation during our recruitment process. If you need assistance or accommodation, please reach out to your recruiting contact.
+Please be aware that Capgemini may capture your image (video or screenshot) during the interview process and that image may be used for verification, including during the hiring and onboarding process.
+Click the following link for more information on your rights as an Applicant in the United States. http://www.capgemini.com/resources/equal-employment-opportunity-is-the-law
+Capgemini is a global business and technology transformation partner, helping organizations to accelerate their dual transition to a digital and sustainable world, while creating tangible impact for enterprises and society. It is a responsible and diverse group of 340,000 team members in more than 50 countries. With its strong over 55-year heritage, Capgemini is trusted by its clients to unlock the value of technology to address the entire breadth of their business needs. It delivers end-to-end services and solutions leveraging strengths from strategy and design to engineering, all fueled by its market leading capabilities in AI, generative AI, cloud and data, combined with its deep industry expertise and partner ecosystem.
+ Show more
+ Show less
+ Seniority level
+ Mid-Senior level
+ Employment type
+ Full-time
+ Job function
+ Information Technology
+ Industries
+ IT Services and IT Consulting
+ Referrals increase your chances of interviewing at Capgemini by 2x
+ See who you know
+ Get notified about new Data Engineer jobs in New York, United States .
+ Sign in to create job alert
+ Similar jobs
+ Software Engineer (New Grads)
+ Software Engineer (New Grads)
+ Giga
+ New York, NY
+ $160,000.00
+ -
+ $250,000.00
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ BDG
+ New York, NY
+ 11 months ago
+ New Grad Software Engineer
+ New Grad Software Engineer
+ Authentic
+ New York, NY
+ 2 months ago
+ Data Engineer, Product Analytics
+ Data Engineer, Product Analytics
+ Meta
+ New York, NY
+ $177,000.00
+ -
+ $247,000.00
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ MedReview Inc.
+ New York, NY
+ 2 months ago
+ Data Engineer
+ Data Engineer
+ Tapestry
+ New York, NY
+ 1 week ago
+ Data Engineer II
+ Data Engineer II
+ American Express
+ New York, NY
+ $89,250.00
+ -
+ $150,250.00
+ 4 days ago
+ Data Engineer Intern
+ Data Engineer Intern
+ Cornspring
+ New York, NY
+ 6 days ago
+ Data Engineer
+ Data Engineer
+ Point72
+ New York, United States
+ 1 year ago
+ Data Visualization Engineer
+ Data Visualization Engineer
+ Major League Baseball (MLB)
+ New York, NY
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Imprint
+ New York, NY
+ $140,000.00
+ -
+ $180,000.00
+ 5 months ago
+ Software Engineer, Fullstack, Early Career
+ Software Engineer, Fullstack, Early Career
+ Notion
+ New York, NY
+ 1 month ago
+ Data Engineer
+ Data Engineer
+ Delmar Nord
+ New York, NY
+ 4 days ago
+ Analytics Engineer
+ Analytics Engineer
+ SeatGeek
+ New York, NY
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ G-III Apparel Group
+ New York, NY
+ $120,000.00
+ -
+ $135,000.00
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Kaizen
+ New York, NY
+ 2 weeks ago
+ Data Engineer, Analytics (Technical Leadership)
+ Data Engineer, Analytics (Technical Leadership)
+ Meta
+ New York, NY
+ $210,000.00
+ -
+ $281,000.00
+ 1 week ago
+ Analytics Engineer (New Grad)
+ Analytics Engineer (New Grad)
+ PermitFlow
+ New York, NY
+ $90,000.00
+ -
+ $125,000.00
+ 1 month ago
+ Data Engineer I
+ Data Engineer I
+ Epicured
+ Glen Cove, NY
+ 1 month ago
+ Senior Data Engineer
+ Senior Data Engineer
+ StubHub
+ New York, NY
+ 1 week ago
+ Data Engineer, Product Analytics
+ Data Engineer, Product Analytics
+ Meta
+ New York, NY
+ $147,000.00
+ -
+ $208,000.00
+ 1 week ago
+ Jr. Data Engineer
+ Jr. Data Engineer
+ Northside Center for Child Development
+ New York, NY
+ 8 months ago
+ Data Engineer
+ Data Engineer
+ Cohere
+ New York, NY
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Figma
+ New York, NY
+ 6 days ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Data Engineer
+ Data Engineer
+ Sunset
+ New York, NY
+ $180,000.00
+ -
+ $280,000.00
+ 2 weeks ago
+ Data Analytics Engineer
+ Data Analytics Engineer
+ Pelago
+ New York, NY
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Prizeout
+ New York, NY
+ 5 months ago
+ Senior Data Engineer
+ Senior Data Engineer
+ Gambit Technologies
+ New York, NY
+ 4 days ago
+ Data Engineer, Associate
+ Data Engineer, Associate
+ BlackRock
+ New York, NY
+ 1 week ago
+ Data & Analytics Engineer
+ Data & Analytics Engineer
+ Tandem
+ New York, NY
+ $150,000.00
+ -
+ $200,000.00
+ 5 months ago
+ Data Engineer
+ Data Engineer
+ Slang AI
+ New York, NY
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Imprint
+ New York, United States
+ 7 months ago
+ Data Engineer - New York
+ Data Engineer - New York
+ Ducera Partners LLC
+ New York, NY
+ 1 month ago
+ Data Engineer
+ Data Engineer
+ Backstage
+ New York, NY
+ $135,000.00
+ -
+ $155,000.00
+ 2 weeks ago
+ Similar Searches
+ Big Data Developer jobs
+ 26,392 open jobs
+ Data Engineer jobs
+ 192,126 open jobs
+ Senior Relationship Manager jobs
+ 54,463 open jobs
+ Senior Data Engineer jobs
+ 78,076 open jobs
+ Principal Engineer jobs
+ 168,566 open jobs
+ Data Architect jobs
+ 68,774 open jobs
+ SQL Developer jobs
+ 12,445 open jobs
+ Cloud Architect jobs
+ 47,643 open jobs
+ Database Administrator jobs
+ 225,956 open jobs
+ Associate Engineer jobs
+ 48,481 open jobs
+ Engineer jobs
+ 555,845 open jobs
+ Video Editor jobs
+ 5,556 open jobs
+ Lead jobs
+ 1,965,194 open jobs
+ Developer jobs
+ 258,935 open jobs
+ Editor jobs
+ 19,020 open jobs
+ Consultant jobs
+ 760,907 open jobs
+ Marketing Manager jobs
+ 106,879 open jobs
+ Application Developer jobs
+ 64,604 open jobs
+ Solutions Engineer jobs
+ 92,218 open jobs
+ Python Developer jobs
+ 46,642 open jobs
+ Specialist jobs
+ 768,666 open jobs
+ Solutions Architect jobs
+ 100,488 open jobs
+ Manager jobs
+ 1,880,925 open jobs
+ Analyst jobs
+ 694,057 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Big Data Developer jobs
+ Data Engineer jobs
+ Senior Relationship Manager jobs
+ Reply jobs
+ MuleSoft jobs
+ Senior Data Engineer jobs
+ Lexmark jobs
+ Luxoft jobs
+ Principal Engineer jobs
+ Data Architect jobs
+ DXC Technology jobs
+ Databricks jobs
+ Fractal jobs
+ Capgemini jobs
+ Mercer jobs
+ Experian jobs
+ SQL Developer jobs
+ ASML jobs
+ Twilio jobs
+ Cloud Architect jobs
+ Database Administrator jobs
+ Associate Engineer jobs
+ Insight jobs
+ Wells Fargo jobs
+ Kyndryl jobs
+ Mphasis jobs
+ EXPRESS jobs
+ Engineer jobs
+ Hewlett Packard Enterprise jobs
+ Uber jobs
+ Cisco jobs
+ Nagarro jobs
+ Accenture jobs
+ Video Editor jobs
+ Tata Consultancy Services jobs
+ HSO jobs
+ Netflix jobs
+ Lead jobs
+ Developer jobs
+ Roche jobs
+ Microsoft jobs
+ PwC jobs
+ Editor jobs
+ Morgan Stanley jobs
+ Consultant jobs
+ Goldman Sachs jobs
+ Marketing Manager jobs
+ Optum jobs
+ Application Developer jobs
+ KPMG US jobs
+ Spotify jobs
+ Solutions Engineer jobs
+ Python Developer jobs
+ Deloitte jobs
+ Cognizant jobs
+ Specialist jobs
+ Solutions Architect jobs
+ Manager jobs
+ Analyst jobs
+ Infosys jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (Persian)
+ Suomi (Finnish)
+ Français (French)
+ हिंदी (Hindi)
+ Magyar (Hungarian)
+ Bahasa Indonesia (Indonesian)
+ Italiano (Italian)
+ עברית (Hebrew)
+ 日本語 (Japanese)
+ 한국어 (Korean)
+ मराठी (Marathi)
+ Bahasa Malaysia (Malay)
+ Nederlands (Dutch)
+ Norsk (Norwegian)
+ ਪੰਜਾਬੀ (Punjabi)
+ Polski (Polish)
+ Português (Portuguese)
+ Română (Romanian)
+ Русски

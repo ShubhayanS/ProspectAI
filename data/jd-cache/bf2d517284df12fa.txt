@@ -1,0 +1,511 @@
+Mentor Talent Acquisition hiring Data Scientist in New York City Metropolitan Area | LinkedIn
+ Skip to main content
+ LinkedIn
+ Data Scientist in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ Data Scientist
+ Mentor Talent Acquisition
+ New York City Metropolitan Area
+ Apply
+ Data Scientist
+ Mentor Talent Acquisition
+ New York City Metropolitan Area
+ 11 hours ago
+ Over 200 applicants
+ See who Mentor Talent Acquisition has hired for this role
+ Apply
+ Save
+ Report this job
+ Use AI to assess how you fit
+ Get AI-powered advice on this job and more exclusive features.
+ Am I a good fit for this job?
+ Tailor my resume
+ Sign in to access AI-powered advices
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to evaluate your skills
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to tailor your resume
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Direct message the job poster from Mentor Talent Acquisition
+ Barry McDermott
+ Barry McDermott
+ Hiring Engineers for the Top Tech Companies in the US
+ We're building cutting-edge LLM-powered tools that supercharge investment research for the world's most demanding deal teams. Our clients include several of the top 10 global private equity firms, Big 4 professional services firms, and leading consulting practices: organisations responsible for deploying billions of dollars annually.
+ We're a profitable, bootstrapped company with a growing team of ~28 people based in London and New York. We 10x'd our revenue in 2025 and are on track to grow 2-3x again this year. Junior saves clients an average of 10 hours per week, and we're expanding fast into new verticals including investment banking, hedge funds, and research firms.
+ Role Description
+ We’ve built Junior this far through strong product instincts, speed, and founder intuition, but instinct only gets you so far...
+ As our first dedicated data hire, you’ll build the analytics foundation that helps us understand what’s really driving the business - what users love, what makes customers retain, where deals are won/lost, and where we should focus next.
+ You won’t just be building dashboards. You’ll be helping shape how one of the fastest-growing AI startups in NYC actually makes decisions.
+ This is a foundational role with massive visibility and ownership.
+ Sample set of projects
+ Feature adoption & engagement analysis : identify which features drive retention and which are dead weight - slice by firm type, user role, and tenure to give our Product team clear prioritisation signals.
+ Churn & health scoring : build a customer health model that scores accounts by risk using product usage signals (logins, feature depth, search volume) and flags at-risk accounts to Customer Success before they churn.
+ CRM data quality & enrichment : audit and clean our CRM data, build pipelines to keep it in sync with product usage, and ensure our Sales team always has accurate, up-to-date context on every account.
+ Sales funnel analysis : map our full acquisition funnel from first touch to closed-won, identify where deals are stalling, and surface the product usage patterns that predict conversion.
+ Executive reporting : build a weekly data digest for leadership covering revenue, usage, pipeline health and key anomalies - replacing ad hoc spreadsheets with a reliable, automated view of the business.
+ About You
+ We’re looking for a data scientist who loves getting into the detail of how a product is actually being used and translating that into decisions:
+ Based in NYC, and excited to be in office 5 days / week
+ Strong data analytics skillset
+ SQL
+ Python for data wrangling, analysis and visualization (pandas, matplotlib / plotly etc)
+ BI or dashboarding tool - Metabase, Looker, Tableau, or similar
+ AI-forward: experience vibe coding and using AI tools
+ Relevant prior experience
+ Has worked with product analytics platforms like Amplitude, Mixpanel, or equivalent - comfortable with event-level data and funnel analysis
+ Experience working directly with CRM or similar data
+ Bonus points for experience in B2B SaaS, fintech, or enterprise software where usage data is complex and customer segments vary widely
+ Strong communicator who can tell a clear story with data - our commercial stakeholders are smart but non-technical, and they’ll rely on you to make the numbers make sense
+ Self-directed and comfortable with ambiguity - there’s no existing data team to hand off to; you’ll define the questions as often as you answer them
+ Why This Role
+ Real ownership: You’ll be the first data hire. You’re not inheriting legacy dashboards or maintaining old reports - you’re building the foundation from scratch.
+ Direct impact: Your work will influence product roadmap, sales strategy, customer success, and executive decision-making.
+ Massive upside : We’re already at $15M+ ARR and scaling quickly. The systems you build now will support the next 10x of growth.
+ Strong business fundamentals: Profitable, bootstrapped, and growing fast - no investor theatre, no fluff, just real traction.
+ Benefits
+ All the usual benefits (competitive pay and equity, private healthcare etc), but also unusual benefits:
+ Incredibly strong equity
+ Gym membership
+ In-office cook
+ Summers working in Greece by the beach
+ If you're excited about the opportunity to drive innovation at Junior, we'd love to hear from you! Send us your resume at info@mentortalent.ie
+ Show more
+ Show less
+ Seniority level
+ Mid-Senior level
+ Employment type
+ Full-time
+ Job function
+ Information Technology
+ Industries
+ IT Services and IT Consulting and Staffing and Recruiting
+ Referrals increase your chances of interviewing at Mentor Talent Acquisition by 2x
+ See who you know
+ Get notified when a new job is posted.
+ Set alert
+ Sign in to set job alerts for “Data Scientist” roles.
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Similar jobs
+ Data Scientist
+ Data Scientist
+ Roku
+ New York, NY
+ $135,000.00
+ -
+ $153,000.00
+ 3 weeks ago
+ Associate Research Scientist
+ Associate Research Scientist
+ Sunrise Systems, Inc.
+ Lawrenceville, NJ
+ $37.00
+ -
+ $39.00
+ 6 days ago
+ Data Scientist, Customer Support Analytics
+ Data Scientist, Customer Support Analytics
+ Etsy
+ Brooklyn, NY
+ 2 days ago
+ Data Scientist
+ Data Scientist
+ Andiamo
+ New York, NY
+ 1 week ago
+ Machine Learning Engineer / Data Scientist
+ Machine Learning Engineer / Data Scientist
+ Fusemachines
+ New York, NY
+ 3 months ago
+ Data Scientist, Product Analytics
+ Data Scientist, Product Analytics
+ Meta
+ New York, NY
+ $177,000.00
+ -
+ $247,000.00
+ 1 week ago
+ Data Scientist, Product Analytics
+ Data Scientist, Product Analytics
+ Meta
+ New York, NY
+ $147,000.00
+ -
+ $208,000.00
+ 1 week ago
+ Data Scientist, All Levels
+ Data Scientist, All Levels
+ Ramp
+ New York, NY
+ $137,120.00
+ -
+ $297,330.00
+ 2 weeks ago
+ Data Scientist Intern
+ Data Scientist Intern
+ GoodRx
+ Kings County, NY
+ 2 days ago
+ Data Scientist
+ Data Scientist
+ Attune
+ New York, NY
+ 2 weeks ago
+ Data Scientist
+ Data Scientist
+ Stott and May
+ New York, NY
+ $80.00
+ -
+ $110.00
+ 12 hours ago
+ Data Scientist, Research
+ Data Scientist, Research
+ Dstillery
+ New York, NY
+ 3 months ago
+ Data Scientist - Data-Driven Global Investment Firm
+ Data Scientist - Data-Driven Global Investment Firm
+ Andiamo
+ New York, NY
+ 1 week ago
+ AI Data Scientist (Quant Fund)
+ AI Data Scientist (Quant Fund)
+ Stabile Search
+ New York City Metropolitan Area
+ $400,000.00
+ -
+ $600,000.00
+ 6 days ago
+ Senior Data Scientist
+ Senior Data Scientist
+ Roku
+ New York, NY
+ 1 week ago
+ Data Scientist
+ Data Scientist
+ Fusemachines
+ New York, NY
+ 1 month ago
+ Staff Data Scientist, Marketing
+ Staff Data Scientist, Marketing
+ Asana
+ New York, NY
+ 1 week ago
+ Data Scientist, New Grad
+ Data Scientist, New Grad
+ SentiLink
+ New York, NY
+ 5 days ago
+ Data Scientist, Analytics (Technical Leadership)
+ Data Scientist, Analytics (Technical Leadership)
+ Meta
+ New York, NY
+ $210,000.00
+ -
+ $281,000.00
+ 1 week ago
+ Data Scientist
+ Data Scientist
+ M Science
+ New York City Metropolitan Area
+ $90,000.00
+ -
+ $175,000.00
+ 6 days ago
+ Data Scientist, Algorithms, Optimization - Fulfillment
+ Data Scientist, Algorithms, Optimization - Fulfillment
+ Lyft
+ New York, NY
+ 1 week ago
+ Data Scientist, Products & Applied Research
+ Data Scientist, Products & Applied Research
+ Meta
+ New York, NY
+ $177,000.00
+ -
+ $247,000.00
+ 1 week ago
+ Research Data Scientist, Developer AI
+ Research Data Scientist, Developer AI
+ Google
+ New York, NY
+ 18 hours ago
+ Data Scientist, Product
+ Data Scientist, Product
+ Robinhood
+ New York, NY
+ 1 week ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Data Scientist, Algorithms - Lyft Ads
+ Data Scientist, Algorithms - Lyft Ads
+ Lyft
+ New York, NY
+ 1 week ago
+ Data Scientist, Subscriptions
+ Data Scientist, Subscriptions
+ Spotify
+ New York, NY
+ 2 weeks ago
+ Data Scientist
+ Data Scientist
+ Arlo
+ New York, NY
+ 19 hours ago
+ Data Scientist
+ Data Scientist
+ Glocomms
+ New York, NY
+ $150,000.00
+ -
+ $200,000.00
+ 2 weeks ago
+ Sector Data Scientist
+ Sector Data Scientist
+ Thurn Partners
+ New York, NY
+ 11 hours ago
+ Applied Scientist, Data Science
+ Applied Scientist, Data Science
+ Prior Labs
+ New York, NY
+ 11 hours ago
+ Data Scientist, Supply and Operations Technology, Lyft Urban Solutions
+ Data Scientist, Supply and Operations Technology, Lyft Urban Solutions
+ Lyft
+ New York, NY
+ 2 weeks ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Tagup
+ New York, NY
+ 2 months ago
+ Senior Data Scientist – Analytics and AI Data
+ Senior Data Scientist – Analytics and AI Data
+ Louis Vuitton
+ New York, NY
+ 7 hours ago
+ Similar Searches
+ Scientist jobs
+ 48,969 open jobs
+ Data Science Specialist jobs
+ 2,441 open jobs
+ Junior Scientist jobs
+ 10,103 open jobs
+ Lead Scientist jobs
+ 14,164 open jobs
+ Senior Scientist jobs
+ 19,214 open jobs
+ Machine Learning Engineer jobs
+ 148,937 open jobs
+ Data Warehouse Project Manager jobs
+ 10,365 open jobs
+ Science Manager jobs
+ 15,298 open jobs
+ Senior Staff Scientist jobs
+ 6,754 open jobs
+ Staff Geophysicist jobs
+ 106 open jobs
+ Data Analyst jobs
+ 329,009 open jobs
+ Assistant City Engineer jobs
+ 18,090 open jobs
+ Principal Geophysicist jobs
+ 64 open jobs
+ Senior Information Developer jobs
+ 1,040 open jobs
+ Director Data Science jobs
+ 4,457 open jobs
+ Pathology Resident jobs
+ 609 open jobs
+ Statistician jobs
+ 20,674 open jobs
+ Biostatistician jobs
+ 21,103 open jobs
+ Regional Risk Manager jobs
+ 3,488 open jobs
+ Data Mining Specialist jobs
+ 24,616 open jobs
+ Bioinformatician jobs
+ 18,406 open jobs
+ Algorithm Developer jobs
+ 1,195 open jobs
+ Senior Integration Specialist jobs
+ 49,775 open jobs
+ Statistical Researcher jobs
+ 1,534 open jobs
+ Principal Scientist jobs
+ 11,010 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Century Park Associates jobs
+ Scientist jobs
+ Data Science Specialist jobs
+ Junior Scientist jobs
+ Lead Scientist jobs
+ Senior Scientist jobs
+ Machine Learning Engineer jobs
+ Total Education Solutions jobs
+ Data Warehouse Project Manager jobs
+ Science Manager jobs
+ Security Alliance jobs
+ Senior Staff Scientist jobs
+ Staff Geophysicist jobs
+ Data Analyst jobs
+ Assistant City Engineer jobs
+ Principal Geophysicist jobs
+ Telamon Corporation jobs
+ Senior Information Developer jobs
+ Director Data Science jobs
+ Bureau of Economic Analysis jobs
+ Pathology Resident jobs
+ Statistician jobs
+ Biostatistician jobs
+ Regional Risk Manager jobs
+ Data Mining Specialist jobs
+ Bioinformatician jobs
+ Algorithm Developer jobs
+ Senior Integration Specialist jobs
+ Statistical Researcher jobs
+ Principal Scientist jobs
+ Data Engineer jobs
+ Saving Sight jobs
+ Quantitative Researcher jobs
+ Computational Biologist jobs
+ Perceptron jobs
+ Science Specialist jobs
+ Jacksonville Zoo and Botanical Gardens jobs
+ Senior Bioinformatics Scientist jobs
+ Principal Statistician jobs
+ Quantitative Analyst jobs
+ Senior Business Analyst Contract jobs
+ Senior Mechanical Project Engineer jobs
+ Research Scientist jobs
+ Bioinformatics Specialist jobs
+ Research Statistician jobs
+ Signal Processing Engineer jobs
+ Information Assurance Engineer jobs
+ Intelligence Specialist jobs
+ Geospatial Analyst jobs
+ Scout Talent jobs
+ Computational Scientist jobs
+ Bioinformatics Analyst jobs
+ Physical Scientist jobs
+ Processing Geophysicist jobs
+ Statistical Assistant jobs
+ Joomla Developer jobs
+ Senior Statistical Programmer jobs
+ Computational Chemist jobs
+ Personal Capital jobs
+ Analyst jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (Persian)
+ Suomi (Finnish)
+ Français (French)
+ हिंदी (Hindi)
+ Magyar (Hungarian)
+ Bahasa Indonesia (Indonesian)
+ Italiano (Italian)
+ עברית (Hebrew)
+ 日本語 (Japanese)
+ 한국어 (Korean)
+ मराठी (Marathi)
+ Bahasa Malaysia (Malay)
+ Nederlands (Dutch)
+ Norsk (Norwegian)
+ ਪੰਜਾਬੀ (Punjabi)
+ Polski (Polish)
+ Português (Portuguese)
+ Română (Romanian)
+ Русский (Russian)
+ Svenska (Swedish)
+ తెలుగు (Telugu)
+ ภาษาไทย (Thai)
+ Tagalog (Tagalog)
+ Türkçe (Turkish)
+ Українська (Ukrainian)
+ Tiếng Việt (Vietnamese)
+ 简体中文 (Chinese (Simplified))
+ 正體中文 (Chinese (Traditional))
+ Language
+ Agree & Join LinkedIn
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Join now to see who you already know at Mentor Talent Acquisition
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .

@@ -1,0 +1,499 @@
+Talently hiring AI Engineer in New York, United States | LinkedIn
+ Skip to main content
+ LinkedIn
+ AI Engineer in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ AI Engineer
+ Talently
+ New York, United States
+ Apply
+ AI Engineer
+ Talently
+ New York, United States
+ 1 day ago
+ Over 200 applicants
+ See who Talently has hired for this role
+ Apply
+ Save
+ Report this job
+ Use AI to assess how you fit
+ Get AI-powered advice on this job and more exclusive features.
+ Am I a good fit for this job?
+ Tailor my resume
+ Sign in to access AI-powered advices
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to evaluate your skills
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to tailor your resume
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Job Title: AI Engineer
+ Location: Hybrid - New York, New York, United States
+ Salary: $170,000-$250,000
+ Skills: Python, LLM orchestration frameworks, Browser Automation, AWS, Full Stack Development
+ About the Software Company / The Opportunity:
+ Join a dynamic leader in the software industry, focused on building next-generation platforms that leverage artificial intelligence to transform knowledge work. This is an opportunity to help architect a groundbreaking AI system that enables intelligent agents to complete complex, multi-step business tasks, reliably, at scale, and with continuous improvement baked in. As an AI Engineer, you will work alongside visionary founders and technical leaders, directly influencing how AI powers the future of productivity and workflow automation in a highly collaborative, hybrid New York City environment.
+ Responsibilities:
+ Build and own the agent execution layer, including computer use automation, browser automation, and multi-step task orchestration.
+ Design and implement the playbook system for structuring tasks and enabling agents to follow and learn from human corrections.
+ Develop the observation-to-playbook pipeline, allowing agents to learn directly from user task demonstrations and generate reusable workflows.
+ Construct robust evaluation frameworks to measure agent reliability, cost efficiency, and consistency compared to freestyle agents.
+ Integrate with external tools and services across sales, finance, HR, legal, and customer success domains.
+ Collaborate with domain experts to validate AI agent outputs, particularly in sensitive settings such as healthcare.
+ Instrument effective feedback loops to ensure every human correction drives continuous agent improvement.
+ Must-Have Skills:
+ 3+ years of experience building production AI or agent systems.
+ Deep familiarity with LLM orchestration frameworks such as LangChain, LlamaIndex, or similar.
+ Strong proficiency in Python and comfort working across the full stack.
+ Experience with browser automation tools (e.g., Playwright, Puppeteer) or related RPA technologies.
+ Demonstrated ability to architect and evaluate AI system reliability, including regression testing and output scoring.
+ Nice-to-Have Skills:
+ Exposure to multi-agent architectures or retrieval-augmented generation (RAG) pipelines.
+ Hands-on experience with workflow automation tools (e.g., n8n, Vellum).
+ Background in health tech or regulated, high-stakes domains.
+ Experience with cloud platforms such as AWS, data systems like PostgreSQL, Apache Kafka, or Elasticsearch.
+ Familiarity with TypeScript, Ruby on Rails, and modern start-up software stacks.
+ Show more
+ Show less
+ Seniority level
+ Mid-Senior level
+ Employment type
+ Full-time
+ Job function
+ Engineering and Information Technology
+ Industries
+ Data Security Software Products
+ Referrals increase your chances of interviewing at Talently by 2x
+ See who you know
+ Get notified about new Artificial Intelligence Engineer jobs in New York, United States .
+ Sign in to create job alert
+ Similar jobs
+ AI Engineer
+ AI Engineer
+ Bisnow
+ New York, NY
+ $65,000.00
+ -
+ $85,000.00
+ 4 days ago
+ Machine Learning Engineer (L5) - Content Understanding
+ Machine Learning Engineer (L5) - Content Understanding
+ Netflix
+ New York, United States
+ 3 days ago
+ Data Scientist
+ Data Scientist
+ Roku
+ New York, NY
+ $135,000.00
+ -
+ $153,000.00
+ 3 weeks ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Spotify
+ New York, NY
+ 1 week ago
+ AI Engineer ($150k–$300k + Equity) at Vibecode
+ AI Engineer ($150k–$300k + Equity) at Vibecode
+ Jack & Jill
+ New York, NY
+ 5 days ago
+ ML Engineer
+ ML Engineer
+ Catalyst Labs
+ New York, NY
+ 2 weeks ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Spotify
+ New York, NY
+ 6 days ago
+ AI Engineer
+ AI Engineer
+ PepsiCo
+ Purchase, NY
+ 1 week ago
+ Data Scientist
+ Data Scientist
+ Andiamo
+ New York, NY
+ 1 week ago
+ AI/ML Quantitative Developer
+ AI/ML Quantitative Developer
+ Acquire Me
+ New York, United States
+ $250,000.00
+ -
+ $350,000.00
+ 1 month ago
+ ML Engineer
+ ML Engineer
+ Radical AI
+ New York, NY
+ 10 months ago
+ ML Engineer
+ ML Engineer
+ Catalyst Labs
+ New York, NY
+ 2 weeks ago
+ Machine Learning Engineer / Data Scientist
+ Machine Learning Engineer / Data Scientist
+ Fusemachines
+ New York, NY
+ 3 months ago
+ AI Solutions Engineer ($160K – $200K + Equity) at V7
+ AI Solutions Engineer ($160K – $200K + Equity) at V7
+ Jack & Jill
+ New York, United States
+ 2 days ago
+ Applied AI Software Engineer (All Levels)
+ Applied AI Software Engineer (All Levels)
+ Blossom
+ New York, NY
+ $150,000.00
+ -
+ $220,000.00
+ 1 week ago
+ AI/ML Engineer
+ AI/ML Engineer
+ Savant Bio
+ New York, NY
+ 1 day ago
+ Machine Learning Developer (Freelance)
+ Machine Learning Developer (Freelance)
+ Mindrift
+ New York, United States
+ 16 hours ago
+ Python Developer - AI/ML applications
+ Python Developer - AI/ML applications
+ Mphasis
+ New York, United States
+ 1 month ago
+ Artificial Intelligence Engineer
+ Artificial Intelligence Engineer
+ Capgemini
+ New York, NY
+ 2 weeks ago
+ Software Engineer, Adversarial ML, Red Team
+ Software Engineer, Adversarial ML, Red Team
+ Google
+ New York, NY
+ 2 weeks ago
+ AI Engineer/ML Engineer - Senior Developers - AI Training - USA
+ AI Engineer/ML Engineer - Senior Developers - AI Training - USA
+ Prolific
+ New York, NY
+ 4 days ago
+ Machine Learning Engineer (Remote)
+ Machine Learning Engineer (Remote)
+ Output Biosciences
+ New York, NY
+ $100,000.00
+ -
+ $210,000.00
+ 7 months ago
+ Machine Learning Engineer, AI
+ Machine Learning Engineer, AI
+ Biohub
+ New York, NY
+ 2 weeks ago
+ Software Engineer, Applied AI
+ Software Engineer, Applied AI
+ Norm Ai
+ New York, NY
+ 1 week ago
+ AI Engineer
+ AI Engineer
+ BayRock Labs
+ Greater Syracuse-Auburn Area
+ 4 months ago
+ Data Visualization Engineer
+ Data Visualization Engineer
+ Major League Baseball (MLB)
+ New York, NY
+ 1 week ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ ML Engineer
+ ML Engineer
+ Sunset
+ New York, NY
+ $200,000.00
+ -
+ $300,000.00
+ 2 weeks ago
+ Applied AI Engineer (Automation)
+ Applied AI Engineer (Automation)
+ Fusemachines
+ New York, NY
+ 2 months ago
+ AI Research Engineer
+ AI Research Engineer
+ Meta
+ New York, NY
+ $183,997.00
+ -
+ $257,000.00
+ 6 days ago
+ Applied AI Engineer
+ Applied AI Engineer
+ Nevis
+ New York, NY
+ 4 months ago
+ Machine Learning Engineer
+ Machine Learning Engineer
+ Finch
+ New York, NY
+ $180,000.00
+ -
+ $280,000.00
+ 1 month ago
+ Research Engineer, AI
+ Research Engineer, AI
+ Biohub
+ New York, NY
+ 2 weeks ago
+ AI Software Engineer
+ AI Software Engineer
+ Gallatin AI, Inc.
+ New York, NY
+ $80,000.00
+ -
+ $210,000.00
+ 5 months ago
+ Applied AI Engineer
+ Applied AI Engineer
+ Quizlet
+ Albany, New York Metropolitan Area
+ 9 hours ago
+ Applied AI Engineer
+ Applied AI Engineer
+ Sapien
+ New York, NY
+ $175,000.00
+ -
+ $250,000.00
+ 2 months ago
+ Data Scientist, All Levels
+ Data Scientist, All Levels
+ Ramp
+ New York, NY
+ $137,120.00
+ -
+ $297,330.00
+ 2 weeks ago
+ Similar Searches
+ Director of Client Relations jobs
+ 6,688 open jobs
+ Vice President of Recruiting jobs
+ 454 open jobs
+ Senior Sales Recruiter jobs
+ 3,588 open jobs
+ Director of Recruiting jobs
+ 8,648 open jobs
+ Senior Recruitment Advisor jobs
+ 1,934 open jobs
+ Vice President Staffing jobs
+ 1,841 open jobs
+ Signal Integrity Engineer jobs
+ 2,192 open jobs
+ Project Manager Contract jobs
+ 26,290 open jobs
+ Revenue Accounting Manager jobs
+ 7,326 open jobs
+ Technical Recruiter jobs
+ 8,617 open jobs
+ Director of Accounting Services jobs
+ 5,051 open jobs
+ Senior Electrical Engineer jobs
+ 28,177 open jobs
+ Talent Director jobs
+ 10,747 open jobs
+ Director Talent Acquisition jobs
+ 5,980 open jobs
+ Vice President Talent Acquisition jobs
+ 1,514 open jobs
+ Staffing Manager jobs
+ 39,417 open jobs
+ Legal Recruiter jobs
+ 8,512 open jobs
+ Director Total Rewards jobs
+ 2,934 open jobs
+ Layout Engineer jobs
+ 18,676 open jobs
+ Sourcer jobs
+ 14,261 open jobs
+ Director Customer Experience jobs
+ 16,724 open jobs
+ Assistant Controller jobs
+ 56,825 open jobs
+ Director of Revenue jobs
+ 14,761 open jobs
+ Recruiter jobs
+ 243,016 open jobs
+ Calibration Technician jobs
+ 4,179 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Director of Client Relations jobs
+ Vice President of Recruiting jobs
+ Crescent Communities jobs
+ Search Solution Group jobs
+ Schneider Downs jobs
+ Senior Sales Recruiter jobs
+ Clackamas County jobs
+ Director of Recruiting jobs
+ PandaDoc jobs
+ Senior Recruitment Advisor jobs
+ Infinite Campus jobs
+ Vice President Staffing jobs
+ Mariani Landscape jobs
+ PDS Health jobs
+ Cross River jobs
+ Signal Integrity Engineer jobs
+ Project Manager Contract jobs
+ Revenue Accounting Manager jobs
+ TRANZACT jobs
+ Next Level jobs
+ Technical Recruiter jobs
+ Brillio jobs
+ Director of Accounting Services jobs
+ The Village Network jobs
+ Senior Electrical Engineer jobs
+ Talent Director jobs
+ Swedish jobs
+ Director Talent Acquisition jobs
+ Avantor jobs
+ Vice President Talent Acquisition jobs
+ AXS jobs
+ Staffing Manager jobs
+ CyberCoders jobs
+ M3 USA jobs
+ Zapier jobs
+ Legal Recruiter jobs
+ Director Total Rewards jobs
+ Progress Residential® jobs
+ Layout Engineer jobs
+ Verisk jobs
+ Sourcer jobs
+ Director Customer Experience jobs
+ Parker Meggitt jobs
+ LaserAway jobs
+ Harlem Children's Zone jobs
+ Ardurra jobs
+ BCD Travel jobs
+ Jobot jobs
+ Assistant Controller jobs
+ Tavant jobs
+ Director of Revenue jobs
+ Recruiter jobs
+ Penske Media Corporation jobs
+ Calibration Technician jobs
+ Southland Industries jobs
+ Audit Executive jobs
+ Cielo Talent jobs
+ Senior Compliance Manager jobs
+ Lead Recruiter jobs
+ Ropes & Gray LLP jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (Persian)
+ Suomi (Finnish)
+ Français (French)
+ हिंदी (Hindi)
+ Magyar (Hungarian)
+ Bahasa Indonesia (Indonesian)
+ Italiano (Italian)
+ עברית (Hebrew)
+ 日本語 (Japanese)
+ 한국어 (Korean)
+ मराठी (Marathi)
+ Bahasa Malaysia (Malay)
+ Nederlands (Dutch)
+ Norsk (Norwegian)
+ ਪੰਜਾਬੀ (Punjabi)
+ Polski (Polish)
+ Português (Portuguese)
+ Română (Romanian)
+ Русский (Russian)
+ Svenska (Swedish)
+ తెలుగు (Telugu)
+ ภาษาไทย (Thai)
+ Tagalog (Tagalog)
+ Türkçe (Turkish)
+ Українська (Ukrainian)
+ Tiếng Việt (Vietnamese)
+ 简体中文 (Chinese (Simplified))
+ 正體中文 (Chinese (Traditional))
+ Language
+ Agree & Join LinkedIn
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Join now to see who you already know at Talently
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Join with email
+ or
+ Already on LinkedIn? Sign in
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .

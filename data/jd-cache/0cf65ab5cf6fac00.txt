@@ -1,0 +1,476 @@
+Chui Data Analytics hiring MS Fabric Data Engineer in Cincinnati, OH | LinkedIn
+ Skip to main content
+ LinkedIn
+ MS Fabric Data Engineer in Philadelphia, PA
+ Expand search
+ This button displays the currently selected search type. When expanded it provides a list of search options that will switch the search inputs to match the current selection.
+ Jobs
+ People
+ Learning
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Clear text
+ Sign in
+ Join now
+ MS Fabric Data Engineer
+ Chui Data Analytics
+ Cincinnati, OH
+ Apply
+ MS Fabric Data Engineer
+ Chui Data Analytics
+ Cincinnati, OH
+ 8 hours ago
+ 100 applicants
+ See who Chui Data Analytics has hired for this role
+ Apply
+ Save
+ Report this job
+ Use AI to assess how you fit
+ Get AI-powered advice on this job and more exclusive features.
+ Am I a good fit for this job?
+ Tailor my resume
+ Sign in to access AI-powered advices
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to evaluate your skills
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to tailor your resume
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Company Description
+Chui Data & Analytics is a boutique consultancy specializing in Microsoft Fabric, Power BI, and modern cloud data platforms. We help organizations build end-to-end analytics solutions from raw data ingestion to executive dashboards with a focus on reliability, performance, and scalability. Our expertise lies in managing complex, multi-source environments and implementing robust architectures, such as medallion frameworks and data governance controls. As a founder-led company, we bring a hands-on approach to our work, designing solutions with long-term maintainability in mind. Our mission is to empower businesses with scalable, high-quality data systems tailored to their needs.
+ Role Description
+This is a full-time on-site role for an MS Fabric Data Engineer based in Cincinnati, OH. The MS Fabric Data Engineer will be responsible for designing, building, and maintaining data pipelines and analytics solutions. Day-to-day tasks include data engineering, creating and optimizing data models, implementing Extract, Transform, Load (ETL) processes, and managing data warehouse solutions. The engineer will collaborate with teams to implement scalable data platforms and ensure solutions adhere to best practices in data governance and quality control.
+ Qualifications
+ Proficiency in Data Engineering, including building and optimizing data pipelines
+ Experience with Data Modeling and working with medallion architectures
+ Strong skills in designing and managing Extract, Transform, Load (ETL) processes
+ Knowledge of Data Warehousing principles and modern cloud-based platforms
+ Understanding of Data Analytics to ensure actionable insights from curated models
+ Strong troubleshooting and problem-solving skills with an eye for detail
+ Familiarity with Microsoft Fabric and Power BI is highly desirable
+ Bachelor's degree or relevant experience in Computer Science, Data Science, or a related field
+ Excellent communication and collaboration abilities to work effectively with diverse teams
+ Commitment to developing scalable, reliable, and maintainable solutions
+ Show more
+ Show less
+ Seniority level
+ Entry level
+ Employment type
+ Full-time
+ Job function
+ Information Technology
+ Industries
+ Data Infrastructure and Analytics
+ Referrals increase your chances of interviewing at Chui Data Analytics by 2x
+ See who you know
+ Get notified when a new job is posted.
+ Set alert
+ Sign in to set job alerts for “Data Engineer” roles.
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Similar jobs
+ Junior Data Engineer
+ Junior Data Engineer
+ Medpace
+ Cincinnati, OH
+ 2 weeks ago
+ Sr Data Engineer - Databricks
+ Sr Data Engineer - Databricks
+ Flexton Inc.
+ Cincinnati, OH
+ $75.00
+ -
+ $80.00
+ 6 days ago
+ Data Engineer
+ Data Engineer
+ Medpace
+ Cincinnati, OH
+ 2 weeks ago
+ Junior Data Engineer
+ Junior Data Engineer
+ Western & Southern Financial Group
+ Cincinnati, OH
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Subzero Engineering
+ Springdale, OH
+ 2 weeks ago
+ Data Engineer
+ Data Engineer
+ Paychex
+ Cincinnati, OH
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Senneca Holdings
+ Springdale, OH
+ 2 weeks ago
+ Data Engineer (AWS Redshift/Python) (contract)
+ Data Engineer (AWS Redshift/Python) (contract)
+ Capgemini
+ Cincinnati, OH
+ 1 month ago
+ Data Engineer Level 2
+ Data Engineer Level 2
+ Ascendum Solutions
+ Cincinnati, OH
+ $50.00
+ -
+ $55.00
+ 3 days ago
+ Data Engineer
+ Data Engineer
+ UASI
+ Cincinnati, OH
+ 2 weeks ago
+ Cloud Data Engineer, Business Intelligence
+ Cloud Data Engineer, Business Intelligence
+ Resurgent Capital Services
+ Cincinnati, OH
+ 1 week ago
+ Senior Data Engineer
+ Senior Data Engineer
+ Agility Partners
+ Cincinnati Metropolitan Area
+ $65.00
+ -
+ $75.00
+ 12 hours ago
+ Data Engineer
+ Data Engineer
+ ALTEN
+ Cincinnati, OH
+ 2 months ago
+ Senior Data Engineer
+ Senior Data Engineer
+ The Value Maximizer
+ Ohio, OH
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ Encore Talent Solutions
+ Cincinnati, OH
+ $60.00
+ -
+ $70.00
+ 3 weeks ago
+ Senior Data Engineer
+ Senior Data Engineer
+ Medpace
+ Cincinnati, OH
+ 2 weeks ago
+ AI Engineer
+ AI Engineer
+ Benefits All In
+ Cincinnati, OH
+ $100,000.00
+ -
+ $120,000.00
+ 2 weeks ago
+ Database Engineer I
+ Database Engineer I
+ Paychex
+ Cincinnati, OH
+ 2 days ago
+ Data Engineer
+ Data Engineer
+ KA Architecture, a NELSON Brand
+ Cincinnati, OH
+ 1 month ago
+ Senior Data Engineer
+ Senior Data Engineer
+ The Value Maximizer
+ Ohio, OH
+ 1 week ago
+ Data Engineer II
+ Data Engineer II
+ Insight Global
+ Blue Ash, OH
+ $130,000.00
+ -
+ $150,000.00
+ 1 week ago
+ Senior Data Engineer
+ Senior Data Engineer
+ Aditi Consulting
+ Blue Ash, OH
+ $65.00
+ -
+ $69.30
+ 5 days ago
+ Analytics Engineer
+ Analytics Engineer
+ Total Quality Logistics
+ Cincinnati, OH
+ 3 months ago
+ Junior Software Engineer
+ Junior Software Engineer
+ Medpace
+ Cincinnati, OH
+ 2 weeks ago
+ Show more jobs like this
+ Show fewer jobs like this
+ People also viewed
+ Data Engineer
+ Data Engineer
+ NELSON Worldwide
+ Cincinnati Metropolitan Area
+ 4 days ago
+ Software Engineer - Python - Cloud - graduate level
+ Software Engineer - Python - Cloud - graduate level
+ Canonical
+ Cincinnati, OH
+ 1 month ago
+ Senior Data Engineer
+ Senior Data Engineer
+ WIN Home Inspection
+ Delhi, OH
+ 1 week ago
+ AI Software Engineer
+ AI Software Engineer
+ ERP Suites
+ Loveland, OH
+ 1 week ago
+ Data Engineer-DataStage
+ Data Engineer-DataStage
+ Encore Talent Solutions
+ Cincinnati, OH
+ 3 weeks ago
+ Data Analyst 2
+ Data Analyst 2
+ Golden Technology
+ Blue Ash, OH
+ 23 hours ago
+ Senior Data Engineer
+ Senior Data Engineer
+ AMEND Consulting
+ Cincinnati, OH
+ 3 weeks ago
+ Senior Data Engineer
+ Senior Data Engineer
+ The Value Maximizer
+ Ohio, OH
+ 1 week ago
+ Data Engineer
+ Data Engineer
+ AMEND Consulting
+ Cincinnati, OH
+ 5 days ago
+ DevOps Engineer I, Software Development
+ DevOps Engineer I, Software Development
+ Resurgent Capital Services
+ Cincinnati, OH
+ 3 weeks ago
+ Similar Searches
+ Senior Data Engineer jobs
+ 78,076 open jobs
+ Big Data Developer jobs
+ 26,392 open jobs
+ Hadoop Developer jobs
+ 37,972 open jobs
+ ETL Developer jobs
+ 46,788 open jobs
+ Data Warehouse Engineer jobs
+ 39,476 open jobs
+ Analytical Engineer jobs
+ 7,971 open jobs
+ Data Architect jobs
+ 68,774 open jobs
+ Freelance Engineer jobs
+ 190 open jobs
+ Development Database Administrator jobs
+ 226,600 open jobs
+ ETL Specialist jobs
+ 219,897 open jobs
+ Database Software Engineer jobs
+ 224,263 open jobs
+ Engineer jobs
+ 555,845 open jobs
+ Business Intelligence Engineer jobs
+ 50,282 open jobs
+ Senior Data Warehouse Engineer jobs
+ 10,085 open jobs
+ Pipeline Engineer jobs
+ 39,469 open jobs
+ Teradata Developer jobs
+ 2,501 open jobs
+ Database Engineer jobs
+ 32,874 open jobs
+ Exhibit Coordinator jobs
+ 342 open jobs
+ Senior Solutions Developer jobs
+ 50,281 open jobs
+ SQL Developer jobs
+ 12,445 open jobs
+ Junior Engineer jobs
+ 52,722 open jobs
+ Assistant Produce Manager jobs
+ 3,091 open jobs
+ Data Modeler jobs
+ 263,457 open jobs
+ Data Analyst jobs
+ 329,009 open jobs
+ Senior Data Warehouse Architect jobs
+ 4,641 open jobs
+ Show more
+ Show less
+ Explore top content on LinkedIn
+ Find curated posts and insights for relevant topics all in one place.
+ View top content
+ More searches
+ More searches
+ Senior Data Engineer jobs
+ Big Data Developer jobs
+ Hadoop Developer jobs
+ ETL Developer jobs
+ Lakeland Care jobs
+ Data Warehouse Engineer jobs
+ Analytical Engineer jobs
+ Data Architect jobs
+ Freelance Engineer jobs
+ Development Database Administrator jobs
+ ETL Specialist jobs
+ Database Software Engineer jobs
+ Engineer jobs
+ Business Intelligence Engineer jobs
+ Senior Data Warehouse Engineer jobs
+ Pipeline Engineer jobs
+ Teradata Developer jobs
+ Database Engineer jobs
+ Exhibit Coordinator jobs
+ Senior Solutions Developer jobs
+ SQL Developer jobs
+ Junior Engineer jobs
+ Assistant Produce Manager jobs
+ Data Modeler jobs
+ Data Analyst jobs
+ Senior Data Warehouse Architect jobs
+ Senior Database Engineer jobs
+ Senior Peoplesoft Consultant jobs
+ ETL Consultant jobs
+ Scala jobs
+ Data Scientist jobs
+ Senior ETL Developer jobs
+ Data Warehouse Specialist jobs
+ Databricks jobs
+ Senior Data Architect jobs
+ Lead Data Architect jobs
+ Business Intelligence Developer jobs
+ The Toledo Clinic jobs
+ Scala Developer jobs
+ General Engineer jobs
+ Senior Business Intelligence Architect jobs
+ Senior System Test Engineer jobs
+ Microsoft Developer jobs
+ Aqua-Tots Swim School jobs
+ Data Warehouse Architect jobs
+ Software Configuration Engineer jobs
+ Data System Engineer jobs
+ Python Developer jobs
+ Data Science Specialist jobs
+ Machine Learning Engineer jobs
+ Scientist jobs
+ Data Warehouse Manager jobs
+ Diocese of Saint Petersburg jobs
+ Project Lead Developer jobs
+ Telecommunications Software Engineer jobs
+ Randall Reilly jobs
+ Processing Geophysicist jobs
+ Senior Database Developer jobs
+ Business Objects Consultant jobs
+ Middleware Engineer jobs
+ LinkedIn
+ &copy; 2026
+ About
+ Accessibility
+ User Agreement
+ Privacy Policy
+ Your California Privacy Choices
+ Cookie Policy
+ Copyright Policy
+ Brand Policy
+ Guest Controls
+ Community Guidelines
+ العربية (Arabic)
+ বাংলা (Bangla)
+ Čeština (Czech)
+ Dansk (Danish)
+ Deutsch (German)
+ Ελληνικά (Greek)
+ English (English)
+ Español (Spanish)
+ فارسی (Persian)
+ Suomi (Finnish)
+ Français (French)
+ हिंदी (Hindi)
+ Magyar (Hungarian)
+ Bahasa Indonesia (Indonesian)
+ Italiano (Italian)
+ עברית (Hebrew)
+ 日本語 (Japanese)
+ 한국어 (Korean)
+ मराठी (Marathi)
+ Bahasa Malaysia (Malay)
+ Nederlands (Dutch)
+ Norsk (Norwegian)
+ ਪੰਜਾਬੀ (Punjabi)
+ Polski (Polish)
+ Português (Portuguese)
+ Română (Romanian)
+ Русский (Russian)
+ Svenska (Swedish)
+ తెలుగు (Telugu)
+ ภาษาไทย (Thai)
+ Tagalog (Tagalog)
+ Türkçe (Turkish)
+ Українська (Ukrainian)
+ Tiếng Việt (Vietnamese)
+ 简体中文 (Chinese (Simplified))
+ 正體中文 (Chinese (Traditional))
+ Language
+ Agree & Join LinkedIn
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+ Sign in to see who you already know at Chui Data Analytics
+ Email or phone
+ Password
+ Show
+ Forgot password?
+ Sign in
+ Sign in with Email
+ or
+ New to LinkedIn? Join now
+ By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
