@@ -143,6 +143,20 @@ function scoreBadge(raw) {
   return `<span class="badge ${cls}">${escHtml(raw)}</span>`;
 }
 
+function scoreRing(raw) {
+  const v = parseScoreValue(raw);
+  if (v == null) {
+    return `<div class="score-orb empty"><span>—</span><small>AI fit</small></div>`;
+  }
+  const pct = Math.max(0, Math.min(100, Math.round((v / 5) * 100)));
+  const tone = v >= 4.5 ? 'high' : v >= 3.5 ? 'good' : v >= 2.5 ? 'ok' : 'low';
+  return `
+    <div class="score-orb ${tone}" style="--score-pct:${pct}%">
+      <span>${escHtml(v.toFixed(1))}</span>
+      <small>/5 AI fit</small>
+    </div>`;
+}
+
 // ── Status pill ──────────────────────────────────────────────────────────────
 const STATUS_CLS = {
   Applied: 'applied', SKIP: 'skip', Evaluated: 'evaluated',
@@ -213,14 +227,20 @@ qs('#modal-backdrop').addEventListener('click', e => {
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 
 // ── Theme ─────────────────────────────────────────────────────────────────────
+const THEME_VERSION = 'prospect-theme-v3';
+
 function getTheme() {
-  return localStorage.getItem('co-theme') ||
-    (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  if (localStorage.getItem('co-theme-version') !== THEME_VERSION) {
+    localStorage.setItem('co-theme-version', THEME_VERSION);
+    localStorage.removeItem('co-theme');
+  }
+  return localStorage.getItem('co-theme') || 'light';
 }
 
 function applyTheme(t) {
   document.documentElement.setAttribute('data-theme', t);
   localStorage.setItem('co-theme', t);
+  localStorage.setItem('co-theme-version', THEME_VERSION);
   const btn = qs('#theme-toggle');
   btn.innerHTML = t === 'dark'
     ? '<i data-feather="sun"></i>'
@@ -274,17 +294,26 @@ async function renderPage(page) {
    DASHBOARD
 ═══════════════════════════════════════════════════════════════════════════ */
 async function pageDashboard(el) {
-  const [stats, apps] = await Promise.all([
-    api('stats'), api('applications'),
+  const [stats, apps, profileData] = await Promise.all([
+    api('stats'), api('applications'), api('profile/data').catch(() => ({})),
   ]);
 
   const recent = apps.slice(0, 8);
+  const recentJobs = recent.slice(0, 4);
+  const firstName = (profileData?.candidate?.full_name || '').trim().split(/\s+/)[0] || 'there';
+  const todayLabel = new Date().toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});
+  const scoredApps = apps.filter(a => parseScoreValue(a['Score']) != null);
+  const highScored = apps.filter(a => (parseScoreValue(a['Score']) || 0) >= 4).length;
+  const perfBars = [42, 58, 50, 68, 74, 64].map((v, i) => {
+    const labels = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    return `<div class="perf-day"><div class="perf-bar" style="height:${v}%"></div><span>${labels[i]}</span></div>`;
+  }).join('');
 
   el.innerHTML = `
-    <div class="page-hd">
+    <div class="page-hd dashboard-hero">
       <div class="page-hd-text">
-        <h1>Dashboard</h1>
-        <p>${new Date().toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'})}</p>
+        <h1>Welcome back, ${escHtml(firstName)}</h1>
+        <p>Your career workspace is ready for ${escHtml(todayLabel)}.</p>
       </div>
       <div class="flex gap-2">
         <button class="btn btn-secondary" onclick="openMatcherModal()">
@@ -296,111 +325,102 @@ async function pageDashboard(el) {
       </div>
     </div>
 
-    <div class="stats-grid">
-      <div class="stat-card">
-        <div class="stat-icon purple"><i data-feather="file-text"></i></div>
-        <div class="stat-num">${stats.evaluated}</div>
-        <div class="stat-lbl">Evaluated</div>
+    <div class="dashboard-kpis">
+      <div class="dashboard-kpi">
+        <div class="kpi-icon purple"><i data-feather="briefcase"></i></div>
+        <div>
+          <div class="stat-num">${stats.totalScanned}</div>
+          <div class="stat-lbl">Jobs in System</div>
+        </div>
       </div>
-      <div class="stat-card">
-        <div class="stat-icon green"><i data-feather="send"></i></div>
-        <div class="stat-num">${stats.applied}</div>
-        <div class="stat-lbl">Applied</div>
+      <div class="dashboard-kpi">
+        <div class="kpi-icon blue"><i data-feather="send"></i></div>
+        <div>
+          <div class="stat-num">${stats.applied}</div>
+          <div class="stat-lbl">Applied Jobs</div>
+        </div>
       </div>
-      <div class="stat-card">
-        <div class="stat-icon blue"><i data-feather="database"></i></div>
-        <div class="stat-num">${stats.totalScanned}</div>
-        <div class="stat-lbl">Jobs Scanned</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-icon orange"><i data-feather="star"></i></div>
-        <div class="stat-num">${stats.highScore}</div>
-        <div class="stat-lbl">Score ≥ 4.5</div>
+      <div class="dashboard-kpi">
+        <div class="kpi-icon orange"><i data-feather="award"></i></div>
+        <div>
+          <div class="stat-num">${highScored}</div>
+          <div class="stat-lbl">High Scores (&gt;4.0)</div>
+        </div>
       </div>
     </div>
 
-    <div class="dash-grid mb-5">
-      <!-- Recent evaluations -->
-      <div class="card">
-        <div class="card-hd">
-          <h2>Recent Evaluations</h2>
-          <button class="btn btn-sm btn-ghost" onclick="navigate('applications')">
-            View all <i data-feather="arrow-right"></i>
-          </button>
-        </div>
-        <div class="item-list">
-          ${recent.length === 0
-            ? `<div class="empty"><i data-feather="inbox"></i><p>No evaluations yet</p></div>`
-            : recent.map(a => {
-                const reportFile = (a['Report']||'').match(/\(reports\/([^)]+)\)/)?.[1] || '';
-                return `
-                <div class="item-row" onclick="${reportFile ? `openReport('${reportFile}')` : ''}">
-                  <div class="item-info">
-                    <div class="item-co">${escHtml(a['Company']||'—')}</div>
-                    <div class="item-role">${escHtml(truncate(a['Role']||'—', 48))}</div>
-                  </div>
-                  ${scoreBadge(a['Score'])}
-                  ${pill(a['Status']||'Evaluated')}
-                </div>`;
-              }).join('')
-          }
-        </div>
+    <section class="dashboard-section">
+      <h2>Next Steps</h2>
+      <div class="next-step-grid">
+        <button class="next-step-card" onclick="navigate('reports')">
+          <i data-feather="rocket"></i>
+          <strong>Browse Top Matches</strong>
+          <span>Review roles where your score is already strongest.</span>
+          <i data-feather="arrow-right" class="next-arrow"></i>
+        </button>
+        <button class="next-step-card" onclick="navigate('profile')">
+          <i data-feather="user-check"></i>
+          <strong>Update Your Profile</strong>
+          <span>Add new skills or proof points before the next scoring run.</span>
+          <i data-feather="arrow-right" class="next-arrow"></i>
+        </button>
+        <button class="next-step-card" onclick="openMatcherModal()">
+          <i data-feather="star"></i>
+          <strong>Review AI Matches</strong>
+          <span>${scoredApps.length || 0} scored roles are ready for review.</span>
+          <i data-feather="arrow-right" class="next-arrow"></i>
+        </button>
       </div>
+    </section>
 
-      <!-- Right column -->
-      <div style="display:flex;flex-direction:column;gap:14px">
-        <!-- Score distribution -->
-        <div class="card">
-          <div class="card-hd"><h2>Score Distribution</h2></div>
-          <div class="card-body">
-            <div class="score-bars">
-              ${[5,4,3,2,1].map(s => {
-                const count = apps.filter(a => {
-                  const v = parseFloat(a['Score']);
-                  return s === 5 ? v >= 4.5 : (v >= s - 0.5 && v < s + 0.4999);
-                }).length;
-                const pct = stats.evaluated > 0 ? Math.round(count / stats.evaluated * 100) : 0;
-                const colors = {5:'var(--green)',4:'var(--blue)',3:'var(--orange)',2:'var(--red)',1:'var(--red)'};
-                return `
-                <div class="score-bar-row">
-                  <div class="score-bar-lbl">${s}</div>
-                  <div class="score-bar-track">
-                    <div class="score-bar-fill" style="width:${pct}%;background:${colors[s]}"></div>
-                  </div>
-                  <div class="score-bar-cnt">${count}</div>
-                </div>`;
-              }).join('')}
+    <div class="dashboard-main-grid">
+      <section class="card performance-card">
+        <div class="card-body">
+          <div class="performance-head">
+            <div>
+              <h2>Job Performance</h2>
+              <p>Application and score activity over time</p>
             </div>
-            <div class="activity-grid">
-              ${[
-                ['Total Scanned', stats.totalScanned, 'var(--text-1)'],
-                ['Added',         stats.byStatus?.added || 0, 'var(--green)'],
-                ['Title Skip',    stats.byStatus?.skipped_title || 0, 'var(--text-3)'],
-                ['Loc Skip',      stats.byStatus?.skipped_location || 0, 'var(--orange)'],
-              ].map(([lbl,val,col]) => `
-                <div class="activity-item">
-                  <div class="activity-num" style="color:${col}">${val}</div>
-                  <div class="activity-lbl">${lbl}</div>
-                </div>`).join('')}
+            <div class="chart-legend">
+              <span><b class="dot all"></b> All Jobs</span>
+              <span><b class="dot applied"></b> Applied</span>
             </div>
           </div>
-        </div>
-
-        <!-- Status breakdown -->
-        <div class="card">
-          <div class="card-hd"><h2>Application Status</h2></div>
-          <div class="card-body">
-            ${Object.entries(stats.statusCounts||{}).length === 0
-              ? `<p class="text-dim text-sm">No applications yet</p>`
-              : Object.entries(stats.statusCounts).map(([s,n]) => `
-                <div style="display:flex;align-items:center;justify-content:space-between;padding:5px 0;border-bottom:1px solid var(--border)">
-                  ${pill(s)}
-                  <span style="font-size:14px;font-weight:600;color:var(--text-1)">${n}</span>
-                </div>`).join('')
-            }
+          <div class="performance-chart">
+            <div class="perf-axis"><span>100%</span><span>75%</span><span>50%</span><span>25%</span><span>0%</span></div>
+            <div class="perf-bars">${perfBars}</div>
           </div>
         </div>
-      </div>
+      </section>
+
+      <section class="recent-jobs-panel">
+        <div class="section-title-row">
+          <h2>Recent Jobs</h2>
+          <button class="btn btn-sm btn-ghost" onclick="navigate('applications')">View All</button>
+        </div>
+        <div class="recent-job-stack">
+          ${recentJobs.length === 0
+            ? `<div class="card empty"><i data-feather="inbox"></i><p>No recent jobs yet</p></div>`
+            : recentJobs.map(a => {
+              const company = a['Company'] || a.company || '—';
+              const role = a['Role'] || a.title || '—';
+              const score = a['Score'] || a.score_display || '';
+              const reportFile = (a['Report']||'').match(/\(reports\/([^)]+)\)/)?.[1] || a.report_file || '';
+              return `
+                <article class="recent-job-card" ${reportFile ? `data-report-file="${escHtml(reportFile)}"` : ''}>
+                  <div class="recent-avatar">${escHtml(company.slice(0, 1).toUpperCase() || 'J')}</div>
+                  <div class="recent-job-copy">
+                    <h3>${escHtml(truncate(role, 42))}</h3>
+                    <p>${escHtml(company)} · ${escHtml(a.status || a['Status'] || 'Evaluated')}</p>
+                    <strong>${score ? escHtml(score) + ' Match' : 'Score pending'}</strong>
+                  </div>
+                  ${reportFile
+                    ? '<button class="btn btn-sm btn-primary" type="button">Report</button>'
+                    : '<button class="btn btn-sm btn-secondary" type="button">Open</button>'}
+                </article>`;
+            }).join('')}
+        </div>
+      </section>
     </div>
 
   `;
@@ -548,58 +568,55 @@ async function loadJobs() {
   }
 
   card.innerHTML = `
-    <div class="row-count">${total} result${total!==1?'s':''}</div>
-    <div class="tbl-wrap">
-      <table class="data-table jobs-table">
-        <colgroup>
-          <col class="col-job">
-          <col class="col-date">
-          <col class="col-score">
-          <col class="col-status">
-          <col class="col-resume">
-          <col class="col-action">
-        </colgroup>
-        <thead>
-          <tr>
-            <th>Job</th>
-            <th>Posted</th>
-            <th class="th-sortable" onclick="toggleScoreSort()" title="Sort by score">
-              Score ${_jobSortField === 'score' ? (_jobSortDir === 'desc' ? '↓' : '↑') : '<span style="opacity:.35">↕</span>'}
-            </th>
-            <th>Status</th><th>Resume</th><th>Action</th>
-          </tr>
-        </thead>
-        <tbody>
-          ${jobs.map(j => `
-            <tr>
-              <td class="job-cell">
-                <div class="job-title" title="${escHtml(j.title||'')}">${escHtml(j.title||'—')}</div>
-                <div class="job-meta">
-                  <span class="job-company">${escHtml(j.company||'—')}</span>
-                  <span>${escHtml(j.portal||'—')}</span>
+    <div class="jobs-card-head">
+      <div>
+        <div class="row-count">${total} result${total!==1?'s':''}</div>
+        <p>Fresh opportunities ranked by posting date and fit signal.</p>
+      </div>
+      <button class="btn btn-sm btn-secondary" onclick="toggleScoreSort()" title="Sort by score">
+        <i data-feather="activity"></i>
+        ${_jobSortField === 'score' ? (_jobSortDir === 'desc' ? 'High fit first' : 'Low fit first') : 'Sort by fit'}
+      </button>
+    </div>
+    <div class="job-card-grid">
+      ${jobs.map(j => {
+        const status = j.status || '';
+        const posted = fmtTableDate(j.posted_at || j.first_seen);
+        const portal = j.portal || 'source';
+        const hasUrl = j.url?.startsWith('http');
+        return `
+          <article class="job-match-card">
+            <div class="job-match-main">
+              <div class="job-match-copy">
+                <div class="job-match-eyebrow">
+                  <span>${escHtml(portal)}</span>
+                  <span>${escHtml(posted)}</span>
                 </div>
-              </td>
-              <td class="date-cell" title="${escHtml(j.posted_at ? fmtDate(j.posted_at) : '')}">${escHtml(fmtTableDate(j.posted_at))}</td>
-              <td class="score-cell">${j.score ? scoreBadge(j.score + '/5') : '<span class="badge badge-gray">—</span>'}</td>
-              <td>
-                <select class="status-select" data-url="${escHtml(j.url)}"
-                  data-company="${escHtml(j.company||'')}" data-title="${escHtml(j.title||'')}"
-                  onchange="updateJobStatus(this)">
-                  <option value="">— Status —</option>
-                  ${APP_STATUSES.map(s =>
-                    `<option value="${s}"${s===j.status?' selected':''}>${s}</option>`
-                  ).join('')}
-                </select>
-              </td>
-              <td class="resume-cell">
+                <h3 title="${escHtml(j.title||'')}">${escHtml(j.title||'—')}</h3>
+                <p title="${escHtml(j.company||'')}">${escHtml(j.company||'—')}</p>
+              </div>
+              ${scoreRing(j.score)}
+            </div>
+            <div class="job-tags">
+              ${status ? `<span class="job-tag">${escHtml(status)}</span>` : '<span class="job-tag muted">new</span>'}
+              ${j.score ? `<span class="job-tag accent">scored</span>` : '<span class="job-tag muted">unscored</span>'}
+            </div>
+            <div class="job-card-controls">
+              <select class="status-select" data-url="${escHtml(j.url || '')}"
+                data-company="${escHtml(j.company||'')}" data-title="${escHtml(j.title||'')}"
+                onchange="updateJobStatus(this)">
+                <option value="">Set status</option>
+                ${APP_STATUSES.map(s =>
+                  `<option value="${s}"${s===status?' selected':''}>${s}</option>`
+                ).join('')}
+              </select>
+              <div class="job-card-actions">
                 ${renderResumeAction({ url: j.url || '', company: j.company || '', title: j.title || '' })}
-              </td>
-              <td class="action-cell">
-                ${j.url?.startsWith('http') ? `<a href="${escHtml(j.url)}" target="_blank" class="btn btn-apply"><i data-feather="external-link"></i> Open</a>` : ''}
-              </td>
-            </tr>`).join('')}
-        </tbody>
-      </table>
+                ${hasUrl ? `<a href="${escHtml(j.url)}" target="_blank" class="btn btn-secondary btn-open"><i data-feather="external-link"></i> Open</a>` : ''}
+              </div>
+            </div>
+          </article>`;
+      }).join('')}
     </div>
   `;
   replaceIcons();
@@ -609,12 +626,13 @@ async function loadJobs() {
 /* ═══════════════════════════════════════════════════════════════════════════
    APPLICATIONS
 ═══════════════════════════════════════════════════════════════════════════ */
-const APP_STATUSES = ['Evaluated','Applied','Responded','Interview','Offer','Rejected','Discarded','SKIP'];
+const APP_STATUSES = ['Evaluated','Applied','Responded','Interview','Offer','Rejected'];
 
 let _appsFilter = 'all';
 let _appsData   = [];
 let _appsSortField = 'recommended';
 let _appsSortDir = 'desc';
+let _appsSearch = '';
 
 async function pageApplications(el) {
   _appsData = await api('applications');
@@ -627,28 +645,40 @@ async function pageApplications(el) {
         <p>${_appsData.length} total · decisions, resumes, and analysis in one place</p>
       </div>
     </div>
-    <div class="toolbar mb-4">
-      <select class="toolbar-filter" id="apps-sort-field">
-        <option value="recommended"${_appsSortField==='recommended'?' selected':''}>Recommended</option>
-        <option value="posted"${_appsSortField==='posted'?' selected':''}>Posted Date</option>
-        <option value="score"${_appsSortField==='score'?' selected':''}>Score</option>
-        <option value="scanned"${_appsSortField==='scanned'?' selected':''}>Scanned On</option>
-        <option value="date"${_appsSortField==='date'?' selected':''}>Application Date</option>
-      </select>
-      <button class="icon-btn" id="apps-sort-dir" title="Toggle sort direction">
-        <i data-feather="${_appsSortDir === 'desc' ? 'arrow-down' : 'arrow-up'}"></i>
-      </button>
+    <div class="apps-search-shell mb-4">
+      <i data-feather="search"></i>
+      <input id="apps-search" value="${escHtml(_appsSearch)}" placeholder="Search applications by job title, company, or status...">
     </div>
-    <div class="chips mb-4" id="apps-chips">
-      ${statuses.map(s =>
-        `<button class="chip${_appsFilter===s?' on':''}" data-s="${s}">${escHtml(s)}</button>`
-      ).join('')}
+    <div class="apps-controls mb-4">
+      <div class="chips" id="apps-chips">
+        ${statuses.map(s =>
+          `<button class="chip${_appsFilter===s?' on':''}" data-s="${s}">${escHtml(s)}</button>`
+        ).join('')}
+      </div>
+      <div class="apps-sort-control">
+        <select class="toolbar-filter" id="apps-sort-field" aria-label="Sort applications">
+          <option value="recommended"${_appsSortField==='recommended'?' selected':''}>Recommended</option>
+          <option value="posted"${_appsSortField==='posted'?' selected':''}>Posted Date</option>
+          <option value="score"${_appsSortField==='score'?' selected':''}>Score</option>
+          <option value="scanned"${_appsSortField==='scanned'?' selected':''}>Scanned On</option>
+          <option value="date"${_appsSortField==='date'?' selected':''}>Application Date</option>
+        </select>
+        <button class="icon-btn" id="apps-sort-dir" title="Toggle sort direction">
+          <i data-feather="${_appsSortDir === 'desc' ? 'arrow-down' : 'arrow-up'}"></i>
+        </button>
+      </div>
     </div>
     <div class="card" id="apps-card">
       ${renderAppsTable(_appsData, _appsFilter)}
     </div>
   `;
   replaceIcons();
+
+  qs('#apps-search')?.addEventListener('input', e => {
+    _appsSearch = e.target.value;
+    qs('#apps-card').innerHTML = renderAppsTable(_appsData, _appsFilter);
+    replaceIcons();
+  });
 
   qsa('#apps-chips .chip').forEach(c => {
     c.addEventListener('click', () => {
@@ -672,7 +702,16 @@ async function pageApplications(el) {
 }
 
 function renderAppsTable(apps, filter) {
-  const rows = (filter === 'all' ? apps : apps.filter(a => (a.status || a['Status']) === filter)).slice();
+  const query = _appsSearch.trim().toLowerCase();
+  const rows = (filter === 'all' ? apps : apps.filter(a => (a.status || a['Status']) === filter))
+    .filter(a => !query || [
+      a.company || a['Company'] || '',
+      a.title || a['Role'] || '',
+      a.status || a['Status'] || '',
+      a.score_display || a['Score'] || '',
+      a.notes || a['Notes'] || '',
+    ].join(' ').toLowerCase().includes(query))
+    .slice();
   rows.sort((a, b) => {
     const posted = () => parseDateValue(a.posted_at) - parseDateValue(b.posted_at);
     const score = () => (parseScoreValue(a.score_display || a['Score']) ?? -1) - (parseScoreValue(b.score_display || b['Score']) ?? -1);
@@ -692,7 +731,16 @@ function renderAppsTable(apps, filter) {
     return `<div class="empty"><i data-feather="inbox"></i><p>Nothing here</p></div>`;
 
   return `
-    <div class="row-count">${rows.length} result${rows.length!==1?'s':''}</div>
+    <div class="apps-table-head">
+      <div>
+        <h2>Application History</h2>
+        <p>${rows.length} result${rows.length!==1?'s':''}</p>
+      </div>
+      <div class="apps-table-actions">
+        <button class="btn btn-sm btn-secondary" type="button"><i data-feather="filter"></i> Filter</button>
+        <button class="btn btn-sm btn-secondary" type="button"><i data-feather="download"></i> Export</button>
+      </div>
+    </div>
     <div class="tbl-wrap">
       <table class="data-table apps-table">
         <colgroup>
@@ -721,11 +769,13 @@ function renderAppsTable(apps, filter) {
             const score      = a.score_display || a['Score'] || '';
             return `
             <tr>
-              <td class="job-cell ${reportFile ? 'clickable' : ''}" ${reportFile ? `data-report-file="${escHtml(reportFile)}"` : ''}>
-                <div class="job-title" title="${escHtml(title)}">${escHtml(title||'—')}</div>
-                <div class="job-meta">
-                  <span class="job-company">${escHtml(company||'—')}</span>
-                  <span>#${rowNum}</span>
+              <td class="job-cell ${reportFile ? 'clickable' : ''}" data-avatar="${escHtml((company || title || 'J').slice(0, 1).toUpperCase())}" ${reportFile ? `data-report-file="${escHtml(reportFile)}"` : ''}>
+                <div class="job-copy">
+                  <div class="job-title" title="${escHtml(title)}">${escHtml(title||'—')}</div>
+                  <div class="job-meta">
+                    <span class="job-company">${escHtml(company||'—')}</span>
+                    <span>#${rowNum}</span>
+                  </div>
                 </div>
               </td>
               <td class="date-cell" title="${escHtml(date)}">${escHtml(fmtTableDate(date))}</td>
@@ -985,9 +1035,14 @@ function pageScanner(el) {
       </div>
     </div>
 
-    <div class="card mb-5">
-      <div class="card-hd"><h2>Options</h2></div>
-      <div class="card-body">
+    <div class="scanner-layout">
+      <aside class="scanner-control-stack">
+        <div class="card scanner-options-card">
+          <div class="card-hd">
+            <h2><i data-feather="sliders"></i> Filters</h2>
+            <span class="engine-badge">v2.4 Engine</span>
+          </div>
+          <div class="card-body">
         <div class="scan-opts">
           <div class="opt-group">
             <label class="opt-label">Time Filter</label>
@@ -1031,11 +1086,22 @@ function pageScanner(el) {
           <span class="scan-status" id="s-status"></span>
         </div>
       </div>
-    </div>
+        </div>
 
-    <div class="card">
+        <div class="card scanner-perf-card">
+          <div class="card-body">
+            <h3>Engine Performance</h3>
+            <p>Latency</p>
+            <strong>14ms</strong>
+            <div class="engine-bars"><span></span><span></span><span></span><span></span><span></span></div>
+          </div>
+        </div>
+      </aside>
+
+      <section class="card scanner-terminal-card">
       <div class="card-hd">
-        <h2>Search Log</h2>
+        <h2>Search Log Terminal</h2>
+        <span class="terminal-listening"><b></b> Listening</span>
         <button class="btn btn-sm btn-secondary" onclick="clearTerm()">
           <i data-feather="trash-2"></i> Clear
         </button>
@@ -1043,6 +1109,7 @@ function pageScanner(el) {
       <div style="padding:0">
         <div class="terminal" id="s-term">Ready — press <span class="t-hi">Find Jobs</span> to start.\n</div>
       </div>
+      </section>
     </div>
   `;
   replaceIcons();
@@ -1135,24 +1202,57 @@ function clearTerm() {
 let _matchStream = null;
 
 function openMatcherModal() {
-  openModal("Score Today's Jobs", `
+  openModal('Score All Jobs', `
     <div style="margin-bottom:12px;color:var(--text-2);font-size:13px">
-      Scores today's unreviewed jobs and creates the full analysis report for each one.
-      Results save immediately as each job finishes.
+      Scores all unreviewed jobs against your CV. Pick a mode:
     </div>
-    <div class="opt-group" style="max-width:220px;margin-bottom:14px">
-      <label class="opt-label">Optional max reviews</label>
-      <input class="opt-input" id="m-limit" type="number" min="1" max="500" placeholder="All today's jobs">
+    <div style="display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap">
+      <label style="display:flex;align-items:center;gap:6px;cursor:pointer;padding:8px 12px;border:1px solid var(--border);border-radius:6px;flex:1;min-width:160px" id="m-mode-local-wrap">
+        <input type="radio" name="m-mode" value="local" id="m-mode-local" checked style="accent-color:var(--blue)">
+        <span>
+          <strong>Local only</strong><br>
+          <span style="font-size:11px;color:var(--text-2)">Zero tokens · blocker-aware screening</span>
+        </span>
+      </label>
+      <label style="display:flex;align-items:center;gap:6px;cursor:pointer;padding:8px 12px;border:1px solid var(--border);border-radius:6px;flex:1;min-width:160px" id="m-mode-hybrid-wrap">
+        <input type="radio" name="m-mode" value="hybrid" id="m-mode-hybrid" style="accent-color:var(--blue)">
+        <span>
+          <strong>Hybrid</strong><br>
+          <span style="font-size:11px;color:var(--text-2)">Local filter → Claude only when worth it</span>
+        </span>
+      </label>
+    </div>
+    <div id="m-threshold-row" style="display:none;margin-bottom:14px">
+      <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:flex-end">
+        <div>
+          <label class="opt-label">Local pre-filter threshold</label>
+          <input class="opt-input" id="m-threshold" type="number" min="1" max="5" step="0.5" value="3.0" style="max-width:90px">
+          <div style="font-size:11px;color:var(--text-2);margin-top:3px">Local ≥ this → AI call</div>
+        </div>
+        <div>
+          <label class="opt-label">AI model</label>
+          <select class="opt-input" id="m-model" style="max-width:200px">
+            <option value="claude-haiku-4-5-20251001" selected>Haiku (fast, cheap)</option>
+            <option value="claude-sonnet-4-6">Sonnet (best quality)</option>
+          </select>
+        </div>
+      </div>
     </div>
     <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px">
       <button class="btn btn-primary" id="m-run" onclick="startMatcher()">
-        <i data-feather="cpu"></i> Start Review
+        <i data-feather="cpu"></i> Start Scoring
       </button>
       <button class="btn btn-secondary" id="m-stop" onclick="stopMatcher()" style="display:none">
         <i data-feather="square"></i> Stop
       </button>
     </div>
-    <div class="terminal" id="m-term" style="min-height:200px">Ready — press Start Review.\n</div>
+    <div class="terminal" id="m-term" style="min-height:200px">Ready — press Start Scoring.\n</div>
+    <script>
+      document.querySelectorAll('input[name="m-mode"]').forEach(r => r.addEventListener('change', () => {
+        document.getElementById('m-threshold-row').style.display =
+          document.getElementById('m-mode-hybrid').checked ? 'block' : 'none';
+      }));
+    </script>
   `);
 }
 
@@ -1163,7 +1263,15 @@ function startMatcher() {
   qs('#m-run').style.display  = 'none';
   qs('#m-stop').style.display = 'flex';
 
-  _matchStream = new EventSource('/api/match/stream?all=true');
+  const localOnly = document.getElementById('m-mode-local')?.checked !== false &&
+                    !document.getElementById('m-mode-hybrid')?.checked;
+  const threshold = parseFloat(document.getElementById('m-threshold')?.value || '3.0');
+  const model = document.getElementById('m-model')?.value || 'claude-haiku-4-5-20251001';
+  const params = new URLSearchParams({ all: 'true' });
+  if (localOnly) params.set('localOnly', 'true');
+  else { params.set('threshold', String(threshold)); params.set('model', model); }
+
+  _matchStream = new EventSource(`/api/match/stream?${params}`);
 
   _matchStream.addEventListener('line', e => {
     const { text } = JSON.parse(e.data);
@@ -1802,11 +1910,15 @@ async function pageProfile(el) {
 
     <!-- TEMPLATE TAB -->
     <div id="tab-template" class="profile-tab-body${_profileTab==='template'?'':' hidden'}">
-      <div class="card">
-        <div class="card-hd">
-          <h2>CV Templates</h2>
-          <div class="flex gap-2">
-            <span id="tpl-dirty" style="font-size:13px;color:var(--orange);align-self:center;display:none">Template changed</span>
+      <div class="template-gallery-shell">
+        <section class="template-gallery-hero">
+          <div>
+            <span class="template-eyebrow">Premium Selection</span>
+            <h2>Elevate Your Narrative.</h2>
+            <p>Choose from AI-optimized, ATS-friendly templates designed to capture stronger opportunities with a cleaner professional story.</p>
+          </div>
+          <div class="template-hero-actions">
+            <span id="tpl-dirty" class="template-dirty">Template changed</span>
             <button class="btn btn-secondary" id="tpl-save" onclick="saveTemplateChanges()" disabled>
               <i data-feather="save"></i> Save
             </button>
@@ -1814,18 +1926,37 @@ async function pageProfile(el) {
               <i data-feather="download"></i> Generate PDF
             </button>
           </div>
+        </section>
+
+        <div class="template-filter-chips">
+          <button class="template-filter-chip active" type="button">All Styles</button>
+          <button class="template-filter-chip" type="button">Executive</button>
+          <button class="template-filter-chip" type="button">Minimalist</button>
+          <button class="template-filter-chip" type="button">High-Tech</button>
         </div>
-        <div class="card-body">
-          <div id="template-picker"></div>
-          <details style="margin-top:16px">
-            <summary style="cursor:pointer;color:var(--text-2);font-size:13px">Advanced: edit HTML source</summary>
-            <div class="card" style="margin-top:10px">
-              <div class="card-body" style="padding:0">
-                <textarea class="cv-editor" id="tpl-ed" spellcheck="false" style="height:420px;border-radius:0 0 var(--r-lg) var(--r-lg)">${escHtml(templateHtml)}</textarea>
-              </div>
+
+        <div id="template-picker"></div>
+
+        <section class="template-preview-card" aria-label="Selected CV template preview">
+          <div class="template-preview-head">
+            <div>
+              <span class="template-eyebrow">Selected Template</span>
+              <h3 id="template-preview-title">Template preview</h3>
+              <p id="template-preview-desc">Select a template to preview it.</p>
             </div>
-          </details>
-        </div>
+            <span class="template-preview-badge">Live sample</span>
+          </div>
+          <iframe id="template-preview" title="Selected CV template preview"></iframe>
+        </section>
+
+        <details class="template-source-details">
+          <summary>Advanced: edit HTML source</summary>
+          <div class="card">
+            <div class="card-body" style="padding:0">
+              <textarea class="cv-editor" id="tpl-ed" spellcheck="false" style="height:420px;border-radius:0 0 var(--r-lg) var(--r-lg)">${escHtml(templateHtml)}</textarea>
+            </div>
+          </div>
+        </details>
       </div>
     </div>
   `;
@@ -1886,19 +2017,37 @@ async function saveCvFields() {
 function renderTemplatePicker() {
   const mount = qs('#template-picker');
   if (!mount) return;
+  const options = [..._templateOptions].sort((a, b) =>
+    (b.id === _selectedTemplateId) - (a.id === _selectedTemplateId)
+  );
 
   mount.innerHTML = `
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px">
-      ${_templateOptions.map(option => `
-        <button class="template-option${option.id === _selectedTemplateId ? ' active' : ''}" data-template-id="${option.id}" style="text-align:left;border:1px solid ${option.id === _selectedTemplateId ? 'var(--blue)' : 'var(--border)'};background:${option.id === _selectedTemplateId ? 'rgba(37,99,235,0.06)' : 'var(--surface-1)'};border-radius:8px;padding:14px;cursor:pointer">
-          <div style="font-size:15px;font-weight:600;color:var(--text-1)">${escHtml(option.name)}</div>
-          <div style="font-size:13px;color:var(--text-2);margin-top:6px;line-height:1.5">${escHtml(option.description)}</div>
+    <div class="template-option-grid">
+      ${options.map(option => `
+        <button class="template-option-card${option.id === _selectedTemplateId ? ' active' : ''}" data-template-id="${option.id}">
+          <div class="template-option-preview">
+            <iframe title="${escHtml(option.name)} preview" srcdoc="${escHtml(option.preview || '')}" tabindex="-1"></iframe>
+            ${option.id === _selectedTemplateId ? '<span class="template-active-badge">Active</span>' : ''}
+          </div>
+          <div class="template-option-copy">
+            <div class="template-title-row">
+              <strong>${escHtml(option.name)}</strong>
+              <span>${escHtml(templateOptionTag(option.id))}</span>
+            </div>
+            <p>${escHtml(option.description)}</p>
+            <div class="template-card-foot">
+              <div class="template-swatches" aria-hidden="true">
+                ${templateOptionSwatches(option.id).map(color => `<span style="background:${escHtml(color)}"></span>`).join('')}
+              </div>
+              <span class="template-use-label">${option.id === _selectedTemplateId ? 'Selected' : 'Use Template'} <i data-feather="arrow-right"></i></span>
+            </div>
+          </div>
         </button>
       `).join('')}
     </div>
   `;
 
-  qsa('.template-option', mount).forEach(button => {
+  qsa('.template-option-card', mount).forEach(button => {
     button.addEventListener('click', () => {
       _selectedTemplateId = button.getAttribute('data-template-id');
       qs('#tpl-save').disabled = false;
@@ -1911,32 +2060,109 @@ function renderTemplatePicker() {
   });
 
   updateTemplatePreview();
+  replaceIcons();
+}
+
+function templateOptionTag(id) {
+  const tags = {
+    classic: 'ATS Optimized',
+    graphite: 'Modern Professional',
+    minimal: 'High Contrast',
+  };
+  return tags[id] || 'ATS Friendly';
+}
+
+function templateOptionSwatches(id) {
+  const swatches = {
+    classic: ['#3B82F6', '#94A3B8'],
+    graphite: ['#14B8A6', '#334155'],
+    minimal: ['#FFFFFF', '#475569'],
+  };
+  return swatches[id] || ['#8B5CF6', '#3B82F6'];
 }
 
 function updateTemplatePreview() {
   const frame = qs('#template-preview');
   if (!frame) return;
   const selected = _templateOptions.find(option => option.id === _selectedTemplateId) || _templateOptions[0];
+  const title = qs('#template-preview-title');
+  const desc = qs('#template-preview-desc');
+  if (title) title.textContent = selected?.name || 'Template preview';
+  if (desc) desc.textContent = selected?.description || 'No preview available.';
   frame.srcdoc = selected?.preview || '<p style="font-family:sans-serif;padding:24px">No preview available.</p>';
 }
 
 // ── Info form builder ─────────────────────────────────────────────────────
+function profileSelect(path, label, icon, value, options, placeholder = 'Select') {
+  const current = String(value || '').trim();
+  const allOptions = current && !options.includes(current) ? [current, ...options] : options;
+  return `
+    <div class="info-field">
+      <label class="info-label"><i data-feather="${icon}"></i> ${label}</label>
+      <select class="info-input profile-select" data-profile-path="${path}">
+        <option value="">${escHtml(placeholder)}</option>
+        ${allOptions.map(option => `<option value="${escHtml(option)}"${option === current ? ' selected' : ''}>${escHtml(option)}</option>`).join('')}
+      </select>
+    </div>`;
+}
+
+function profileText(path, label, icon, value, placeholder = label, extra = '') {
+  return `
+    <div class="info-field" ${extra}>
+      <label class="info-label"><i data-feather="${icon}"></i> ${label}</label>
+      <input class="info-input" data-profile-path="${path}" value="${escHtml(value || '')}" placeholder="${escHtml(placeholder)}">
+    </div>`;
+}
+
+function profileChoiceChips(path, label, icon, selectedValues, options, { delimiter = ',', wide = true } = {}) {
+  const selected = Array.isArray(selectedValues)
+    ? selectedValues.map(v => String(v).trim()).filter(Boolean)
+    : String(selectedValues || '').split(delimiter).map(v => v.trim()).filter(Boolean);
+  const merged = [...new Set([...options, ...selected])];
+  const hiddenValue = delimiter === '\n' ? selected.join('\n') : selected.join(', ');
+  return `
+    <div class="info-field profile-choice-field" ${wide ? 'style="grid-column:1/-1"' : ''}>
+      <label class="info-label"><i data-feather="${icon}"></i> ${label}</label>
+      <input type="hidden" class="info-input profile-choice-value" data-profile-path="${path}" data-choice-delimiter="${escHtml(delimiter)}" value="${escHtml(hiddenValue)}">
+      <div class="profile-choice-grid" role="group" aria-label="${escHtml(label)}">
+        ${merged.map(option => `
+          <button type="button" class="profile-choice-chip${selected.includes(option) ? ' on' : ''}" data-choice-value="${escHtml(option)}" onclick="toggleProfileChoice(this)">
+            ${escHtml(option)}
+          </button>
+        `).join('')}
+      </div>
+    </div>`;
+}
+
+function toggleProfileChoice(button) {
+  const field = button.closest('.profile-choice-field');
+  if (!field) return;
+  button.classList.toggle('on');
+  const hidden = field.querySelector('.profile-choice-value');
+  const delimiter = hidden?.getAttribute('data-choice-delimiter') || ',';
+  const values = qsa('.profile-choice-chip.on', field).map(chip => chip.getAttribute('data-choice-value')).filter(Boolean);
+  hidden.value = delimiter === '\n' ? values.join('\n') : values.join(', ');
+}
+
 function renderInfoForm(profile = {}, profileYaml = '') {
   const candidate = profile.candidate || {};
   const narrative = profile.narrative || {};
   const compensation = profile.compensation || {};
   const location = profile.location || {};
   const targetRoles = profile.target_roles || {};
-  const primaryRoles = Array.isArray(targetRoles.primary) ? targetRoles.primary.join(', ') : '';
+  const primaryRoles = Array.isArray(targetRoles.primary) ? targetRoles.primary : [];
   const superpowers = Array.isArray(narrative.superpowers) ? narrative.superpowers.join('\n') : '';
-  const excludedLevels = Array.isArray(targetRoles.excluded_levels) ? targetRoles.excluded_levels.join(', ') : '';
-  const preferences = Array.isArray(location.preferences) ? location.preferences.join('\n') : '';
+  const excludedLevels = Array.isArray(targetRoles.excluded_levels) ? targetRoles.excluded_levels : [];
+  const preferences = Array.isArray(location.preferences) ? location.preferences : [];
   const archetypes = Array.isArray(targetRoles.archetypes)
     ? targetRoles.archetypes.map(item => [item.name || '', item.level || '', item.fit || ''].join(' | ')).join('\n')
     : '';
   const proofPoints = Array.isArray(narrative.proof_points)
     ? narrative.proof_points.map(item => [item.name || '', item.hero_metric || ''].join(' | ')).join('\n')
     : '';
+  const roleOptions = ['Data Scientist', 'Data Engineer', 'ML Engineer', 'Data Analyst', 'Analytics Engineer', 'AI Engineer', 'Backend Developer', 'Business Intelligence Analyst'];
+  const levelOptions = ['Intern', 'Entry', 'Junior', 'Mid-level', 'Senior', 'Staff', 'Principal', 'Lead', 'Manager', 'Director'];
+  const preferenceOptions = ['Remote', 'Hybrid', 'On-site', 'Philadelphia, PA', 'New York, NY', 'Seattle, WA', 'Open to relocation', 'No relocation', 'US only'];
 
   return `
     <div class="card mb-4">
@@ -1964,14 +2190,8 @@ function renderInfoForm(profile = {}, profileYaml = '') {
       <div class="card-hd"><h2>Targets & Narrative</h2></div>
       <div class="card-body">
         <div class="info-grid">
-          <div class="info-field" style="grid-column:1/-1">
-            <label class="info-label"><i data-feather="target"></i> Primary Roles</label>
-            <input class="info-input" data-profile-path="target_roles.primary" value="${escHtml(primaryRoles)}" placeholder="Senior Data Engineer, Analytics Engineer">
-          </div>
-          <div class="info-field" style="grid-column:1/-1">
-            <label class="info-label"><i data-feather="slash"></i> Excluded Levels</label>
-            <input class="info-input" data-profile-path="target_roles.excluded_levels" value="${escHtml(excludedLevels)}" placeholder="Senior, Staff, Principal">
-          </div>
+          ${profileChoiceChips('target_roles.primary', 'Primary Roles', 'target', primaryRoles, roleOptions)}
+          ${profileChoiceChips('target_roles.excluded_levels', 'Excluded Levels', 'slash', excludedLevels, levelOptions)}
           <div class="info-field" style="grid-column:1/-1">
             <label class="info-label"><i data-feather="align-left"></i> Headline</label>
             <input class="info-input" data-profile-path="narrative.headline" value="${escHtml(narrative.headline || '')}" placeholder="Your professional headline">
@@ -2000,26 +2220,17 @@ function renderInfoForm(profile = {}, profileYaml = '') {
       <div class="card-hd"><h2>Compensation &amp; Location</h2></div>
       <div class="card-body">
         <div class="info-grid">
-          ${[
-            ['compensation.target_range', 'Target Range', 'dollar-sign', compensation.target_range],
-            ['compensation.minimum', 'Minimum', 'credit-card', compensation.minimum],
-            ['compensation.currency', 'Currency', 'circle', compensation.currency],
-            ['compensation.location_flexibility', 'Location Flexibility', 'navigation', compensation.location_flexibility],
-            ['location.city', 'City', 'map-pin', location.city],
-            ['location.country', 'Country', 'flag', location.country],
-            ['location.state', 'State', 'map', location.state],
-            ['location.timezone', 'Timezone', 'clock', location.timezone],
-            ['location.visa_status', 'Visa Status', 'shield', location.visa_status],
-            ['location.job_search_scope', 'Job Search Scope', 'globe', location.job_search_scope],
-          ].map(([path, label, icon, value]) => `
-            <div class="info-field">
-              <label class="info-label"><i data-feather="${icon}"></i> ${label}</label>
-              <input class="info-input" data-profile-path="${path}" value="${escHtml(value || '')}" placeholder="${label}">
-            </div>`).join('')}
-          <div class="info-field" style="grid-column:1/-1">
-            <label class="info-label"><i data-feather="map"></i> Location Preferences</label>
-            <textarea class="info-input" data-profile-path="location.preferences" rows="4" placeholder="One preference per line">${escHtml(preferences)}</textarea>
-          </div>
+          ${profileSelect('compensation.target_range', 'Target Range', 'dollar-sign', compensation.target_range, ['Market rate', '$60k-$80k', '$80k-$100k', '$100k-$120k', '$120k+', 'Open to discuss'])}
+          ${profileText('compensation.minimum', 'Minimum', 'credit-card', compensation.minimum, 'e.g. $80k')}
+          ${profileSelect('compensation.currency', 'Currency', 'circle', compensation.currency, ['USD', 'CAD', 'EUR', 'GBP'])}
+          ${profileSelect('compensation.location_flexibility', 'Location Flexibility', 'navigation', compensation.location_flexibility, ['Remote only', 'Remote preferred', 'Hybrid preferred', 'Open to relocation', 'Local only', 'Remote preferred, then Philadelphia PA, open to relocation as last option'])}
+          ${profileText('location.city', 'City', 'map-pin', location.city, 'Philadelphia')}
+          ${profileSelect('location.country', 'Country', 'flag', location.country, ['United States', 'Canada', 'United Kingdom', 'European Union'])}
+          ${profileSelect('location.state', 'State', 'map', location.state, ['PA', 'NY', 'NJ', 'CA', 'WA', 'TX', 'MA', 'IL', 'VA', 'NC', 'GA'])}
+          ${profileSelect('location.timezone', 'Timezone', 'clock', location.timezone, ['EST', 'CST', 'MST', 'PST', 'UTC'])}
+          ${profileSelect('location.visa_status', 'Visa Status', 'shield', location.visa_status, ['No sponsorship needed', 'Requires sponsorship', 'STEM OPT / CPT', 'H-1B transfer', 'Green card / permanent resident', 'Prefer not to say'])}
+          ${profileSelect('location.job_search_scope', 'Job Search Scope', 'globe', location.job_search_scope, ['USA only — no international roles', 'USA and Canada', 'Remote global roles', 'Local only', 'Open worldwide'])}
+          ${profileChoiceChips('location.preferences', 'Location Preferences', 'map', preferences, preferenceOptions, { delimiter: '\n' })}
         </div>
       </div>
     </div>
@@ -2226,6 +2437,7 @@ window.saveTemplate     = saveTemplate;
 window.saveTemplateChoice = saveTemplateChoice;
 window.saveTemplateChanges = saveTemplateChanges;
 window.saveProfileInfo  = saveProfileInfo;
+window.toggleProfileChoice = toggleProfileChoice;
 window.switchProfileTab = switchProfileTab;
 window.handleResumeFile = handleResumeFile;
 window.handleResumeDrop = handleResumeDrop;

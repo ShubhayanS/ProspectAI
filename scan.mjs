@@ -16,10 +16,13 @@
  *   node scan.mjs --since 24h            # only jobs posted in last 24 hours
  *   node scan.mjs --since 7d             # only jobs posted in last 7 days
  *   node scan.mjs --since 2026-04-20     # only jobs posted since specific date
+ *   node scan.mjs --linkedin-max-pages 25 # LinkedIn pages per keyword (10 jobs/page)
+ *   node scan.mjs --no-jd-cache          # skip zero-token JD prefetch
  *   node scan.mjs --verbose              # show per-company breakdown
  */
 
 import { readFileSync, writeFileSync, appendFileSync, existsSync, mkdirSync } from 'fs';
+import { createHash } from 'crypto';
 import yaml from 'js-yaml';
 const parseYaml = yaml.load;
 
@@ -29,18 +32,180 @@ const PORTALS_PATH = 'portals.yml';
 const SCAN_HISTORY_PATH = 'data/scan-history.tsv';
 const PIPELINE_PATH = 'data/pipeline.md';
 const APPLICATIONS_PATH = 'data/applications.md';
+const JD_CACHE_DIR = 'data/jd-cache';
 
 // Ensure required directories exist (fresh setup)
 mkdirSync('data', { recursive: true });
 
 const CONCURRENCY = 10;
+const JD_PREFETCH_CONCURRENCY = 4;
 const FETCH_TIMEOUT_MS = 10_000;
+const JD_FETCH_TIMEOUT_MS = 15_000;
+const DEFAULT_LINKEDIN_MAX_PAGES = 25;
+const LINKEDIN_DETAIL_DELAY_MS = parseInt(process.env.LINKEDIN_DETAIL_DELAY_MS || '1200', 10);
+const LINKEDIN_DETAIL_RETRIES = parseInt(process.env.LINKEDIN_DETAIL_RETRIES || '3', 10);
+let linkedInFetchQueue = Promise.resolve();
+let lastLinkedInFetchAt = 0;
 
 function encodeCell(value) {
   return String(value ?? '')
     .replace(/\r?\n/g, ' ')
     .replace(/\t/g, ' ')
     .replace(/\|/g, '&#124;');
+}
+
+function htmlToText(html) {
+  return String(html || '')
+    .replace(/<script\b[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style\b[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<br\s*\/?>/gi, '\n')
+    .replace(/<\/(p|div|li|h[1-6]|section)>/gi, '\n')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>').replace(/&#39;|&apos;/g, "'").replace(/&quot;/g, '"')
+    .replace(/\s+\n/g, '\n').replace(/\n{3,}/g, '\n\n').replace(/[ \t]{2,}/g, ' ')
+    .trim();
+}
+
+function htmlDecode(value) {
+  return String(value || '')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&#39;|&apos;/g, "'")
+    .replace(/&quot;/g, '"');
+}
+
+function linkedInJobId(url) {
+  return String(url || '').match(/linkedin\.com\/jobs\/view\/(?:[^/\s]+-)?(\d+)/i)?.[1] || '';
+}
+
+function extractLinkedInDescription(html) {
+  const desc =
+    String(html || '').match(/<div[^>]+class="[^"]*description__text[^"]*"[^>]*>([\s\S]*?)<\/div>\s*<ul class="description__job-criteria-list/i)?.[1] ||
+    String(html || '').match(/<section[^>]+class="[^"]*show-more-less-html[^"]*"[^>]*>([\s\S]*?)<\/section>/i)?.[1] ||
+    '';
+  return htmlToText(desc || html);
+}
+
+function extractLinkedInExternalApplyUrl(html) {
+  const matches = [...String(html || '').matchAll(/<a\b[^>]*class="[^"]*apply-button[^"]*"[^>]*href="([^"]+)"/gi)];
+  for (const m of matches) {
+    const href = htmlDecode(m[1]).trim();
+    if (!href || /linkedin\.com\/(login|signup|jobs\/view)/i.test(href)) continue;
+    try { return new URL(href, 'https://www.linkedin.com').toString(); } catch {}
+  }
+  return '';
+}
+
+function wait(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+function withLinkedInThrottle(fn) {
+  const run = linkedInFetchQueue.then(async () => {
+    const elapsed = Date.now() - lastLinkedInFetchAt;
+    if (elapsed < LINKEDIN_DETAIL_DELAY_MS) await wait(LINKEDIN_DETAIL_DELAY_MS - elapsed);
+    lastLinkedInFetchAt = Date.now();
+    return fn();
+  });
+  linkedInFetchQueue = run.catch(() => {});
+  return run;
+}
+
+async function fetchGenericPostingText(url) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), JD_FETCH_TIMEOUT_MS);
+  try {
+    const res = await fetch(url, {
+      signal: controller.signal,
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/json',
+        'Accept-Language': 'en-US,en;q=0.9',
+      },
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const contentType = res.headers.get('content-type') || '';
+    const raw = await res.text();
+    return contentType.includes('json')
+      ? JSON.stringify(JSON.parse(raw), null, 2).slice(0, 15000)
+      : htmlToText(raw).slice(0, 15000);
+  } catch {
+    return '';
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function fetchLinkedInPostingText(url) {
+  const id = linkedInJobId(url);
+  if (!id) return '';
+  return withLinkedInThrottle(async () => {
+    const detailUrl = `https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/${id}`;
+    for (let attempt = 1; attempt <= LINKEDIN_DETAIL_RETRIES; attempt++) {
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), JD_FETCH_TIMEOUT_MS);
+      try {
+        const res = await fetch(detailUrl, {
+          signal: controller.signal,
+          headers: {
+            'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml',
+            'Accept-Language': 'en-US,en;q=0.9',
+            'Referer': 'https://www.linkedin.com/jobs/search/',
+          },
+        });
+        if (res.status === 429 && attempt < LINKEDIN_DETAIL_RETRIES) {
+          clearTimeout(timer);
+          await wait(4000 * attempt);
+          continue;
+        }
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const html = await res.text();
+        const linkedInText = extractLinkedInDescription(html);
+        if (linkedInText.length < 300) return '';
+        const externalUrl = extractLinkedInExternalApplyUrl(html);
+        const externalText = externalUrl ? await fetchGenericPostingText(externalUrl) : '';
+        return [
+          `LinkedIn public job detail: ${url}`,
+          externalUrl ? `External apply URL: ${externalUrl}` : 'External apply URL: not exposed publicly; likely LinkedIn Easy Apply or login-gated.',
+          linkedInText,
+          externalText ? `\nExternal posting text:\n${externalText}` : '',
+        ].filter(Boolean).join('\n\n').slice(0, 15000);
+      } catch {
+        if (attempt >= LINKEDIN_DETAIL_RETRIES) return '';
+        await wait(2500 * attempt);
+      } finally {
+        clearTimeout(timer);
+      }
+    }
+    return '';
+  });
+}
+
+function urlHash(url) {
+  return createHash('sha1').update(String(url || '')).digest('hex').slice(0, 16);
+}
+
+function jdCachePath(url) {
+  return `${JD_CACHE_DIR}/${urlHash(url)}.txt`;
+}
+
+function getCachedJd(url) {
+  try {
+    const file = jdCachePath(url);
+    return existsSync(file) ? readFileSync(file, 'utf-8') : '';
+  } catch { return ''; }
+}
+
+function setCachedJd(url, text) {
+  if (!url || !String(text || '').trim()) return false;
+  try {
+    mkdirSync(JD_CACHE_DIR, { recursive: true });
+    writeFileSync(jdCachePath(url), String(text).slice(0, 15000), 'utf-8');
+    return true;
+  } catch { return false; }
 }
 
 // ── API detection ───────────────────────────────────────────────────
@@ -93,6 +258,7 @@ function parseGreenhouse(json, companyName) {
     company: companyName,
     location: j.location?.name || '',
     postedAt: j.updated_at || null,
+    descriptionText: htmlToText([j.content, j.description].filter(Boolean).join('\n\n')),
   }));
 }
 
@@ -104,6 +270,7 @@ function parseAshby(json, companyName) {
     company: companyName,
     location: j.location || '',
     postedAt: j.publishedAt || null,
+    descriptionText: htmlToText([j.descriptionPlain, j.descriptionHtml, j.description].filter(Boolean).join('\n\n')),
   }));
 }
 
@@ -115,6 +282,11 @@ function parseLever(json, companyName) {
     company: companyName,
     location: j.categories?.location || '',
     postedAt: j.createdAt ? new Date(j.createdAt).toISOString() : null,
+    descriptionText: htmlToText([
+      j.descriptionPlain,
+      j.description,
+      ...(j.lists || []).map(list => [list.text, list.content].filter(Boolean).join('\n')),
+    ].filter(Boolean).join('\n\n')),
   }));
 }
 
@@ -142,12 +314,12 @@ function sinceToLinkedInTPR(sinceDate) {
   return `r${seconds}`;
 }
 
-async function fetchLinkedIn(query, location, sinceDate) {
+async function fetchLinkedIn(query, location, sinceDate, maxPages = DEFAULT_LINKEDIN_MAX_PAGES) {
   const tpr = sinceToLinkedInTPR(sinceDate);
   const allJobs = [];
   const seenUrls = new Set();
   const PAGE_SIZE = 10; // LinkedIn guest API returns ~10 per page
-  const MAX_PAGES = 10; // up to ~100 results per query
+  const MAX_PAGES = Math.max(1, Math.min(50, parseInt(maxPages || DEFAULT_LINKEDIN_MAX_PAGES, 10))); // up to ~500/query
 
   for (let page = 0; page < MAX_PAGES; page++) {
     const params = new URLSearchParams({
@@ -242,6 +414,74 @@ function parseLinkedInHtml(html, queryLabel) {
   return jobs;
 }
 
+// ── Public remote job-board feeds ───────────────────────────────────
+
+function buildFeedQueries(config) {
+  const fromLinkedIn = (config.linkedin_queries || [])
+    .filter(q => q.enabled !== false && q.keywords)
+    .map(q => q.keywords);
+  const fallback = [
+    'Data Scientist',
+    'Data Engineer',
+    'Machine Learning Engineer',
+    'Analytics Engineer',
+    'Data Analyst',
+  ];
+  return [...new Set([...fromLinkedIn, ...fallback].map(q => String(q).trim()).filter(Boolean))];
+}
+
+function searchQueriesWant(config, sourceName) {
+  const needle = sourceName.toLowerCase();
+  return (config.search_queries || [])
+    .filter(q => q.enabled !== false)
+    .some(q => `${q.name || ''} ${q.query || ''}`.toLowerCase().includes(needle));
+}
+
+async function fetchRemotive(queries) {
+  const byUrl = new Map();
+  for (const query of queries) {
+    const url = `https://remotive.com/api/remote-jobs?search=${encodeURIComponent(query)}`;
+    const json = await fetchJson(url);
+    for (const j of json.jobs || []) {
+      const jobUrl = j.url || '';
+      if (!jobUrl || byUrl.has(jobUrl)) continue;
+      byUrl.set(jobUrl, {
+        title: j.title || '',
+        url: jobUrl,
+        company: j.company_name || 'Remotive',
+        location: j.candidate_required_location || 'Remote',
+        postedAt: j.publication_date || null,
+        source: 'remotive',
+        descriptionText: htmlToText(j.description || ''),
+      });
+    }
+    await new Promise(r => setTimeout(r, 500));
+  }
+  return [...byUrl.values()];
+}
+
+async function fetchRemoteOk() {
+  const json = await fetchJson('https://remoteok.com/api');
+  if (!Array.isArray(json)) return [];
+  return json
+    .filter(j => j && typeof j === 'object' && (j.position || j.url || j.apply_url))
+    .map(j => ({
+      title: j.position || '',
+      url: j.url || j.apply_url || '',
+      company: j.company || 'Remote OK',
+      location: j.location || 'Remote',
+      postedAt: j.date || (j.epoch ? new Date(j.epoch * 1000).toISOString() : null),
+      source: 'remoteok',
+      descriptionText: htmlToText(j.description || ''),
+    }))
+    .filter(j => j.url && j.title);
+}
+
+const SUPPORTED_SEARCH_FEEDS = [
+  { key: 'remotive', label: 'Remotive' },
+  { key: 'remoteok', label: 'Remote OK' },
+];
+
 // ── Fetch with timeout ──────────────────────────────────────────────
 
 async function fetchJson(url) {
@@ -254,6 +494,40 @@ async function fetchJson(url) {
   } finally {
     clearTimeout(timer);
   }
+}
+
+async function fetchPostingText(url) {
+  if (!url?.startsWith('http')) return '';
+
+  const cached = getCachedJd(url);
+  const isLinkedIn = /linkedin\.com\/jobs\/view\//i.test(url);
+  if (cached && (!isLinkedIn || cached.includes('LinkedIn public job detail:'))) return cached;
+
+  return isLinkedIn
+    ? await fetchLinkedInPostingText(url)
+    : await fetchGenericPostingText(url);
+}
+
+async function prefetchJobDescriptions(offers, verbose = false) {
+  const todo = offers.filter(o => o.url && !getCachedJd(o.url));
+  if (!todo.length) return { cached: 0, skipped: offers.length, failed: 0 };
+
+  let cached = 0;
+  let failed = 0;
+  const tasks = todo.map(job => async () => {
+    const apiText = String(job.descriptionText || '').trim();
+    const text = apiText.length >= 120 ? apiText.slice(0, 15000) : await fetchPostingText(job.url);
+    if (text && setCachedJd(job.url, text)) {
+      cached++;
+      if (verbose) console.log(`  ↳ cached JD: ${job.company} | ${job.title}`);
+    } else {
+      failed++;
+      if (verbose) console.log(`  ↳ JD unavailable: ${job.company} | ${job.title}`);
+    }
+  });
+
+  await parallelFetch(tasks, JD_PREFETCH_CONCURRENCY);
+  return { cached, skipped: offers.length - todo.length, failed };
 }
 
 // ── Title filter ────────────────────────────────────────────────────
@@ -431,10 +705,12 @@ async function main() {
   const args = process.argv.slice(2);
   const dryRun = args.includes('--dry-run');
   const verbose = args.includes('--verbose');
+  const noJdCache = args.includes('--no-jd-cache');
   const companyFlag = args.indexOf('--company');
   const filterCompany = companyFlag !== -1 ? args[companyFlag + 1]?.toLowerCase() : null;
   const sinceFlag = args.indexOf('--since');
   const sinceDate = sinceFlag !== -1 ? parseSince(args[sinceFlag + 1]) : null;
+  const linkedinMaxPagesFlag = args.indexOf('--linkedin-max-pages');
 
   // 1. Read portals.yml
   if (!existsSync(PORTALS_PATH)) {
@@ -446,6 +722,9 @@ async function main() {
   const companies = config.tracked_companies || [];
   const titleFilter = buildTitleFilter(config.title_filter);
   const locationFilter = buildLocationFilter(config.location_filter);
+  const linkedinMaxPages = linkedinMaxPagesFlag !== -1
+    ? parseInt(args[linkedinMaxPagesFlag + 1] || DEFAULT_LINKEDIN_MAX_PAGES, 10)
+    : parseInt(config.linkedin?.max_pages || DEFAULT_LINKEDIN_MAX_PAGES, 10);
 
   // 2. Filter to enabled companies with detectable APIs
   const targets = companies
@@ -454,11 +733,21 @@ async function main() {
     .map(c => ({ ...c, _api: detectApi(c) }))
     .filter(c => c._api !== null);
 
-  const skippedCount = companies.filter(c => c.enabled !== false).length - targets.length;
+  const skippedCompanies = companies
+    .filter(c => c.enabled !== false)
+    .filter(c => !filterCompany || c.name.toLowerCase().includes(filterCompany))
+    .map(c => ({ ...c, _api: detectApi(c) }))
+    .filter(c => c._api === null);
+  const skippedCount = skippedCompanies.length;
 
   console.log(`Scanning ${targets.length} companies via API (${skippedCount} skipped — no API detected)`);
   if (sinceDate) console.log(`Time filter: jobs posted since ${sinceDate.toISOString().slice(0, 16)} UTC`);
   if (dryRun) console.log('(dry run — no files will be written)\n');
+  if (verbose && skippedCompanies.length > 0) {
+    console.log('Skipped companies without direct ATS API:');
+    for (const c of skippedCompanies) console.log(`  · ${c.name} (${c.scan_method || 'unknown'})`);
+    console.log('');
+  }
 
   // 3. Load dedup sets
   const seenUrls = loadSeenUrls();
@@ -475,6 +764,36 @@ async function main() {
   const errors = [];
   const companyResults = [];
 
+  function considerOffer(job, source) {
+    if (!titleFilter(job.title)) {
+      totalFiltered++;
+      return false;
+    }
+    if (!locationFilter(job.location)) {
+      totalLocationFiltered++;
+      return false;
+    }
+    if (sinceDate && job.postedAt) {
+      if (new Date(job.postedAt) < sinceDate) {
+        totalTooOld++;
+        return false;
+      }
+    }
+    if (seenUrls.has(job.url)) {
+      totalDupes++;
+      return false;
+    }
+    const key = `${job.company.toLowerCase()}::${job.title.toLowerCase()}`;
+    if (seenCompanyRoles.has(key)) {
+      totalDupes++;
+      return false;
+    }
+    seenUrls.add(job.url);
+    seenCompanyRoles.add(key);
+    newOffers.push({ ...job, source });
+    return true;
+  }
+
   const tasks = targets.map(company => async () => {
     const { type, url } = company._api;
     try {
@@ -483,36 +802,7 @@ async function main() {
       totalFound += jobs.length;
       let companyNew = 0;
 
-      for (const job of jobs) {
-        if (!titleFilter(job.title)) {
-          totalFiltered++;
-          continue;
-        }
-        if (!locationFilter(job.location)) {
-          totalLocationFiltered++;
-          continue;
-        }
-        if (sinceDate && job.postedAt) {
-          if (new Date(job.postedAt) < sinceDate) {
-            totalTooOld++;
-            continue;
-          }
-        }
-        if (seenUrls.has(job.url)) {
-          totalDupes++;
-          continue;
-        }
-        const key = `${job.company.toLowerCase()}::${job.title.toLowerCase()}`;
-        if (seenCompanyRoles.has(key)) {
-          totalDupes++;
-          continue;
-        }
-        // Mark as seen to avoid intra-scan dupes
-        seenUrls.add(job.url);
-        seenCompanyRoles.add(key);
-        newOffers.push({ ...job, source: `${type}-api` });
-        companyNew++;
-      }
+      for (const job of jobs) if (considerOffer(job, `${type}-api`)) companyNew++;
       if (verbose) {
         companyResults.push({ name: company.name, total: jobs.length, added: companyNew, portal: type });
       }
@@ -527,27 +817,19 @@ async function main() {
   // 4b. LinkedIn queries (sequential — rate-limit friendly)
   const linkedInQueries = (config.linkedin_queries || []).filter(q => q.enabled !== false);
   let linkedInFound = 0;
+  let linkedInScanned = 0;
 
   if (linkedInQueries.length > 0 && !filterCompany) {
-    console.log(`\nScanning LinkedIn (${linkedInQueries.length} queries)...`);
+    linkedInScanned = linkedInQueries.length;
+    console.log(`\nScanning LinkedIn (${linkedInQueries.length} queries, up to ${linkedinMaxPages} pages/query)...`);
 
     for (const query of linkedInQueries) {
       try {
-        const jobs = await fetchLinkedIn(query.keywords, query.location || 'United States', sinceDate);
+        const jobs = await fetchLinkedIn(query.keywords, query.location || 'United States', sinceDate, linkedinMaxPages);
         linkedInFound += jobs.length;
         let queryNew = 0;
 
-        for (const job of jobs) {
-          if (!titleFilter(job.title)) { totalFiltered++; continue; }
-          if (!locationFilter(job.location)) { totalLocationFiltered++; continue; }
-          if (seenUrls.has(job.url)) { totalDupes++; continue; }
-          const key = `${job.company.toLowerCase()}::${job.title.toLowerCase()}`;
-          if (seenCompanyRoles.has(key)) { totalDupes++; continue; }
-          seenUrls.add(job.url);
-          seenCompanyRoles.add(key);
-          newOffers.push({ ...job, source: 'linkedin' });
-          queryNew++;
-        }
+        for (const job of jobs) if (considerOffer(job, 'linkedin')) queryNew++;
 
         if (verbose) {
           const flag = queryNew > 0 ? '+' : '·';
@@ -565,17 +847,68 @@ async function main() {
     totalFound += linkedInFound;
   }
 
-  // 5. Write results
+  // 4c. Supported public remote-board feeds. These replace the old
+  // websearch-only config for sources that expose a direct zero-token feed.
+  const enabledSearchQueries = (config.search_queries || []).filter(q => q.enabled !== false);
+  const wantsRemotive = searchQueriesWant(config, 'remotive');
+  const wantsRemoteOk = searchQueriesWant(config, 'remoteok') || searchQueriesWant(config, 'remote ok');
+  const feedResults = [];
+  if (!filterCompany && (wantsRemotive || wantsRemoteOk)) {
+    console.log(`\nScanning remote job-board feeds...`);
+  }
+
+  if (!filterCompany && wantsRemotive) {
+    try {
+      const jobs = await fetchRemotive(buildFeedQueries(config));
+      totalFound += jobs.length;
+      let added = 0;
+      for (const job of jobs) if (considerOffer(job, 'remotive')) added++;
+      feedResults.push({ name: 'Remotive', total: jobs.length, added });
+      if (verbose) console.log(`  ${added > 0 ? '+' : '·'} Remotive (${jobs.length} found, ${added} new) [feed]`);
+    } catch (err) {
+      errors.push({ company: 'Remotive feed', error: err.message });
+      if (verbose) console.log(`  ✗ Remotive: ${err.message}`);
+    }
+  }
+
+  if (!filterCompany && wantsRemoteOk) {
+    try {
+      const jobs = await fetchRemoteOk();
+      totalFound += jobs.length;
+      let added = 0;
+      for (const job of jobs) if (considerOffer(job, 'remoteok')) added++;
+      feedResults.push({ name: 'Remote OK', total: jobs.length, added });
+      if (verbose) console.log(`  ${added > 0 ? '+' : '·'} Remote OK (${jobs.length} found, ${added} new) [feed]`);
+    } catch (err) {
+      errors.push({ company: 'Remote OK feed', error: err.message });
+      if (verbose) console.log(`  ✗ Remote OK: ${err.message}`);
+    }
+  }
+
+  const unsupportedSearchQueries = enabledSearchQueries.filter(q => {
+    const text = `${q.name || ''} ${q.query || ''}`.toLowerCase();
+    return !SUPPORTED_SEARCH_FEEDS.some(feed => text.includes(feed.key.toLowerCase()) || text.includes(feed.label.toLowerCase()));
+  });
+
+  // 5. Prefetch JD text for new offers before scoring. This is zero-token
+  // network IO and lets the matcher/resume flow reuse cached descriptions.
+  let jdCacheResult = { cached: 0, skipped: 0, failed: 0 };
+  if (!dryRun && !noJdCache && newOffers.length > 0) {
+    console.log(`\nCaching job descriptions for ${newOffers.length} new offer${newOffers.length !== 1 ? 's' : ''}...`);
+    jdCacheResult = await prefetchJobDescriptions(newOffers, verbose);
+  }
+
+  // 6. Write results
   if (!dryRun && newOffers.length > 0) {
     appendToPipeline(newOffers);
     appendToScanHistory(newOffers, date);
   }
 
-  // 6. Print summary
+  // 7. Print summary
   console.log(`\n${'━'.repeat(45)}`);
   console.log(`Portal Scan — ${date}`);
   console.log(`${'━'.repeat(45)}`);
-  console.log(`Companies scanned:     ${targets.length} (ATS) + ${linkedInQueries.length} LinkedIn queries`);
+  console.log(`Companies scanned:     ${targets.length} (ATS) + ${linkedInScanned} LinkedIn queries + ${feedResults.length} remote feeds`);
   console.log(`Total jobs found:      ${totalFound}`);
   console.log(`Filtered by title:     ${totalFiltered} removed`);
   if (config.location_filter?.enabled) {
@@ -586,6 +919,14 @@ async function main() {
   }
   console.log(`Duplicates:            ${totalDupes} skipped`);
   console.log(`New offers added:      ${newOffers.length}`);
+  if (!dryRun && !noJdCache && newOffers.length > 0) {
+    console.log(`JD cached:             ${jdCacheResult.cached} saved, ${jdCacheResult.skipped} already cached, ${jdCacheResult.failed} unavailable`);
+  } else if (noJdCache) {
+    console.log('JD cached:             skipped (--no-jd-cache)');
+  }
+  if (unsupportedSearchQueries.length > 0) {
+    console.log(`Search queries:        ${unsupportedSearchQueries.length} web-search queries skipped (no search API configured)`);
+  }
 
   if (verbose && companyResults.length > 0) {
     console.log('\nPer-company breakdown:');
@@ -593,6 +934,16 @@ async function main() {
       const flag = r.error ? '✗' : r.added > 0 ? '+' : '·';
       const detail = r.error ? ` ERROR: ${r.error}` : ` (${r.total} found, ${r.added} new) [${r.portal}]`;
       console.log(`  ${flag} ${r.name}${detail}`);
+    }
+  }
+
+  if (verbose && unsupportedSearchQueries.length > 0) {
+    console.log('\nUnsupported web-search queries:');
+    for (const q of unsupportedSearchQueries.slice(0, 12)) {
+      console.log(`  · ${q.name || q.query}`);
+    }
+    if (unsupportedSearchQueries.length > 12) {
+      console.log(`  · ... ${unsupportedSearchQueries.length - 12} more`);
     }
   }
 

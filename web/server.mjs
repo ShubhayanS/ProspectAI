@@ -6,6 +6,7 @@ import { spawn } from 'child_process';
 import { createReadStream } from 'fs';
 import os from 'os';
 import yaml from 'js-yaml';
+import { createHash } from 'crypto';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -14,12 +15,18 @@ const FONTS_DIR = path.join(ROOT, 'fonts');
 const OUTPUT_DIR = path.join(ROOT, 'output');
 const DATA_DIR = path.join(ROOT, 'data');
 const REPORTS_DIR = path.join(ROOT, 'reports');
+const JD_CACHE_DIR = path.join(DATA_DIR, 'jd-cache');
 const CV_PATH       = path.join(ROOT, 'cv.md');
 const PROFILE_PATH  = path.join(ROOT, 'config', 'profile.yml');
 const TEMPLATE_PATH = path.join(ROOT, 'templates', 'cv-template.html');
 const PORT = process.env.PORT || 3737;
 const REPORT_RETENTION_DAYS = parseInt(process.env.REPORT_RETENTION_DAYS || '7', 10);
 const VALID_APP_STATUSES = new Set(['Evaluated', 'Applied', 'Responded', 'Interview', 'Offer', 'Rejected', 'Discarded', 'SKIP']);
+const HIDDEN_APPLICATION_STATUSES = new Set(['discarded', 'skip']);
+const LINKEDIN_DETAIL_DELAY_MS = parseInt(process.env.LINKEDIN_DETAIL_DELAY_MS || '1200', 10);
+const LINKEDIN_DETAIL_RETRIES = parseInt(process.env.LINKEDIN_DETAIL_RETRIES || '3', 10);
+let linkedInFetchQueue = Promise.resolve();
+let lastLinkedInFetchAt = 0;
 const TEMPLATE_VARIANTS = [
   {
     id: 'classic',
@@ -109,6 +116,10 @@ function buildMarkdownRow(cells) {
 
 function isValidAppStatus(status) {
   return VALID_APP_STATUSES.has(String(status || '').trim());
+}
+
+function isVisibleApplicationStatus(status) {
+  return !HIDDEN_APPLICATION_STATUSES.has(String(status || '').trim().toLowerCase());
 }
 
 function normalizeKey(value) {
@@ -557,8 +568,86 @@ function htmlToText(html) {
     .trim();
 }
 
+function htmlDecode(value) {
+  return String(value || '')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&#39;|&apos;/g, "'")
+    .replace(/&quot;/g, '"');
+}
+
+function linkedInJobId(url) {
+  return String(url || '').match(/linkedin\.com\/jobs\/view\/(?:[^/\s]+-)?(\d+)/i)?.[1] || '';
+}
+
+function extractLinkedInDescription(html) {
+  const desc =
+    String(html || '').match(/<div[^>]+class="[^"]*description__text[^"]*"[^>]*>([\s\S]*?)<\/div>\s*<ul class="description__job-criteria-list/i)?.[1] ||
+    String(html || '').match(/<section[^>]+class="[^"]*show-more-less-html[^"]*"[^>]*>([\s\S]*?)<\/section>/i)?.[1] ||
+    '';
+  return htmlToText(desc || html);
+}
+
+function extractLinkedInExternalApplyUrl(html) {
+  const matches = [...String(html || '').matchAll(/<a\b[^>]*class="[^"]*apply-button[^"]*"[^>]*href="([^"]+)"/gi)];
+  for (const m of matches) {
+    const href = htmlDecode(m[1]).trim();
+    if (!href || /linkedin\.com\/(login|signup|jobs\/view)/i.test(href)) continue;
+    try { return new URL(href, 'https://www.linkedin.com').toString(); } catch {}
+  }
+  return '';
+}
+
+function wait(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+function withLinkedInThrottle(fn) {
+  const run = linkedInFetchQueue.then(async () => {
+    const elapsed = Date.now() - lastLinkedInFetchAt;
+    if (elapsed < LINKEDIN_DETAIL_DELAY_MS) await wait(LINKEDIN_DETAIL_DELAY_MS - elapsed);
+    lastLinkedInFetchAt = Date.now();
+    return fn();
+  });
+  linkedInFetchQueue = run.catch(() => {});
+  return run;
+}
+
+function urlHash(url) {
+  return createHash('sha1').update(String(url || '')).digest('hex').slice(0, 16);
+}
+
+function getCachedJd(url) {
+  if (!url) return '';
+  return readSafe(path.join(JD_CACHE_DIR, `${urlHash(url)}.txt`));
+}
+
+function setCachedJd(url, text) {
+  if (!url || !String(text || '').trim()) return;
+  try {
+    fs.mkdirSync(JD_CACHE_DIR, { recursive: true });
+    fs.writeFileSync(path.join(JD_CACHE_DIR, `${urlHash(url)}.txt`), String(text).slice(0, 15000), 'utf-8');
+  } catch {}
+}
+
 async function fetchPostingText(url) {
   if (!url?.startsWith('http')) return '';
+  const cached = getCachedJd(url);
+  const isLinkedIn = /linkedin\.com\/jobs\/view\//i.test(url);
+  if (cached && (!isLinkedIn || cached.includes('LinkedIn public job detail:'))) return cached;
+
+  const text = isLinkedIn
+    ? await fetchLinkedInPostingText(url)
+    : await fetchGenericPostingText(url);
+  if (text) {
+    setCachedJd(url, text);
+    return text;
+  }
+  return `Unable to fetch posting text from URL.`;
+}
+
+async function fetchGenericPostingText(url) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), 15_000);
   try {
@@ -573,13 +662,61 @@ async function fetchPostingText(url) {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const contentType = res.headers.get('content-type') || '';
     const raw = await res.text();
-    if (contentType.includes('json')) return JSON.stringify(JSON.parse(raw), null, 2).slice(0, 15000);
-    return htmlToText(raw).slice(0, 15000);
+    const text = contentType.includes('json')
+      ? JSON.stringify(JSON.parse(raw), null, 2).slice(0, 15000)
+      : htmlToText(raw).slice(0, 15000);
+    return text;
   } catch (error) {
-    return `Unable to fetch posting text from URL (${error.message}).`;
+    return '';
   } finally {
     clearTimeout(timer);
   }
+}
+
+async function fetchLinkedInPostingText(url) {
+  const id = linkedInJobId(url);
+  if (!id) return '';
+  return withLinkedInThrottle(async () => {
+    const detailUrl = `https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/${id}`;
+    for (let attempt = 1; attempt <= LINKEDIN_DETAIL_RETRIES; attempt++) {
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), 15_000);
+      try {
+        const res = await fetch(detailUrl, {
+          signal: controller.signal,
+          headers: {
+            'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml',
+            'Accept-Language': 'en-US,en;q=0.9',
+            'Referer': 'https://www.linkedin.com/jobs/search/',
+          },
+        });
+        if (res.status === 429 && attempt < LINKEDIN_DETAIL_RETRIES) {
+          clearTimeout(timer);
+          await wait(4000 * attempt);
+          continue;
+        }
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const html = await res.text();
+        const linkedInText = extractLinkedInDescription(html);
+        if (linkedInText.length < 300) return '';
+        const externalUrl = extractLinkedInExternalApplyUrl(html);
+        const externalText = externalUrl ? await fetchGenericPostingText(externalUrl) : '';
+        return [
+          `LinkedIn public job detail: ${url}`,
+          externalUrl ? `External apply URL: ${externalUrl}` : 'External apply URL: not exposed publicly; likely LinkedIn Easy Apply or login-gated.',
+          linkedInText,
+          externalText ? `\nExternal posting text:\n${externalText}` : '',
+        ].filter(Boolean).join('\n\n').slice(0, 15000);
+      } catch {
+        if (attempt >= LINKEDIN_DETAIL_RETRIES) return '';
+        await wait(2500 * attempt);
+      } finally {
+        clearTimeout(timer);
+      }
+    }
+    return '';
+  });
 }
 
 function cleanClaudeMarkdown(output) {
@@ -971,7 +1108,9 @@ function handleAPI(req, res, url) {
   if (route === 'stats') return json(res, getStats());
   if (route === 'pipeline') return json(res, parsePipeline());
   if (route === 'applications') {
-    const records = buildJobRecords().filter(j => j.application_num || VALID_APP_STATUSES.has(j.status));
+    const records = buildJobRecords()
+      .filter(j => j.application_num || VALID_APP_STATUSES.has(j.status))
+      .filter(j => isVisibleApplicationStatus(j.status));
     return json(res, records);
   }
   if (route === 'reports' && req.method === 'GET') {
@@ -1322,9 +1461,14 @@ function handleAPI(req, res, url) {
 
     const limit = parseInt(url.searchParams.get('limit') || process.env.WEB_MATCH_LIMIT || '0', 10);
     const runAll = url.searchParams.get('all') === 'true';
+    const localOnly = url.searchParams.get('localOnly') === 'true';
+    const threshold = parseFloat(url.searchParams.get('threshold') || '3.0');
+    const model = url.searchParams.get('model') || 'claude-haiku-4-5-20251001';
     const matchArgs = ['web-match.mjs'];
     if (runAll) matchArgs.push('--all');
     else matchArgs.push('--today');
+    if (localOnly) matchArgs.push('--local-only');
+    else matchArgs.push('--claude-threshold', String(threshold), '--model', model);
     if (Number.isFinite(limit) && limit > 0) matchArgs.push('--limit', String(limit));
 
     const proc = spawn('node', matchArgs, { cwd: ROOT });
